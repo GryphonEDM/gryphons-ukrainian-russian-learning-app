@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(copy \"C:\\Users\\michael\\Desktop\\ukrainian typing game\\ukrainian-typing-game-v3-tts.jsx\" \"C:\\Users\\michael\\Desktop\\ukrainian typing game\\src\\App.jsx\")",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "WebSearch",
+      "Bash(pip install git+https://github.com/robinhad/ukrainian-tts.git)",
+      "Bash(pip install:*)",
+      "Bash(pip --version:*)",
+      "Bash(git clone:*)",
+      "Bash(python test_tts.py:*)",
+      "Bash(timeout 60 python:*)",
+      "Bash(npm install:*)",
+      "Bash(npm start)",
+      "Bash(timeout 30 python:*)",
+      "Bash(python tts-server.py:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
