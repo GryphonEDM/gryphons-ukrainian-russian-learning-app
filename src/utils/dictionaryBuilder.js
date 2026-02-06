@@ -1,0 +1,155 @@
+import { TRANSLATIONS } from '../data/translations.js';
+import colorsData from '../data/vocabulary/themes/colors.json';
+import animalsData from '../data/vocabulary/themes/animals.json';
+import familyData from '../data/vocabulary/themes/family.json';
+import emotionsData from '../data/vocabulary/themes/emotions.json';
+import weatherData from '../data/vocabulary/themes/weather.json';
+import travelData from '../data/vocabulary/themes/travel.json';
+import bodyData from '../data/vocabulary/themes/body.json';
+import houseData from '../data/vocabulary/themes/house.json';
+import comprehensiveDict from '../data/vocabulary/comprehensive-dictionary.json';
+import comprehensiveDictExt from '../data/vocabulary/comprehensive-dictionary-ext.json';
+import comprehensiveDictExt2 from '../data/vocabulary/comprehensive-dictionary-ext2.json';
+import comprehensiveDictExt3 from '../data/vocabulary/comprehensive-dictionary-ext3.json';
+import comprehensiveDictExt4 from '../data/vocabulary/comprehensive-dictionary-ext4.json';
+import comprehensiveDictExt5 from '../data/vocabulary/comprehensive-dictionary-ext5.json';
+import comprehensiveDictExt6 from '../data/vocabulary/comprehensive-dictionary-ext6.json';
+import comprehensiveDictExt7 from '../data/vocabulary/comprehensive-dictionary-ext7.json';
+import comprehensiveDictExt8 from '../data/vocabulary/comprehensive-dictionary-ext8.json';
+import comprehensiveDictExt9 from '../data/vocabulary/comprehensive-dictionary-ext9.json';
+import comprehensiveDictExt10 from '../data/vocabulary/comprehensive-dictionary-ext10.json';
+import comprehensiveDictExt11 from '../data/vocabulary/comprehensive-dictionary-ext11.json';
+
+import { RU_TRANSLATIONS } from '../data/ru/translations.js';
+
+const THEME_DATA = [colorsData, animalsData, familyData, emotionsData, weatherData, travelData, bodyData, houseData];
+const COMPREHENSIVE = [comprehensiveDict, comprehensiveDictExt, comprehensiveDictExt2, comprehensiveDictExt3, comprehensiveDictExt4, comprehensiveDictExt5, comprehensiveDictExt6, comprehensiveDictExt7, comprehensiveDictExt8, comprehensiveDictExt9, comprehensiveDictExt10, comprehensiveDictExt11];
+
+const cache = { uk: { dictionary: null, vocabulary: null }, ru: { dictionary: null, vocabulary: null } };
+
+function getDataForLang(langCode) {
+  const targetField = langCode === 'ru' ? 'ru' : 'uk';
+  const phoneticField = langCode === 'ru' ? 'phoneticRu' : 'phoneticUk';
+  const translations = langCode === 'ru' ? RU_TRANSLATIONS : TRANSLATIONS;
+  return { targetField, phoneticField, themeData: THEME_DATA, comprehensiveData: COMPREHENSIVE, translations };
+}
+
+function addEntry(targetToEn, enToTarget, target, en) {
+  const targetLower = target.toLowerCase();
+  const enLower = en.toLowerCase();
+  if (!targetToEn[targetLower]) targetToEn[targetLower] = en;
+  enLower.split('/').forEach(meaning => {
+    const trimmed = meaning.trim();
+    if (trimmed && !enToTarget[trimmed]) {
+      enToTarget[trimmed] = target;
+    }
+  });
+  if (!enToTarget[enLower]) enToTarget[enLower] = target;
+}
+
+export function buildDictionary(langCode = 'uk') {
+  if (cache[langCode]?.dictionary) return cache[langCode].dictionary;
+
+  const { targetField, themeData, comprehensiveData, translations } = getDataForLang(langCode);
+  const targetToEn = {};
+  const enToTarget = {};
+
+  // Add comprehensive dictionaries first
+  comprehensiveData.forEach(dict => {
+    if (dict && dict.words) {
+      dict.words.forEach(word => {
+        if (word[targetField]) {
+          addEntry(targetToEn, enToTarget, word[targetField], word.en);
+        }
+      });
+    }
+  });
+
+  // Add vocabulary themes
+  themeData.forEach(theme => {
+    if (!theme || !theme.words) return;
+    theme.words.forEach(word => {
+      if (word[targetField]) {
+        addEntry(targetToEn, enToTarget, word[targetField], word.en);
+      }
+    });
+  });
+
+  // Add translations last
+  if (typeof translations === 'object' && !Array.isArray(translations)) {
+    Object.entries(translations).forEach(([target, en]) => {
+      addEntry(targetToEn, enToTarget, target, en);
+    });
+  }
+
+  // Use generic key names
+  const result = { ukToEn: targetToEn, enToUk: enToTarget };
+  if (!cache[langCode]) cache[langCode] = {};
+  cache[langCode].dictionary = result;
+  return result;
+}
+
+export function getAllVocabularyWords(langCode = 'uk') {
+  if (cache[langCode]?.vocabulary) return cache[langCode].vocabulary;
+
+  const { targetField, phoneticField, themeData, comprehensiveData, translations } = getDataForLang(langCode);
+  const words = [];
+  const seen = new Set();
+
+  // Add from comprehensive dictionaries
+  comprehensiveData.forEach(dict => {
+    if (dict && dict.words) {
+      dict.words.forEach(word => {
+        const targetWord = word[targetField];
+        if (targetWord && !seen.has(targetWord.toLowerCase())) {
+          seen.add(targetWord.toLowerCase());
+          words.push({
+            [targetField]: targetWord,
+            uk: targetWord, // backward compat: always expose as .uk too
+            en: word.en,
+            phonetic: word[phoneticField] || '',
+            source: word.category || 'dictionary'
+          });
+        }
+      });
+    }
+  });
+
+  // Add from vocabulary themes
+  themeData.forEach(theme => {
+    if (!theme || !theme.words) return;
+    theme.words.forEach(word => {
+      const targetWord = word[targetField];
+      if (targetWord && !seen.has(targetWord.toLowerCase())) {
+        seen.add(targetWord.toLowerCase());
+        words.push({
+          [targetField]: targetWord,
+          uk: targetWord,
+          en: word.en,
+          phonetic: word[phoneticField] || '',
+          source: theme.setId
+        });
+      }
+    });
+  });
+
+  // Add from translations
+  if (typeof translations === 'object' && !Array.isArray(translations)) {
+    Object.entries(translations).forEach(([target, en]) => {
+      if (!seen.has(target.toLowerCase())) {
+        seen.add(target.toLowerCase());
+        words.push({
+          [targetField]: target,
+          uk: target,
+          en,
+          phonetic: '',
+          source: 'translations'
+        });
+      }
+    });
+  }
+
+  if (!cache[langCode]) cache[langCode] = {};
+  cache[langCode].vocabulary = words;
+  return words;
+}

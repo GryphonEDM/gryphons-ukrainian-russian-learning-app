@@ -1,0 +1,106 @@
+{
+  "lessonId": "cases",
+  "nameEn": "Cases",
+  "nameUk": "Відмінки",
+  "icon": "📐",
+  "sections": [
+    {
+      "sectionId": "nominative",
+      "title": "Nominative Case (Називний)",
+      "explanation": "The nominative case is the basic form of a noun — the subject of a sentence. It answers 'who?' (хто?) or 'what?' (що?).",
+      "examples": [
+        { "uk": "Кіт спить.", "en": "The cat is sleeping.", "highlight": "Кіт" },
+        { "uk": "Мама готує.", "en": "Mom is cooking.", "highlight": "Мама" },
+        { "uk": "Книга цікава.", "en": "The book is interesting.", "highlight": "Книга" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Which word is in the nominative case? 'Хлопець читає книгу.'", "options": ["Хлопець", "книгу", "читає"], "correctIndex": 0, "explanation": "'Хлопець' (the boy) is the subject doing the action." },
+        { "type": "fill-blank", "prompt": "___ іде до школи. (дівчинка - girl)", "acceptedAnswers": ["Дівчинка", "дівчинка"], "hint": "The subject form of 'girl'" }
+      ]
+    },
+    {
+      "sectionId": "genitive",
+      "title": "Genitive Case (Родовий)",
+      "explanation": "The genitive case shows possession, absence, or origin. It answers 'whose?' (чийого?) or 'of what?' (чого?). Feminine nouns ending in -а change to -и/-і.",
+      "examples": [
+        { "uk": "Це книга мами.", "en": "This is mom's book.", "highlight": "мами" },
+        { "uk": "Немає води.", "en": "There is no water.", "highlight": "води" },
+        { "uk": "Центр міста.", "en": "The city center.", "highlight": "міста" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Fill in: 'Це машина ___.' (тато - dad)", "options": ["тата", "тато", "татом"], "correctIndex": 0, "explanation": "'Тата' is the genitive form showing possession." },
+        { "type": "fill-blank", "prompt": "Немає ___. (молоко - milk)", "acceptedAnswers": ["молока"], "hint": "Neuter nouns ending in -о change to -а" }
+      ]
+    },
+    {
+      "sectionId": "dative",
+      "title": "Dative Case (Давальний)",
+      "explanation": "The dative case indicates the indirect object — to whom or for whom something is done. It answers 'to whom?' (кому?) or 'to what?' (чому?).",
+      "examples": [
+        { "uk": "Я дав книгу другу.", "en": "I gave the book to a friend.", "highlight": "другу" },
+        { "uk": "Скажи мамі.", "en": "Tell mom.", "highlight": "мамі" },
+        { "uk": "Допоможи братові.", "en": "Help brother.", "highlight": "братові" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Fill in: 'Я написав листа ___.' (сестра - sister)", "options": ["сестрі", "сестра", "сестру"], "correctIndex": 0, "explanation": "'Сестрі' is the dative form of 'сестра'." },
+        { "type": "fill-blank", "prompt": "Дай ___ воду. (кіт - cat)", "acceptedAnswers": ["коту", "котові"], "hint": "Masculine nouns often add -у or -ові" }
+      ]
+    },
+    {
+      "sectionId": "accusative",
+      "title": "Accusative Case (Знахідний)",
+      "explanation": "The accusative case marks the direct object — what or whom the action is directed at. It answers 'whom?' (кого?) or 'what?' (що?).",
+      "examples": [
+        { "uk": "Я бачу маму.", "en": "I see mom.", "highlight": "маму" },
+        { "uk": "Він читає книгу.", "en": "He reads a book.", "highlight": "книгу" },
+        { "uk": "Я люблю Україну.", "en": "I love Ukraine.", "highlight": "Україну" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Fill in: 'Я купив ___.' (хліб - bread)", "options": ["хліб", "хліба", "хлібу"], "correctIndex": 0, "explanation": "Inanimate masculine nouns stay the same in accusative." },
+        { "type": "fill-blank", "prompt": "Вона п'є ___. (кава - coffee)", "acceptedAnswers": ["каву"], "hint": "Feminine nouns ending in -а change to -у" }
+      ]
+    },
+    {
+      "sectionId": "instrumental",
+      "title": "Instrumental Case (Орудний)",
+      "explanation": "The instrumental case shows the means or tool by which something is done, or accompaniment. It answers 'with whom?' (з ким?) or 'with what?' (чим?).",
+      "examples": [
+        { "uk": "Я пишу ручкою.", "en": "I write with a pen.", "highlight": "ручкою" },
+        { "uk": "Він іде з другом.", "en": "He goes with a friend.", "highlight": "другом" },
+        { "uk": "Ріжу ножем.", "en": "I cut with a knife.", "highlight": "ножем" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Fill in: 'Я їду ___.' (автобус - bus)", "options": ["автобусом", "автобус", "автобусу"], "correctIndex": 0, "explanation": "'Автобусом' is the instrumental form — by bus." },
+        { "type": "fill-blank", "prompt": "Я гуляю з ___. (собака - dog)", "acceptedAnswers": ["собакою"], "hint": "Feminine nouns ending in -а change to -ою" }
+      ]
+    },
+    {
+      "sectionId": "locative",
+      "title": "Locative Case (Місцевий)",
+      "explanation": "The locative case indicates location. It always follows prepositions like в/у (in), на (on), при (at). It answers 'where?' (де?) or 'about what?' (про що?).",
+      "examples": [
+        { "uk": "Я живу в Києві.", "en": "I live in Kyiv.", "highlight": "Києві" },
+        { "uk": "Книга на столі.", "en": "The book is on the table.", "highlight": "столі" },
+        { "uk": "Ми в школі.", "en": "We are in school.", "highlight": "школі" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Fill in: 'Ми живемо в ___.' (місто - city)", "options": ["місті", "місто", "міста"], "correctIndex": 0, "explanation": "'Місті' is the locative form of 'місто'." },
+        { "type": "fill-blank", "prompt": "Він працює в ___. (офіс - office)", "acceptedAnswers": ["офісі"], "hint": "Masculine nouns often add -і in locative" }
+      ]
+    },
+    {
+      "sectionId": "vocative",
+      "title": "Vocative Case (Кличний)",
+      "explanation": "The vocative case is used for direct address — calling someone by name or title. Feminine names ending in -а change to -о, masculine names often add -е or -у.",
+      "examples": [
+        { "uk": "Мамо, допоможи!", "en": "Mom, help!", "highlight": "Мамо" },
+        { "uk": "Тарасе, іди сюди.", "en": "Taras, come here.", "highlight": "Тарасе" },
+        { "uk": "Друже, привіт!", "en": "Friend, hello!", "highlight": "Друже" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "How do you address 'Оксана' directly?", "options": ["Оксано", "Оксана", "Оксані"], "correctIndex": 0, "explanation": "Feminine names ending in -а change to -о in vocative." },
+        { "type": "fill-blank", "prompt": "___, іди сюди! (брат - brother)", "acceptedAnswers": ["Брате", "брате"], "hint": "Masculine nouns often add -е in vocative" }
+      ]
+    }
+  ]
+}

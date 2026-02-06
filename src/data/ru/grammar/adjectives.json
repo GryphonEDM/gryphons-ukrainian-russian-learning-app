@@ -1,0 +1,83 @@
+{
+  "lessonId": "adjectives",
+  "nameEn": "Adjectives",
+  "nameRu": "Прилагательные",
+  "icon": "🌈",
+  "sections": [
+    {
+      "sectionId": "gender-agreement",
+      "title": "Gender Agreement (Согласование по роду)",
+      "explanation": "Russian adjectives must agree with the noun they modify in gender, number, and case. In the nominative case: masculine adjectives typically end in -ый/-ий/-ой (новый, синий, большой), feminine in -ая/-яя (новая, синяя), neuter in -ое/-ее (новое, синее), and plural in -ые/-ие (новые, синие).",
+      "examples": [
+        { "ru": "Красивый дом.", "en": "A beautiful house. (masculine)", "highlight": "Красивый" },
+        { "ru": "Красивая девушка.", "en": "A beautiful girl. (feminine)", "highlight": "Красивая" },
+        { "ru": "Красивое озеро.", "en": "A beautiful lake. (neuter)", "highlight": "Красивое" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct form: '___ кошка спит.' (чёрный - black)",
+          "options": ["Чёрный", "Чёрная", "Чёрное"],
+          "correctIndex": 1,
+          "explanation": "'Кошка' is feminine, so the adjective takes the feminine ending: чёрная."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "___ море глубокое. (синий - blue, neuter)",
+          "acceptedAnswers": ["Синее", "синее"],
+          "hint": "Neuter adjectives with a soft stem end in -ее"
+        }
+      ]
+    },
+    {
+      "sectionId": "short-adjectives",
+      "title": "Short Adjectives (Краткие прилагательные)",
+      "explanation": "Some adjectives have a short form used only as predicates (after the subject). Short forms are: masculine — no ending (красив), feminine — -а (красива), neuter — -о (красиво), plural — -ы (красивы). Short adjectives do not decline for case. They emphasize a temporary state or specific situation, while long forms describe a permanent quality.",
+      "examples": [
+        { "ru": "Он умён.", "en": "He is smart.", "highlight": "умён" },
+        { "ru": "Она красива.", "en": "She is beautiful.", "highlight": "красива" },
+        { "ru": "Небо ясно.", "en": "The sky is clear.", "highlight": "ясно" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct short form: 'Задача ___.' (трудный - difficult, feminine)",
+          "options": ["трудна", "трудно", "трудны"],
+          "correctIndex": 0,
+          "explanation": "'Задача' is feminine, so the short adjective takes the feminine ending -а: трудна."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Дети ___. (счастливый - happy, plural short form)",
+          "acceptedAnswers": ["счастливы"],
+          "hint": "The plural short form ending is -ы"
+        }
+      ]
+    },
+    {
+      "sectionId": "comparative",
+      "title": "Comparative Forms (Сравнительная степень)",
+      "explanation": "Comparatives can be formed in two ways. The simple comparative adds -ее/-ей to the stem: красивый → красивее (more beautiful), быстрый → быстрее (faster). Some common adjectives have irregular comparatives: хороший → лучше (better), плохой → хуже (worse), большой → больше (bigger), маленький → меньше (smaller). The compound comparative uses 'более' (more) or 'менее' (less) + the long adjective.",
+      "examples": [
+        { "ru": "Эта книга интереснее.", "en": "This book is more interesting.", "highlight": "интереснее" },
+        { "ru": "Он старше меня.", "en": "He is older than me.", "highlight": "старше" },
+        { "ru": "Это более сложная задача.", "en": "This is a more difficult task.", "highlight": "более сложная" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "What is the comparative of 'хороший' (good)?",
+          "options": ["хорошее", "лучше", "более хороший"],
+          "correctIndex": 1,
+          "explanation": "'Хороший' has an irregular comparative form: 'лучше' (better)."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Москва ___ Санкт-Петербурга. (большой - big, comparative)",
+          "acceptedAnswers": ["больше"],
+          "hint": "The irregular comparative of 'большой' is 'больше'"
+        }
+      ]
+    }
+  ]
+}

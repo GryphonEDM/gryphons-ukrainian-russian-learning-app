@@ -1,0 +1,22 @@
+{
+  "dialogueId": "shopping",
+  "nameEn": "At a Shop",
+  "nameUk": "У магазині",
+  "icon": "🛒",
+  "context": "You are shopping at a small Ukrainian store and need to buy some basic groceries.",
+  "characters": {
+    "npc": { "name": "Продавець" },
+    "player": { "name": "Ви" }
+  },
+  "exchanges": [
+    { "speaker": "npc", "text": "Добрий день! Що вам потрібно?", "translation": "Good day! What do you need?" },
+    { "speaker": "player", "prompt": "Say 'hello' and ask for bread", "acceptedResponses": ["добрий день, мені потрібен хліб", "здравствуйте, хліб будь ласка", "привіт, хліб будь ласка", "хліб, будь ласка", "мені потрібен хліб"], "keyWords": ["хліб"], "hint": "хліб, будь ласка" },
+    { "speaker": "npc", "text": "Ось хліб. Ще щось?", "translation": "Here is the bread. Anything else?" },
+    { "speaker": "player", "prompt": "Ask for milk", "acceptedResponses": ["молоко, будь ласка", "і молоко", "ще молоко", "можна молоко"], "keyWords": ["молоко"], "hint": "молоко..." },
+    { "speaker": "npc", "text": "Будь ласка. Це все?", "translation": "Here you go. Is that all?" },
+    { "speaker": "player", "prompt": "Say 'yes, that is all'", "acceptedResponses": ["так, це все", "так це все", "це все", "так"], "keyWords": ["так", "все"], "hint": "так, це все" },
+    { "speaker": "npc", "text": "Двадцять гривень, будь ласка.", "translation": "Twenty hryvnias, please." },
+    { "speaker": "player", "prompt": "Say 'thank you, goodbye'", "acceptedResponses": ["дякую, до побачення", "дякую до побачення", "дякую! до побачення!", "дякую"], "keyWords": ["дякую"], "hint": "дякую, до побачення" },
+    { "speaker": "npc", "text": "Дякуємо за покупку! До побачення!", "translation": "Thank you for your purchase! Goodbye!" }
+  ]
+}

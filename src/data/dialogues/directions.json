@@ -1,0 +1,20 @@
+{
+  "dialogueId": "directions",
+  "nameEn": "Asking for Directions",
+  "nameUk": "Як пройти",
+  "icon": "🗺️",
+  "context": "You are lost in Kyiv and need to ask a local for directions to the nearest metro station.",
+  "characters": {
+    "npc": { "name": "Перехожий" },
+    "player": { "name": "Ви" }
+  },
+  "exchanges": [
+    { "speaker": "player", "prompt": "Get their attention with 'excuse me'", "acceptedResponses": ["перепрошую", "вибачте", "пробачте"], "keyWords": ["перепрошую", "вибачте", "пробачте"], "hint": "вибачте..." },
+    { "speaker": "npc", "text": "Так? Чим можу допомогти?", "translation": "Yes? How can I help?" },
+    { "speaker": "player", "prompt": "Ask 'Where is the metro?'", "acceptedResponses": ["де метро", "де метро?", "де є метро", "де тут метро"], "keyWords": ["де", "метро"], "hint": "де метро..." },
+    { "speaker": "npc", "text": "Метро? Ідіть прямо, потім направо.", "translation": "Metro? Go straight, then turn right." },
+    { "speaker": "player", "prompt": "Say 'thank you very much'", "acceptedResponses": ["дуже дякую", "дякую дуже", "дякую"], "keyWords": ["дякую"], "hint": "дуже дякую" },
+    { "speaker": "npc", "text": "Будь ласка! Гарного дня!", "translation": "You're welcome! Have a nice day!" },
+    { "speaker": "player", "prompt": "Say goodbye", "acceptedResponses": ["до побачення", "до побачення!", "бувайте"], "keyWords": ["побачення", "бувайте"], "hint": "до побачення" }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "dialogueId": "directions",
+  "nameEn": "Asking for Directions",
+  "nameRu": "Как добраться",
+  "icon": "🗺️",
+  "context": "You are lost in a Russian city and need to find your way to the train station. You approach a passerby to ask for directions.",
+  "characters": {
+    "npc": { "name": "Прохожий" },
+    "player": { "name": "Вы" }
+  },
+  "exchanges": [
+    {
+      "speaker": "player",
+      "prompt": "Say 'Excuse me' to get attention",
+      "acceptedResponses": ["извините", "простите", "извините пожалуйста", "простите пожалуйста"],
+      "keyWords": ["извините"],
+      "hint": "извините..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Да, слушаю вас.",
+      "translation": "Yes, I'm listening."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Ask 'How do I get to the train station?'",
+      "acceptedResponses": ["как добраться до вокзала", "как добраться до вокзала?", "как мне добраться до вокзала?", "вы не подскажете как добраться до вокзала", "где вокзал?", "где находится вокзал?"],
+      "keyWords": ["добраться", "вокзала"],
+      "hint": "как добраться до ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "До вокзала? Это несложно. Идите прямо по этой улице.",
+      "translation": "To the train station? It's not hard. Go straight down this street."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Ask 'Is it far from here?'",
+      "acceptedResponses": ["это далеко отсюда?", "это далеко?", "далеко отсюда?", "далеко?"],
+      "keyWords": ["далеко"],
+      "hint": "это далеко ...?"
+    },
+    {
+      "speaker": "npc",
+      "text": "Нет, не очень. Примерно десять минут пешком. Идите прямо, потом поверните направо на втором перекрёстке.",
+      "translation": "No, not very. About ten minutes on foot. Go straight, then turn right at the second intersection."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Confirm: 'Straight and then right?'",
+      "acceptedResponses": ["прямо и потом направо?", "прямо и потом направо", "прямо, потом направо?", "прямо потом направо"],
+      "keyWords": ["прямо", "направо"],
+      "hint": "прямо и потом ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Да, правильно. После поворота вы увидите большое серое здание — это и есть вокзал.",
+      "translation": "Yes, correct. After the turn you will see a big grey building — that is the train station."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Ask 'Can I get there by bus?'",
+      "acceptedResponses": ["можно доехать на автобусе?", "можно доехать на автобусе", "а на автобусе можно доехать?", "туда ходит автобус?"],
+      "keyWords": ["автобусе"],
+      "hint": "можно доехать на ...?"
+    },
+    {
+      "speaker": "npc",
+      "text": "Да, автобус номер пять останавливается прямо у вокзала. Остановка вон там, через дорогу.",
+      "translation": "Yes, bus number five stops right at the station. The stop is over there, across the road."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Thank you very much for your help!'",
+      "acceptedResponses": ["спасибо большое за помощь!", "спасибо большое за помощь", "большое спасибо за помощь", "спасибо за помощь"],
+      "keyWords": ["спасибо", "помощь"],
+      "hint": "спасибо большое за ..."
+    }
+  ]
+}

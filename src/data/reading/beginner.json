@@ -1,0 +1,95 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "title": "Мій день",
+      "titleEn": "My Day",
+      "difficulty": "A1",
+      "text": "Мене звати Оксана. Я живу в Києві. Щоранку я п'ю каву і їм хліб. Потім я іду на роботу. Я працюю в офісі. Увечері я читаю книги або дивлюся фільми. Я люблю своє місто.",
+      "wordGlossary": {
+        "мене": "me",
+        "звати": "to call/named",
+        "живу": "live",
+        "щоранку": "every morning",
+        "п'ю": "drink",
+        "їм": "eat",
+        "потім": "then",
+        "іду": "go",
+        "роботу": "work",
+        "працюю": "work (verb)",
+        "увечері": "in the evening",
+        "читаю": "read",
+        "або": "or",
+        "дивлюся": "watch",
+        "фільми": "movies",
+        "люблю": "love",
+        "своє": "my/one's own",
+        "місто": "city"
+      },
+      "questions": [
+        {
+          "question": "Where does Oksana live?",
+          "options": ["In Lviv", "In Kyiv", "In Odesa", "In Kharkiv"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Я живу в Києві' (I live in Kyiv)."
+        },
+        {
+          "question": "What does Oksana drink in the morning?",
+          "options": ["Tea", "Coffee", "Juice", "Water"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Я п'ю каву' (I drink coffee)."
+        },
+        {
+          "question": "What does Oksana do in the evening?",
+          "options": ["She cooks dinner", "She goes for a walk", "She reads books or watches movies", "She goes to the gym"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Я читаю книги або дивлюся фільми'."
+        }
+      ]
+    },
+    {
+      "passageId": "p2",
+      "title": "Моя сім'я",
+      "titleEn": "My Family",
+      "difficulty": "A1",
+      "text": "У мене велика сім'я. Мого тата звати Іван. Моя мама — Марія. У мене є брат Петро і сестра Ліна. Брат старший, а сестра молодша. Ми живемо разом у великому будинку. По неділях ми збираємося за столом і обідаємо разом.",
+      "wordGlossary": {
+        "велика": "big",
+        "сім'я": "family",
+        "тата": "dad (genitive)",
+        "мама": "mom",
+        "брат": "brother",
+        "сестра": "sister",
+        "старший": "older",
+        "молодша": "younger",
+        "разом": "together",
+        "великому": "big (locative)",
+        "будинку": "house",
+        "неділях": "Sundays",
+        "збираємося": "gather",
+        "столом": "table",
+        "обідаємо": "have lunch"
+      },
+      "questions": [
+        {
+          "question": "What is the father's name?",
+          "options": ["Petro", "Ivan", "Oleg", "Mykola"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Мого тата звати Іван'."
+        },
+        {
+          "question": "Who is older?",
+          "options": ["The sister", "The brother", "They are the same age", "The mother"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Брат старший' (the brother is older)."
+        },
+        {
+          "question": "What do they do on Sundays?",
+          "options": ["Go to church", "Play sports", "Gather at the table and eat lunch together", "Watch TV"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Ми збираємося за столом і обідаємо разом'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+BEGINNER LEVEL (Months 3-6)
+STORY 1: A GOOD DAY
+English:
+Today is Saturday. I wake up at 9 o'clock. The sun is shining. I eat breakfast with my family. We have eggs and bread. After breakfast, I go to the park with my dog. We play for one hour. I am happy.
+Russian (Русский):
+Сегодня суббота. Я просыпаюсь в 9 часов. Солнце светит. Я ем завтрак с моей семьёй. У нас есть яйца и хлеб. После завтрака я иду в парк с моей собакой. Мы играем один час. Я счастлив/счастлива.
+Ukrainian (Українська):
+Сьогодні субота. Я прокидаюся о 9 годині. Сонце світить. Я їм сніданок з моєю сім'єю. У нас є яйця і хліб. Після сніданку я йду в парк з моїм собакою. Ми граємо одну годину. Я щасливий/щаслива.
+
+STORY 2: AT THE STORE
+English:
+Today I go to the store. I need to buy food. I buy bread, milk, and apples. The apples are red and tasty. The seller is very kind. He says "Have a good day!" I pay with money. Then I go home. Mom cooks lunch.
+Russian (Русский):
+Сегодня я иду в магазин. Мне нужно купить еду. Я покупаю хлеб, молоко и яблоки. Яблоки красные и вкусные. Продавец очень добрый. Он говорит "Хорошего дня!" Я плачу деньгами. Потом я иду домой. Мама готовит обед.
+Ukrainian (Українська):
+Сьогодні я йду в магазин. Мені потрібно купити їжу. Я купую хліб, молоко і яблука. Яблука червоні і смачні. Продавець дуже добрий. Він каже "Гарного дня!" Я плачу грошима. Потім я йду додому. Мама готує обід.
+
+STORY 3: AT SCHOOL
+English:
+I study at school. My school is big and bright. I have many friends at school. My teacher is very kind. Her name is Ms. Smith. Today we study mathematics and English. After lessons, I play football with my friends. I like my school very much.
+Russian (Русский):
+Я учусь в школе. Моя школа большая и светлая. У меня много друзей в школе. Мой учитель очень добрый. Её зовут госпожа Смит. Сегодня мы изучаем математику и английский. После уроков я играю в футбол с моими друзьями. Мне очень нравится моя школа.
+Ukrainian (Українська):
+Я вчуся в школі. Моя школа велика і світла. У мене багато друзів у школі. Мій вчитель дуже добрий. Її звати пані Сміт. Сьогодні ми вивчаємо математику і англійську. Після уроків я граю у футбол з моїми друзями. Мені дуже подобається моя школа.
+
+STORY 4: MY HOBBY
+English:
+I have a hobby. I like to draw. Every evening I draw in my notebook. I draw animals and flowers. My favorite animal is a cat. I have many colored pencils. My mom likes my drawings. She puts them on the wall. I want to be an artist.
+Russian (Русский):
+У меня есть хобби. Я люблю рисовать. Каждый вечер я рисую в моём блокноте. Я рисую животных и цветы. Моё любимое животное - кошка. У меня много цветных карандашей. Моей маме нравятся мои рисунки. Она вешает их на стену. Я хочу быть художником/художницей.
+Ukrainian (Українська):
+У мене є хобі. Я люблю малювати. Щовечора я малюю в моєму зошиті. Я малюю тварин і квіти. Моя улюблена тварина - кішка. У мене багато кольорових олівців. Моїй мамі подобаються мої малюнки. Вона вішає їх на стіну. Я хочу бути художником/художницею.
+
+STORY 5: THE BIRTHDAY
+English:
+Tomorrow is my birthday. I will be ten years old. My parents are preparing a party. They buy a big cake. The cake is chocolate. I invite five friends. We will play games and eat cake. I am very excited. Birthdays are wonderful!
+Russian (Русский):
+Завтра мой день рождения. Мне будет десять лет. Мои родители готовят вечеринку. Они покупают большой торт. Торт шоколадный. Я приглашаю пять друзей. Мы будем играть в игры и есть торт. Я очень взволнован/взволнована. Дни рождения замечательные!
+Ukrainian (Українська):
+Завтра мій день народження. Мені буде десять років. Мої батьки готують вечірку. Вони купують великий торт. Торт шоколадний. Я запрошую п'ять друзів. Ми будемо грати в ігри і їсти торт. Я дуже схвильований/схвильована. Дні народження чудові!
+
+STORY 6: WEEKEND PLANS
+English:
+It is Friday evening. Tomorrow is the weekend. I don't go to school on the weekend. On Saturday morning, I help my father wash the car. In the afternoon, I visit my grandmother. She lives near the city. On Sunday, I rest at home and watch cartoons. I love weekends!
+Russian (Русский):
+Пятница вечером. Завтра выходные. Я не хожу в школу на выходных. В субботу утром я помогаю моему отцу мыть машину. Днём я навещаю мою бабушку. Она живёт рядом с городом. В воскресенье я отдыхаю дома и смотрю мультфильмы. Я люблю выходные!
+Ukrainian (Українська):
+П'ятниця вечором. Завтра вихідні. Я не ходжу в школу у вихідні. В суботу вранці я допомагаю моєму батькові мити машину. Вдень я відвідую мою бабусю. Вона живе біля міста. У неділю я відпочиваю вдома і дивлюся мультфільми. Я люблю вихідні!

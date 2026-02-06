@@ -1,0 +1,83 @@
+{
+  "lessonId": "pronouns",
+  "nameEn": "Pronouns",
+  "nameRu": "Местоимения",
+  "icon": "👤",
+  "sections": [
+    {
+      "sectionId": "personal",
+      "title": "Personal Pronouns (Личные местоимения)",
+      "explanation": "Russian personal pronouns are: я (I), ты (you, informal), он (he), она (she), оно (it), мы (we), вы (you, formal/plural), они (they). They decline through all six cases. After prepositions, third-person pronouns gain an н- prefix: у него, с ней, о них.",
+      "examples": [
+        { "ru": "Я люблю музыку.", "en": "I love music.", "highlight": "Я" },
+        { "ru": "Он работает в банке.", "en": "He works in a bank.", "highlight": "Он" },
+        { "ru": "Мы идём домой.", "en": "We are going home.", "highlight": "Мы" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct pronoun: '___ живёт в Москве.' (she)",
+          "options": ["Он", "Она", "Оно"],
+          "correctIndex": 1,
+          "explanation": "'Она' means 'she' and is used for feminine subjects."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Я вижу ___. (he, accusative)",
+          "acceptedAnswers": ["его"],
+          "hint": "The accusative form of 'он' is 'его'"
+        }
+      ]
+    },
+    {
+      "sectionId": "possessive",
+      "title": "Possessive Pronouns (Притяжательные местоимения)",
+      "explanation": "Possessive pronouns indicate ownership: мой/моя/моё/мои (my), твой/твоя/твоё/твои (your, informal), его (his/its), её (her), наш/наша/наше/наши (our), ваш/ваша/ваше/ваши (your, formal/plural), их (their). They agree in gender, number, and case with the noun they modify. Note: его, её, and их do not change form.",
+      "examples": [
+        { "ru": "Это мой дом.", "en": "This is my house.", "highlight": "мой" },
+        { "ru": "Где твоя сумка?", "en": "Where is your bag?", "highlight": "твоя" },
+        { "ru": "Наши друзья здесь.", "en": "Our friends are here.", "highlight": "Наши" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct possessive: '___ книга на столе.' (my, feminine)",
+          "options": ["Мой", "Моя", "Моё"],
+          "correctIndex": 1,
+          "explanation": "'Книга' is feminine, so we use the feminine form 'моя'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Это ___ машина. (our, feminine)",
+          "acceptedAnswers": ["наша"],
+          "hint": "'Наш' in the feminine form is 'наша'"
+        }
+      ]
+    },
+    {
+      "sectionId": "demonstrative",
+      "title": "Demonstrative Pronouns (Указательные местоимения)",
+      "explanation": "The main demonstrative pronouns are этот/эта/это/эти (this/these) and тот/та/то/те (that/those). They agree in gender, number, and case with the noun they modify. 'Этот' points to something nearby, while 'тот' points to something further away or previously mentioned.",
+      "examples": [
+        { "ru": "Этот дом большой.", "en": "This house is big.", "highlight": "Этот" },
+        { "ru": "Та машина красная.", "en": "That car is red.", "highlight": "Та" },
+        { "ru": "Эти книги интересные.", "en": "These books are interesting.", "highlight": "Эти" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct form: '___ девушка очень красивая.' (this, feminine)",
+          "options": ["Этот", "Эта", "Это"],
+          "correctIndex": 1,
+          "explanation": "'Девушка' is feminine, so we use the feminine demonstrative 'эта'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "___ студенты учатся хорошо. (those, plural)",
+          "acceptedAnswers": ["Те", "те"],
+          "hint": "The plural form of 'тот' is 'те'"
+        }
+      ]
+    }
+  ]
+}

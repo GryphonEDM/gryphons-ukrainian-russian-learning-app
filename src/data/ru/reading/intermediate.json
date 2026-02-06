@@ -1,0 +1,129 @@
+{
+  "passages": [
+    {
+      "passageId": "p3",
+      "title": "Путешествие в Санкт-Петербург",
+      "titleEn": "A Trip to Saint Petersburg",
+      "difficulty": "A2",
+      "text": "Прошлым летом я ездил в Санкт-Петербург. Это один из самых красивых городов России. Я поехал туда на поезде из Москвы. Дорога заняла четыре часа на скоростном поезде «Сапсан». Я остановился в небольшой гостинице в центре города. В первый день я посетил Эрмитаж — один из крупнейших музеев мира. Там столько картин, что невозможно увидеть всё за один день. На следующий день я гулял по Невскому проспекту, фотографировал красивые здания и мосты. Вечером я пошёл в театр на балет. Санкт-Петербург — удивительный город, и я обязательно вернусь туда снова.",
+      "wordGlossary": {
+        "прошлым летом": "last summer",
+        "ездил": "traveled / went",
+        "самых красивых": "most beautiful",
+        "городов": "cities (genitive plural)",
+        "поехал": "went (by transport)",
+        "поезде": "train (prepositional)",
+        "дорога": "journey / road",
+        "заняла": "took (time)",
+        "скоростном": "high-speed",
+        "остановился": "stayed / stopped",
+        "небольшой": "small",
+        "гостинице": "hotel (prepositional)",
+        "центре": "center (prepositional)",
+        "посетил": "visited",
+        "крупнейших": "largest",
+        "музеев": "museums (genitive plural)",
+        "мира": "of the world",
+        "столько": "so many",
+        "картин": "paintings (genitive plural)",
+        "невозможно": "impossible",
+        "увидеть": "to see",
+        "следующий": "next",
+        "гулял": "walked",
+        "проспекту": "avenue (dative)",
+        "фотографировал": "photographed",
+        "здания": "buildings",
+        "мосты": "bridges",
+        "пошёл": "went (on foot)",
+        "балет": "ballet",
+        "удивительный": "amazing",
+        "обязательно": "definitely",
+        "вернусь": "I will return",
+        "снова": "again"
+      },
+      "questions": [
+        {
+          "question": "How did the narrator travel to Saint Petersburg?",
+          "options": ["By plane", "By car", "By train", "By bus"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Я поехал туда на поезде из Москвы' — I went there by train from Moscow."
+        },
+        {
+          "question": "What museum did the narrator visit?",
+          "options": ["The Russian Museum", "The Hermitage", "The Tretyakov Gallery", "The Pushkin Museum"],
+          "correctIndex": 1,
+          "explanation": "The text says 'я посетил Эрмитаж' — I visited the Hermitage."
+        },
+        {
+          "question": "What did the narrator do in the evening?",
+          "options": ["Went to a restaurant", "Walked along the river", "Went to the ballet", "Went to a concert"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Вечером я пошёл в театр на балет' — In the evening I went to the theater for ballet."
+        }
+      ]
+    },
+    {
+      "passageId": "p4",
+      "title": "Русская кухня",
+      "titleEn": "Russian Cuisine",
+      "difficulty": "B1",
+      "text": "Русская кухня — одна из самых разнообразных в мире. Она формировалась на протяжении многих веков под влиянием разных культур и суровых климатических условий. Самые известные русские блюда — это борщ, щи, пельмени и блины. Борщ — это суп из свёклы с капустой и мясом. Его обычно подают со сметаной. Пельмени напоминают итальянские равиоли, но с другой начинкой — обычно из мяса. Блины — тонкие лепёшки из теста, которые можно есть с чем угодно: с мёдом, с вареньем, с икрой или с творогом. Особенно популярны блины на Масленицу — праздник, который отмечают в конце зимы. В каждом регионе России есть свои уникальные блюда и кулинарные традиции.",
+      "wordGlossary": {
+        "кухня": "cuisine / kitchen",
+        "разнообразных": "diverse",
+        "формировалась": "was formed",
+        "на протяжении": "throughout",
+        "веков": "centuries (genitive plural)",
+        "под влиянием": "under the influence",
+        "суровых": "harsh",
+        "климатических": "climatic",
+        "условий": "conditions (genitive plural)",
+        "известные": "well-known",
+        "блюда": "dishes",
+        "борщ": "borscht",
+        "щи": "cabbage soup",
+        "пельмени": "dumplings",
+        "блины": "pancakes / crepes",
+        "свёклы": "beet (genitive)",
+        "капустой": "cabbage (instrumental)",
+        "мясом": "meat (instrumental)",
+        "подают": "they serve",
+        "сметаной": "sour cream (instrumental)",
+        "напоминают": "resemble",
+        "начинкой": "filling (instrumental)",
+        "тонкие": "thin",
+        "лепёшки": "flatbreads",
+        "тесто": "dough",
+        "мёдом": "honey (instrumental)",
+        "вареньем": "jam (instrumental)",
+        "икрой": "caviar (instrumental)",
+        "творогом": "cottage cheese (instrumental)",
+        "Масленица": "Maslenitsa (Pancake Week)",
+        "праздник": "holiday",
+        "отмечают": "they celebrate",
+        "уникальные": "unique",
+        "кулинарные": "culinary"
+      },
+      "questions": [
+        {
+          "question": "What is borscht made from?",
+          "options": ["Potatoes and mushrooms", "Beets, cabbage, and meat", "Fish and vegetables", "Chicken and rice"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Борщ — это суп из свёклы с капустой и мясом' — Borscht is a soup made from beets with cabbage and meat."
+        },
+        {
+          "question": "What are pelmeni compared to in the text?",
+          "options": ["Chinese dumplings", "German sausages", "Italian ravioli", "French crepes"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Пельмени напоминают итальянские равиоли' — Pelmeni resemble Italian ravioli."
+        },
+        {
+          "question": "When is Maslenitsa celebrated?",
+          "options": ["In the beginning of spring", "At the end of winter", "In the middle of summer", "At the beginning of autumn"],
+          "correctIndex": 1,
+          "explanation": "The text says 'праздник, который отмечают в конце зимы' — a holiday celebrated at the end of winter."
+        }
+      ]
+    }
+  ]
+}

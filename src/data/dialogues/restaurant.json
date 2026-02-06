@@ -1,0 +1,22 @@
+{
+  "dialogueId": "restaurant",
+  "nameEn": "At a Restaurant",
+  "nameUk": "У ресторані",
+  "icon": "🍽️",
+  "context": "You are at a Ukrainian restaurant ordering food. The waiter greets you and takes your order.",
+  "characters": {
+    "npc": { "name": "Офіціант" },
+    "player": { "name": "Ви" }
+  },
+  "exchanges": [
+    { "speaker": "npc", "text": "Добрий день! Ласкаво просимо!", "translation": "Good day! Welcome!" },
+    { "speaker": "player", "prompt": "Say 'Good day' back", "acceptedResponses": ["добрий день", "добрий день!"], "keyWords": ["добрий", "день"], "hint": "добрий..." },
+    { "speaker": "npc", "text": "Ось ваше меню. Що бажаєте?", "translation": "Here is your menu. What would you like?" },
+    { "speaker": "player", "prompt": "Order borscht, please", "acceptedResponses": ["борщ, будь ласка", "я буду борщ", "борщ будь ласка", "можна борщ"], "keyWords": ["борщ"], "hint": "борщ..." },
+    { "speaker": "npc", "text": "Чудово! Щось ще?", "translation": "Wonderful! Anything else?" },
+    { "speaker": "player", "prompt": "Ask for tea", "acceptedResponses": ["чай, будь ласка", "і чай", "можна чай", "ще чай"], "keyWords": ["чай"], "hint": "чай..." },
+    { "speaker": "npc", "text": "Звичайно! Ваше замовлення буде скоро.", "translation": "Of course! Your order will be ready soon." },
+    { "speaker": "player", "prompt": "Say 'thank you'", "acceptedResponses": ["дякую", "дуже дякую", "дякую!"], "keyWords": ["дякую"], "hint": "дякую" },
+    { "speaker": "npc", "text": "Смачного!", "translation": "Bon appetit! (lit. Tasty!)" }
+  ]
+}

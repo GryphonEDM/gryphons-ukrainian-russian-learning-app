@@ -1,0 +1,50 @@
+{
+  "lessonId": "wordOrder",
+  "nameEn": "Word Order",
+  "nameUk": "Порядок слів",
+  "icon": "📋",
+  "sections": [
+    {
+      "sectionId": "basic-order",
+      "title": "Basic Word Order (SVO)",
+      "explanation": "Ukrainian generally follows Subject-Verb-Object (SVO) order, similar to English. However, Ukrainian word order is more flexible because cases show the grammatical role of each word.",
+      "examples": [
+        { "uk": "Мама готує обід.", "en": "Mom prepares lunch. (S-V-O)", "highlight": "Мама готує обід" },
+        { "uk": "Дівчинка читає книгу.", "en": "The girl reads a book.", "highlight": "Дівчинка читає книгу" },
+        { "uk": "Ми любимо Україну.", "en": "We love Ukraine.", "highlight": "Ми любимо Україну" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "What is the standard word order in Ukrainian?", "options": ["Subject-Verb-Object", "Object-Verb-Subject", "Verb-Subject-Object"], "correctIndex": 0, "explanation": "Like English, Ukrainian uses SVO as the default word order." },
+        { "type": "fill-blank", "prompt": "___ п'є чай. (cat - кіт, basic SVO)", "acceptedAnswers": ["Кіт", "кіт"], "hint": "Subject comes first in basic SVO" }
+      ]
+    },
+    {
+      "sectionId": "flexible-order",
+      "title": "Flexible Word Order",
+      "explanation": "Because Ukrainian uses cases to mark grammatical roles, you can rearrange words for emphasis. Moving something to the beginning or end of a sentence gives it emphasis. 'Книгу я читав' emphasizes 'the book'.",
+      "examples": [
+        { "uk": "Книгу я читав учора.", "en": "THE BOOK I read yesterday. (emphasis on book)", "highlight": "Книгу" },
+        { "uk": "Учора ми були в парку.", "en": "YESTERDAY we were in the park.", "highlight": "Учора" },
+        { "uk": "Гарний цей день!", "en": "Beautiful is this day! (poetic)", "highlight": "Гарний" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Why can Ukrainian change word order freely?", "options": ["Cases show grammatical roles", "Verbs don't conjugate", "All words look the same"], "correctIndex": 0, "explanation": "Case endings tell you who is the subject, object, etc., regardless of position." },
+        { "type": "multiple-choice", "prompt": "In 'Каву я люблю!', what is emphasized?", "options": ["Coffee (каву)", "I (я)", "Love (люблю)"], "correctIndex": 0, "explanation": "Moving 'каву' to the front emphasizes coffee — 'COFFEE is what I love!'" }
+      ]
+    },
+    {
+      "sectionId": "questions",
+      "title": "Question Word Order",
+      "explanation": "Yes/no questions in Ukrainian can use the same word order as statements, just with rising intonation. The particle 'чи' can optionally start a yes/no question. Question words (хто, що, де, коли, як, чому) typically come first.",
+      "examples": [
+        { "uk": "Ти говориш українською?", "en": "Do you speak Ukrainian? (intonation)", "highlight": "Ти говориш" },
+        { "uk": "Чи ви розумієте?", "en": "Do you understand? (with чи)", "highlight": "Чи" },
+        { "uk": "Де ти живеш?", "en": "Where do you live?", "highlight": "Де" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Which particle optionally starts a yes/no question?", "options": ["Чи", "Де", "Як"], "correctIndex": 0, "explanation": "'Чи' is the optional question particle for yes/no questions." },
+        { "type": "fill-blank", "prompt": "___ ти працюєш? (Where)", "acceptedAnswers": ["Де", "де"], "hint": "Question word for 'where'" }
+      ]
+    }
+  ]
+}

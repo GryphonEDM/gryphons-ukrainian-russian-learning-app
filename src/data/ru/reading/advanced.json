@@ -1,0 +1,148 @@
+{
+  "passages": [
+    {
+      "passageId": "p5",
+      "title": "Московское метро",
+      "titleEn": "The Moscow Metro",
+      "difficulty": "B2",
+      "text": "Московский метрополитен — это не только транспортная система, но и настоящее произведение искусства. Открытый в 1935 году, он стал первым метро в Советском Союзе. Сегодня московское метро перевозит около девяти миллионов пассажиров ежедневно, что делает его одной из самых загруженных систем метро в мире. Многие станции украшены мрамором, мозаиками, скульптурами и люстрами. Станция «Комсомольская» поражает своими золотыми мозаиками на потолке, а «Маяковская» признана одной из самых красивых станций метро в мире благодаря своим стальным аркам и мозаичным панно. Во время Второй мировой войны станции метро использовались как бомбоубежища, защищая тысячи москвичей. Метро продолжает расширяться: строятся новые линии и станции, чтобы соответствовать растущим потребностям города. Для туристов московское метро — это обязательная достопримечательность, которая сочетает в себе функциональность с художественной ценностью.",
+      "wordGlossary": {
+        "метрополитен": "metropolitan railway / metro system",
+        "транспортная система": "transport system",
+        "настоящее": "real / genuine",
+        "произведение искусства": "work of art",
+        "открытый": "opened",
+        "перевозит": "transports / carries",
+        "около": "about / approximately",
+        "миллионов": "millions",
+        "пассажиров": "passengers (genitive plural)",
+        "ежедневно": "daily",
+        "загруженных": "busiest / most loaded",
+        "украшены": "decorated",
+        "мрамором": "marble (instrumental)",
+        "мозаиками": "mosaics (instrumental)",
+        "скульптурами": "sculptures (instrumental)",
+        "люстрами": "chandeliers (instrumental)",
+        "поражает": "astounds / amazes",
+        "золотыми": "golden",
+        "потолке": "ceiling (prepositional)",
+        "признана": "recognized / acknowledged",
+        "благодаря": "thanks to",
+        "стальным": "steel (dative plural)",
+        "аркам": "arches (dative plural)",
+        "панно": "panels / murals",
+        "бомбоубежища": "bomb shelters",
+        "защищая": "protecting",
+        "москвичей": "Muscovites (genitive plural)",
+        "расширяться": "to expand",
+        "строятся": "are being built",
+        "соответствовать": "to meet / to match",
+        "растущим": "growing",
+        "потребностям": "needs (dative plural)",
+        "достопримечательность": "sight / attraction",
+        "сочетает": "combines",
+        "функциональность": "functionality",
+        "художественной ценностью": "artistic value"
+      },
+      "questions": [
+        {
+          "question": "When was the Moscow Metro first opened?",
+          "options": ["1925", "1930", "1935", "1940"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Открытый в 1935 году' — Opened in 1935."
+        },
+        {
+          "question": "How many passengers does the Moscow Metro carry daily?",
+          "options": ["About 5 million", "About 7 million", "About 9 million", "About 12 million"],
+          "correctIndex": 2,
+          "explanation": "The text says 'перевозит около девяти миллионов пассажиров ежедневно' — carries about nine million passengers daily."
+        },
+        {
+          "question": "What were metro stations used for during World War II?",
+          "options": ["Military headquarters", "Bomb shelters", "Hospitals", "Supply storage"],
+          "correctIndex": 1,
+          "explanation": "The text says 'станции метро использовались как бомбоубежища' — metro stations were used as bomb shelters."
+        },
+        {
+          "question": "Which station is noted for its golden mosaics on the ceiling?",
+          "options": ["Маяковская", "Комсомольская", "Площадь Революции", "Киевская"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Станция «Комсомольская» поражает своими золотыми мозаиками на потолке' — Komsomolskaya station astounds with its golden mosaics on the ceiling."
+        }
+      ]
+    },
+    {
+      "passageId": "p6",
+      "title": "Русская литература",
+      "titleEn": "Russian Literature",
+      "difficulty": "B2",
+      "text": "Русская литература занимает особое место в мировой культуре. Её «золотой век» пришёлся на девятнадцатый столетие, когда творили такие гиганты, как Пушкин, Лермонтов, Гоголь, Тургенев, Достоевский и Толстой. Александр Пушкин считается основоположником современного русского литературного языка. Его роман в стихах «Евгений Онегин» стал энциклопедией русской жизни первой половины девятнадцатого века. Фёдор Достоевский исследовал глубины человеческой психологии в таких произведениях, как «Преступление и наказание» и «Братья Карамазовы». Лев Толстой в своём эпическом романе «Война и мир» создал масштабную картину русского общества в эпоху наполеоновских войн. Двадцатый век принёс новые литературные направления и новых авторов: Чехова, Булгакова, Ахматову, Пастернака, Солженицына. Многие русские писатели получили Нобелевскую премию по литературе, что подтверждает мировое значение русской литературной традиции. Сегодня русская литература продолжает развиваться, находя новые формы выражения и обращаясь к современным темам.",
+      "wordGlossary": {
+        "занимает": "occupies",
+        "особое место": "special place",
+        "мировой культуре": "world culture (prepositional)",
+        "золотой век": "golden age",
+        "пришёлся": "fell on / coincided with",
+        "столетие": "century",
+        "творили": "created / worked",
+        "гиганты": "giants",
+        "считается": "is considered",
+        "основоположником": "founder (instrumental)",
+        "современного": "modern / contemporary",
+        "литературного языка": "literary language",
+        "роман в стихах": "novel in verse",
+        "энциклопедией": "encyclopedia (instrumental)",
+        "половины": "half (genitive)",
+        "исследовал": "explored / investigated",
+        "глубины": "depths",
+        "человеческой": "human (genitive feminine)",
+        "психологии": "psychology",
+        "произведениях": "works (prepositional plural)",
+        "преступление": "crime",
+        "наказание": "punishment",
+        "эпическом": "epic (prepositional)",
+        "масштабную": "large-scale",
+        "картину": "picture / depiction",
+        "общества": "society (genitive)",
+        "эпоху": "era (accusative)",
+        "наполеоновских": "Napoleonic",
+        "войн": "wars (genitive plural)",
+        "направления": "movements / directions",
+        "авторов": "authors (genitive plural)",
+        "получили": "received",
+        "Нобелевскую премию": "Nobel Prize",
+        "подтверждает": "confirms",
+        "значение": "significance",
+        "развиваться": "to develop",
+        "выражения": "expression (genitive)",
+        "обращаясь": "turning to / addressing"
+      },
+      "questions": [
+        {
+          "question": "Who is considered the founder of modern Russian literary language?",
+          "options": ["Dostoevsky", "Tolstoy", "Pushkin", "Chekhov"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Александр Пушкин считается основоположником современного русского литературного языка' — Alexander Pushkin is considered the founder of modern Russian literary language."
+        },
+        {
+          "question": "What did Dostoevsky explore in his works?",
+          "options": ["Russian nature", "Political systems", "Human psychology", "Military history"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Достоевский исследовал глубины человеческой психологии' — Dostoevsky explored the depths of human psychology."
+        },
+        {
+          "question": "What period in Russian society does 'War and Peace' depict?",
+          "options": ["The Russian Revolution", "The Napoleonic Wars era", "World War I", "The reign of Peter the Great"],
+          "correctIndex": 1,
+          "explanation": "The text says 'создал масштабную картину русского общества в эпоху наполеоновских войн' — created a large-scale depiction of Russian society in the era of the Napoleonic wars."
+        },
+        {
+          "question": "What confirms the worldwide significance of Russian literature according to the text?",
+          "options": ["The number of translations", "Nobel Prizes in literature", "International book sales", "University courses worldwide"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Многие русские писатели получили Нобелевскую премию по литературе, что подтверждает мировое значение' — Many Russian writers received the Nobel Prize in literature, which confirms the worldwide significance."
+        }
+      ]
+    }
+  ]
+}

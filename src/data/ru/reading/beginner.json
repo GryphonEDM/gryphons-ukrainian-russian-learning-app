@@ -1,0 +1,113 @@
+{
+  "passages": [
+    {
+      "passageId": "p1",
+      "title": "Мой день",
+      "titleEn": "My Day",
+      "difficulty": "A1",
+      "text": "Меня зовут Анна. Я живу в Москве. Каждый день я встаю в семь часов утра. Сначала я завтракаю. Я ем кашу и пью чай. Потом я еду на работу на метро. Я работаю в офисе. Я люблю свою работу. Вечером я иду домой. Дома я готовлю ужин и читаю книгу. Я ложусь спать в одиннадцать часов. Мне нравится мой день.",
+      "wordGlossary": {
+        "меня": "me",
+        "зовут": "they call / named",
+        "живу": "I live",
+        "каждый": "every",
+        "встаю": "I get up",
+        "семь": "seven",
+        "часов": "hours / o'clock",
+        "утра": "of the morning",
+        "сначала": "first",
+        "завтракаю": "I have breakfast",
+        "ем": "I eat",
+        "кашу": "porridge (accusative)",
+        "пью": "I drink",
+        "потом": "then",
+        "еду": "I go / ride",
+        "работу": "work (accusative)",
+        "метро": "metro / subway",
+        "офисе": "office (prepositional)",
+        "свою": "my own",
+        "вечером": "in the evening",
+        "домой": "home (direction)",
+        "готовлю": "I cook",
+        "ужин": "dinner",
+        "ложусь спать": "I go to bed",
+        "одиннадцать": "eleven",
+        "нравится": "I like (lit. is pleasing)"
+      },
+      "questions": [
+        {
+          "question": "Where does Anna live?",
+          "options": ["In Saint Petersburg", "In Moscow", "In Kazan", "In Novosibirsk"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Я живу в Москве' — I live in Moscow."
+        },
+        {
+          "question": "How does Anna get to work?",
+          "options": ["By bus", "By car", "By metro", "On foot"],
+          "correctIndex": 2,
+          "explanation": "The text says 'я еду на работу на метро' — I go to work by metro."
+        },
+        {
+          "question": "What does Anna eat for breakfast?",
+          "options": ["Bread and butter", "Porridge", "Eggs", "Pancakes"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Я ем кашу' — I eat porridge."
+        }
+      ]
+    },
+    {
+      "passageId": "p2",
+      "title": "Моя семья",
+      "titleEn": "My Family",
+      "difficulty": "A1",
+      "text": "У меня большая семья. Мой папа — врач. Он работает в больнице. Моя мама — учительница. Она работает в школе. У меня есть брат и сестра. Брата зовут Иван. Ему двадцать лет. Он студент. Сестру зовут Маша. Ей шестнадцать лет. Она ещё учится в школе. У нас есть собака. Её зовут Белка. Мы все живём вместе в большой квартире. По выходным мы часто ходим в парк.",
+      "wordGlossary": {
+        "большая": "big",
+        "семья": "family",
+        "папа": "dad",
+        "врач": "doctor",
+        "больнице": "hospital (prepositional)",
+        "мама": "mom",
+        "учительница": "teacher (female)",
+        "школе": "school (prepositional)",
+        "есть": "there is / have",
+        "брат": "brother",
+        "сестра": "sister",
+        "ему": "to him / he is (age)",
+        "двадцать": "twenty",
+        "лет": "years",
+        "студент": "student",
+        "ей": "to her / she is (age)",
+        "шестнадцать": "sixteen",
+        "ещё": "still",
+        "учится": "studies",
+        "собака": "dog",
+        "вместе": "together",
+        "квартире": "apartment (prepositional)",
+        "по выходным": "on weekends",
+        "часто": "often",
+        "ходим": "we go"
+      },
+      "questions": [
+        {
+          "question": "What is Anna's father's profession?",
+          "options": ["Teacher", "Engineer", "Doctor", "Driver"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Мой папа — врач' — My dad is a doctor."
+        },
+        {
+          "question": "How old is Ivan?",
+          "options": ["Sixteen", "Eighteen", "Twenty", "Twenty-two"],
+          "correctIndex": 2,
+          "explanation": "The text says 'Ему двадцать лет' — He is twenty years old."
+        },
+        {
+          "question": "What is the dog's name?",
+          "options": ["Маша", "Белка", "Шарик", "Рекс"],
+          "correctIndex": 1,
+          "explanation": "The text says 'Её зовут Белка' — Her name is Belka."
+        }
+      ]
+    }
+  ]
+}

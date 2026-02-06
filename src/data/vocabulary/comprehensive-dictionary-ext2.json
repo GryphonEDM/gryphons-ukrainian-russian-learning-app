@@ -1,0 +1,5412 @@
+{
+  "words": [
+    {
+      "uk": "сміливий",
+      "ru": "",
+      "en": "brave/courageous",
+      "phoneticUk": "smilyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "боягузливий",
+      "ru": "",
+      "en": "cowardly",
+      "phoneticUk": "boyahuzlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чесний",
+      "ru": "",
+      "en": "honest",
+      "phoneticUk": "chesnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нечесний",
+      "ru": "",
+      "en": "dishonest",
+      "phoneticUk": "nechesnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ввічливий",
+      "ru": "",
+      "en": "polite",
+      "phoneticUk": "vvichlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "грубий",
+      "ru": "",
+      "en": "rude",
+      "phoneticUk": "hrubyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "щедрий",
+      "ru": "",
+      "en": "generous",
+      "phoneticUk": "shchedryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "скупий",
+      "ru": "",
+      "en": "stingy/greedy",
+      "phoneticUk": "skupyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "терплячий",
+      "ru": "",
+      "en": "patient",
+      "phoneticUk": "terplyachyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нетерплячий",
+      "ru": "",
+      "en": "impatient",
+      "phoneticUk": "neterplyachyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "впевнений",
+      "ru": "",
+      "en": "confident",
+      "phoneticUk": "vpevnenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "сором'язливий",
+      "ru": "",
+      "en": "shy",
+      "phoneticUk": "soromyazlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "товариський",
+      "ru": "",
+      "en": "sociable/friendly",
+      "phoneticUk": "tovaryskyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "замкнутий",
+      "ru": "",
+      "en": "reserved/introverted",
+      "phoneticUk": "zamknutyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "талановитий",
+      "ru": "",
+      "en": "talented",
+      "phoneticUk": "talanovytyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "здібний",
+      "ru": "",
+      "en": "capable/able",
+      "phoneticUk": "zdibnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "лінивий",
+      "ru": "",
+      "en": "lazy",
+      "phoneticUk": "linyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "працьовитий",
+      "ru": "",
+      "en": "hardworking",
+      "phoneticUk": "pratsovytyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "відповідальний",
+      "ru": "",
+      "en": "responsible",
+      "phoneticUk": "vidpovidalnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "безвідповідальний",
+      "ru": "",
+      "en": "irresponsible",
+      "phoneticUk": "bezvidpovidalnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "надійний",
+      "ru": "",
+      "en": "reliable",
+      "phoneticUk": "nadiynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жадібний",
+      "ru": "",
+      "en": "greedy",
+      "phoneticUk": "zhadibnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ревнивий",
+      "ru": "",
+      "en": "jealous",
+      "phoneticUk": "revnyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "вірний",
+      "ru": "",
+      "en": "faithful/loyal",
+      "phoneticUk": "virnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зрадливий",
+      "ru": "",
+      "en": "treacherous",
+      "phoneticUk": "zradlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "розумний",
+      "ru": "",
+      "en": "intelligent",
+      "phoneticUk": "rozumnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "мудрий",
+      "ru": "",
+      "en": "wise",
+      "phoneticUk": "mudryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "наївний",
+      "ru": "",
+      "en": "naive",
+      "phoneticUk": "nayivnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "хитрий",
+      "ru": "",
+      "en": "cunning/sly",
+      "phoneticUk": "khytryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "підступний",
+      "ru": "",
+      "en": "sneaky/treacherous",
+      "phoneticUk": "pidstupnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жорстокий",
+      "ru": "",
+      "en": "cruel",
+      "phoneticUk": "zhorstokyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "добрий",
+      "ru": "",
+      "en": "kind",
+      "phoneticUk": "dobryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ласкавий",
+      "ru": "",
+      "en": "gentle/affectionate",
+      "phoneticUk": "laskavyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "суворий",
+      "ru": "",
+      "en": "strict/severe",
+      "phoneticUk": "suvoryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "вередливий",
+      "ru": "",
+      "en": "capricious/picky",
+      "phoneticUk": "veredlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "скромний",
+      "ru": "",
+      "en": "modest/humble",
+      "phoneticUk": "skromnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гордий",
+      "ru": "",
+      "en": "proud",
+      "phoneticUk": "hordyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зарозумілий",
+      "ru": "",
+      "en": "arrogant",
+      "phoneticUk": "zarozumilyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "веселий",
+      "ru": "",
+      "en": "cheerful/merry",
+      "phoneticUk": "veselyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "похмурий",
+      "ru": "",
+      "en": "gloomy",
+      "phoneticUk": "pokhmuryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "енергійний",
+      "ru": "",
+      "en": "energetic",
+      "phoneticUk": "enerhiynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "млявий",
+      "ru": "",
+      "en": "sluggish/lethargic",
+      "phoneticUk": "mlyavyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "рішучий",
+      "ru": "",
+      "en": "determined/decisive",
+      "phoneticUk": "rishuchyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нерішучий",
+      "ru": "",
+      "en": "indecisive",
+      "phoneticUk": "nerishuchyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "романтичний",
+      "ru": "",
+      "en": "romantic",
+      "phoneticUk": "romantychnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "практичний",
+      "ru": "",
+      "en": "practical",
+      "phoneticUk": "praktychnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ідеальний",
+      "ru": "",
+      "en": "ideal/perfect",
+      "phoneticUk": "idealnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "реальний",
+      "ru": "",
+      "en": "real/realistic",
+      "phoneticUk": "realnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "стародавній",
+      "ru": "",
+      "en": "ancient",
+      "phoneticUk": "starodavniy",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "сучасний",
+      "ru": "",
+      "en": "modern/contemporary",
+      "phoneticUk": "suchasnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "типовий",
+      "ru": "",
+      "en": "typical",
+      "phoneticUk": "typovyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "унікальний",
+      "ru": "",
+      "en": "unique",
+      "phoneticUk": "unikalnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "звичайний",
+      "ru": "",
+      "en": "ordinary/usual",
+      "phoneticUk": "zvychaynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "незвичайний",
+      "ru": "",
+      "en": "unusual/extraordinary",
+      "phoneticUk": "nezvychaynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "офіційний",
+      "ru": "",
+      "en": "official/formal",
+      "phoneticUk": "ofitsiynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "неофіційний",
+      "ru": "",
+      "en": "unofficial/informal",
+      "phoneticUk": "neofitsiynyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "державний",
+      "ru": "",
+      "en": "state/national",
+      "phoneticUk": "derzhavnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "приватний",
+      "ru": "",
+      "en": "private",
+      "phoneticUk": "pryvatnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "публічний",
+      "ru": "",
+      "en": "public",
+      "phoneticUk": "publichnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "міжнародний",
+      "ru": "",
+      "en": "international",
+      "phoneticUk": "mizhnarodnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "місцевий",
+      "ru": "",
+      "en": "local",
+      "phoneticUk": "mistsevyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "корисний",
+      "ru": "",
+      "en": "useful",
+      "phoneticUk": "korysnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "шкідливий",
+      "ru": "",
+      "en": "harmful",
+      "phoneticUk": "shkidlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ефективний",
+      "ru": "",
+      "en": "effective/efficient",
+      "phoneticUk": "efektyvnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "активний",
+      "ru": "",
+      "en": "active",
+      "phoneticUk": "aktyvnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "пасивний",
+      "ru": "",
+      "en": "passive",
+      "phoneticUk": "pasyvnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "позитивний",
+      "ru": "",
+      "en": "positive",
+      "phoneticUk": "pozytyvnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "негативний",
+      "ru": "",
+      "en": "negative",
+      "phoneticUk": "nehatyvnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "логічний",
+      "ru": "",
+      "en": "logical",
+      "phoneticUk": "lohichnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "абсурдний",
+      "ru": "",
+      "en": "absurd",
+      "phoneticUk": "absurdnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чудовий",
+      "ru": "",
+      "en": "wonderful/marvelous",
+      "phoneticUk": "chudovyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жахливий",
+      "ru": "",
+      "en": "terrible/horrible",
+      "phoneticUk": "zhakhlyvyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "величезний",
+      "ru": "",
+      "en": "huge/enormous",
+      "phoneticUk": "velyczeznyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "крихітний",
+      "ru": "",
+      "en": "tiny",
+      "phoneticUk": "krykhitnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "глибокий",
+      "ru": "",
+      "en": "deep",
+      "phoneticUk": "hlybokyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "мілкий",
+      "ru": "",
+      "en": "shallow",
+      "phoneticUk": "milkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "густий",
+      "ru": "",
+      "en": "thick/dense",
+      "phoneticUk": "hustyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "рідкий",
+      "ru": "",
+      "en": "rare/liquid",
+      "phoneticUk": "ridkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "вологий",
+      "ru": "",
+      "en": "moist/humid",
+      "phoneticUk": "volohyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "пухкий",
+      "ru": "",
+      "en": "fluffy/soft",
+      "phoneticUk": "pukhkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гладкий",
+      "ru": "",
+      "en": "smooth",
+      "phoneticUk": "hladkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "шорсткий",
+      "ru": "",
+      "en": "rough",
+      "phoneticUk": "shorstkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "слизький",
+      "ru": "",
+      "en": "slippery",
+      "phoneticUk": "slyzkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "липкий",
+      "ru": "",
+      "en": "sticky",
+      "phoneticUk": "lypkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "крихкий",
+      "ru": "",
+      "en": "fragile/brittle",
+      "phoneticUk": "krykhkyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "міцний",
+      "ru": "",
+      "en": "sturdy/strong",
+      "phoneticUk": "mitsnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "пружний",
+      "ru": "",
+      "en": "elastic/springy",
+      "phoneticUk": "pruzhnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "прямокутний",
+      "ru": "",
+      "en": "rectangular",
+      "phoneticUk": "pryamokutnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "квадратний",
+      "ru": "",
+      "en": "square (shape)",
+      "phoneticUk": "kvadratnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "трикутний",
+      "ru": "",
+      "en": "triangular",
+      "phoneticUk": "trykutnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "кислий",
+      "ru": "",
+      "en": "acidic/sour",
+      "phoneticUk": "kyslyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "прісний",
+      "ru": "",
+      "en": "bland/unsalted",
+      "phoneticUk": "prisnyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "пряний",
+      "ru": "",
+      "en": "spicy/aromatic",
+      "phoneticUk": "pryanyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "свіжий",
+      "ru": "",
+      "en": "fresh",
+      "phoneticUk": "svizhyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "несвіжий",
+      "ru": "",
+      "en": "stale",
+      "phoneticUk": "nesvizhyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зіпсований",
+      "ru": "",
+      "en": "spoiled/rotten",
+      "phoneticUk": "zipsovanyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "сирий",
+      "ru": "",
+      "en": "raw/damp",
+      "phoneticUk": "syryi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "смажений",
+      "ru": "",
+      "en": "fried",
+      "phoneticUk": "smazhenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "варений",
+      "ru": "",
+      "en": "boiled",
+      "phoneticUk": "varenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "печений",
+      "ru": "",
+      "en": "baked",
+      "phoneticUk": "pechenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "заморожений",
+      "ru": "",
+      "en": "frozen",
+      "phoneticUk": "zamorozhenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "одружений",
+      "ru": "",
+      "en": "married",
+      "phoneticUk": "odruzhenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "неодружений",
+      "ru": "",
+      "en": "unmarried/single",
+      "phoneticUk": "neodruzhenyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "вагітна",
+      "ru": "",
+      "en": "pregnant",
+      "phoneticUk": "vahitna",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "п'яний",
+      "ru": "",
+      "en": "drunk",
+      "phoneticUk": "pyanyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "тверезий",
+      "ru": "",
+      "en": "sober",
+      "phoneticUk": "tverezyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "відкритий",
+      "ru": "",
+      "en": "open",
+      "phoneticUk": "vidkrytyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "закритий",
+      "ru": "",
+      "en": "closed",
+      "phoneticUk": "zakrytyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зламаний",
+      "ru": "",
+      "en": "broken",
+      "phoneticUk": "zlamanyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "цілий",
+      "ru": "",
+      "en": "whole/intact",
+      "phoneticUk": "tsilyi",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "раптово",
+      "ru": "",
+      "en": "suddenly",
+      "phoneticUk": "raptovo",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "поступово",
+      "ru": "",
+      "en": "gradually",
+      "phoneticUk": "postupovo",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "нарешті",
+      "ru": "",
+      "en": "finally/at last",
+      "phoneticUk": "nareshti",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "одразу",
+      "ru": "",
+      "en": "immediately/at once",
+      "phoneticUk": "odrazu",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "майже",
+      "ru": "",
+      "en": "almost/nearly",
+      "phoneticUk": "mayzhe",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "зовсім",
+      "ru": "",
+      "en": "completely/at all",
+      "phoneticUk": "zovsim",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "справді",
+      "ru": "",
+      "en": "really/indeed",
+      "phoneticUk": "spravdi",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "точно",
+      "ru": "",
+      "en": "exactly/precisely",
+      "phoneticUk": "tochno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "приблизно",
+      "ru": "",
+      "en": "approximately",
+      "phoneticUk": "pryblyzno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "обов'язково",
+      "ru": "",
+      "en": "necessarily/must",
+      "phoneticUk": "obovyazkovo",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "особливо",
+      "ru": "",
+      "en": "especially",
+      "phoneticUk": "osoblyvo",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "взагалі",
+      "ru": "",
+      "en": "in general/at all",
+      "phoneticUk": "vzahali",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "по-перше",
+      "ru": "",
+      "en": "firstly",
+      "phoneticUk": "po-pershe",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "по-друге",
+      "ru": "",
+      "en": "secondly",
+      "phoneticUk": "po-druhe",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "натомість",
+      "ru": "",
+      "en": "instead",
+      "phoneticUk": "natomist",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "інакше",
+      "ru": "",
+      "en": "otherwise",
+      "phoneticUk": "inakshe",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "навмисно",
+      "ru": "",
+      "en": "deliberately/on purpose",
+      "phoneticUk": "navmysno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "випадково",
+      "ru": "",
+      "en": "accidentally/by chance",
+      "phoneticUk": "vypadkovo",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "таємно",
+      "ru": "",
+      "en": "secretly",
+      "phoneticUk": "tayemno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "відкрито",
+      "ru": "",
+      "en": "openly",
+      "phoneticUk": "vidkryto",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щиро",
+      "ru": "",
+      "en": "sincerely",
+      "phoneticUk": "shchyro",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "ледве",
+      "ru": "",
+      "en": "barely/hardly",
+      "phoneticUk": "ledve",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "цілком",
+      "ru": "",
+      "en": "entirely/quite",
+      "phoneticUk": "tsilkom",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "переважно",
+      "ru": "",
+      "en": "mostly/predominantly",
+      "phoneticUk": "perevazhno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "постійно",
+      "ru": "",
+      "en": "constantly",
+      "phoneticUk": "postiyno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "періодично",
+      "ru": "",
+      "en": "periodically",
+      "phoneticUk": "periodychno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "безкоштовно",
+      "ru": "",
+      "en": "for free",
+      "phoneticUk": "bezkoshtovno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "даремно",
+      "ru": "",
+      "en": "in vain/for nothing",
+      "phoneticUk": "daremno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "нарочно",
+      "ru": "",
+      "en": "intentionally",
+      "phoneticUk": "narochno",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "вдома",
+      "ru": "",
+      "en": "at home",
+      "phoneticUk": "vdoma",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "надворі",
+      "ru": "",
+      "en": "outside",
+      "phoneticUk": "nadvori",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "всередині",
+      "ru": "",
+      "en": "inside",
+      "phoneticUk": "vseredyni",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "зверху",
+      "ru": "",
+      "en": "on top/from above",
+      "phoneticUk": "zverkhu",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "знизу",
+      "ru": "",
+      "en": "from below",
+      "phoneticUk": "znyzu",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "скрізь",
+      "ru": "",
+      "en": "everywhere",
+      "phoneticUk": "skriz",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "ніде",
+      "ru": "",
+      "en": "nowhere",
+      "phoneticUk": "nide",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "деінде",
+      "ru": "",
+      "en": "somewhere else",
+      "phoneticUk": "deinde",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "договір",
+      "ru": "",
+      "en": "contract/agreement",
+      "phoneticUk": "dohovir",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "обов'язок",
+      "ru": "",
+      "en": "duty/obligation",
+      "phoneticUk": "obovyazok",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "відповідальність",
+      "ru": "",
+      "en": "responsibility",
+      "phoneticUk": "vidpovidalnist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "повага",
+      "ru": "",
+      "en": "respect",
+      "phoneticUk": "povaha",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "честь",
+      "ru": "",
+      "en": "honor",
+      "phoneticUk": "chest",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "гідність",
+      "ru": "",
+      "en": "dignity",
+      "phoneticUk": "hidnist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "совість",
+      "ru": "",
+      "en": "conscience",
+      "phoneticUk": "sovist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "справедливість",
+      "ru": "",
+      "en": "justice/fairness",
+      "phoneticUk": "spravedlyvist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "рівність",
+      "ru": "",
+      "en": "equality",
+      "phoneticUk": "rivnist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "можливість",
+      "ru": "",
+      "en": "opportunity/possibility",
+      "phoneticUk": "mozhlyvist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "небезпека",
+      "ru": "",
+      "en": "danger",
+      "phoneticUk": "nebezpeka",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "безпека",
+      "ru": "",
+      "en": "safety/security",
+      "phoneticUk": "bezpeka",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "таємниця",
+      "ru": "",
+      "en": "secret/mystery",
+      "phoneticUk": "tayemnytsya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "пригода",
+      "ru": "",
+      "en": "adventure",
+      "phoneticUk": "pryhoda",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "подорож",
+      "ru": "",
+      "en": "journey/trip",
+      "phoneticUk": "podorozh",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "спогад",
+      "ru": "",
+      "en": "memory/recollection",
+      "phoneticUk": "spohad",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "уява",
+      "ru": "",
+      "en": "imagination",
+      "phoneticUk": "uyava",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "творчість",
+      "ru": "",
+      "en": "creativity",
+      "phoneticUk": "tvorchist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "талант",
+      "ru": "",
+      "en": "talent",
+      "phoneticUk": "talant",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "натхнення",
+      "ru": "",
+      "en": "inspiration",
+      "phoneticUk": "natkhnennya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "традиція",
+      "ru": "",
+      "en": "tradition",
+      "phoneticUk": "tradytsiya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "культура",
+      "ru": "",
+      "en": "culture",
+      "phoneticUk": "kultura",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "релігія",
+      "ru": "",
+      "en": "religion",
+      "phoneticUk": "relihiya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "віра",
+      "ru": "",
+      "en": "faith/belief",
+      "phoneticUk": "vira",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "душа",
+      "ru": "",
+      "en": "soul",
+      "phoneticUk": "dusha",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "доля",
+      "ru": "",
+      "en": "fate/destiny",
+      "phoneticUk": "dolya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "характер",
+      "ru": "",
+      "en": "character/personality",
+      "phoneticUk": "kharakter",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "настрій",
+      "ru": "",
+      "en": "mood",
+      "phoneticUk": "nastriy",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "емоція",
+      "ru": "",
+      "en": "emotion",
+      "phoneticUk": "emotsiya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "почуття",
+      "ru": "",
+      "en": "feeling",
+      "phoneticUk": "pochuttya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "бажання",
+      "ru": "",
+      "en": "desire/wish",
+      "phoneticUk": "bazhannya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "потреба",
+      "ru": "",
+      "en": "need",
+      "phoneticUk": "potreba",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "інтерес",
+      "ru": "",
+      "en": "interest",
+      "phoneticUk": "interes",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "увага",
+      "ru": "",
+      "en": "attention",
+      "phoneticUk": "uvaha",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "спроба",
+      "ru": "",
+      "en": "attempt",
+      "phoneticUk": "sproba",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "зусилля",
+      "ru": "",
+      "en": "effort",
+      "phoneticUk": "zusyllya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "праця",
+      "ru": "",
+      "en": "labor/work",
+      "phoneticUk": "pratsya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "подія",
+      "ru": "",
+      "en": "event",
+      "phoneticUk": "podiya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "ситуація",
+      "ru": "",
+      "en": "situation",
+      "phoneticUk": "sytuatsiya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "обставини",
+      "ru": "",
+      "en": "circumstances",
+      "phoneticUk": "obstavyny",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "наслідок",
+      "ru": "",
+      "en": "consequence",
+      "phoneticUk": "naslidok",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "вплив",
+      "ru": "",
+      "en": "influence/impact",
+      "phoneticUk": "vplyv",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "зміна",
+      "ru": "",
+      "en": "change",
+      "phoneticUk": "zmina",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "розвиток",
+      "ru": "",
+      "en": "development",
+      "phoneticUk": "rozvytok",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "прогрес",
+      "ru": "",
+      "en": "progress",
+      "phoneticUk": "prohres",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "криза",
+      "ru": "",
+      "en": "crisis",
+      "phoneticUk": "kryza",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "конфлікт",
+      "ru": "",
+      "en": "conflict",
+      "phoneticUk": "konflikt",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "компроміс",
+      "ru": "",
+      "en": "compromise",
+      "phoneticUk": "kompromis",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "угода",
+      "ru": "",
+      "en": "agreement/deal",
+      "phoneticUk": "uhoda",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "стосунки",
+      "ru": "",
+      "en": "relationship",
+      "phoneticUk": "stosunky",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "дружба",
+      "ru": "",
+      "en": "friendship",
+      "phoneticUk": "druzhba",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "ненависть",
+      "ru": "",
+      "en": "hatred",
+      "phoneticUk": "nenavyst",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "помста",
+      "ru": "",
+      "en": "revenge",
+      "phoneticUk": "pomsta",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "прощення",
+      "ru": "",
+      "en": "forgiveness",
+      "phoneticUk": "proshchennya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "вдячність",
+      "ru": "",
+      "en": "gratitude/thankfulness",
+      "phoneticUk": "vdyachnist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "співпраця",
+      "ru": "",
+      "en": "cooperation",
+      "phoneticUk": "spivpratsya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "суспільство",
+      "ru": "",
+      "en": "society",
+      "phoneticUk": "suspilstvo",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "спільнота",
+      "ru": "",
+      "en": "community",
+      "phoneticUk": "spilnota",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "покоління",
+      "ru": "",
+      "en": "generation",
+      "phoneticUk": "pokolinnya",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "спадщина",
+      "ru": "",
+      "en": "heritage/inheritance",
+      "phoneticUk": "spadshchyna",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "майбутнє",
+      "ru": "",
+      "en": "future",
+      "phoneticUk": "maybutnye",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "минуле",
+      "ru": "",
+      "en": "past",
+      "phoneticUk": "mynule",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "сучасність",
+      "ru": "",
+      "en": "present/modernity",
+      "phoneticUk": "suchasnist",
+      "phoneticRu": "",
+      "category": "abstract"
+    },
+    {
+      "uk": "я не знаю",
+      "ru": "",
+      "en": "I don't know",
+      "phoneticUk": "ya ne znayu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я згоден",
+      "ru": "",
+      "en": "I agree (male)",
+      "phoneticUk": "ya zhoden",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я згодна",
+      "ru": "",
+      "en": "I agree (female)",
+      "phoneticUk": "ya zhodna",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я не згоден",
+      "ru": "",
+      "en": "I disagree",
+      "phoneticUk": "ya ne zhoden",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "зачекайте хвилинку",
+      "ru": "",
+      "en": "wait a moment",
+      "phoneticUk": "zachekayte khvylynku",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я запізнився",
+      "ru": "",
+      "en": "I am late (male)",
+      "phoneticUk": "ya zapiznysya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я запізнилась",
+      "ru": "",
+      "en": "I am late (female)",
+      "phoneticUk": "ya zapiznylás",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "де туалет",
+      "ru": "",
+      "en": "where is the toilet",
+      "phoneticUk": "de tualet",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я загубився",
+      "ru": "",
+      "en": "I am lost (male)",
+      "phoneticUk": "ya zahubyvsya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "можна рахунок",
+      "ru": "",
+      "en": "can I have the bill",
+      "phoneticUk": "mozhna rakhunok",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я вегетаріанець",
+      "ru": "",
+      "en": "I am vegetarian",
+      "phoneticUk": "ya vehetarianets",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я алергійний на",
+      "ru": "",
+      "en": "I am allergic to",
+      "phoneticUk": "ya alerhiynyi na",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "допоможіть мені",
+      "ru": "",
+      "en": "help me",
+      "phoneticUk": "dopomozhit meni",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "викличте поліцію",
+      "ru": "",
+      "en": "call the police",
+      "phoneticUk": "vyklychte politsiyu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "викличте швидку",
+      "ru": "",
+      "en": "call an ambulance",
+      "phoneticUk": "vyklychte shvydku",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "мені погано",
+      "ru": "",
+      "en": "I feel sick/I feel bad",
+      "phoneticUk": "meni pohano",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "мені боляче",
+      "ru": "",
+      "en": "it hurts/I am in pain",
+      "phoneticUk": "meni bolyache",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я голодний",
+      "ru": "",
+      "en": "I am hungry (male)",
+      "phoneticUk": "ya holodnyi",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я хочу пити",
+      "ru": "",
+      "en": "I am thirsty",
+      "phoneticUk": "ya khochu pyty",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я втомився",
+      "ru": "",
+      "en": "I am tired (male)",
+      "phoneticUk": "ya vtomuvsya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "як це називається",
+      "ru": "",
+      "en": "what is this called",
+      "phoneticUk": "yak tse nazyvayetsia",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "повторіть будь ласка",
+      "ru": "",
+      "en": "repeat please",
+      "phoneticUk": "povtorit bud laska",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "говоріть повільніше",
+      "ru": "",
+      "en": "speak more slowly",
+      "phoneticUk": "hovorit povilnishe",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я вивчаю українську",
+      "ru": "",
+      "en": "I am learning Ukrainian",
+      "phoneticUk": "ya vyvchayu ukrayinsku",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "ви говорите англійською",
+      "ru": "",
+      "en": "do you speak English",
+      "phoneticUk": "vy hovoryite anhliyskoyu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я трохи розмовляю",
+      "ru": "",
+      "en": "I speak a little",
+      "phoneticUk": "ya trokhy rozmovlyayu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "як пройти до",
+      "ru": "",
+      "en": "how to get to",
+      "phoneticUk": "yak proyty do",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "поверніть праворуч",
+      "ru": "",
+      "en": "turn right",
+      "phoneticUk": "povernit pravoruch",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "поверніть ліворуч",
+      "ru": "",
+      "en": "turn left",
+      "phoneticUk": "povernit livoruch",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "ідіть прямо",
+      "ru": "",
+      "en": "go straight",
+      "phoneticUk": "idit pryamo",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "це далеко",
+      "ru": "",
+      "en": "is it far",
+      "phoneticUk": "tse daleko",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "це близько",
+      "ru": "",
+      "en": "it is close/nearby",
+      "phoneticUk": "tse blyzko",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "скільки часу",
+      "ru": "",
+      "en": "what time is it",
+      "phoneticUk": "skilky chasu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "котра година",
+      "ru": "",
+      "en": "what time is it",
+      "phoneticUk": "kotra hodyna",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "о котрій годині",
+      "ru": "",
+      "en": "at what time",
+      "phoneticUk": "o kotriy hodyni",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "чи можна",
+      "ru": "",
+      "en": "may I/is it allowed",
+      "phoneticUk": "chy mozhna",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "звичайно можна",
+      "ru": "",
+      "en": "of course you can",
+      "phoneticUk": "zvychayno mozhna",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "на жаль ні",
+      "ru": "",
+      "en": "unfortunately no",
+      "phoneticUk": "na zhal ni",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "з задоволенням",
+      "ru": "",
+      "en": "with pleasure",
+      "phoneticUk": "z zadovolennyam",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "мені все одно",
+      "ru": "",
+      "en": "I don't care/it doesn't matter",
+      "phoneticUk": "meni vse odno",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "нічого страшного",
+      "ru": "",
+      "en": "no big deal/it's nothing",
+      "phoneticUk": "nichoho strashnoho",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я не впевнений",
+      "ru": "",
+      "en": "I am not sure",
+      "phoneticUk": "ya ne vpevnenyi",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "це правда",
+      "ru": "",
+      "en": "that is true",
+      "phoneticUk": "tse pravda",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "це неправда",
+      "ru": "",
+      "en": "that is not true",
+      "phoneticUk": "tse nepravda",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "дуже приємно",
+      "ru": "",
+      "en": "very nice/pleased",
+      "phoneticUk": "duzhe pryyemno",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "яка прикрість",
+      "ru": "",
+      "en": "what a pity",
+      "phoneticUk": "yaka prykrist",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "не хвилюйтеся",
+      "ru": "",
+      "en": "don't worry",
+      "phoneticUk": "ne khvylyuytesya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "бережіть себе",
+      "ru": "",
+      "en": "take care of yourself",
+      "phoneticUk": "berezhit sebe",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я скучив за тобою",
+      "ru": "",
+      "en": "I missed you",
+      "phoneticUk": "ya skuchyv za toboyu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я тебе кохаю",
+      "ru": "",
+      "en": "I love you",
+      "phoneticUk": "ya tebe kokhayu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "ти мені подобаєшся",
+      "ru": "",
+      "en": "I like you",
+      "phoneticUk": "ty meni podobayeshsya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "вітаю з перемогою",
+      "ru": "",
+      "en": "congratulations on the victory",
+      "phoneticUk": "vitayu z peremohoyu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "бажаю успіхів",
+      "ru": "",
+      "en": "I wish you success",
+      "phoneticUk": "bazhayu uspikhiv",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "щасливої дороги",
+      "ru": "",
+      "en": "have a safe trip",
+      "phoneticUk": "shchaslyvoi dorohy",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "приємного апетиту",
+      "ru": "",
+      "en": "enjoy your meal",
+      "phoneticUk": "pryyemnoho apetytu",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "на здоров'я",
+      "ru": "",
+      "en": "to your health/you're welcome",
+      "phoneticUk": "na zdorovya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я зайнятий",
+      "ru": "",
+      "en": "I am busy",
+      "phoneticUk": "ya zaynyatyi",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "я вільний",
+      "ru": "",
+      "en": "I am free",
+      "phoneticUk": "ya vilnyi",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "давай зустрінемось",
+      "ru": "",
+      "en": "let's meet up",
+      "phoneticUk": "davay zustrinemosya",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "який чудовий день",
+      "ru": "",
+      "en": "what a wonderful day",
+      "phoneticUk": "yakyi chudovyi den",
+      "phoneticRu": "",
+      "category": "phrases"
+    },
+    {
+      "uk": "повідомлення",
+      "ru": "",
+      "en": "notification/message",
+      "phoneticUk": "povidomlennya",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "додаток",
+      "ru": "",
+      "en": "app/application",
+      "phoneticUk": "dodatok",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "оновлення",
+      "ru": "",
+      "en": "update",
+      "phoneticUk": "onovlennya",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "мережа",
+      "ru": "",
+      "en": "network",
+      "phoneticUk": "merezha",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "файл",
+      "ru": "",
+      "en": "file",
+      "phoneticUk": "fayl",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "папка",
+      "ru": "",
+      "en": "folder",
+      "phoneticUk": "papka",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "сервер",
+      "ru": "",
+      "en": "server",
+      "phoneticUk": "server",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "база даних",
+      "ru": "",
+      "en": "database",
+      "phoneticUk": "baza danykh",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "алгоритм",
+      "ru": "",
+      "en": "algorithm",
+      "phoneticUk": "alhorytm",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "код",
+      "ru": "",
+      "en": "code",
+      "phoneticUk": "kod",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "помилка",
+      "ru": "",
+      "en": "error/bug",
+      "phoneticUk": "pomylka",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "соціальна мережа",
+      "ru": "",
+      "en": "social network",
+      "phoneticUk": "sotsialna merezha",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "блог",
+      "ru": "",
+      "en": "blog",
+      "phoneticUk": "bloh",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "пошук",
+      "ru": "",
+      "en": "search",
+      "phoneticUk": "poshuk",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "посилання",
+      "ru": "",
+      "en": "link",
+      "phoneticUk": "posylannya",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "браузер",
+      "ru": "",
+      "en": "browser",
+      "phoneticUk": "brauzer",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "хмара",
+      "ru": "",
+      "en": "cloud (computing)",
+      "phoneticUk": "khmara",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "резервна копія",
+      "ru": "",
+      "en": "backup",
+      "phoneticUk": "rezervna kopiya",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "антивірус",
+      "ru": "",
+      "en": "antivirus",
+      "phoneticUk": "antyvirus",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "хакер",
+      "ru": "",
+      "en": "hacker",
+      "phoneticUk": "khaker",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "шифрування",
+      "ru": "",
+      "en": "encryption",
+      "phoneticUk": "shyfruvannya",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "навушники",
+      "ru": "",
+      "en": "headphones",
+      "phoneticUk": "navushnyky",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "колонка",
+      "ru": "",
+      "en": "speaker",
+      "phoneticUk": "kolonka",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "флешка",
+      "ru": "",
+      "en": "USB drive",
+      "phoneticUk": "fleshka",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "жорсткий диск",
+      "ru": "",
+      "en": "hard drive",
+      "phoneticUk": "zhorstkyi dysk",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "операційна система",
+      "ru": "",
+      "en": "operating system",
+      "phoneticUk": "operatsiyna systema",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "штучний інтелект",
+      "ru": "",
+      "en": "artificial intelligence",
+      "phoneticUk": "shtuchnyi intelekt",
+      "phoneticRu": "",
+      "category": "technology"
+    },
+    {
+      "uk": "стиль",
+      "ru": "",
+      "en": "style",
+      "phoneticUk": "styl",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "зразок",
+      "ru": "",
+      "en": "sample/example",
+      "phoneticUk": "zrazok",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "модель",
+      "ru": "",
+      "en": "model",
+      "phoneticUk": "model",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "план",
+      "ru": "",
+      "en": "plan/blueprint",
+      "phoneticUk": "plan",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "схема",
+      "ru": "",
+      "en": "diagram/scheme",
+      "phoneticUk": "skhema",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "карта",
+      "ru": "",
+      "en": "map/card",
+      "phoneticUk": "karta",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "компас",
+      "ru": "",
+      "en": "compass",
+      "phoneticUk": "kompas",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "ліхтарик",
+      "ru": "",
+      "en": "flashlight",
+      "phoneticUk": "likhtaryk",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "свічка",
+      "ru": "",
+      "en": "candle",
+      "phoneticUk": "svichka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "запальничка",
+      "ru": "",
+      "en": "lighter",
+      "phoneticUk": "zapalnychka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "сірники",
+      "ru": "",
+      "en": "matches",
+      "phoneticUk": "sirnyky",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "батарейка",
+      "ru": "",
+      "en": "battery",
+      "phoneticUk": "batareyka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "провід",
+      "ru": "",
+      "en": "cable/wire",
+      "phoneticUk": "provid",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "розетка",
+      "ru": "",
+      "en": "outlet/socket",
+      "phoneticUk": "rozetka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "вимикач",
+      "ru": "",
+      "en": "switch",
+      "phoneticUk": "vymykach",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "кран",
+      "ru": "",
+      "en": "faucet/tap",
+      "phoneticUk": "kran",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "труба",
+      "ru": "",
+      "en": "pipe/tube",
+      "phoneticUk": "truba",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "вішалка",
+      "ru": "",
+      "en": "hanger",
+      "phoneticUk": "vishalka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "праска",
+      "ru": "",
+      "en": "iron (for clothes)",
+      "phoneticUk": "praska",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "пральна машина",
+      "ru": "",
+      "en": "washing machine",
+      "phoneticUk": "pralna mashyna",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "холодильник",
+      "ru": "",
+      "en": "refrigerator",
+      "phoneticUk": "kholodylnyk",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "мікрохвильовка",
+      "ru": "",
+      "en": "microwave",
+      "phoneticUk": "mikrokhvylovka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "пилосос",
+      "ru": "",
+      "en": "vacuum cleaner",
+      "phoneticUk": "pylocos",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "посудомийна машина",
+      "ru": "",
+      "en": "dishwasher",
+      "phoneticUk": "posudomiyna mashyna",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "плита",
+      "ru": "",
+      "en": "stove/cooker",
+      "phoneticUk": "plyta",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "духовка",
+      "ru": "",
+      "en": "oven",
+      "phoneticUk": "dukhovka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "чайник",
+      "ru": "",
+      "en": "kettle",
+      "phoneticUk": "chaynyk",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "тостер",
+      "ru": "",
+      "en": "toaster",
+      "phoneticUk": "toster",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "блендер",
+      "ru": "",
+      "en": "blender",
+      "phoneticUk": "blender",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "кондиціонер",
+      "ru": "",
+      "en": "air conditioner",
+      "phoneticUk": "kondytsioner",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "обігрівач",
+      "ru": "",
+      "en": "heater",
+      "phoneticUk": "obihrivach",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "вентилятор",
+      "ru": "",
+      "en": "fan",
+      "phoneticUk": "ventylyator",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "килим",
+      "ru": "",
+      "en": "carpet/rug",
+      "phoneticUk": "kylym",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "фіранка",
+      "ru": "",
+      "en": "curtain",
+      "phoneticUk": "firanka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "подушка",
+      "ru": "",
+      "en": "pillow",
+      "phoneticUk": "podushka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "ковдра",
+      "ru": "",
+      "en": "blanket",
+      "phoneticUk": "kovdra",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "простирадло",
+      "ru": "",
+      "en": "bedsheet",
+      "phoneticUk": "prostyradlo",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "матрац",
+      "ru": "",
+      "en": "mattress",
+      "phoneticUk": "matrats",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "ваза",
+      "ru": "",
+      "en": "vase",
+      "phoneticUk": "vaza",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "глечик",
+      "ru": "",
+      "en": "pitcher/jug",
+      "phoneticUk": "hlechyk",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "піднос",
+      "ru": "",
+      "en": "tray",
+      "phoneticUk": "pidnos",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "кошик",
+      "ru": "",
+      "en": "basket",
+      "phoneticUk": "koshyk",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "скриня",
+      "ru": "",
+      "en": "chest/trunk",
+      "phoneticUk": "skrynya",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "коробка",
+      "ru": "",
+      "en": "box",
+      "phoneticUk": "korobka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "пакет",
+      "ru": "",
+      "en": "bag/packet",
+      "phoneticUk": "paket",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "мотузка",
+      "ru": "",
+      "en": "rope/string",
+      "phoneticUk": "motuzka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "стрічка",
+      "ru": "",
+      "en": "ribbon/tape",
+      "phoneticUk": "strichka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "шнурок",
+      "ru": "",
+      "en": "shoelace/cord",
+      "phoneticUk": "shnurok",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "кнопка",
+      "ru": "",
+      "en": "button/pushpin",
+      "phoneticUk": "knopka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "скріпка",
+      "ru": "",
+      "en": "paperclip",
+      "phoneticUk": "skripka",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "їдальня",
+      "ru": "",
+      "en": "dining room/cafeteria",
+      "phoneticUk": "yidalnya",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "коридор",
+      "ru": "",
+      "en": "hallway/corridor",
+      "phoneticUk": "korydor",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "підвал",
+      "ru": "",
+      "en": "basement",
+      "phoneticUk": "pidval",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "горище",
+      "ru": "",
+      "en": "attic",
+      "phoneticUk": "horyshche",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "балкон",
+      "ru": "",
+      "en": "balcony",
+      "phoneticUk": "balkon",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "тераса",
+      "ru": "",
+      "en": "terrace",
+      "phoneticUk": "terasa",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "гараж",
+      "ru": "",
+      "en": "garage",
+      "phoneticUk": "harazh",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "дитячий садок",
+      "ru": "",
+      "en": "kindergarten",
+      "phoneticUk": "dytyachyi sadok",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "храм",
+      "ru": "",
+      "en": "temple",
+      "phoneticUk": "khram",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "мечеть",
+      "ru": "",
+      "en": "mosque",
+      "phoneticUk": "mechet",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "синагога",
+      "ru": "",
+      "en": "synagogue",
+      "phoneticUk": "synahoha",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "палац",
+      "ru": "",
+      "en": "palace",
+      "phoneticUk": "palats",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "замок",
+      "ru": "",
+      "en": "castle",
+      "phoneticUk": "zamok",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "фортеця",
+      "ru": "",
+      "en": "fortress",
+      "phoneticUk": "fortetsya",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "пам'ятник",
+      "ru": "",
+      "en": "monument",
+      "phoneticUk": "pamyatnyk",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "фонтан",
+      "ru": "",
+      "en": "fountain",
+      "phoneticUk": "fontan",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "кладовище",
+      "ru": "",
+      "en": "cemetery",
+      "phoneticUk": "kladovyshche",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "провулок",
+      "ru": "",
+      "en": "alley/lane",
+      "phoneticUk": "provulok",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "перехрестя",
+      "ru": "",
+      "en": "intersection/crossroads",
+      "phoneticUk": "perekhrestya",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "тунель",
+      "ru": "",
+      "en": "tunnel",
+      "phoneticUk": "tunel",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "пустеля",
+      "ru": "пустыня",
+      "en": "desert",
+      "phoneticUk": "pustelya",
+      "phoneticRu": "pustynya",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "джунглі",
+      "ru": "",
+      "en": "jungle",
+      "phoneticUk": "dzhunhli",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "долина",
+      "ru": "долина",
+      "en": "valley",
+      "phoneticUk": "dolyna",
+      "phoneticRu": "dolina",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "водоспад",
+      "ru": "водопад",
+      "en": "waterfall",
+      "phoneticUk": "vodospad",
+      "phoneticRu": "vodopad",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "печера",
+      "ru": "пещера",
+      "en": "cave",
+      "phoneticUk": "pechera",
+      "phoneticRu": "peshchera",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "вулкан",
+      "ru": "",
+      "en": "volcano",
+      "phoneticUk": "vulkan",
+      "phoneticRu": "",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "болото",
+      "ru": "болото",
+      "en": "swamp/marsh",
+      "phoneticUk": "boloto",
+      "phoneticRu": "boloto",
+      "category": "nouns-places"
+    },
+    {
+      "uk": "Польща",
+      "ru": "",
+      "en": "Poland",
+      "phoneticUk": "Polshcha",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Німеччина",
+      "ru": "",
+      "en": "Germany",
+      "phoneticUk": "Nimechchyna",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Франція",
+      "ru": "",
+      "en": "France",
+      "phoneticUk": "Frantsiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Англія",
+      "ru": "",
+      "en": "England",
+      "phoneticUk": "Anhliya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Великобританія",
+      "ru": "",
+      "en": "Great Britain",
+      "phoneticUk": "Velykobrytaniya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Італія",
+      "ru": "",
+      "en": "Italy",
+      "phoneticUk": "Italiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Іспанія",
+      "ru": "",
+      "en": "Spain",
+      "phoneticUk": "Ispaniya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Росія",
+      "ru": "",
+      "en": "Russia",
+      "phoneticUk": "Rosiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Китай",
+      "ru": "",
+      "en": "China",
+      "phoneticUk": "Kytay",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Японія",
+      "ru": "",
+      "en": "Japan",
+      "phoneticUk": "Yaponiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Сполучені Штати",
+      "ru": "",
+      "en": "United States",
+      "phoneticUk": "Spolucheni Shtaty",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Канада",
+      "ru": "",
+      "en": "Canada",
+      "phoneticUk": "Kanada",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Австралія",
+      "ru": "",
+      "en": "Australia",
+      "phoneticUk": "Avstraliya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Бразилія",
+      "ru": "",
+      "en": "Brazil",
+      "phoneticUk": "Brazyliya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Індія",
+      "ru": "",
+      "en": "India",
+      "phoneticUk": "Indiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Туреччина",
+      "ru": "",
+      "en": "Turkey",
+      "phoneticUk": "Turechchyna",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Єгипет",
+      "ru": "",
+      "en": "Egypt",
+      "phoneticUk": "Yehypet",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Мексика",
+      "ru": "",
+      "en": "Mexico",
+      "phoneticUk": "Meksyka",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Швеція",
+      "ru": "",
+      "en": "Sweden",
+      "phoneticUk": "Shvetsiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Норвегія",
+      "ru": "",
+      "en": "Norway",
+      "phoneticUk": "Norvehiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Фінляндія",
+      "ru": "",
+      "en": "Finland",
+      "phoneticUk": "Finlyandiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Чехія",
+      "ru": "",
+      "en": "Czech Republic",
+      "phoneticUk": "Chekhiya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Словаччина",
+      "ru": "",
+      "en": "Slovakia",
+      "phoneticUk": "Slovachchyna",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Румунія",
+      "ru": "",
+      "en": "Romania",
+      "phoneticUk": "Rumuniya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Молдова",
+      "ru": "",
+      "en": "Moldova",
+      "phoneticUk": "Moldova",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Білорусь",
+      "ru": "",
+      "en": "Belarus",
+      "phoneticUk": "Bilorus",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Грузія",
+      "ru": "",
+      "en": "Georgia",
+      "phoneticUk": "Hruziya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Вірменія",
+      "ru": "",
+      "en": "Armenia",
+      "phoneticUk": "Virmeniya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Азербайджан",
+      "ru": "",
+      "en": "Azerbaijan",
+      "phoneticUk": "Azerbaydzhan",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Європа",
+      "ru": "",
+      "en": "Europe",
+      "phoneticUk": "Yevropa",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Азія",
+      "ru": "",
+      "en": "Asia",
+      "phoneticUk": "Aziya",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Африка",
+      "ru": "",
+      "en": "Africa",
+      "phoneticUk": "Afryka",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Південна Америка",
+      "ru": "",
+      "en": "South America",
+      "phoneticUk": "Pivdenna Ameryka",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "Антарктида",
+      "ru": "",
+      "en": "Antarctica",
+      "phoneticUk": "Antarktida",
+      "phoneticRu": "",
+      "category": "geography"
+    },
+    {
+      "uk": "нащадок",
+      "ru": "",
+      "en": "descendant",
+      "phoneticUk": "nashchadok",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "предок",
+      "ru": "",
+      "en": "ancestor",
+      "phoneticUk": "predok",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "гість",
+      "ru": "",
+      "en": "guest",
+      "phoneticUk": "hist",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "господар",
+      "ru": "",
+      "en": "host/owner",
+      "phoneticUk": "hospodar",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "господиня",
+      "ru": "",
+      "en": "hostess",
+      "phoneticUk": "hospodynya",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "пасажир",
+      "ru": "",
+      "en": "passenger",
+      "phoneticUk": "pasazhyr",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "пішохід",
+      "ru": "",
+      "en": "pedestrian",
+      "phoneticUk": "pishokhid",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "турист",
+      "ru": "",
+      "en": "tourist",
+      "phoneticUk": "turyst",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "покупець",
+      "ru": "",
+      "en": "buyer",
+      "phoneticUk": "pokupets",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "пацієнт",
+      "ru": "",
+      "en": "patient",
+      "phoneticUk": "patsiyent",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "жертва",
+      "ru": "",
+      "en": "victim",
+      "phoneticUk": "zhertva",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "злочинець",
+      "ru": "",
+      "en": "criminal",
+      "phoneticUk": "zlochynets",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "біженець",
+      "ru": "",
+      "en": "refugee",
+      "phoneticUk": "bizhenets",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "іммігрант",
+      "ru": "",
+      "en": "immigrant",
+      "phoneticUk": "immihrant",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "волонтер",
+      "ru": "",
+      "en": "volunteer",
+      "phoneticUk": "volonter",
+      "phoneticRu": "",
+      "category": "nouns-people"
+    },
+    {
+      "uk": "двигун",
+      "ru": "",
+      "en": "engine",
+      "phoneticUk": "dvyhun",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "колесо",
+      "ru": "",
+      "en": "wheel",
+      "phoneticUk": "koleso",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "шина",
+      "ru": "",
+      "en": "tire",
+      "phoneticUk": "shyna",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "кермо",
+      "ru": "",
+      "en": "steering wheel",
+      "phoneticUk": "kermo",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "гальмо",
+      "ru": "",
+      "en": "brake",
+      "phoneticUk": "halmo",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "бензин",
+      "ru": "",
+      "en": "gasoline/petrol",
+      "phoneticUk": "benzyn",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "дизель",
+      "ru": "",
+      "en": "diesel",
+      "phoneticUk": "dyzel",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "заправка",
+      "ru": "",
+      "en": "gas station",
+      "phoneticUk": "zapravka",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "парковка",
+      "ru": "",
+      "en": "parking",
+      "phoneticUk": "parkovka",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "світлофор",
+      "ru": "",
+      "en": "traffic light",
+      "phoneticUk": "svitlofor",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "пішохідний перехід",
+      "ru": "",
+      "en": "crosswalk",
+      "phoneticUk": "pishokhidnyi perekhid",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "дорожній знак",
+      "ru": "",
+      "en": "road sign",
+      "phoneticUk": "dorozhniy znak",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "обмеження швидкості",
+      "ru": "",
+      "en": "speed limit",
+      "phoneticUk": "obmezhennya shvydkosti",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "аварія",
+      "ru": "",
+      "en": "accident/crash",
+      "phoneticUk": "avariya",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "евакуатор",
+      "ru": "",
+      "en": "tow truck",
+      "phoneticUk": "evakuator",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "водійські права",
+      "ru": "",
+      "en": "driver's license",
+      "phoneticUk": "vodiyski prava",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "вантажівка",
+      "ru": "",
+      "en": "truck",
+      "phoneticUk": "vantazhivka",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "фургон",
+      "ru": "",
+      "en": "van",
+      "phoneticUk": "furhon",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "яхта",
+      "ru": "",
+      "en": "yacht",
+      "phoneticUk": "yakhta",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "човен",
+      "ru": "",
+      "en": "boat",
+      "phoneticUk": "choven",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "вертоліт",
+      "ru": "",
+      "en": "helicopter",
+      "phoneticUk": "vertolit",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "трактор",
+      "ru": "трактор",
+      "en": "tractor",
+      "phoneticUk": "traktor",
+      "phoneticRu": "traktor",
+      "category": "transport"
+    },
+    {
+      "uk": "самокат",
+      "ru": "",
+      "en": "scooter",
+      "phoneticUk": "samokat",
+      "phoneticRu": "",
+      "category": "transport"
+    },
+    {
+      "uk": "морозити",
+      "ru": "",
+      "en": "to freeze (food)",
+      "phoneticUk": "morozyty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "змащувати",
+      "ru": "",
+      "en": "to grease/to oil",
+      "phoneticUk": "zmashchuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "фільтрувати",
+      "ru": "",
+      "en": "to filter",
+      "phoneticUk": "filtruvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "перемішувати",
+      "ru": "",
+      "en": "to stir",
+      "phoneticUk": "peremishuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "очищати",
+      "ru": "",
+      "en": "to clean/to purify",
+      "phoneticUk": "ochyshchaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "полоскати",
+      "ru": "",
+      "en": "to rinse",
+      "phoneticUk": "poloskaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "засмагати",
+      "ru": "",
+      "en": "to sunbathe/to tan",
+      "phoneticUk": "zasmahaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "чергувати",
+      "ru": "",
+      "en": "to take turns/to alternate",
+      "phoneticUk": "cherhuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "дивувати",
+      "ru": "",
+      "en": "to surprise/to amaze",
+      "phoneticUk": "dyvuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "турбувати",
+      "ru": "",
+      "en": "to bother/to disturb",
+      "phoneticUk": "turbuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "заважати",
+      "ru": "",
+      "en": "to interfere/to hinder",
+      "phoneticUk": "zavazhaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "відволікати",
+      "ru": "",
+      "en": "to distract",
+      "phoneticUk": "vidvolikaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "зосереджуватися",
+      "ru": "",
+      "en": "to concentrate/to focus",
+      "phoneticUk": "zoseredzhuvytysya",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "мріяти",
+      "ru": "",
+      "en": "to dream/to daydream",
+      "phoneticUk": "mriyaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "фантазувати",
+      "ru": "",
+      "en": "to fantasize",
+      "phoneticUk": "fantazuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "медитувати",
+      "ru": "",
+      "en": "to meditate",
+      "phoneticUk": "medytuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "молитися",
+      "ru": "",
+      "en": "to pray",
+      "phoneticUk": "molytysya",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вдосконалювати",
+      "ru": "",
+      "en": "to improve/to perfect",
+      "phoneticUk": "vdoskonalyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "спрощувати",
+      "ru": "",
+      "en": "to simplify",
+      "phoneticUk": "sproshchuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "ускладнювати",
+      "ru": "",
+      "en": "to complicate",
+      "phoneticUk": "uskladnyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "затримувати",
+      "ru": "",
+      "en": "to delay/to detain",
+      "phoneticUk": "zatrymuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "прискорювати",
+      "ru": "",
+      "en": "to accelerate/to speed up",
+      "phoneticUk": "pryskoruuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "уповільнювати",
+      "ru": "",
+      "en": "to slow down",
+      "phoneticUk": "upovilnyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "збільшувати",
+      "ru": "",
+      "en": "to increase/to enlarge",
+      "phoneticUk": "zbilshuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "зменшувати",
+      "ru": "",
+      "en": "to decrease/to reduce",
+      "phoneticUk": "zmenshuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розширювати",
+      "ru": "",
+      "en": "to expand/to widen",
+      "phoneticUk": "rozshyryuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "звужувати",
+      "ru": "",
+      "en": "to narrow",
+      "phoneticUk": "zvuzhuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "поглиблювати",
+      "ru": "",
+      "en": "to deepen",
+      "phoneticUk": "pohlybluyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "очищувати",
+      "ru": "",
+      "en": "to cleanse/to purge",
+      "phoneticUk": "ochyshchuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "забруднювати",
+      "ru": "",
+      "en": "to pollute/to contaminate",
+      "phoneticUk": "zabrudnyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "переробляти",
+      "ru": "",
+      "en": "to recycle/to rework",
+      "phoneticUk": "pereroblyaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "винаходити",
+      "ru": "",
+      "en": "to invent",
+      "phoneticUk": "vynakhodyty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "відкривати",
+      "ru": "",
+      "en": "to discover",
+      "phoneticUk": "vidkryvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "експериментувати",
+      "ru": "",
+      "en": "to experiment",
+      "phoneticUk": "eksperymentuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "спостерігати",
+      "ru": "",
+      "en": "to observe",
+      "phoneticUk": "sposterihaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вимірювати",
+      "ru": "",
+      "en": "to measure",
+      "phoneticUk": "vymiryuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "обчислювати",
+      "ru": "",
+      "en": "to compute/to calculate",
+      "phoneticUk": "obchyslyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "моделювати",
+      "ru": "",
+      "en": "to model/to simulate",
+      "phoneticUk": "modelyuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "прогнозувати",
+      "ru": "",
+      "en": "to forecast/to predict",
+      "phoneticUk": "prohnozuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "класифікувати",
+      "ru": "",
+      "en": "to classify",
+      "phoneticUk": "klasyfikuvaty",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "шістдесят",
+      "ru": "",
+      "en": "sixty",
+      "phoneticUk": "shistdesyat",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "сімдесят",
+      "ru": "",
+      "en": "seventy",
+      "phoneticUk": "simdesyat",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "вісімдесят",
+      "ru": "",
+      "en": "eighty",
+      "phoneticUk": "visimdesyat",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "дев'яносто",
+      "ru": "",
+      "en": "ninety",
+      "phoneticUk": "devyanosto",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "двісті",
+      "ru": "",
+      "en": "two hundred",
+      "phoneticUk": "dvisti",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "триста",
+      "ru": "",
+      "en": "three hundred",
+      "phoneticUk": "trysta",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "п'ятсот",
+      "ru": "",
+      "en": "five hundred",
+      "phoneticUk": "pyatsot",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "четвертий",
+      "ru": "",
+      "en": "fourth",
+      "phoneticUk": "chetvertyi",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "п'ятий",
+      "ru": "",
+      "en": "fifth",
+      "phoneticUk": "pyatyi",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "десятий",
+      "ru": "",
+      "en": "tenth",
+      "phoneticUk": "desyatyi",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "сотий",
+      "ru": "",
+      "en": "hundredth",
+      "phoneticUk": "sotyi",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "половина",
+      "ru": "",
+      "en": "half",
+      "phoneticUk": "polovyna",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "третина",
+      "ru": "",
+      "en": "a third",
+      "phoneticUk": "tretyna",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "чверть",
+      "ru": "",
+      "en": "a quarter",
+      "phoneticUk": "chvert",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "подвійний",
+      "ru": "",
+      "en": "double",
+      "phoneticUk": "podviynyi",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "потрійний",
+      "ru": "",
+      "en": "triple",
+      "phoneticUk": "potriynyy",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "пара",
+      "ru": "",
+      "en": "pair/couple",
+      "phoneticUk": "para",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "набір",
+      "ru": "",
+      "en": "set/kit",
+      "phoneticUk": "nabir",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "деталь",
+      "ru": "",
+      "en": "detail/part",
+      "phoneticUk": "detal",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "механізм",
+      "ru": "",
+      "en": "mechanism",
+      "phoneticUk": "mekhanizm",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "прилад",
+      "ru": "",
+      "en": "device/instrument",
+      "phoneticUk": "prylad",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "інструмент",
+      "ru": "",
+      "en": "tool/instrument",
+      "phoneticUk": "instrument",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "обладнання",
+      "ru": "",
+      "en": "equipment",
+      "phoneticUk": "obladnannya",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "матеріал",
+      "ru": "",
+      "en": "material",
+      "phoneticUk": "material",
+      "phoneticRu": "",
+      "category": "nouns-objects"
+    },
+    {
+      "uk": "природа",
+      "ru": "",
+      "en": "nature",
+      "phoneticUk": "pryroda",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "клімат",
+      "ru": "",
+      "en": "climate",
+      "phoneticUk": "klimat",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "ґрунт",
+      "ru": "почва",
+      "en": "soil",
+      "phoneticUk": "grunt",
+      "phoneticRu": "pochva",
+      "category": "nature"
+    },
+    {
+      "uk": "мох",
+      "ru": "",
+      "en": "moss",
+      "phoneticUk": "mokh",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "папороть",
+      "ru": "",
+      "en": "fern",
+      "phoneticUk": "paporot",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "кущ",
+      "ru": "",
+      "en": "bush/shrub",
+      "phoneticUk": "kushch",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "берег",
+      "ru": "берег",
+      "en": "shore/bank",
+      "phoneticUk": "bereh",
+      "phoneticRu": "bereg",
+      "category": "nature"
+    },
+    {
+      "uk": "хвиля",
+      "ru": "",
+      "en": "wave",
+      "phoneticUk": "khvylya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "течія",
+      "ru": "",
+      "en": "current/stream",
+      "phoneticUk": "techiya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "джерело",
+      "ru": "",
+      "en": "spring/source",
+      "phoneticUk": "dzherelo",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "потік",
+      "ru": "",
+      "en": "stream/creek",
+      "phoneticUk": "potik",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "скеля",
+      "ru": "",
+      "en": "cliff/rock",
+      "phoneticUk": "skelya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "яр",
+      "ru": "",
+      "en": "ravine/gorge",
+      "phoneticUk": "yar",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "схил",
+      "ru": "",
+      "en": "slope/hillside",
+      "phoneticUk": "skhyl",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "вершина",
+      "ru": "",
+      "en": "peak/summit",
+      "phoneticUk": "vershyna",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "захід сонця",
+      "ru": "закат",
+      "en": "sunset",
+      "phoneticUk": "zakhid sontsya",
+      "phoneticRu": "zakat",
+      "category": "nature"
+    },
+    {
+      "uk": "схід сонця",
+      "ru": "",
+      "en": "sunrise",
+      "phoneticUk": "skhid sontsya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "місячне світло",
+      "ru": "",
+      "en": "moonlight",
+      "phoneticUk": "misyachne svitlo",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "тінь",
+      "ru": "",
+      "en": "shade/shadow",
+      "phoneticUk": "tin",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "відлуння",
+      "ru": "",
+      "en": "echo",
+      "phoneticUk": "vidlunnya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "землетрус",
+      "ru": "",
+      "en": "earthquake",
+      "phoneticUk": "zemletrus",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "виверження",
+      "ru": "",
+      "en": "eruption",
+      "phoneticUk": "vyverzennya",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "лавина",
+      "ru": "",
+      "en": "avalanche",
+      "phoneticUk": "lavyna",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "цунамі",
+      "ru": "",
+      "en": "tsunami",
+      "phoneticUk": "tsunami",
+      "phoneticRu": "",
+      "category": "nature"
+    },
+    {
+      "uk": "апостол",
+      "ru": "",
+      "en": "apostle",
+      "phoneticUk": "apostol",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "біблія",
+      "ru": "",
+      "en": "Bible",
+      "phoneticUk": "bibliya",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "бог",
+      "ru": "",
+      "en": "God",
+      "phoneticUk": "boh",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "молитва",
+      "ru": "",
+      "en": "prayer",
+      "phoneticUk": "molytva",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "священик",
+      "ru": "",
+      "en": "priest",
+      "phoneticUk": "svyashchenyk",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "храм",
+      "ru": "",
+      "en": "temple/church",
+      "phoneticUk": "khram",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "ікона",
+      "ru": "",
+      "en": "icon",
+      "phoneticUk": "ikona",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "хрест",
+      "ru": "",
+      "en": "cross",
+      "phoneticUk": "khrest",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "свято",
+      "ru": "",
+      "en": "holiday/celebration",
+      "phoneticUk": "svyato",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "Великдень",
+      "ru": "",
+      "en": "Easter",
+      "phoneticUk": "Velykden",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "Різдво",
+      "ru": "",
+      "en": "Christmas",
+      "phoneticUk": "Rizdvo",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "ангел",
+      "ru": "",
+      "en": "angel",
+      "phoneticUk": "anhel",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "гріх",
+      "ru": "",
+      "en": "sin",
+      "phoneticUk": "hrikh",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "благословення",
+      "ru": "",
+      "en": "blessing",
+      "phoneticUk": "blahoslovennya",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "спасіння",
+      "ru": "",
+      "en": "salvation",
+      "phoneticUk": "spasinnya",
+      "phoneticRu": "",
+      "category": "religion"
+    },
+    {
+      "uk": "фармацевт",
+      "ru": "",
+      "en": "pharmacist",
+      "phoneticUk": "farmatsevt",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "психолог",
+      "ru": "",
+      "en": "psychologist",
+      "phoneticUk": "psykholoh",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "соціолог",
+      "ru": "",
+      "en": "sociologist",
+      "phoneticUk": "sotsioloh",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "економіст",
+      "ru": "",
+      "en": "economist",
+      "phoneticUk": "ekonomist",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "перекладач",
+      "ru": "",
+      "en": "translator/interpreter",
+      "phoneticUk": "perekladach",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "бібліотекар",
+      "ru": "",
+      "en": "librarian",
+      "phoneticUk": "bibliotekar",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "секретар",
+      "ru": "",
+      "en": "secretary",
+      "phoneticUk": "sekretar",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "офіціант",
+      "ru": "",
+      "en": "waiter",
+      "phoneticUk": "ofitsiant",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "офіціантка",
+      "ru": "",
+      "en": "waitress",
+      "phoneticUk": "ofitsiantka",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "прибиральниця",
+      "ru": "",
+      "en": "cleaner",
+      "phoneticUk": "prybyralnytsya",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "сантехнік",
+      "ru": "",
+      "en": "plumber",
+      "phoneticUk": "santekhnik",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "електрик",
+      "ru": "",
+      "en": "electrician",
+      "phoneticUk": "elektryk",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "механік",
+      "ru": "",
+      "en": "mechanic",
+      "phoneticUk": "mekhanik",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "ювелір",
+      "ru": "",
+      "en": "jeweler",
+      "phoneticUk": "yuvelir",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "кравець",
+      "ru": "",
+      "en": "tailor",
+      "phoneticUk": "kravets",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "пекар",
+      "ru": "",
+      "en": "baker",
+      "phoneticUk": "pekar",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "м'ясник",
+      "ru": "",
+      "en": "butcher",
+      "phoneticUk": "myasnyk",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "рибалка",
+      "ru": "",
+      "en": "fisherman",
+      "phoneticUk": "rybalka",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "мисливець",
+      "ru": "",
+      "en": "hunter",
+      "phoneticUk": "myslyvets",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "садівник",
+      "ru": "",
+      "en": "gardener",
+      "phoneticUk": "sadivnyk",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "дизайнер",
+      "ru": "",
+      "en": "designer",
+      "phoneticUk": "dyzayner",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "фотограф",
+      "ru": "",
+      "en": "photographer",
+      "phoneticUk": "fotohraf",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "оператор",
+      "ru": "",
+      "en": "operator",
+      "phoneticUk": "operator",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "диспетчер",
+      "ru": "",
+      "en": "dispatcher",
+      "phoneticUk": "dyspetcher",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "касир",
+      "ru": "",
+      "en": "cashier",
+      "phoneticUk": "kasyr",
+      "phoneticRu": "",
+      "category": "professions"
+    },
+    {
+      "uk": "",
+      "ru": "лес",
+      "en": "forest",
+      "phoneticUk": "",
+      "phoneticRu": "les",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "река",
+      "en": "river",
+      "phoneticUk": "",
+      "phoneticRu": "reka",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "гора",
+      "en": "mountain",
+      "phoneticUk": "",
+      "phoneticRu": "gora",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "поле",
+      "en": "field",
+      "phoneticUk": "",
+      "phoneticRu": "pole",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "море",
+      "en": "sea",
+      "phoneticUk": "",
+      "phoneticRu": "more",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "океан",
+      "en": "ocean",
+      "phoneticUk": "",
+      "phoneticRu": "okean",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "озеро",
+      "en": "lake",
+      "phoneticUk": "",
+      "phoneticRu": "ozero",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "остров",
+      "en": "island",
+      "phoneticUk": "",
+      "phoneticRu": "ostrov",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "ручей",
+      "en": "stream/brook",
+      "phoneticUk": "",
+      "phoneticRu": "ruchey",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "холм",
+      "en": "hill",
+      "phoneticUk": "",
+      "phoneticRu": "kholm",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "утёс",
+      "en": "cliff",
+      "phoneticUk": "",
+      "phoneticRu": "utyos",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "степь",
+      "en": "steppe",
+      "phoneticUk": "",
+      "phoneticRu": "step'",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "тайга",
+      "en": "taiga",
+      "phoneticUk": "",
+      "phoneticRu": "tayga",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "тундра",
+      "en": "tundra",
+      "phoneticUk": "",
+      "phoneticRu": "tundra",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "небо",
+      "en": "sky",
+      "phoneticUk": "",
+      "phoneticRu": "nebo",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "облако",
+      "en": "cloud",
+      "phoneticUk": "",
+      "phoneticRu": "oblako",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "звезда",
+      "en": "star",
+      "phoneticUk": "",
+      "phoneticRu": "zvezda",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "луна",
+      "en": "moon",
+      "phoneticUk": "",
+      "phoneticRu": "luna",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "солнце",
+      "en": "sun",
+      "phoneticUk": "",
+      "phoneticRu": "solntse",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "дождь",
+      "en": "rain",
+      "phoneticUk": "",
+      "phoneticRu": "dozhd'",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "снег",
+      "en": "snow",
+      "phoneticUk": "",
+      "phoneticRu": "sneg",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "ветер",
+      "en": "wind",
+      "phoneticUk": "",
+      "phoneticRu": "veter",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "гроза",
+      "en": "thunderstorm",
+      "phoneticUk": "",
+      "phoneticRu": "groza",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "радуга",
+      "en": "rainbow",
+      "phoneticUk": "",
+      "phoneticRu": "raduga",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "рассвет",
+      "en": "dawn/sunrise",
+      "phoneticUk": "",
+      "phoneticRu": "rassvet",
+      "category": "nature"
+    },
+    {
+      "uk": "",
+      "ru": "волк",
+      "en": "wolf",
+      "phoneticUk": "",
+      "phoneticRu": "volk",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "лиса",
+      "en": "fox",
+      "phoneticUk": "",
+      "phoneticRu": "lisa",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "заяц",
+      "en": "hare",
+      "phoneticUk": "",
+      "phoneticRu": "zayats",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "олень",
+      "en": "deer",
+      "phoneticUk": "",
+      "phoneticRu": "olen'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "белка",
+      "en": "squirrel",
+      "phoneticUk": "",
+      "phoneticRu": "belka",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "ёж",
+      "en": "hedgehog",
+      "phoneticUk": "",
+      "phoneticRu": "yozh",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "крот",
+      "en": "mole",
+      "phoneticUk": "",
+      "phoneticRu": "krot",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "сова",
+      "en": "owl",
+      "phoneticUk": "",
+      "phoneticRu": "sova",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "орёл",
+      "en": "eagle",
+      "phoneticUk": "",
+      "phoneticRu": "oryol",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "ястреб",
+      "en": "hawk",
+      "phoneticUk": "",
+      "phoneticRu": "yastreb",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "аист",
+      "en": "stork",
+      "phoneticUk": "",
+      "phoneticRu": "aist",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "лебедь",
+      "en": "swan",
+      "phoneticUk": "",
+      "phoneticRu": "lebed'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "утка",
+      "en": "duck",
+      "phoneticUk": "",
+      "phoneticRu": "utka",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "гусь",
+      "en": "goose",
+      "phoneticUk": "",
+      "phoneticRu": "gus'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "медведь",
+      "en": "bear",
+      "phoneticUk": "",
+      "phoneticRu": "medved'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "лось",
+      "en": "moose/elk",
+      "phoneticUk": "",
+      "phoneticRu": "los'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "кабан",
+      "en": "wild boar",
+      "phoneticUk": "",
+      "phoneticRu": "kaban",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "бобр",
+      "en": "beaver",
+      "phoneticUk": "",
+      "phoneticRu": "bobr",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "барсук",
+      "en": "badger",
+      "phoneticUk": "",
+      "phoneticRu": "barsuk",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "рысь",
+      "en": "lynx",
+      "phoneticUk": "",
+      "phoneticRu": "rys'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "ворона",
+      "en": "crow",
+      "phoneticUk": "",
+      "phoneticRu": "vorona",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "воробей",
+      "en": "sparrow",
+      "phoneticUk": "",
+      "phoneticRu": "vorobey",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "голубь",
+      "en": "pigeon/dove",
+      "phoneticUk": "",
+      "phoneticRu": "golub'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "соловей",
+      "en": "nightingale",
+      "phoneticUk": "",
+      "phoneticRu": "solovey",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "журавль",
+      "en": "crane (bird)",
+      "phoneticUk": "",
+      "phoneticRu": "zhuravl'",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "дятел",
+      "en": "woodpecker",
+      "phoneticUk": "",
+      "phoneticRu": "dyatel",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "змея",
+      "en": "snake",
+      "phoneticUk": "",
+      "phoneticRu": "zmeya",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "лягушка",
+      "en": "frog",
+      "phoneticUk": "",
+      "phoneticRu": "lyagushka",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "черепаха",
+      "en": "turtle/tortoise",
+      "phoneticUk": "",
+      "phoneticRu": "cherepakha",
+      "category": "animals-extra"
+    },
+    {
+      "uk": "",
+      "ru": "роза",
+      "en": "rose",
+      "phoneticUk": "",
+      "phoneticRu": "roza",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "тюльпан",
+      "en": "tulip",
+      "phoneticUk": "",
+      "phoneticRu": "tyul'pan",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "ромашка",
+      "en": "daisy/chamomile",
+      "phoneticUk": "",
+      "phoneticRu": "romashka",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "подсолнух",
+      "en": "sunflower",
+      "phoneticUk": "",
+      "phoneticRu": "podsolnukh",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "лилия",
+      "en": "lily",
+      "phoneticUk": "",
+      "phoneticRu": "liliya",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "фиалка",
+      "en": "violet",
+      "phoneticUk": "",
+      "phoneticRu": "fialka",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "гвоздика",
+      "en": "carnation",
+      "phoneticUk": "",
+      "phoneticRu": "gvozdika",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "ирис",
+      "en": "iris",
+      "phoneticUk": "",
+      "phoneticRu": "iris",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "пион",
+      "en": "peony",
+      "phoneticUk": "",
+      "phoneticRu": "pion",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "орхидея",
+      "en": "orchid",
+      "phoneticUk": "",
+      "phoneticRu": "orkhideya",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "астра",
+      "en": "aster",
+      "phoneticUk": "",
+      "phoneticRu": "astra",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "хризантема",
+      "en": "chrysanthemum",
+      "phoneticUk": "",
+      "phoneticRu": "khrizantema",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "нарцисс",
+      "en": "daffodil/narcissus",
+      "phoneticUk": "",
+      "phoneticRu": "nartsiss",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "василёк",
+      "en": "cornflower",
+      "phoneticUk": "",
+      "phoneticRu": "vasilyok",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "сирень",
+      "en": "lilac",
+      "phoneticUk": "",
+      "phoneticRu": "siren'",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "ландыш",
+      "en": "lily of the valley",
+      "phoneticUk": "",
+      "phoneticRu": "landysh",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "мак",
+      "en": "poppy",
+      "phoneticUk": "",
+      "phoneticRu": "mak",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "георгин",
+      "en": "dahlia",
+      "phoneticUk": "",
+      "phoneticRu": "georgin",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "незабудка",
+      "en": "forget-me-not",
+      "phoneticUk": "",
+      "phoneticRu": "nezabudka",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "колокольчик",
+      "en": "bellflower/bluebell",
+      "phoneticUk": "",
+      "phoneticRu": "kolokol'chik",
+      "category": "flowers"
+    },
+    {
+      "uk": "",
+      "ru": "урожай",
+      "en": "harvest/crop",
+      "phoneticUk": "",
+      "phoneticRu": "urozhay",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "пшеница",
+      "en": "wheat",
+      "phoneticUk": "",
+      "phoneticRu": "pshenitsa",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "кукуруза",
+      "en": "corn/maize",
+      "phoneticUk": "",
+      "phoneticRu": "kukuruza",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "подсолнечник",
+      "en": "sunflower (crop)",
+      "phoneticUk": "",
+      "phoneticRu": "podsolnechnik",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "удобрение",
+      "en": "fertilizer",
+      "phoneticUk": "",
+      "phoneticRu": "udobreniye",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "ферма",
+      "en": "farm",
+      "phoneticUk": "",
+      "phoneticRu": "ferma",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "зерно",
+      "en": "grain",
+      "phoneticUk": "",
+      "phoneticRu": "zerno",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "сено",
+      "en": "hay",
+      "phoneticUk": "",
+      "phoneticRu": "seno",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "пашня",
+      "en": "plowed field/arable land",
+      "phoneticUk": "",
+      "phoneticRu": "pashnya",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "посев",
+      "en": "sowing/seeding",
+      "phoneticUk": "",
+      "phoneticRu": "posev",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "рожь",
+      "en": "rye",
+      "phoneticUk": "",
+      "phoneticRu": "rozh'",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "овёс",
+      "en": "oats",
+      "phoneticUk": "",
+      "phoneticRu": "ovyos",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "ячмень",
+      "en": "barley",
+      "phoneticUk": "",
+      "phoneticRu": "yachmen'",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "плуг",
+      "en": "plow",
+      "phoneticUk": "",
+      "phoneticRu": "plug",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "комбайн",
+      "en": "combine harvester",
+      "phoneticUk": "",
+      "phoneticRu": "kombayn",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "теплица",
+      "en": "greenhouse",
+      "phoneticUk": "",
+      "phoneticRu": "teplitsa",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "огород",
+      "en": "vegetable garden",
+      "phoneticUk": "",
+      "phoneticRu": "ogorod",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "сад",
+      "en": "garden/orchard",
+      "phoneticUk": "",
+      "phoneticRu": "sad",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "виноградник",
+      "en": "vineyard",
+      "phoneticUk": "",
+      "phoneticRu": "vinogradnik",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "пастбище",
+      "en": "pasture",
+      "phoneticUk": "",
+      "phoneticRu": "pastbishche",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "скот",
+      "en": "cattle/livestock",
+      "phoneticUk": "",
+      "phoneticRu": "skot",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "доярка",
+      "en": "milkmaid",
+      "phoneticUk": "",
+      "phoneticRu": "doyarka",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "пчеловод",
+      "en": "beekeeper",
+      "phoneticUk": "",
+      "phoneticRu": "pchelovod",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "семена",
+      "en": "seeds",
+      "phoneticUk": "",
+      "phoneticRu": "semena",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "полив",
+      "en": "irrigation/watering",
+      "phoneticUk": "",
+      "phoneticRu": "poliv",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "чернозём",
+      "en": "black soil/chernozem",
+      "phoneticUk": "",
+      "phoneticRu": "chernozyom",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "силос",
+      "en": "silage",
+      "phoneticUk": "",
+      "phoneticRu": "silos",
+      "category": "agriculture"
+    },
+    {
+      "uk": "",
+      "ru": "жатва",
+      "en": "harvest/reaping",
+      "phoneticUk": "",
+      "phoneticRu": "zhatva",
+      "category": "agriculture"
+    }
+  ]
+}

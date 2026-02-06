@@ -1,0 +1,51 @@
+{
+  "lessonId": "verbs",
+  "nameEn": "Verb Conjugation",
+  "nameUk": "Дієвідмінювання",
+  "icon": "🔄",
+  "sections": [
+    {
+      "sectionId": "present",
+      "title": "Present Tense",
+      "explanation": "Ukrainian verbs change their endings based on the subject. There are two main conjugation groups. First conjugation uses endings -у/-ю, -еш, -е, -емо, -ете, -уть. Second conjugation uses -у/-ю, -иш, -ить, -имо, -ите, -ять.",
+      "examples": [
+        { "uk": "Я читаю книгу.", "en": "I read a book.", "highlight": "читаю" },
+        { "uk": "Ти говориш добре.", "en": "You speak well.", "highlight": "говориш" },
+        { "uk": "Вони працюють.", "en": "They work.", "highlight": "працюють" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "Conjugate 'читати' (to read) for 'ми' (we):", "options": ["читаємо", "читають", "читаєш"], "correctIndex": 0, "explanation": "'Ми читаємо' — first conjugation, -ємо ending for 'we'." },
+        { "type": "fill-blank", "prompt": "Він ___ каву. (пити - to drink)", "acceptedAnswers": ["п'є"], "hint": "Irregular verb: п'ю, п'єш, п'є..." },
+        { "type": "multiple-choice", "prompt": "Conjugate 'говорити' (to speak) for 'вони' (they):", "options": ["говорять", "говоримо", "говорить"], "correctIndex": 0, "explanation": "Second conjugation verbs use -ять for 'they'." }
+      ]
+    },
+    {
+      "sectionId": "past",
+      "title": "Past Tense",
+      "explanation": "The past tense in Ukrainian depends on the gender (not person!) of the subject. Masculine: -в/-ів, Feminine: -ла, Neuter: -ло, Plural: -ли.",
+      "examples": [
+        { "uk": "Він читав.", "en": "He read/was reading.", "highlight": "читав" },
+        { "uk": "Вона читала.", "en": "She read/was reading.", "highlight": "читала" },
+        { "uk": "Вони читали.", "en": "They read/were reading.", "highlight": "читали" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'Вона ___ листа.' (писати - to write)", "options": ["писала", "писав", "писали"], "correctIndex": 0, "explanation": "Feminine subject uses -ла ending." },
+        { "type": "fill-blank", "prompt": "Ми ___ в парку. (гуляти - to walk)", "acceptedAnswers": ["гуляли"], "hint": "Plural uses -ли ending" }
+      ]
+    },
+    {
+      "sectionId": "future",
+      "title": "Future Tense",
+      "explanation": "Ukrainian has two ways to form the future. Imperfective verbs use 'буду/будеш/буде...' + infinitive. Perfective verbs conjugate directly with present-tense endings.",
+      "examples": [
+        { "uk": "Я буду читати.", "en": "I will read/be reading.", "highlight": "буду читати" },
+        { "uk": "Вона прочитає.", "en": "She will read (and finish).", "highlight": "прочитає" },
+        { "uk": "Ми будемо вчитися.", "en": "We will study.", "highlight": "будемо вчитися" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'Ти ___ завтра працювати.' (future of працювати - to work)", "options": ["будеш", "буду", "будемо"], "correctIndex": 0, "explanation": "'Ти будеш' is 'you will' for imperfective future." },
+        { "type": "fill-blank", "prompt": "Вони ___ вечеряти. (to have dinner, future)", "acceptedAnswers": ["будуть"], "hint": "'They will' uses 'будуть' + infinitive" }
+      ]
+    }
+  ]
+}

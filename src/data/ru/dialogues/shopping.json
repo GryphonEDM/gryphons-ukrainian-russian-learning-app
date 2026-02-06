@@ -1,0 +1,85 @@
+{
+  "dialogueId": "shopping",
+  "nameEn": "At a Shop",
+  "nameRu": "В магазине",
+  "icon": "🛒",
+  "context": "You are shopping at a Russian clothing store. The shop assistant comes to help you find what you need and try on some clothes.",
+  "characters": {
+    "npc": { "name": "Продавец" },
+    "player": { "name": "Вы" }
+  },
+  "exchanges": [
+    {
+      "speaker": "npc",
+      "text": "Здравствуйте! Чем могу помочь?",
+      "translation": "Hello! How can I help you?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Hello, I am looking for a jacket'",
+      "acceptedResponses": ["здравствуйте, я ищу куртку", "здравствуйте я ищу куртку", "добрый день, я ищу куртку", "я ищу куртку"],
+      "keyWords": ["ищу", "куртку"],
+      "hint": "здравствуйте, я ищу ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "У нас большой выбор курток. Какой размер вам нужен?",
+      "translation": "We have a large selection of jackets. What size do you need?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'I need size medium'",
+      "acceptedResponses": ["мне нужен средний размер", "мне нужен размер м", "средний размер", "мне нужен размер средний"],
+      "keyWords": ["нужен", "средний"],
+      "hint": "мне нужен ... размер"
+    },
+    {
+      "speaker": "npc",
+      "text": "Вот, посмотрите эту куртку. Она очень популярная в этом сезоне.",
+      "translation": "Here, take a look at this jacket. It is very popular this season."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Ask 'How much does it cost?'",
+      "acceptedResponses": ["сколько она стоит?", "сколько она стоит", "сколько стоит?", "сколько это стоит?", "сколько стоит"],
+      "keyWords": ["сколько", "стоит"],
+      "hint": "сколько она ...?"
+    },
+    {
+      "speaker": "npc",
+      "text": "Эта куртка стоит пять тысяч рублей. Хотите примерить?",
+      "translation": "This jacket costs five thousand rubles. Would you like to try it on?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Yes, I want to try it on'",
+      "acceptedResponses": ["да, я хочу примерить", "да хочу примерить", "да, хочу", "да, можно примерить?", "можно примерить?"],
+      "keyWords": ["примерить"],
+      "hint": "да, я хочу ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Примерочная вон там, направо. Как вам куртка? Подходит?",
+      "translation": "The fitting room is over there, to the right. How is the jacket? Does it fit?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'It fits well, I will take it'",
+      "acceptedResponses": ["хорошо сидит, я беру", "хорошо подходит, я беру", "она хорошо сидит, я её беру", "подходит, я беру", "мне подходит, я беру"],
+      "keyWords": ["беру"],
+      "hint": "хорошо сидит, я ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Отлично! Будете платить наличными или картой?",
+      "translation": "Excellent! Will you pay with cash or card?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'I will pay by card'",
+      "acceptedResponses": ["картой", "я буду платить картой", "картой пожалуйста", "картой, пожалуйста"],
+      "keyWords": ["картой"],
+      "hint": "я буду платить ..."
+    }
+  ]
+}

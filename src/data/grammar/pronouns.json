@@ -1,0 +1,51 @@
+{
+  "lessonId": "pronouns",
+  "nameEn": "Pronouns",
+  "nameUk": "Займенники",
+  "icon": "👤",
+  "sections": [
+    {
+      "sectionId": "personal",
+      "title": "Personal Pronouns",
+      "explanation": "Ukrainian personal pronouns: я (I), ти (you informal), він (he), вона (she), воно (it), ми (we), ви (you formal/plural), вони (they). They change form in different cases.",
+      "examples": [
+        { "uk": "Я люблю каву.", "en": "I love coffee.", "highlight": "Я" },
+        { "uk": "Він працює тут.", "en": "He works here.", "highlight": "Він" },
+        { "uk": "Ви розумієте?", "en": "Do you understand?", "highlight": "Ви" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "What pronoun means 'she'?", "options": ["вона", "він", "воно"], "correctIndex": 0, "explanation": "'Вона' means 'she'. 'Він' = he, 'воно' = it." },
+        { "type": "fill-blank", "prompt": "___ вивчаємо українську. (We)", "acceptedAnswers": ["Ми", "ми"], "hint": "First person plural" },
+        { "type": "multiple-choice", "prompt": "Which is the formal 'you'?", "options": ["Ви", "Ти", "Вони"], "correctIndex": 0, "explanation": "'Ви' is formal/plural. 'Ти' is informal singular." }
+      ]
+    },
+    {
+      "sectionId": "possessive",
+      "title": "Possessive Pronouns",
+      "explanation": "Possessive pronouns: мій/моя/моє (my), твій/твоя/твоє (your), його (his/its), її (her), наш/наша/наше (our), ваш/ваша/ваше (your), їхній/їхня/їхнє (their). They agree in gender with the noun they modify.",
+      "examples": [
+        { "uk": "Це мій дім.", "en": "This is my house.", "highlight": "мій" },
+        { "uk": "Де твоя книга?", "en": "Where is your book?", "highlight": "твоя" },
+        { "uk": "Це наше місто.", "en": "This is our city.", "highlight": "наше" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'Це ___ кіт.' (my, masculine)", "options": ["мій", "моя", "моє"], "correctIndex": 0, "explanation": "'Мій' is used with masculine nouns. 'Кіт' is masculine." },
+        { "type": "fill-blank", "prompt": "Де ___ сумка? (your, informal, feminine)", "acceptedAnswers": ["твоя"], "hint": "Feminine form of 'your' (informal)" }
+      ]
+    },
+    {
+      "sectionId": "demonstrative",
+      "title": "Demonstrative Pronouns",
+      "explanation": "Demonstrative pronouns: цей/ця/це (this), той/та/те (that). They agree in gender and number with the noun. Plural: ці (these), ті (those).",
+      "examples": [
+        { "uk": "Цей хлопець розумний.", "en": "This boy is smart.", "highlight": "Цей" },
+        { "uk": "Та дівчина гарна.", "en": "That girl is beautiful.", "highlight": "Та" },
+        { "uk": "Ці книги нові.", "en": "These books are new.", "highlight": "Ці" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'___ будинок великий.' (This, masculine)", "options": ["Цей", "Ця", "Це"], "correctIndex": 0, "explanation": "'Цей' is used with masculine nouns." },
+        { "type": "fill-blank", "prompt": "___ книги цікаві. (These)", "acceptedAnswers": ["Ці", "ці"], "hint": "Plural form of 'this'" }
+      ]
+    }
+  ]
+}

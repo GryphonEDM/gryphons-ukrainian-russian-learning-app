@@ -1,0 +1,85 @@
+{
+  "dialogueId": "restaurant",
+  "nameEn": "At a Restaurant",
+  "nameRu": "В ресторане",
+  "icon": "🍽️",
+  "context": "You are at a Russian restaurant. The waiter approaches your table to take your order. Practice ordering food, asking about the menu, and paying the bill.",
+  "characters": {
+    "npc": { "name": "Официант" },
+    "player": { "name": "Вы" }
+  },
+  "exchanges": [
+    {
+      "speaker": "npc",
+      "text": "Добрый день! Добро пожаловать в наш ресторан! Вот ваше меню.",
+      "translation": "Good day! Welcome to our restaurant! Here is your menu."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Good day' and 'thank you'",
+      "acceptedResponses": ["добрый день, спасибо", "добрый день спасибо", "добрый день! спасибо!", "здравствуйте, спасибо"],
+      "keyWords": ["добрый", "день", "спасибо"],
+      "hint": "добрый день, ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Вы готовы заказать или вам нужно ещё время?",
+      "translation": "Are you ready to order or do you need more time?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'I am ready to order'",
+      "acceptedResponses": ["я готов заказать", "я готова заказать", "да, я готов заказать", "да, я готова заказать", "я готов", "я готова"],
+      "keyWords": ["готов", "заказать"],
+      "hint": "я готов(а) ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Что вы будете? У нас сегодня отличный борщ и пельмени.",
+      "translation": "What will you have? Today we have excellent borscht and pelmeni."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Order borscht please",
+      "acceptedResponses": ["борщ, пожалуйста", "я буду борщ", "мне борщ пожалуйста", "я хочу борщ", "дайте мне борщ пожалуйста", "борщ пожалуйста"],
+      "keyWords": ["борщ"],
+      "hint": "борщ, ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Отличный выбор! Хотите что-нибудь на второе?",
+      "translation": "Excellent choice! Would you like something for the main course?"
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Yes, pelmeni please'",
+      "acceptedResponses": ["да, пельмени пожалуйста", "да пельмени пожалуйста", "пельмени, пожалуйста", "пельмени пожалуйста", "да, и пельмени"],
+      "keyWords": ["пельмени", "пожалуйста"],
+      "hint": "да, пельмени ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Что будете пить? У нас есть чай, кофе, сок и вода.",
+      "translation": "What will you drink? We have tea, coffee, juice, and water."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Order tea with lemon",
+      "acceptedResponses": ["чай с лимоном пожалуйста", "чай с лимоном", "мне чай с лимоном", "я буду чай с лимоном"],
+      "keyWords": ["чай", "лимоном"],
+      "hint": "чай с ..."
+    },
+    {
+      "speaker": "npc",
+      "text": "Всё было вкусно? Вот ваш счёт — восемьсот рублей.",
+      "translation": "Was everything tasty? Here is your bill — eight hundred rubles."
+    },
+    {
+      "speaker": "player",
+      "prompt": "Say 'Thank you, everything was very tasty'",
+      "acceptedResponses": ["спасибо, всё было очень вкусно", "спасибо всё было очень вкусно", "спасибо, было очень вкусно", "спасибо было вкусно"],
+      "keyWords": ["спасибо", "вкусно"],
+      "hint": "спасибо, всё было ..."
+    }
+  ]
+}

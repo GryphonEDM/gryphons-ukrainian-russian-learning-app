@@ -1,0 +1,158 @@
+{
+  "lessonId": "cases",
+  "nameEn": "Cases",
+  "nameRu": "Падежи",
+  "icon": "📐",
+  "sections": [
+    {
+      "sectionId": "nominative",
+      "title": "Nominative Case (Именительный)",
+      "explanation": "The nominative case is the basic form of a noun — the subject of a sentence. It answers 'who?' (кто?) or 'what?' (что?).",
+      "examples": [
+        { "ru": "Кот спит.", "en": "The cat is sleeping.", "highlight": "Кот" },
+        { "ru": "Мама готовит.", "en": "Mom is cooking.", "highlight": "Мама" },
+        { "ru": "Книга интересная.", "en": "The book is interesting.", "highlight": "Книга" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Which word is in the nominative case? 'Мальчик читает книгу.'",
+          "options": ["Мальчик", "книгу", "читает"],
+          "correctIndex": 0,
+          "explanation": "'Мальчик' (the boy) is the subject doing the action."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "___ идёт в школу. (девочка - girl)",
+          "acceptedAnswers": ["Девочка", "девочка"],
+          "hint": "The subject form of 'girl'"
+        }
+      ]
+    },
+    {
+      "sectionId": "genitive",
+      "title": "Genitive Case (Родительный)",
+      "explanation": "The genitive case shows possession, absence, or origin. It answers 'whose?' (чей?), 'of whom?' (кого?), or 'of what?' (чего?). It is also used after numbers (2-4 with genitive singular, 5+ with genitive plural) and with many prepositions like 'из', 'от', 'без', 'у'.",
+      "examples": [
+        { "ru": "Это книга брата.", "en": "This is my brother's book.", "highlight": "брата" },
+        { "ru": "У меня нет машины.", "en": "I don't have a car.", "highlight": "машины" },
+        { "ru": "Стакан воды.", "en": "A glass of water.", "highlight": "воды" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct genitive form: 'У меня нет ___.' (сестра - sister)",
+          "options": ["сестра", "сестры", "сестру"],
+          "correctIndex": 1,
+          "explanation": "After 'нет' we use the genitive case. 'Сестра' becomes 'сестры' in the genitive."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Это дом ___. (друг - friend)",
+          "acceptedAnswers": ["друга"],
+          "hint": "Masculine nouns ending in a consonant add -а in the genitive"
+        }
+      ]
+    },
+    {
+      "sectionId": "dative",
+      "title": "Dative Case (Дательный)",
+      "explanation": "The dative case indicates the indirect object — the person or thing that receives something. It answers 'to whom?' (кому?) or 'to what?' (чему?). Used with prepositions like 'к' (toward) and 'по' (along, by).",
+      "examples": [
+        { "ru": "Я дал книгу другу.", "en": "I gave the book to a friend.", "highlight": "другу" },
+        { "ru": "Маме нравится музыка.", "en": "Mom likes music.", "highlight": "Маме" },
+        { "ru": "Мне холодно.", "en": "I am cold.", "highlight": "Мне" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct dative form: 'Я позвонил ___.' (сестра - sister)",
+          "options": ["сестра", "сестру", "сестре"],
+          "correctIndex": 2,
+          "explanation": "'Сестра' becomes 'сестре' in the dative case. Feminine nouns ending in -а change to -е."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Я написал письмо ___. (брат - brother)",
+          "acceptedAnswers": ["брату"],
+          "hint": "Masculine nouns ending in a consonant add -у in the dative"
+        }
+      ]
+    },
+    {
+      "sectionId": "accusative",
+      "title": "Accusative Case (Винительный)",
+      "explanation": "The accusative case marks the direct object of a verb — what or whom the action is directed at. It answers 'whom?' (кого?) or 'what?' (что?). For inanimate masculine nouns and all neuter nouns, it looks the same as the nominative. For animate masculine nouns, it looks like the genitive.",
+      "examples": [
+        { "ru": "Я вижу дом.", "en": "I see the house.", "highlight": "дом" },
+        { "ru": "Она читает книгу.", "en": "She is reading a book.", "highlight": "книгу" },
+        { "ru": "Мы любим маму.", "en": "We love mom.", "highlight": "маму" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct accusative form: 'Я вижу ___.' (кошка - cat, feminine)",
+          "options": ["кошка", "кошку", "кошки"],
+          "correctIndex": 1,
+          "explanation": "Feminine nouns ending in -а change to -у in the accusative case."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Она купила ___. (газета - newspaper)",
+          "acceptedAnswers": ["газету"],
+          "hint": "Feminine nouns ending in -а change to -у in the accusative"
+        }
+      ]
+    },
+    {
+      "sectionId": "instrumental",
+      "title": "Instrumental Case (Творительный)",
+      "explanation": "The instrumental case shows the means or instrument by which an action is done. It answers 'by whom?' (кем?) or 'by what?' (чем?). It is also used with prepositions like 'с' (with), 'за' (behind), 'перед' (in front of), 'между' (between), and after the verb 'быть' (to be) in past/future tense.",
+      "examples": [
+        { "ru": "Я пишу ручкой.", "en": "I write with a pen.", "highlight": "ручкой" },
+        { "ru": "Он стал врачом.", "en": "He became a doctor.", "highlight": "врачом" },
+        { "ru": "Я иду с другом.", "en": "I'm going with a friend.", "highlight": "другом" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct instrumental form: 'Я режу хлеб ___.' (нож - knife)",
+          "options": ["нож", "ножа", "ножом"],
+          "correctIndex": 2,
+          "explanation": "Masculine nouns ending in a consonant add -ом in the instrumental case. 'Нож' becomes 'ножом'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Она пьёт чай с ___. (молоко - milk)",
+          "acceptedAnswers": ["молоком"],
+          "hint": "Neuter nouns ending in -о change to -ом in the instrumental"
+        }
+      ]
+    },
+    {
+      "sectionId": "prepositional",
+      "title": "Prepositional Case (Предложный)",
+      "explanation": "The prepositional case is always used with a preposition, most commonly 'в' (in), 'на' (on/at), and 'о' (about). It answers 'about whom?' (о ком?) or 'about what?' (о чём?), or 'where?' (где?) when indicating location.",
+      "examples": [
+        { "ru": "Я живу в Москве.", "en": "I live in Moscow.", "highlight": "Москве" },
+        { "ru": "Мы говорим о погоде.", "en": "We are talking about the weather.", "highlight": "погоде" },
+        { "ru": "Книга на столе.", "en": "The book is on the table.", "highlight": "столе" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct prepositional form: 'Я думаю о ___.' (мама - mom)",
+          "options": ["мама", "маму", "маме"],
+          "correctIndex": 2,
+          "explanation": "After 'о' (about) we use the prepositional case. 'Мама' becomes 'маме'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Мы живём в ___. (город - city)",
+          "acceptedAnswers": ["городе"],
+          "hint": "Masculine nouns ending in a consonant add -е in the prepositional"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "lessonId": "verbs",
+  "nameEn": "Verb Conjugation",
+  "nameRu": "Спряжение глаголов",
+  "icon": "🏃",
+  "sections": [
+    {
+      "sectionId": "present-1st-conjugation",
+      "title": "Present Tense — 1st Conjugation (I спряжение)",
+      "explanation": "First conjugation verbs typically have infinitives ending in -ать, -ять, -еть, or -овать. In the present tense, they use the endings: -ю/-у, -ешь, -ет, -ем, -ете, -ют/-ут. For example: читать (to read) — я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают.",
+      "examples": [
+        { "ru": "Я читаю книгу.", "en": "I am reading a book.", "highlight": "читаю" },
+        { "ru": "Ты работаешь в офисе.", "en": "You work in an office.", "highlight": "работаешь" },
+        { "ru": "Они знают правду.", "en": "They know the truth.", "highlight": "знают" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct form: 'Мы ___ музыку.' (слушать - to listen)",
+          "options": ["слушаем", "слушаим", "слушают"],
+          "correctIndex": 0,
+          "explanation": "'Мы' (we) takes the ending -ем for 1st conjugation verbs: слушаем."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Она ___ по-русски. (понимать - to understand)",
+          "acceptedAnswers": ["понимает"],
+          "hint": "Third person singular of 1st conjugation: -ет"
+        }
+      ]
+    },
+    {
+      "sectionId": "present-2nd-conjugation",
+      "title": "Present Tense — 2nd Conjugation (II спряжение)",
+      "explanation": "Second conjugation verbs typically have infinitives ending in -ить (with some exceptions). In the present tense, they use the endings: -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат. For example: говорить (to speak) — я говорю, ты говоришь, он говорит, мы говорим, вы говорите, они говорят.",
+      "examples": [
+        { "ru": "Я говорю по-русски.", "en": "I speak Russian.", "highlight": "говорю" },
+        { "ru": "Ты любишь кофе.", "en": "You like coffee.", "highlight": "любишь" },
+        { "ru": "Они смотрят фильм.", "en": "They are watching a movie.", "highlight": "смотрят" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct form: 'Вы ___ по телефону.' (говорить - to speak)",
+          "options": ["говорете", "говорите", "говорят"],
+          "correctIndex": 1,
+          "explanation": "'Вы' takes the ending -ите for 2nd conjugation verbs: говорите."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Мы ___ в парке. (ходить - to walk/go)",
+          "acceptedAnswers": ["ходим"],
+          "hint": "First person plural of 2nd conjugation: -им"
+        }
+      ]
+    },
+    {
+      "sectionId": "past-tense",
+      "title": "Past Tense (Прошедшее время)",
+      "explanation": "The past tense in Russian is formed by removing -ть from the infinitive and adding: -л (masculine), -ла (feminine), -ло (neuter), -ли (plural). The past tense agrees with the gender and number of the subject, not the person. For example: читать — он читал, она читала, оно читало, они читали.",
+      "examples": [
+        { "ru": "Он читал газету.", "en": "He was reading a newspaper.", "highlight": "читал" },
+        { "ru": "Она работала вчера.", "en": "She worked yesterday.", "highlight": "работала" },
+        { "ru": "Дети играли в саду.", "en": "The children played in the garden.", "highlight": "играли" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct past tense form: 'Мама ___ обед.' (готовить - to cook)",
+          "options": ["готовил", "готовила", "готовило"],
+          "correctIndex": 1,
+          "explanation": "'Мама' is feminine, so we use the feminine ending -ла: готовила."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Мы ___ в кино вчера. (ходить - to go)",
+          "acceptedAnswers": ["ходили"],
+          "hint": "Plural past tense ending is -ли"
+        }
+      ]
+    },
+    {
+      "sectionId": "future-tense",
+      "title": "Future Tense (Будущее время)",
+      "explanation": "There are two ways to form the future tense. For imperfective verbs, use the future of 'быть' (буду, будешь, будет, будем, будете, будут) + infinitive. For perfective verbs, conjugate them like the present tense. For example: я буду читать (I will read, imperfective) vs. я прочитаю (I will read/finish reading, perfective).",
+      "examples": [
+        { "ru": "Я буду учить русский.", "en": "I will study Russian.", "highlight": "буду учить" },
+        { "ru": "Она напишет письмо.", "en": "She will write a letter.", "highlight": "напишет" },
+        { "ru": "Мы будем ждать.", "en": "We will wait.", "highlight": "будем ждать" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct imperfective future: 'Они ___ работать завтра.'",
+          "options": ["будут", "будет", "буду"],
+          "correctIndex": 0,
+          "explanation": "'Они' (they) takes 'будут' in the future tense of 'быть'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Ты ___ смотреть телевизор? (future imperfective)",
+          "acceptedAnswers": ["будешь"],
+          "hint": "'Ты' form of 'быть' in the future is 'будешь'"
+        }
+      ]
+    }
+  ]
+}

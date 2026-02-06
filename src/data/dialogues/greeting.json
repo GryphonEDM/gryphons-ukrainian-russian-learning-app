@@ -1,0 +1,23 @@
+{
+  "dialogueId": "greeting",
+  "nameEn": "Meeting Someone New",
+  "nameUk": "Знайомство",
+  "icon": "👋",
+  "context": "You are meeting a new Ukrainian friend for the first time at a cafe. Introduce yourself and have a simple conversation.",
+  "characters": {
+    "npc": { "name": "Олена" },
+    "player": { "name": "Ви" }
+  },
+  "exchanges": [
+    { "speaker": "npc", "text": "Привіт! Я Олена. А ти?", "translation": "Hi! I am Olena. And you?" },
+    { "speaker": "player", "prompt": "Say hello and introduce yourself (say 'I am...' with any name)", "acceptedResponses": ["привіт, я", "привіт! я", "привіт"], "keyWords": ["привіт"], "hint": "привіт, я..." },
+    { "speaker": "npc", "text": "Приємно познайомитися! Як справи?", "translation": "Nice to meet you! How are you?" },
+    { "speaker": "player", "prompt": "Say 'good, thank you'", "acceptedResponses": ["добре, дякую", "добре дякую", "все добре, дякую", "гарно, дякую", "добре"], "keyWords": ["добре", "дякую"], "hint": "добре, дякую" },
+    { "speaker": "npc", "text": "Ти вивчаєш українську?", "translation": "Are you studying Ukrainian?" },
+    { "speaker": "player", "prompt": "Say 'yes, I study Ukrainian'", "acceptedResponses": ["так, я вивчаю українську", "так я вивчаю українську", "так, вивчаю", "так"], "keyWords": ["так", "вивчаю"], "hint": "так, я вивчаю..." },
+    { "speaker": "npc", "text": "Чудово! Ти добре говориш!", "translation": "Wonderful! You speak well!" },
+    { "speaker": "player", "prompt": "Say 'thank you!'", "acceptedResponses": ["дякую", "дякую!", "дуже дякую"], "keyWords": ["дякую"], "hint": "дякую" },
+    { "speaker": "npc", "text": "До зустрічі! Бувай!", "translation": "See you! Bye!" },
+    { "speaker": "player", "prompt": "Say 'goodbye, see you'", "acceptedResponses": ["до побачення", "до зустрічі", "бувай", "бувай!"], "keyWords": ["побачення", "зустрічі", "бувай"], "hint": "до побачення" }
+  ]
+}

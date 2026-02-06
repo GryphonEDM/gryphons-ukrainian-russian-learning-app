@@ -1,0 +1,51 @@
+{
+  "lessonId": "adjectives",
+  "nameEn": "Adjectives",
+  "nameUk": "Прикметники",
+  "icon": "🎨",
+  "sections": [
+    {
+      "sectionId": "gender-agreement",
+      "title": "Gender Agreement",
+      "explanation": "Ukrainian adjectives change form to agree with the gender of the noun. Masculine: -ий/-ій, Feminine: -а/-я, Neuter: -е/-є. Example: великий (m), велика (f), велике (n) = big.",
+      "examples": [
+        { "uk": "Великий дім.", "en": "A big house. (masculine)", "highlight": "Великий" },
+        { "uk": "Велика книга.", "en": "A big book. (feminine)", "highlight": "Велика" },
+        { "uk": "Велике місто.", "en": "A big city. (neuter)", "highlight": "Велике" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'___ кіт спить.' (small, masculine)", "options": ["Маленький", "Маленька", "Маленьке"], "correctIndex": 0, "explanation": "'Кіт' is masculine, so the adjective is 'маленький'." },
+        { "type": "fill-blank", "prompt": "___ дівчинка сміється. (beautiful, feminine - гарний)", "acceptedAnswers": ["Гарна", "гарна"], "hint": "Feminine adjective ending: -а" },
+        { "type": "multiple-choice", "prompt": "'___ сонце сяє.' (bright - яскравий)", "options": ["Яскраве", "Яскравий", "Яскрава"], "correctIndex": 0, "explanation": "'Сонце' is neuter, so use the neuter form 'яскраве'." }
+      ]
+    },
+    {
+      "sectionId": "plural",
+      "title": "Plural Adjectives",
+      "explanation": "In the plural, adjectives have one form for all genders: -і. Example: великі будинки (big houses), великі книги (big books), великі міста (big cities).",
+      "examples": [
+        { "uk": "Великі будинки.", "en": "Big houses.", "highlight": "Великі" },
+        { "uk": "Гарні квіти.", "en": "Beautiful flowers.", "highlight": "Гарні" },
+        { "uk": "Нові учні.", "en": "New students.", "highlight": "Нові" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'___ діти граються.' (small, plural)", "options": ["Маленькі", "Маленький", "Маленька"], "correctIndex": 0, "explanation": "Plural adjectives always end in -і." },
+        { "type": "fill-blank", "prompt": "___ машини їдуть. (new, plural - новий)", "acceptedAnswers": ["Нові", "нові"], "hint": "Plural form ending: -і" }
+      ]
+    },
+    {
+      "sectionId": "cases",
+      "title": "Adjectives in Cases",
+      "explanation": "Adjectives also change with cases, matching the noun they modify. The most common changes: accusative feminine -у (велику), genitive masculine/neuter -ого (великого), genitive feminine -ої (великої).",
+      "examples": [
+        { "uk": "Я бачу велику собаку.", "en": "I see a big dog. (acc.)", "highlight": "велику" },
+        { "uk": "Це книга старого вчителя.", "en": "This is the old teacher's book. (gen.)", "highlight": "старого" },
+        { "uk": "У нового будинку.", "en": "In a new house. (loc.)", "highlight": "нового" }
+      ],
+      "exercises": [
+        { "type": "multiple-choice", "prompt": "'Я читаю ___ книгу.' (interesting, acc. feminine)", "options": ["цікаву", "цікавий", "цікаве"], "correctIndex": 0, "explanation": "Accusative feminine adjectives end in -у." },
+        { "type": "fill-blank", "prompt": "Це дім ___ друга. (good, genitive masc. - добрий)", "acceptedAnswers": ["доброго"], "hint": "Genitive masculine: -ого" }
+      ]
+    }
+  ]
+}

@@ -1,363 +1,192 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { UKRAINIAN_KEYBOARD, UK_TO_QWERTY, LETTER_INFO } from './data/keyboard.js';
+import { LESSONS, ALPHABET_CHALLENGE } from './data/lessons.js';
+import { ACHIEVEMENTS } from './data/achievements.js';
+import { TRANSLATIONS } from './data/translations.js';
+import { getAllVocabularyWords } from './utils/dictionaryBuilder.js';
+import { ENCOURAGEMENTS, MISTAKE_MESSAGES, ENCOURAGEMENTS_RU, MISTAKE_MESSAGES_RU } from './utils/encouragement.js';
+import { getLanguageData, LANGUAGES } from './data/languageConfig.js';
+import { createAudioContext, playSound } from './utils/soundEffects.js';
+import FlashcardMode from './components/modes/FlashcardMode.jsx';
+import CustomFlashcardManager from './components/modes/CustomFlashcardManager.jsx';
+import TranslatorMode from './components/modes/TranslatorMode.jsx';
+import ListeningMode from './components/modes/ListeningMode.jsx';
+import TranslationPracticeMode from './components/modes/TranslationPracticeMode.jsx';
+import GrammarMode from './components/modes/GrammarMode.jsx';
+import SentenceMode from './components/modes/SentenceMode.jsx';
+import DialogueMode from './components/modes/DialogueMode.jsx';
+import ReadingMode from './components/modes/ReadingMode.jsx';
 
-// Ukrainian keyboard layout data with pronunciation guides and finger positions
-const UKRAINIAN_KEYBOARD = [
-  [
-    { uk: 'й', qwerty: 'q', sound: 'y (short)', ukrainianPhonetic: 'йот', finger: 'pinky-l' },
-    { uk: 'ц', qwerty: 'w', sound: 'ts', ukrainianPhonetic: 'це', finger: 'ring-l' },
-    { uk: 'у', qwerty: 'e', sound: 'oo', ukrainianPhonetic: 'у', finger: 'middle-l' },
-    { uk: 'к', qwerty: 'r', sound: 'k', ukrainianPhonetic: 'ка', finger: 'index-l' },
-    { uk: 'е', qwerty: 't', sound: 'eh', ukrainianPhonetic: 'е', finger: 'index-l' },
-    { uk: 'н', qwerty: 'y', sound: 'n', ukrainianPhonetic: 'ен', finger: 'index-r' },
-    { uk: 'г', qwerty: 'u', sound: 'h (voiced)', ukrainianPhonetic: 'ге', finger: 'index-r' },
-    { uk: 'ш', qwerty: 'i', sound: 'sh', ukrainianPhonetic: 'ша', finger: 'middle-r' },
-    { uk: 'щ', qwerty: 'o', sound: 'shch', ukrainianPhonetic: 'ща', finger: 'ring-r' },
-    { uk: 'з', qwerty: 'p', sound: 'z', ukrainianPhonetic: 'зе', finger: 'pinky-r' },
-    { uk: 'х', qwerty: '[', sound: 'kh', ukrainianPhonetic: 'ха', finger: 'pinky-r' },
-    { uk: 'ї', qwerty: ']', sound: 'yee', ukrainianPhonetic: 'ї', finger: 'pinky-r' },
-  ],
-  [
-    { uk: 'ф', qwerty: 'a', sound: 'f', ukrainianPhonetic: 'еф', finger: 'pinky-l' },
-    { uk: 'і', qwerty: 's', sound: 'ee', ukrainianPhonetic: 'і', finger: 'ring-l' },
-    { uk: 'в', qwerty: 'd', sound: 'v', ukrainianPhonetic: 'ве', finger: 'middle-l' },
-    { uk: 'а', qwerty: 'f', sound: 'ah', ukrainianPhonetic: 'а', finger: 'index-l' },
-    { uk: 'п', qwerty: 'g', sound: 'p', ukrainianPhonetic: 'пе', finger: 'index-l' },
-    { uk: 'р', qwerty: 'h', sound: 'r (rolled)', ukrainianPhonetic: 'ер', finger: 'index-r' },
-    { uk: 'о', qwerty: 'j', sound: 'oh', ukrainianPhonetic: 'о', finger: 'index-r' },
-    { uk: 'л', qwerty: 'k', sound: 'l', ukrainianPhonetic: 'ел', finger: 'middle-r' },
-    { uk: 'д', qwerty: 'l', sound: 'd', ukrainianPhonetic: 'де', finger: 'ring-r' },
-    { uk: 'ж', qwerty: ';', sound: 'zh (pleasure)', ukrainianPhonetic: 'же', finger: 'pinky-r' },
-    { uk: 'є', qwerty: "'", sound: 'yeh', ukrainianPhonetic: 'є', finger: 'pinky-r' },
-  ],
-  [
-    { uk: 'я', qwerty: 'z', sound: 'ya', ukrainianPhonetic: 'йа', finger: 'pinky-l' },
-    { uk: 'ч', qwerty: 'x', sound: 'ch', ukrainianPhonetic: 'че', finger: 'ring-l' },
-    { uk: 'с', qwerty: 'c', sound: 's', ukrainianPhonetic: 'ес', finger: 'middle-l' },
-    { uk: 'м', qwerty: 'v', sound: 'm', ukrainianPhonetic: 'ем', finger: 'index-l' },
-    { uk: 'и', qwerty: 'b', sound: 'ɪ (short i)', ukrainianPhonetic: 'и', finger: 'index-l' },
-    { uk: 'т', qwerty: 'n', sound: 't', ukrainianPhonetic: 'те', finger: 'index-r' },
-    { uk: 'ь', qwerty: 'm', sound: '(soft sign)', ukrainianPhonetic: 'м\'який знак', finger: 'index-r' },
-    { uk: 'б', qwerty: ',', sound: 'b', ukrainianPhonetic: 'бе', finger: 'middle-r' },
-    { uk: 'ю', qwerty: '.', sound: 'yu', ukrainianPhonetic: 'ю', finger: 'ring-r' },
-    { uk: '.', qwerty: '/', sound: '(period)', ukrainianPhonetic: 'крапка', finger: 'pinky-r' },
-  ]
+// Import grammar data
+import casesData from './data/grammar/cases.json';
+import verbsData from './data/grammar/verbs.json';
+import pronounsData from './data/grammar/pronouns.json';
+import adjectivesData from './data/grammar/adjectives.json';
+import wordOrderData from './data/grammar/wordOrder.json';
+
+// Import sentence data
+import sentenceData from './data/sentences.json';
+
+// Import dialogue data
+import restaurantDialogue from './data/dialogues/restaurant.json';
+import directionsDialogue from './data/dialogues/directions.json';
+import shoppingDialogue from './data/dialogues/shopping.json';
+import greetingDialogue from './data/dialogues/greeting.json';
+
+// Import reading data
+import beginnerReading from './data/reading/beginner.json';
+import intermediateReading from './data/reading/intermediate.json';
+import advancedReading from './data/reading/advanced.json';
+
+// Import Russian grammar data
+import ruCasesData from './data/ru/grammar/cases.json';
+import ruVerbsData from './data/ru/grammar/verbs.json';
+import ruPronounsData from './data/ru/grammar/pronouns.json';
+import ruAdjectivesData from './data/ru/grammar/adjectives.json';
+import ruWordOrderData from './data/ru/grammar/wordOrder.json';
+
+// Import Russian sentence data
+import ruSentenceData from './data/ru/sentences.json';
+
+// Import Russian dialogue data
+import ruRestaurantDialogue from './data/ru/dialogues/restaurant.json';
+import ruDirectionsDialogue from './data/ru/dialogues/directions.json';
+import ruShoppingDialogue from './data/ru/dialogues/shopping.json';
+import ruGreetingDialogue from './data/ru/dialogues/greeting.json';
+
+// Import Russian reading data
+import ruBeginnerReading from './data/ru/reading/beginner.json';
+import ruIntermediateReading from './data/ru/reading/intermediate.json';
+import ruAdvancedReading from './data/ru/reading/advanced.json';
+
+// Import vocabulary theme data
+import colorsData from './data/vocabulary/themes/colors.json';
+import animalsData from './data/vocabulary/themes/animals.json';
+import familyData from './data/vocabulary/themes/family.json';
+import emotionsData from './data/vocabulary/themes/emotions.json';
+import weatherData from './data/vocabulary/themes/weather.json';
+import travelData from './data/vocabulary/themes/travel.json';
+import bodyData from './data/vocabulary/themes/body.json';
+import houseData from './data/vocabulary/themes/house.json';
+import adultData from './data/vocabulary/adult-vocabulary.json';
+
+
+const VOCABULARY_THEMES = [
+  colorsData,
+  animalsData,
+  familyData,
+  emotionsData,
+  weatherData,
+  travelData,
+  bodyData,
+  houseData
 ];
 
-// Build lookup maps from keyboard data
-const UK_TO_QWERTY = {};
-const LETTER_INFO = {};
-UKRAINIAN_KEYBOARD.forEach(row => {
-  row.forEach(key => {
-    UK_TO_QWERTY[key.uk] = key.qwerty;
-    UK_TO_QWERTY[key.uk.toUpperCase()] = key.qwerty.toUpperCase();
-    LETTER_INFO[key.uk] = key;
-  });
-});
-UK_TO_QWERTY[' '] = ' ';
-UK_TO_QWERTY["'"] = "'";
-UK_TO_QWERTY['ґ'] = '`';
+const ADULT_VOCABULARY = adultData;
 
-// Helper function to clean phonetic sounds for TTS
-// Removes parenthetical explanations like "y (short)" -> "y"
-const cleanSoundForTTS = (sound) => {
-  if (!sound) return '';
-  // Remove anything in parentheses and trim whitespace
-  return sound.replace(/\([^)]*\)/g, '').trim();
+// Build category-grouped flashcard sets from the full dictionary
+const CATEGORY_GROUPS = {
+  'verbs-all': { nameEn: 'All Verbs', nameUk: 'Всі дієслова', nameRu: 'Все глаголы', icon: '🏃', difficulty: 'A1-B2', categories: ['verbs', 'verbs-general', 'verbs-motion', 'verbs-social', 'verbs-daily', 'verbs-misc', 'cooking-verbs'] },
+  'adjectives-all': { nameEn: 'Adjectives & Adverbs', nameUk: 'Прикметники та прислівники', nameRu: 'Прилагательные и наречия', icon: '🌈', difficulty: 'A1-B2', categories: ['adjectives', 'adverbs', 'adverbs-conjunctions', 'common-adj', 'weather-adj'] },
+  'food-all': { nameEn: 'Food, Drinks & Cooking', nameUk: 'Їжа, напої та кулінарія', nameRu: 'Еда, напитки и кулинария', icon: '🍽️', difficulty: 'A1-B1', categories: ['food', 'food-extra', 'food-spices', 'cooking', 'fruits', 'beverages', 'seafood'] },
+  'nature-all': { nameEn: 'Nature & Animals', nameUk: 'Природа та тварини', nameRu: 'Природа и животные', icon: '🌿', difficulty: 'A1-B1', categories: ['animals', 'animals-extra', 'nature', 'nature-extra', 'birds', 'insects', 'flowers', 'marine', 'agriculture', 'gardening', 'outdoor'] },
+  'body-medical': { nameEn: 'Body & Medicine', nameUk: 'Тіло та медицина', nameRu: 'Тело и медицина', icon: '🏥', difficulty: 'A2-B2', categories: ['body', 'body-parts', 'body-organs', 'medical', 'medical-extra', 'medicine'] },
+  'colors-weather': { nameEn: 'Colors & Weather', nameUk: 'Кольори та погода', nameRu: 'Цвета и погода', icon: '🌤️', difficulty: 'A1', categories: ['colors', 'weather'] },
+  'places-geo': { nameEn: 'Places & Geography', nameUk: 'Місця та географія', nameRu: 'Места и география', icon: '🗺️', difficulty: 'A2-B1', categories: ['nouns-places', 'places', 'geography', 'directions', 'architecture', 'outdoor'] },
+  'people-family': { nameEn: 'People & Professions', nameUk: 'Люди та професії', nameRu: 'Люди и профессии', icon: '👨‍👩‍👧‍👦', difficulty: 'A1-B1', categories: ['family', 'nouns-people', 'professions', 'professions-extra', 'society'] },
+  'travel-all': { nameEn: 'Travel & Transport', nameUk: 'Подорожі та транспорт', nameRu: 'Путешествия и транспорт', icon: '✈️', difficulty: 'A2-B1', categories: ['travel', 'transport', 'automotive'] },
+  'tech-computing': { nameEn: 'Technology & Computing', nameUk: 'Технології та комп\'ютери', nameRu: 'Технологии и компьютеры', icon: '💻', difficulty: 'B1-B2', categories: ['technology', 'computing', 'tech-extra', 'tech-extra2'] },
+  'society-law': { nameEn: 'Society, Law & Culture', nameUk: 'Суспільство, право та культура', nameRu: 'Общество, право и культура', icon: '⚖️', difficulty: 'B1-B2', categories: ['law-government', 'legal', 'culture', 'religion', 'holidays', 'life-events'] },
+  'military-emergency': { nameEn: 'Military & Emergency', nameUk: 'Військова справа та надзвичайні ситуації', nameRu: 'Военное дело и чрезвычайные ситуации', icon: '🎖️', difficulty: 'B1-B2', categories: ['military', 'military-extra', 'emergency'] },
+  'everyday-home': { nameEn: 'Everyday Life & Home', nameUk: 'Повсякденне життя та дім', nameRu: 'Повседневная жизнь и дом', icon: '🏠', difficulty: 'A1-B1', categories: ['everyday', 'household', 'house', 'clothing', 'clothing-extra', 'furniture', 'shopping', 'cosmetics'] },
+  'sports-hobbies': { nameEn: 'Sports & Entertainment', nameUk: 'Спорт та розваги', nameRu: 'Спорт и развлечения', icon: '⚽', difficulty: 'A2-B1', categories: ['sports', 'hobbies', 'entertainment', 'toys', 'card-games', 'dance'] },
+  'abstract-emotions': { nameEn: 'Abstract & Emotions', nameUk: 'Абстрактні поняття та емоції', nameRu: 'Абстрактные понятия и эмоции', icon: '💭', difficulty: 'B1-B2', categories: ['abstract', 'emotions', 'expressions', 'psychology'] },
+  'education-comm': { nameEn: 'Education & Communication', nameUk: 'Освіта та спілкування', nameRu: 'Образование и общение', icon: '📖', difficulty: 'A2-B1', categories: ['education', 'school', 'communication'] },
+  'business-finance': { nameEn: 'Business & Finance', nameUk: 'Бізнес та фінанси', nameRu: 'Бизнес и финансы', icon: '💼', difficulty: 'B1-B2', categories: ['business', 'business-extra', 'financial', 'office', 'shipping'] },
+  'music-arts': { nameEn: 'Music & Arts', nameUk: 'Музика та мистецтво', nameRu: 'Музыка и искусство', icon: '🎵', difficulty: 'A2-B1', categories: ['music-arts', 'music-instruments', 'photography', 'crafts'] },
+  'science-materials': { nameEn: 'Science & Materials', nameUk: 'Наука та матеріали', nameRu: 'Наука и материалы', icon: '🔬', difficulty: 'B1-B2', categories: ['science', 'materials', 'textiles', 'geology', 'ecology', 'astronomy', 'tools', 'tools-extra', 'jewelry'] },
+  'grammar-phrases': { nameEn: 'Phrases & Grammar Words', nameUk: 'Фрази та граматика', nameRu: 'Фразы и грамматика', icon: '📝', difficulty: 'A1-B2', categories: ['phrases', 'prepositions', 'conjunctions', 'pronouns', 'time', 'numbers', 'shapes', 'translations'] },
+  'miscellaneous': { nameEn: 'Miscellaneous', nameUk: 'Різне', nameRu: 'Разное', icon: '📦', difficulty: 'Mixed', categories: ['dictionary', 'misc', 'nouns-objects'] },
 };
 
-// Word translations for vocabulary building
-const TRANSLATIONS = {
-  // Level 1
-  'від': 'from', 'рід': 'kin/family', 'вода': 'water', 'пора': 'time/season',
-  'лапа': 'paw', 'діло': 'deed/matter', 'воля': 'freedom', 'доля': 'fate',
-  'пара': 'pair/steam', 'рада': 'advice/council',
-  // Level 2
-  'око': 'eye', 'вухо': 'ear', 'море': 'sea', 'поле': 'field',
-  'село': 'village', 'небо': 'sky', 'дерево': 'tree', 'озеро': 'lake',
-  // Level 3
-  'кіт': 'cat', 'сон': 'dream/sleep', 'там': 'there', 'тут': 'here',
-  'так': 'yes', 'ні': 'no', 'він': 'he', 'вона': 'she', 'вони': 'they',
-  'мати': 'mother', 'тато': 'dad',
-  // Level 4
-  'хліб': 'bread', 'цей': 'this', 'цукор': 'sugar', 'школа': 'school',
-  'щастя': 'happiness', 'зима': 'winter', 'їжа': 'food', 'їхати': 'to go (vehicle)',
-  // Level 5
-  'яблуко': 'apple', 'чай': 'tea', 'читати': 'to read', 'любов': 'love',
-  'людина': 'person', 'будинок': 'building', 'бути': 'to be', 'юнак': 'young man',
-  // Level 6
-  'і': 'and', 'в': 'in', 'на': 'on', 'що': 'what/that', 'як': 'how',
-  'але': 'but', 'це': 'this is', 'той': 'that', 'весь': 'all/whole',
-  'свій': 'own', 'один': 'one', 'такий': 'such', 'тільки': 'only',
-  'можна': 'can/may', 'треба': 'need to',
-  // Level 7
-  'привіт': 'hi', 'добрий': 'good', 'ранок': 'morning', 'день': 'day',
-  'вечір': 'evening', 'дякую': 'thank you', 'будь ласка': 'please',
-  'добре': 'good/okay', 'до побачення': 'goodbye',
-  // Level 8
-  'два': 'two', 'три': 'three', 'чотири': 'four', "п'ять": 'five',
-  'шість': 'six', 'сім': 'seven', 'вісім': 'eight', "дев'ять": 'nine',
-  'десять': 'ten', 'сто': 'hundred', 'тисяча': 'thousand',
-  // Level 9
-  'борщ': 'borscht (beet soup)', 'вареники': 'dumplings', 'сало': 'cured pork fat',
-  'молоко': 'milk', 'кава': 'coffee', "м'ясо": 'meat', 'риба': 'fish',
-  'овочі': 'vegetables', 'фрукти': 'fruits',
-  // Level 10
-  'я люблю': 'I love', 'це добре': 'this is good', 'як справи': 'how are you?',
-  'все гаразд': 'everything is fine', 'до зустрічі': 'see you',
-  'слава україні': 'glory to Ukraine', 'я вивчаю': 'I am learning',
-  'дуже дякую': 'thank you very much',
-  // Bonus
-  'україна': 'Ukraine', 'київ': 'Kyiv', 'мова': 'language', 'друг': 'friend',
-};
-
-// Lesson content organized by keyboard rows
-// Top row:    й ц у к е н г ш щ з х ї (qwerty: q w e r t y u i o p [ ])
-// Middle row: ф і в а п р о л д ж є (qwerty: a s d f g h j k l ; ')
-// Bottom row: я ч с м и т ь б ю (qwerty: z x c v b n m , .)
-
-const ALPHABET_CHALLENGE = {
-  name: "Alphabet Speed Run",
-  nameUk: "Абетка",
-  description: "Type the Ukrainian alphabet A-Я as fast as you can!",
-  hint: "Type each letter in order - loops automatically!",
-  letters: ['а', 'б', 'в', 'г', 'д', 'е', 'є', 'ж', 'з', 'и', 'і', 'ї', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ь', 'ю', 'я'],
-  words: [],
-  xpPerLetter: 5,
-  xpPerWord: 0,
-  requiredXp: 0,
-  isAlphabetMode: true
-};
-
-const LESSONS = {
-  1: {
-    name: "Top Row",
-    nameUk: "Верхній ряд",
-    icon: "⬆️",
-    description: "Learn the top row of the Ukrainian keyboard",
-    hint: "й ц у к е н г ш щ з х ї",
-    letters: ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ї'],
-    words: ['ще', 'єн', 'кухне', 'щуку', 'цех', 'неї', 'нею', 'ніж', 'шукун'],
-    xpPerLetter: 10,
-    xpPerWord: 25,
-    requiredXp: 0
-  },
-  2: {
-    name: "Middle Row",
-    nameUk: "Середній ряд",
-    icon: "🏠",
-    description: "Learn the home row - where your fingers rest!",
-    hint: "ф і в а п р о л д ж є",
-    letters: ['ф', 'і', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'є'],
-    words: ['від', 'рід', 'вода', 'пора', 'лапа', 'діло', 'воля', 'доля', 'пара', 'рада', 'жар', 'вже'],
-    xpPerLetter: 10,
-    xpPerWord: 25,
-    requiredXp: 0
-  },
-  3: {
-    name: "Bottom Row",
-    nameUk: "Нижній ряд",
-    icon: "⬇️",
-    description: "Learn the bottom row of the keyboard",
-    hint: "я ч с м и т ь б ю",
-    letters: ['я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю'],
-    words: ['там', 'тут', 'сам', 'мить', 'бути', 'чути', 'сміх', 'миття', 'буття', 'тиша'],
-    xpPerLetter: 10,
-    xpPerWord: 25,
-    requiredXp: 0
-  },
-  4: {
-    name: "Top + Middle",
-    nameUk: "Верх + Середина",
-    icon: "🔀",
-    description: "Combine top and middle rows!",
-    hint: "Practice switching between rows",
-    letters: ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ї', 'ф', 'і', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'є'],
-    words: ['він', 'вона', 'око', 'вухо', 'поле', 'школа', 'дерево', 'озеро', 'кіно', 'кефір'],
-    xpPerLetter: 12,
-    xpPerWord: 30,
-    requiredXp: 150
-  },
-  5: {
-    name: "All Rows",
-    nameUk: "Всі ряди",
-    icon: "⌨️",
-    description: "Use the entire keyboard!",
-    hint: "You know all the keys now!",
-    letters: ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ї', 'ф', 'і', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'є', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю'],
-    words: ['кіт', 'сон', 'мати', 'тато', 'хліб', 'яблуко', 'читати', 'любов', 'будинок'],
-    xpPerLetter: 15,
-    xpPerWord: 40,
-    requiredXp: 350
-  },
-  6: {
-    name: "Common Words",
-    nameUk: "Часті слова",
-    icon: "📚",
-    description: "Practice the most common Ukrainian words!",
-    hint: "These words appear everywhere in Ukrainian",
-    letters: [],
-    words: ['і', 'в', 'на', 'що', 'як', 'але', 'це', 'той', 'весь', 'свій', 'один', 'такий', 'тільки', 'можна', 'треба'],
-    xpPerLetter: 15,
-    xpPerWord: 50,
-    requiredXp: 600
-  },
-  7: {
-    name: "Greetings",
-    nameUk: "Привітання",
-    icon: "👋",
-    description: "Learn essential greetings and phrases!",
-    hint: "Impress your Ukrainian friends!",
-    letters: [],
-    words: ['привіт', 'добрий', 'ранок', 'день', 'вечір', 'дякую', 'будь ласка', 'так', 'ні', 'добре', 'до побачення'],
-    xpPerLetter: 18,
-    xpPerWord: 60,
-    requiredXp: 900
-  },
-  8: {
-    name: "Numbers",
-    nameUk: "Числа",
-    icon: "🔢",
-    description: "Count in Ukrainian!",
-    hint: "один, два, три... let's go!",
-    letters: [],
-    words: ['один', 'два', 'три', 'чотири', "п'ять", 'шість', 'сім', 'вісім', "дев'ять", 'десять', 'сто', 'тисяча'],
-    xpPerLetter: 18,
-    xpPerWord: 55,
-    requiredXp: 1250
-  },
-  9: {
-    name: "Food",
-    nameUk: "Їжа",
-    icon: "🍲",
-    description: "Delicious Ukrainian vocabulary!",
-    hint: "Ukrainian cuisine is amazing!",
-    letters: [],
-    words: ['борщ', 'вареники', 'сало', 'хліб', 'молоко', 'вода', 'кава', 'чай', "м'ясо", 'риба', 'овочі', 'фрукти'],
-    xpPerLetter: 20,
-    xpPerWord: 65,
-    requiredXp: 1650
-  },
-  10: {
-    name: "Phrases",
-    nameUk: "Фрази",
-    icon: "💬",
-    description: "Put it all together with full sentences!",
-    hint: "You're ready for real Ukrainian text!",
-    letters: [],
-    words: ['я люблю', 'це добре', 'як справи', 'все гаразд', 'до зустрічі', 'слава україні', 'я вивчаю', 'дуже дякую'],
-    xpPerLetter: 20,
-    xpPerWord: 80,
-    requiredXp: 2100
+function buildCategoryFlashcardSets() {
+  const allWords = getAllVocabularyWords();
+  const sets = [];
+  for (const [groupId, group] of Object.entries(CATEGORY_GROUPS)) {
+    const catSet = new Set(group.categories);
+    const words = allWords.filter(w => catSet.has(w.source));
+    if (words.length === 0) continue;
+    sets.push({
+      setId: groupId,
+      nameEn: group.nameEn,
+      nameUk: group.nameUk,
+      icon: group.icon,
+      difficulty: group.difficulty,
+      words: words.map(w => ({ uk: w.uk, en: w.en, phonetic: w.phonetic || '', examples: [] })),
+      totalWords: words.length,
+      xpPerWord: 10
+    });
   }
-};
+  return sets;
+}
 
-// Achievements - expanded list
-const ACHIEVEMENTS = [
-  { id: 'first_letter', name: 'First Steps', nameUk: 'Перші кроки', desc: 'Type your first Ukrainian letter', icon: '🐣', xp: 50 },
-  { id: 'first_word', name: 'Word Smith', nameUk: 'Словотворець', desc: 'Complete your first word', icon: '📝', xp: 75 },
-  { id: 'ten_streak', name: 'On Fire!', nameUk: 'У вогні!', desc: 'Get a 10 letter streak', icon: '🔥', xp: 100 },
-  { id: 'twenty_streak', name: 'Unstoppable', nameUk: 'Нестримний', desc: 'Get a 20 letter streak', icon: '💪', xp: 175 },
-  { id: 'fifty_streak', name: 'Legendary', nameUk: 'Легендарний', desc: 'Get a 50 letter streak', icon: '🌟', xp: 300 },
-  { id: 'level_3', name: 'Rising Star', nameUk: 'Висхідна зірка', desc: 'Unlock level 3', icon: '⭐', xp: 150 },
-  { id: 'level_5', name: 'Halfway Hero', nameUk: 'Герой половини шляху', desc: 'Unlock level 5', icon: '🏆', xp: 300 },
-  { id: 'level_10', name: 'Master', nameUk: 'Майстер', desc: 'Unlock level 10', icon: '👑', xp: 500 },
-  { id: 'speed_demon', name: 'Speed Demon', nameUk: 'Швидкий демон', desc: 'Type 5 letters in 3 seconds', icon: '⚡', xp: 200 },
-  { id: 'perfect_word', name: 'Perfectionist', nameUk: 'Перфекціоніст', desc: 'Complete a word with no mistakes', icon: '💎', xp: 125 },
-  { id: 'ten_perfect', name: 'Flawless', nameUk: 'Бездоганний', desc: 'Complete 10 words without mistakes', icon: '✨', xp: 250 },
-  { id: 'hundred_letters', name: 'Century Club', nameUk: 'Клуб сотні', desc: 'Type 100 letters total', icon: '💯', xp: 200 },
-  { id: 'five_hundred', name: 'Dedicated', nameUk: 'Відданий', desc: 'Type 500 letters total', icon: '📚', xp: 350 },
-  { id: 'thousand_letters', name: 'Thousand Strong', nameUk: 'Тисяча сильних', desc: 'Type 1000 letters total', icon: '🎖️', xp: 500 },
-  { id: 'polyglot', name: 'Polyglot', nameUk: 'Поліглот', desc: 'Complete all 10 levels', icon: '🌍', xp: 750 },
-  { id: 'night_owl', name: 'Night Owl', nameUk: 'Нічна сова', desc: 'Practice after 10 PM', icon: '🦉', xp: 100 },
-  { id: 'early_bird', name: 'Early Bird', nameUk: 'Рання пташка', desc: 'Practice before 7 AM', icon: '🐦', xp: 100 },
-  { id: 'home_row_master', name: 'Home Row Master', nameUk: 'Майстер домашнього ряду', desc: 'Complete 50 home row words', icon: '🏠', xp: 200 },
-  { id: 'vowel_master', name: 'Vowel Master', nameUk: 'Майстер голосних', desc: 'Type all 10 Ukrainian vowels', icon: '🅰️', xp: 150 },
+const DICTIONARY_FLASHCARD_SETS = buildCategoryFlashcardSets();
+
+const GRAMMAR_LESSONS = [casesData, verbsData, pronounsData, adjectivesData, wordOrderData];
+const DIALOGUES = [restaurantDialogue, directionsDialogue, shoppingDialogue, greetingDialogue];
+const ALL_READING_PASSAGES = [
+  ...beginnerReading.passages,
+  ...intermediateReading.passages,
+  ...advancedReading.passages
 ];
 
-// Fun encouraging messages
-const ENCOURAGEMENTS = [
-  "Чудово! (Wonderful!)",
-  "Молодець! (Well done!)",
-  "Супер! (Super!)",
-  "Відмінно! (Excellent!)",
-  "Так тримати! (Keep it up!)",
-  "Браво! (Bravo!)",
-  "Неймовірно! (Incredible!)",
-  "Фантастика! (Fantastic!)"
+const RU_GRAMMAR_LESSONS = [ruCasesData, ruVerbsData, ruPronounsData, ruAdjectivesData, ruWordOrderData];
+const RU_DIALOGUES = [ruRestaurantDialogue, ruDirectionsDialogue, ruShoppingDialogue, ruGreetingDialogue];
+const RU_ALL_READING_PASSAGES = [
+  ...ruBeginnerReading.passages,
+  ...ruIntermediateReading.passages,
+  ...ruAdvancedReading.passages
 ];
 
-const MISTAKE_MESSAGES = [
-  "Try again! Спробуй ще!",
-  "Almost! Майже!",
-  "Keep going! Продовжуй!",
-  "You've got this! Ти зможеш!",
-  "No worries! Не хвилюйся!"
-];
+function buildCategoryFlashcardSetsForLang(langCode) {
+  const allWords = getAllVocabularyWords(langCode);
+  const nameField = langCode === 'ru' ? 'nameRu' : 'nameUk';
+  const sets = [];
+  for (const [groupId, group] of Object.entries(CATEGORY_GROUPS)) {
+    const catSet = new Set(group.categories);
+    const words = allWords.filter(w => catSet.has(w.source));
+    if (words.length === 0) continue;
+    sets.push({
+      setId: groupId,
+      nameEn: group.nameEn,
+      nameUk: group[nameField] || group.nameUk,
+      icon: group.icon,
+      difficulty: group.difficulty,
+      words: words.map(w => ({ uk: w.uk, en: w.en, phonetic: w.phonetic || '', examples: [] })),
+      totalWords: words.length,
+      xpPerWord: 10
+    });
+  }
+  return sets;
+}
 
-// Sound effects using Web Audio API
-const playSound = (type, audioContext) => {
-  if (!audioContext) return;
-  try {
-    const oscillator = audioContext.createOscillator();
-    const gainNode = audioContext.createGain();
-    oscillator.connect(gainNode);
-    gainNode.connect(audioContext.destination);
-    
-    if (type === 'correct') {
-      oscillator.frequency.setValueAtTime(523.25, audioContext.currentTime);
-      oscillator.frequency.setValueAtTime(659.25, audioContext.currentTime + 0.08);
-      gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
-      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.15);
-      oscillator.start(audioContext.currentTime);
-      oscillator.stop(audioContext.currentTime + 0.15);
-    } else if (type === 'wrong') {
-      oscillator.frequency.setValueAtTime(180, audioContext.currentTime);
-      gainNode.gain.setValueAtTime(0.12, audioContext.currentTime);
-      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.12);
-      oscillator.start(audioContext.currentTime);
-      oscillator.stop(audioContext.currentTime + 0.12);
-    } else if (type === 'complete') {
-      oscillator.frequency.setValueAtTime(523.25, audioContext.currentTime);
-      oscillator.frequency.setValueAtTime(659.25, audioContext.currentTime + 0.1);
-      oscillator.frequency.setValueAtTime(783.99, audioContext.currentTime + 0.2);
-      gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
-      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.35);
-      oscillator.start(audioContext.currentTime);
-      oscillator.stop(audioContext.currentTime + 0.35);
-    } else if (type === 'achievement') {
-      oscillator.frequency.setValueAtTime(392, audioContext.currentTime);
-      oscillator.frequency.setValueAtTime(523.25, audioContext.currentTime + 0.12);
-      oscillator.frequency.setValueAtTime(659.25, audioContext.currentTime + 0.24);
-      oscillator.frequency.setValueAtTime(783.99, audioContext.currentTime + 0.36);
-      gainNode.gain.setValueAtTime(0.18, audioContext.currentTime);
-      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
-      oscillator.start(audioContext.currentTime);
-      oscillator.stop(audioContext.currentTime + 0.5);
-    }
-  } catch (e) { /* Audio not supported */ }
-};
-
-const createAudioContext = () => {
-  try {
-    return new (window.AudioContext || window.webkitAudioContext)();
-  } catch (e) { return null; }
-};
+// All data constants are now imported from separate files (see imports above)
 
 // Text-to-Speech for Ukrainian using local Hugging Face server
 let currentAudio = null;
 
-const speakUkrainian = async (text, rate = 0.8) => {
+const speakUkrainian = async (text, rate = 0.8, volume = 0.8, lang = 'uk') => {
   if (currentAudio) {
     currentAudio.pause();
     currentAudio = null;
   }
 
   try {
-    console.log(`[TTS] Requesting: "${text}"`);
+    console.log(`[TTS] Requesting (${lang}): "${text}"`);
     const response = await fetch('http://localhost:3002/tts', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text })
+      body: JSON.stringify({ text, lang })
     });
 
     if (!response.ok) {
@@ -369,6 +198,7 @@ const speakUkrainian = async (text, rate = 0.8) => {
     const audioUrl = URL.createObjectURL(audioBlob);
     const audio = new Audio(audioUrl);
     audio.playbackRate = rate;
+    audio.volume = volume; // Set volume level
     currentAudio = audio;
 
     // Return a promise that resolves when audio finishes playing
@@ -390,9 +220,50 @@ const speakUkrainian = async (text, rate = 0.8) => {
 };
 
 export default function UkrainianTypingGame() {
+  // Language state
+  const [currentLanguage, setCurrentLanguage] = useState(() => {
+    try { return localStorage.getItem('typingGameLanguage') || 'uk'; } catch { return 'uk'; }
+  });
+  const langData = getLanguageData(currentLanguage);
+
+  // TTS wrapper that passes current language
+  const speak = useCallback((text, rate = 0.8, volume = 0.8) => {
+    return speakUkrainian(text, rate, volume, currentLanguage);
+  }, [currentLanguage]);
+
+  // Derived data based on current language
+  const CURRENT_KEYBOARD = langData.keyboard;
+  const CURRENT_KEY_TO_QWERTY = langData.keyToQwerty;
+  const CURRENT_LETTER_INFO = langData.letterInfo;
+  const CURRENT_LESSONS = langData.lessons;
+  const CURRENT_ALPHABET = langData.alphabetChallenge;
+  const CURRENT_TRANSLATIONS = langData.translations;
+  const CURRENT_ENCOURAGEMENTS = currentLanguage === 'ru' ? ENCOURAGEMENTS_RU : ENCOURAGEMENTS;
+  const CURRENT_MISTAKE_MESSAGES = currentLanguage === 'ru' ? MISTAKE_MESSAGES_RU : MISTAKE_MESSAGES;
+  const normalizeVocabSet = (set) => ({
+    ...set,
+    nameUk: currentLanguage === 'ru' ? set.nameRu || set.nameUk : set.nameUk,
+    words: set.words.map(w => ({
+      ...w,
+      uk: currentLanguage === 'ru' ? (w.ru || w.uk) : w.uk,
+      phonetic: currentLanguage === 'ru' ? (w.phoneticRu || w.phonetic || '') : (w.phoneticUk || w.phonetic || ''),
+      examples: Array.isArray(w.examples) ? w.examples :
+        (w.examples ? (currentLanguage === 'ru' ? (w.examples.ru || []) : (w.examples.uk || [])) : [])
+    }))
+  });
+  const CURRENT_VOCAB_THEMES = VOCABULARY_THEMES.map(normalizeVocabSet);
+  const CURRENT_ADULT_VOCAB = normalizeVocabSet(ADULT_VOCABULARY);
+  const CURRENT_GRAMMAR = currentLanguage === 'ru' ? RU_GRAMMAR_LESSONS : GRAMMAR_LESSONS;
+  const CURRENT_DIALOGUES = currentLanguage === 'ru' ? RU_DIALOGUES : DIALOGUES;
+  const CURRENT_SENTENCES = currentLanguage === 'ru' ? ruSentenceData : sentenceData;
+  const CURRENT_READING = currentLanguage === 'ru' ? RU_ALL_READING_PASSAGES : ALL_READING_PASSAGES;
+  const CURRENT_DICT_SETS = buildCategoryFlashcardSetsForLang(currentLanguage);
+
   // Game state
-  const [gameMode, setGameMode] = useState('menu'); // menu, letters, words, explore
+  const [gameMode, setGameMode] = useState('menu');
   const [exploreSelectedKey, setExploreSelectedKey] = useState(null);
+  const [selectedVocabSet, setSelectedVocabSet] = useState(null);
+  const [customFlashcards, setCustomFlashcards] = useState([]);
   const audioContextRef = useRef(null);
   const [currentLevel, setCurrentLevel] = useState(1);
   const [showKeyboardSetup, setShowKeyboardSetup] = useState(false);
@@ -407,12 +278,15 @@ export default function UkrainianTypingGame() {
   const [achievements, setAchievements] = useState([]);
   const [recentAchievement, setRecentAchievement] = useState(null);
   const [typedVowels, setTypedVowels] = useState([]);
+  const [modeProgress, setModeProgress] = useState({});
+  const [vocabularyMastery, setVocabularyMastery] = useState({});
   
   // Settings (persisted)
   const [showTranslations, setShowTranslations] = useState(true);
   const [showPronunciation, setShowPronunciation] = useState(true);
   const [soundEnabled, setSoundEnabled] = useState(true);
   const [ttsEnabled, setTtsEnabled] = useState(true); // Text-to-speech pronunciation
+  const [ttsVolume, setTtsVolume] = useState(0.8); // TTS volume (0.0 to 1.0)
   
   // Current exercise state
   const [currentTarget, setCurrentTarget] = useState('');
@@ -439,11 +313,12 @@ export default function UkrainianTypingGame() {
   const inputRef = useRef(null);
   const hasLoadedRef = useRef(false);
 
-  // Load saved progress on mount
-  useEffect(() => {
+  // Load saved progress for current language
+  const loadProgress = useCallback((langCode) => {
+    const lang = getLanguageData(langCode);
     try {
-      const saved = localStorage.getItem('ukrainianTypingProgress');
-      console.log('[Save] Loading saved progress:', saved ? 'found' : 'none');
+      const saved = localStorage.getItem(lang.storageKey);
+      console.log(`[Save] Loading ${langCode} progress:`, saved ? 'found' : 'none');
       if (saved) {
         const data = JSON.parse(saved);
         setXp(data.xp || 0);
@@ -457,13 +332,26 @@ export default function UkrainianTypingGame() {
         setShowPronunciation(data.showPronunciation !== false);
         setSoundEnabled(data.soundEnabled !== false);
         setTtsEnabled(data.ttsEnabled !== false);
-        console.log('[Save] Restored XP:', data.xp, 'Letters:', data.totalLettersTyped);
+        setTtsVolume(data.ttsVolume !== undefined ? data.ttsVolume : 0.8);
+        setModeProgress(data.modeProgress || {});
+        setVocabularyMastery(data.vocabularyMastery || {});
+        setCustomFlashcards(data.customFlashcards || []);
+        console.log(`[Save] Restored ${langCode} XP:`, data.xp, 'Letters:', data.totalLettersTyped);
+      } else {
+        // Reset to defaults for new language
+        setXp(0); setTotalLettersTyped(0); setTotalWordsCompleted(0);
+        setPerfectWordsCount(0); setBestStreak(0); setAchievements([]);
+        setTypedVowels([]); setModeProgress({}); setVocabularyMastery({});
+        setCustomFlashcards([]);
       }
     } catch (e) {
       console.log('[Save] Could not load saved progress:', e);
     }
+  }, []);
 
-    // Mark as loaded after a small delay to let state settle
+  // Load on mount
+  useEffect(() => {
+    loadProgress(currentLanguage);
     setTimeout(() => {
       hasLoadedRef.current = true;
       console.log('[Save] Ready to save');
@@ -480,25 +368,42 @@ export default function UkrainianTypingGame() {
       const data = {
         xp, totalLettersTyped, totalWordsCompleted, perfectWordsCount,
         bestStreak, achievements, typedVowels,
-        showTranslations, showPronunciation, soundEnabled, ttsEnabled
+        showTranslations, showPronunciation, soundEnabled, ttsEnabled, ttsVolume,
+        modeProgress, vocabularyMastery, customFlashcards
       };
-      localStorage.setItem('ukrainianTypingProgress', JSON.stringify(data));
-      console.log('[Save] Saved progress - XP:', xp, 'Letters:', totalLettersTyped);
+      localStorage.setItem(langData.storageKey, JSON.stringify(data));
+      console.log(`[Save] Saved ${currentLanguage} progress - XP:`, xp, 'Letters:', totalLettersTyped);
     } catch (e) {
       console.log('[Save] Could not save progress:', e);
     }
-  }, [xp, totalLettersTyped, totalWordsCompleted, perfectWordsCount, bestStreak, achievements, typedVowels, showTranslations, showPronunciation, soundEnabled, ttsEnabled]);
+  }, [xp, totalLettersTyped, totalWordsCompleted, perfectWordsCount, bestStreak, achievements, typedVowels, showTranslations, showPronunciation, soundEnabled, ttsEnabled, ttsVolume, modeProgress, vocabularyMastery, customFlashcards, langData.storageKey]);
+
+  // Language switching handler
+  const switchLanguage = useCallback((newLang) => {
+    if (newLang === currentLanguage) return;
+    // Save current progress first (already saved via effect)
+    hasLoadedRef.current = false;
+    setCurrentLanguage(newLang);
+    localStorage.setItem('typingGameLanguage', newLang);
+    setGameMode('menu');
+    setStreak(0);
+    setExploreSelectedKey(null);
+    setSelectedVocabSet(null);
+    // Load new language progress
+    loadProgress(newLang);
+    setTimeout(() => { hasLoadedRef.current = true; }, 100);
+  }, [currentLanguage, loadProgress]);
   
   // Get unlocked levels based on XP
   const getUnlockedLevels = useCallback(() => {
     const unlocked = [1];
-    Object.entries(LESSONS).forEach(([num, lesson]) => {
+    Object.entries(CURRENT_LESSONS).forEach(([num, lesson]) => {
       if (xp >= lesson.requiredXp) {
         unlocked.push(parseInt(num));
       }
     });
     return [...new Set(unlocked)];
-  }, [xp]);
+  }, [xp, CURRENT_LESSONS]);
   
   const unlockedLevels = getUnlockedLevels();
   
@@ -559,9 +464,9 @@ export default function UkrainianTypingGame() {
     if (newPerfectWords >= 10) tryAward('ten_perfect');
     
     // Level unlocks based on XP thresholds
-    if (newXp >= LESSONS[3]?.requiredXp) tryAward('level_3');
-    if (newXp >= LESSONS[5]?.requiredXp) tryAward('level_5');
-    if (newXp >= LESSONS[10]?.requiredXp) tryAward('level_10');
+    if (newXp >= CURRENT_LESSONS[3]?.requiredXp) tryAward('level_3');
+    if (newXp >= CURRENT_LESSONS[5]?.requiredXp) tryAward('level_5');
+    if (newXp >= CURRENT_LESSONS[10]?.requiredXp) tryAward('level_10');
     if (unlockedLevels.length >= 10) tryAward('polyglot');
     
     // Time-based achievements
@@ -569,8 +474,8 @@ export default function UkrainianTypingGame() {
     if (hour >= 22 || hour < 5) tryAward('night_owl');
     if (hour >= 5 && hour < 7) tryAward('early_bird');
     
-    // Vowel master - check if all 10 Ukrainian vowels have been typed
-    const allVowels = ['а', 'е', 'и', 'і', 'о', 'у', 'є', 'ї', 'ю', 'я'];
+    // Vowel master - check if all vowels have been typed
+    const allVowels = langData.vowels;
     if (newTypedVowels && allVowels.every(v => newTypedVowels.includes(v))) {
       tryAward('vowel_master');
     }
@@ -601,16 +506,16 @@ export default function UkrainianTypingGame() {
   const getNextTarget = useCallback((mode, level, currentLetterIndex = 0) => {
     // Alphabet mode
     if (mode === 'alphabet') {
-      return ALPHABET_CHALLENGE.letters[currentLetterIndex % ALPHABET_CHALLENGE.letters.length];
+      return CURRENT_ALPHABET.letters[currentLetterIndex % CURRENT_ALPHABET.letters.length];
     }
 
-    const lesson = LESSONS[level];
+    const lesson = CURRENT_LESSONS[level];
     if (mode === 'letters' && lesson.letters.length > 0) {
       return lesson.letters[Math.floor(Math.random() * lesson.letters.length)];
     } else {
       return lesson.words[Math.floor(Math.random() * lesson.words.length)];
     }
-  }, []);
+  }, [CURRENT_LESSONS, CURRENT_ALPHABET]);
 
   // Start an exercise
   const startExercise = useCallback((mode, level) => {
@@ -636,7 +541,24 @@ export default function UkrainianTypingGame() {
 
   // Handle key press
   const handleKeyPress = useCallback((e) => {
-    if (gameMode === 'menu' || gameMode === 'explore') return;
+    if (gameMode === 'menu') return;
+
+    // In explore mode, map physical key to Ukrainian key and select it
+    if (gameMode === 'explore') {
+      const pressedKey = e.key.toLowerCase();
+      for (const row of CURRENT_KEYBOARD) {
+        const keyData = row.find(k => k.qwerty === pressedKey);
+        if (keyData) {
+          setExploreSelectedKey(keyData);
+          if (ttsEnabled) {
+            const textToSpeak = keyData.ukrainianPhonetic || keyData.uk;
+            speak(textToSpeak, 0.8, ttsVolume);
+          }
+          break;
+        }
+      }
+      return;
+    }
     
     const key = e.key.toLowerCase();
     const targetChar = currentTarget[currentIndex]?.toLowerCase();
@@ -668,7 +590,7 @@ export default function UkrainianTypingGame() {
       const newTotalLetters = totalLettersTyped + 1;
       setTotalLettersTyped(newTotalLetters);
 
-      const lesson = gameMode === 'alphabet' ? ALPHABET_CHALLENGE : LESSONS[currentLevel];
+      const lesson = gameMode === 'alphabet' ? CURRENT_ALPHABET : CURRENT_LESSONS[currentLevel];
       setXp(prev => prev + lesson.xpPerLetter);
       setMistakeMessage('');
 
@@ -680,9 +602,9 @@ export default function UkrainianTypingGame() {
 
           // Speak the letter that was just typed
           if (ttsEnabled) {
-            const letterData = LETTER_INFO[targetChar];
+            const letterData = CURRENT_LETTER_INFO[targetChar];
             const letterSound = letterData?.ukrainianPhonetic || targetChar;
-            speakUkrainian(letterSound, 0.9);
+            speak(letterSound, 0.9, ttsVolume);
           }
 
           // Check if completed full loop (33 letters)
@@ -724,7 +646,7 @@ export default function UkrainianTypingGame() {
           setWordsCompleted(newWordsCompleted);
           setTotalWordsCompleted(prev => prev + 1);
           setXp(prev => prev + lesson.xpPerWord);
-          setEncouragement(ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)]);
+          setEncouragement(CURRENT_ENCOURAGEMENTS[Math.floor(Math.random() * CURRENT_ENCOURAGEMENTS.length)]);
 
           // Track perfect words
           let newPerfectWords = perfectWordsCount;
@@ -750,10 +672,10 @@ export default function UkrainianTypingGame() {
           // Speak letter, then word, then move to next word - all sequentially
           if (ttsEnabled) {
             (async () => {
-              const letterData = LETTER_INFO[targetChar];
+              const letterData = CURRENT_LETTER_INFO[targetChar];
               const letterSound = letterData?.ukrainianPhonetic || targetChar;
-              await speakUkrainian(letterSound, 0.9); // Wait for letter to finish
-              await speakUkrainian(currentTarget, 0.75); // Wait for word to finish
+              await speak(letterSound, 0.9, ttsVolume); // Wait for letter to finish
+              await speak(currentTarget, 0.75, ttsVolume); // Wait for word to finish
 
               // Move to next word only after all speech is done
               setCurrentTarget(getNextTarget(gameMode, currentLevel));
@@ -776,9 +698,9 @@ export default function UkrainianTypingGame() {
       } else {
         // Not word completion - just speak the letter
         if (ttsEnabled) {
-          const letterData = LETTER_INFO[targetChar];
+          const letterData = CURRENT_LETTER_INFO[targetChar];
           const textToSpeak = letterData?.ukrainianPhonetic || targetChar;
-          speakUkrainian(textToSpeak, 0.9);
+          speak(textToSpeak, 0.9, ttsVolume);
         }
         // Check achievements for letter progress
         checkAchievements({
@@ -801,7 +723,7 @@ export default function UkrainianTypingGame() {
       setMistakes(prev => prev + 1);
       setWordMistakes(prev => prev + 1);
       setStreak(0);
-      setMistakeMessage(MISTAKE_MESSAGES[Math.floor(Math.random() * MISTAKE_MESSAGES.length)]);
+      setMistakeMessage(CURRENT_MISTAKE_MESSAGES[Math.floor(Math.random() * CURRENT_MISTAKE_MESSAGES.length)]);
       setEncouragement('');
     }
   }, [gameMode, currentTarget, currentIndex, currentLevel, streak, bestStreak, xp,
@@ -830,7 +752,7 @@ export default function UkrainianTypingGame() {
   // Virtual keyboard component with pronunciation hints
   const VirtualKeyboard = ({ highlight }) => (
     <div className="keyboard">
-      {UKRAINIAN_KEYBOARD.map((row, rowIndex) => (
+      {CURRENT_KEYBOARD.map((row, rowIndex) => (
         <div key={rowIndex} className="keyboard-row">
           {row.map((keyData) => {
             const letter = keyData.uk;
@@ -939,7 +861,7 @@ export default function UkrainianTypingGame() {
 
   // Level select card with icons and mode selection
   const LevelCard = ({ level, unlocked }) => {
-    const lesson = LESSONS[level];
+    const lesson = CURRENT_LESSONS[level];
     return (
       <div className={`level-card ${unlocked ? 'unlocked' : 'locked'}`}>
         <div className="level-header">
@@ -1000,8 +922,20 @@ export default function UkrainianTypingGame() {
       <header className="game-header">
         <div className="header-left">
           <div className="logo" onClick={() => setGameMode('menu')} style={{cursor: 'pointer'}}>
-            <span className="logo-icon">🇺🇦</span>
-            <span className="logo-text">Kyiv Arcade</span>
+            <span className="logo-icon">{langData.flag}</span>
+            <span className="logo-text">{langData.gameName}</span>
+          </div>
+          <div className="language-switcher">
+            {Object.entries(LANGUAGES).map(([code, lang]) => (
+              <button
+                key={code}
+                className={`lang-btn ${currentLanguage === code ? 'active' : ''}`}
+                onClick={() => switchLanguage(code)}
+                title={lang.name}
+              >
+                {lang.flag}
+              </button>
+            ))}
           </div>
         </div>
         <div className="header-center">
@@ -1082,8 +1016,226 @@ export default function UkrainianTypingGame() {
               </div>
             </div>
 
+            {/* Vocabulary Flashcards Section */}
+            <div className="vocabulary-section">
+              <h2>📚 Vocabulary Flashcards</h2>
+              <p className="section-subtitle">Master 4000+ {langData.name} words across {CURRENT_DICT_SETS.length + CURRENT_VOCAB_THEMES.length} themed categories</p>
+
+              {/* Random mode */}
+              <div className="vocab-themes-grid">
+                <div
+                  className="vocab-theme-card"
+                  style={{ border: '2px solid #ffd700' }}
+                  onClick={() => {
+                    const allWords = getAllVocabularyWords(currentLanguage);
+                    // Fisher-Yates shuffle for no-repeat random
+                    const shuffled = [...allWords];
+                    for (let i = shuffled.length - 1; i > 0; i--) {
+                      const j = Math.floor(Math.random() * (i + 1));
+                      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                    }
+                    setSelectedVocabSet({
+                      setId: 'random',
+                      nameEn: 'Random (All Words)',
+                      nameUk: currentLanguage === 'ru' ? 'Случайные (Все слова)' : 'Випадкові (Всі слова)',
+                      difficulty: 'Mixed',
+                      icon: '🎲',
+                      words: shuffled.map(w => ({
+                        uk: w.uk,
+                        en: w.en,
+                        phonetic: w.phonetic || '',
+                        examples: []
+                      })),
+                      totalWords: shuffled.length,
+                      xpPerWord: 10
+                    });
+                    setGameMode('flashcards');
+                  }}
+                >
+                  <div className="theme-icon">🎲</div>
+                  <div className="theme-info">
+                    <h3>Random (All Words)</h3>
+                    <p className="theme-name-uk">{currentLanguage === 'ru' ? 'Случайные (Все слова)' : 'Випадкові (Всі слова)'}</p>
+                    <div className="theme-meta">
+                      <span className="theme-difficulty" style={{ color: '#ffd700' }}>Mixed</span>
+                      <span className="theme-word-count">{getAllVocabularyWords(currentLanguage).length} words</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Dictionary category sets - the main bulk of 4000+ words */}
+              <h3 style={{ color: '#ffd700', margin: '2rem 0 1rem', fontSize: '1.3rem' }}>📂 By Category</h3>
+              <div className="vocab-themes-grid">
+                {CURRENT_DICT_SETS.map(set => (
+                  <div
+                    key={set.setId}
+                    className="vocab-theme-card"
+                    onClick={() => {
+                      setSelectedVocabSet(set);
+                      setGameMode('flashcards');
+                    }}
+                  >
+                    <div className="theme-icon">{set.icon}</div>
+                    <div className="theme-info">
+                      <h3>{set.nameEn}</h3>
+                      <p className="theme-name-uk">{set.nameUk}</p>
+                      <div className="theme-meta">
+                        <span className="theme-difficulty">{set.difficulty}</span>
+                        <span className="theme-word-count">{set.totalWords} words</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Beginner themed sets */}
+              <h3 style={{ color: '#ffd700', margin: '2rem 0 1rem', fontSize: '1.3rem' }}>🌱 Beginner Sets (with examples)</h3>
+              <div className="vocab-themes-grid">
+                {CURRENT_VOCAB_THEMES.map(theme => (
+                  <div
+                    key={theme.setId}
+                    className="vocab-theme-card"
+                    onClick={() => {
+                      setSelectedVocabSet(theme);
+                      setGameMode('flashcards');
+                    }}
+                  >
+                    <div className="theme-icon">{theme.icon}</div>
+                    <div className="theme-info">
+                      <h3>{theme.nameEn}</h3>
+                      <p className="theme-name-uk">{theme.nameUk}</p>
+                      <div className="theme-meta">
+                        <span className="theme-difficulty">{theme.difficulty}</span>
+                        <span className="theme-word-count">{theme.totalWords} words</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                {/* My Words custom flashcard card */}
+                {customFlashcards.length > 0 && (
+                  <div
+                    className="vocab-theme-card custom-words-card"
+                    onClick={() => {
+                      setSelectedVocabSet({
+                        setId: 'custom',
+                        nameEn: 'My Words',
+                        nameUk: 'Мої слова',
+                        difficulty: 'Custom',
+                        icon: '✏️',
+                        words: customFlashcards.map(w => ({
+                          uk: w.uk,
+                          en: w.en,
+                          phonetic: w.phonetic || '',
+                          examples: []
+                        })),
+                        totalWords: customFlashcards.length,
+                        xpPerWord: 15
+                      });
+                      setGameMode('flashcards');
+                    }}
+                  >
+                    <div className="theme-icon">✏️</div>
+                    <div className="theme-info">
+                      <h3>My Words</h3>
+                      <p className="theme-name-uk">Мої слова</p>
+                      <div className="theme-meta">
+                        <span className="theme-difficulty">Custom</span>
+                        <span className="theme-word-count">{customFlashcards.length} words</span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                {/* Adult 18+ vocabulary */}
+                <div
+                  className="vocab-theme-card"
+                  style={{ border: '2px solid #e74c3c', opacity: 0.9 }}
+                  onClick={() => {
+                    setSelectedVocabSet(CURRENT_ADULT_VOCAB);
+                    setGameMode('flashcards');
+                  }}
+                >
+                  <div className="theme-icon">{CURRENT_ADULT_VOCAB.icon}</div>
+                  <div className="theme-info">
+                    <h3>{CURRENT_ADULT_VOCAB.nameEn}</h3>
+                    <p className="theme-name-uk">{CURRENT_ADULT_VOCAB.nameUk}</p>
+                    <div className="theme-meta">
+                      <span className="theme-difficulty" style={{ color: '#e74c3c' }}>{CURRENT_ADULT_VOCAB.difficulty}</span>
+                      <span className="theme-word-count">{CURRENT_ADULT_VOCAB.totalWords} words</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Custom Flashcard Manager */}
+              <CustomFlashcardManager
+                customWords={customFlashcards}
+                onSave={(updated) => setCustomFlashcards(updated)}
+                onSpeak={speak}
+                ttsEnabled={ttsEnabled}
+                ttsVolume={ttsVolume}
+              />
+            </div>
+
+            {/* New Learning Modes */}
+            <div className="new-modes-section">
+              <h2>🎯 Learning Modes</h2>
+              <p className="section-subtitle">Practice Ukrainian in different ways</p>
+              <div className="modes-grid">
+                <div className="mode-card" onClick={() => setGameMode('translator')}>
+                  <div className="mode-icon">📖</div>
+                  <div className="mode-info">
+                    <h3>Translator</h3>
+                    <p>Look up words and phrases</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('listening')}>
+                  <div className="mode-icon">👂</div>
+                  <div className="mode-info">
+                    <h3>Listening Practice</h3>
+                    <p>Hear words and type what you hear</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('translation')}>
+                  <div className="mode-icon">🔄</div>
+                  <div className="mode-info">
+                    <h3>Translation Practice</h3>
+                    <p>Translate words between languages</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('grammar')}>
+                  <div className="mode-icon">📐</div>
+                  <div className="mode-info">
+                    <h3>Grammar Lessons</h3>
+                    <p>Cases, verbs, pronouns, and more</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('sentences')}>
+                  <div className="mode-icon">🧱</div>
+                  <div className="mode-info">
+                    <h3>Build Sentences</h3>
+                    <p>Arrange words into sentences</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('dialogue')}>
+                  <div className="mode-icon">💬</div>
+                  <div className="mode-info">
+                    <h3>Dialogue Practice</h3>
+                    <p>Practice real conversations</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('reading')}>
+                  <div className="mode-icon">📖</div>
+                  <div className="mode-info">
+                    <h3>Reading Practice</h3>
+                    <p>Read texts and answer questions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="level-grid">
-              {Object.keys(LESSONS).map(level => (
+              {Object.keys(CURRENT_LESSONS).map(level => (
                 <LevelCard
                   key={level}
                   level={parseInt(level)}
@@ -1139,21 +1291,33 @@ export default function UkrainianTypingGame() {
                   <span>Sound effects</span>
                 </label>
                 <label className="setting-toggle">
-                  <input 
-                    type="checkbox" 
-                    checked={ttsEnabled} 
-                    onChange={e => setTtsEnabled(e.target.checked)} 
+                  <input
+                    type="checkbox"
+                    checked={ttsEnabled}
+                    onChange={e => setTtsEnabled(e.target.checked)}
                   />
                   <span>🔊 Speak letters & words (TTS)</span>
                 </label>
+                <label className="setting-slider">
+                  <span>🔊 TTS Volume</span>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={ttsVolume * 100}
+                    onChange={e => setTtsVolume(e.target.value / 100)}
+                    disabled={!ttsEnabled}
+                  />
+                  <span className="slider-value">{Math.round(ttsVolume * 100)}%</span>
+                </label>
                 <div className="tts-test">
-                  <button 
+                  <button
                     className="tts-test-btn"
-                    onClick={() => speakUkrainian('Привіт! Це тест.', 0.8)}
+                    onClick={() => speak(langData.ttsTestText, 0.8, ttsVolume)}
                   >
-                    🔊 Test TTS: "Привіт"
+                    🔊 Test TTS: "{langData.ttsTestPhrase}"
                   </button>
-                  <span className="tts-hint">Click to test if Ukrainian speech works on your browser</span>
+                  <span className="tts-hint">Click to test if {langData.name} speech works on your browser</span>
                 </div>
               </div>
             </div>
@@ -1170,7 +1334,7 @@ export default function UkrainianTypingGame() {
             </div>
             
             <div className="keyboard explore-mode">
-              {UKRAINIAN_KEYBOARD.map((row, rowIndex) => (
+              {CURRENT_KEYBOARD.map((row, rowIndex) => (
                 <div key={rowIndex} className="keyboard-row">
                   {row.map((keyData) => {
                     const isSelected = exploreSelectedKey?.uk === keyData.uk;
@@ -1182,7 +1346,7 @@ export default function UkrainianTypingGame() {
                           setExploreSelectedKey(keyData);
                           if (ttsEnabled) {
                             const textToSpeak = keyData.ukrainianPhonetic || keyData.uk;
-                            speakUkrainian(textToSpeak, 0.8);
+                            speak(textToSpeak, 0.8, ttsVolume);
                           }
                         }}
                         style={{ cursor: 'pointer' }}
@@ -1199,7 +1363,7 @@ export default function UkrainianTypingGame() {
                   className="key space-key"
                   onClick={() => {
                     if (ttsEnabled) {
-                      speakUkrainian('пробіл', 0.8);
+                      speak(currentLanguage === 'ru' ? 'пробел' : 'пробіл', 0.8, ttsVolume);
                     }
                   }}
                   style={{ cursor: 'pointer' }}
@@ -1214,9 +1378,9 @@ export default function UkrainianTypingGame() {
                 <div className="key-info-main">
                   <div className="key-info-letter">{exploreSelectedKey.uk.toUpperCase()}</div>
                   <div className="key-info-letter-lower">{exploreSelectedKey.uk}</div>
-                  <button 
+                  <button
                     className="hear-button"
-                    onClick={() => speakUkrainian(exploreSelectedKey.uk, 0.7)}
+                    onClick={() => speak(exploreSelectedKey.uk, 0.7, ttsVolume)}
                   >
                     🔊 Hear it
                   </button>
@@ -1253,17 +1417,189 @@ export default function UkrainianTypingGame() {
               </ul>
             </div>
           </div>
+        ) : gameMode === 'flashcards' ? (
+          <FlashcardMode
+            vocabularySet={selectedVocabSet}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onSpeak={speak}
+            onExit={() => {
+              setGameMode('menu');
+              setSelectedVocabSet(null);
+            }}
+            onComplete={(stats) => {
+              console.log('[Flashcards] Session complete:', stats);
+              // Award bonus XP for completing the set
+              setXp(prev => prev + 50);
+              // Check achievements
+              const totalMastered = Object.keys(vocabularyMastery).length;
+              if (totalMastered >= 10 && !achievements.includes('vocab_10')) {
+                setAchievements(prev => [...prev, 'vocab_10']);
+                setRecentAchievement(ACHIEVEMENTS.find(a => a.id === 'vocab_10'));
+              }
+              if (totalMastered >= 50 && !achievements.includes('vocab_50')) {
+                setAchievements(prev => [...prev, 'vocab_50']);
+                setRecentAchievement(ACHIEVEMENTS.find(a => a.id === 'vocab_50'));
+              }
+              // Return to menu
+              setGameMode('menu');
+              setSelectedVocabSet(null);
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: {
+                  ...(prev[mode] || {}),
+                  ...data,
+                  lastStudied: new Date().toISOString()
+                }
+              }));
+              // Track vocabulary mastery
+              if (data.word) {
+                setVocabularyMastery(prev => ({
+                  ...prev,
+                  [data.word]: {
+                    ...(prev[data.word] || { timesCorrect: 0, timesWrong: 0 }),
+                    timesCorrect: (prev[data.word]?.timesCorrect || 0) + (data.mastered ? 1 : 0),
+                    lastReviewed: new Date().toISOString(),
+                    masteryLevel: data.mastered ? 1 : (prev[data.word]?.masteryLevel || 0),
+                    modesUsed: ['flashcards']
+                  }
+                }));
+              }
+            }}
+          />
+        ) : gameMode === 'translator' ? (
+          <TranslatorMode
+            langCode={currentLanguage}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+          />
+        ) : gameMode === 'listening' ? (
+          <ListeningMode
+            langCode={currentLanguage}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Listening] Session complete:', stats);
+              setGameMode('menu');
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
+        ) : gameMode === 'translation' ? (
+          <TranslationPracticeMode
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Translation] Session complete:', stats);
+              setGameMode('menu');
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
+        ) : gameMode === 'grammar' ? (
+          <GrammarMode
+            grammarLessons={CURRENT_GRAMMAR}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Grammar] Lesson complete:', stats);
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
+        ) : gameMode === 'sentences' ? (
+          <SentenceMode
+            sentenceData={CURRENT_SENTENCES.sentences}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Sentences] Session complete:', stats);
+              setGameMode('menu');
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
+        ) : gameMode === 'dialogue' ? (
+          <DialogueMode
+            dialogues={CURRENT_DIALOGUES}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Dialogue] Complete:', stats);
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
+        ) : gameMode === 'reading' ? (
+          <ReadingMode
+            passages={CURRENT_READING}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onComplete={(stats) => {
+              console.log('[Reading] Complete:', stats);
+            }}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
+            onTrackProgress={(mode, data) => {
+              setModeProgress(prev => ({
+                ...prev,
+                [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
+              }));
+            }}
+          />
         ) : (
           <div className="practice-screen">
             <button className="back-button" onClick={() => setGameMode('menu')}>
               ← Back to Menu
             </button>
-            
+
             {gameMode !== 'alphabet' && (
               <div className="lesson-header">
-                <h2>{LESSONS[currentLevel].name}</h2>
-                {LESSONS[currentLevel].nameUk && <p className="lesson-name-uk">{LESSONS[currentLevel].nameUk}</p>}
-                <p>{LESSONS[currentLevel].hint}</p>
+                <h2>{CURRENT_LESSONS[currentLevel].name}</h2>
+                {CURRENT_LESSONS[currentLevel].nameUk && <p className="lesson-name-uk">{CURRENT_LESSONS[currentLevel].nameUk}</p>}
+                <p>{CURRENT_LESSONS[currentLevel].hint}</p>
               </div>
             )}
 
@@ -1325,9 +1661,9 @@ export default function UkrainianTypingGame() {
               </div>
               
               {/* Show translation if enabled */}
-              {showTranslations && TRANSLATIONS[currentTarget] && (
+              {showTranslations && CURRENT_TRANSLATIONS[currentTarget] && (
                 <div className="word-translation">
-                  "{TRANSLATIONS[currentTarget]}"
+                  "{CURRENT_TRANSLATIONS[currentTarget]}"
                 </div>
               )}
               
@@ -1340,8 +1676,8 @@ export default function UkrainianTypingGame() {
                 {currentIndex < currentTarget.length && (
                   <p>
                     Type: <strong>{currentTarget[currentIndex]}</strong> 
-                    {UK_TO_QWERTY[currentTarget[currentIndex]?.toLowerCase()] && (
-                      <span className="key-hint"> (press '{UK_TO_QWERTY[currentTarget[currentIndex]?.toLowerCase()]}' key)</span>
+                    {CURRENT_KEY_TO_QWERTY[currentTarget[currentIndex]?.toLowerCase()] && (
+                      <span className="key-hint"> (press '{CURRENT_KEY_TO_QWERTY[currentTarget[currentIndex]?.toLowerCase()]}' key)</span>
                     )}
                   </p>
                 )}
@@ -1439,6 +1775,34 @@ export default function UkrainianTypingGame() {
           font-size: 1rem;
           color: #ffd700;
           text-shadow: 2px 2px 0 #0057b7;
+        }
+
+        .language-switcher {
+          display: flex;
+          gap: 0.25rem;
+          margin-left: 0.75rem;
+        }
+
+        .lang-btn {
+          background: rgba(255,255,255,0.1);
+          border: 2px solid transparent;
+          border-radius: 8px;
+          font-size: 1.3rem;
+          padding: 0.25rem 0.4rem;
+          cursor: pointer;
+          transition: all 0.2s;
+          line-height: 1;
+        }
+
+        .lang-btn:hover {
+          background: rgba(255,255,255,0.2);
+          transform: scale(1.1);
+        }
+
+        .lang-btn.active {
+          border-color: #ffd700;
+          background: rgba(255,215,0,0.2);
+          box-shadow: 0 0 8px rgba(255,215,0,0.4);
         }
 
         .header-center {
@@ -2353,7 +2717,70 @@ export default function UkrainianTypingGame() {
           height: 20px;
           accent-color: #ffd700;
         }
-        
+
+        .setting-slider {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 0.5rem;
+          border-radius: 8px;
+          transition: background 0.2s;
+        }
+
+        .setting-slider:hover {
+          background: rgba(255,255,255,0.05);
+        }
+
+        .setting-slider input[type="range"] {
+          flex: 1;
+          height: 6px;
+          border-radius: 3px;
+          background: rgba(255,255,255,0.2);
+          outline: none;
+          -webkit-appearance: none;
+        }
+
+        .setting-slider input[type="range"]::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffd700;
+          cursor: pointer;
+          transition: transform 0.2s;
+        }
+
+        .setting-slider input[type="range"]::-webkit-slider-thumb:hover {
+          transform: scale(1.2);
+        }
+
+        .setting-slider input[type="range"]::-moz-range-thumb {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffd700;
+          cursor: pointer;
+          border: none;
+          transition: transform 0.2s;
+        }
+
+        .setting-slider input[type="range"]::-moz-range-thumb:hover {
+          transform: scale(1.2);
+        }
+
+        .setting-slider input[type="range"]:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
+
+        .slider-value {
+          min-width: 45px;
+          text-align: right;
+          font-weight: 600;
+          color: #ffd700;
+        }
+
         .tts-test {
           margin-top: 1rem;
           padding-top: 1rem;
@@ -2626,6 +3053,148 @@ export default function UkrainianTypingGame() {
             flex-direction: column;
             text-align: center;
           }
+        }
+
+        /* Vocabulary Section */
+        .vocabulary-section {
+          margin: 2rem 0;
+          padding: 2rem;
+          background: rgba(0,0,0,0.2);
+          border-radius: 20px;
+        }
+
+        .vocabulary-section h2 {
+          color: #ffd700;
+          margin-bottom: 0.5rem;
+        }
+
+        .section-subtitle {
+          color: rgba(255,255,255,0.7);
+          margin-bottom: 1.5rem;
+          font-size: 1rem;
+        }
+
+        .vocab-themes-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 1.5rem;
+        }
+
+        .vocab-theme-card {
+          background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+          border: 2px solid rgba(255, 215, 0, 0.2);
+          border-radius: 15px;
+          padding: 1.5rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+
+        .vocab-theme-card:hover {
+          transform: translateY(-5px);
+          border-color: #ffd700;
+          box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+          background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+        }
+
+        .theme-icon {
+          font-size: 3rem;
+          flex-shrink: 0;
+        }
+
+        .theme-info {
+          flex: 1;
+        }
+
+        .theme-info h3 {
+          margin: 0 0 0.25rem 0;
+          color: #fff;
+          font-size: 1.2rem;
+        }
+
+        .theme-name-uk {
+          color: rgba(255,255,255,0.7);
+          font-size: 0.9rem;
+          margin: 0 0 0.5rem 0;
+        }
+
+        .theme-meta {
+          display: flex;
+          gap: 1rem;
+          font-size: 0.85rem;
+        }
+
+        .theme-difficulty {
+          color: #ffd700;
+          font-weight: 600;
+        }
+
+        .theme-word-count {
+          color: rgba(255,255,255,0.6);
+        }
+
+        /* Custom Words Card */
+        .custom-words-card {
+          border-style: dashed !important;
+          border-color: rgba(255,215,0,0.4) !important;
+          background: linear-gradient(135deg, rgba(255,215,0,0.05), rgba(255,215,0,0.02)) !important;
+        }
+
+        /* New Learning Modes Section */
+        .new-modes-section {
+          margin: 2rem 0;
+          padding: 2rem;
+          background: rgba(0,0,0,0.2);
+          border-radius: 20px;
+        }
+
+        .new-modes-section h2 {
+          color: #ffd700;
+          margin-bottom: 0.5rem;
+        }
+
+        .modes-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 1.25rem;
+        }
+
+        .mode-card {
+          background: linear-gradient(135deg, rgba(0,87,183,0.1), rgba(0,87,183,0.05));
+          border: 2px solid rgba(0,87,183,0.2);
+          border-radius: 15px;
+          padding: 1.25rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+
+        .mode-card:hover {
+          transform: translateY(-4px);
+          border-color: #ffd700;
+          box-shadow: 0 8px 25px rgba(255,215,0,0.2);
+          background: linear-gradient(135deg, rgba(0,87,183,0.2), rgba(0,87,183,0.1));
+        }
+
+        .mode-icon {
+          font-size: 2.5rem;
+          flex-shrink: 0;
+        }
+
+        .mode-info h3 {
+          margin: 0 0 0.25rem 0;
+          color: #fff;
+          font-size: 1.1rem;
+        }
+
+        .mode-info p {
+          margin: 0;
+          color: rgba(255,255,255,0.6);
+          font-size: 0.9rem;
         }
       `}</style>
     </div>

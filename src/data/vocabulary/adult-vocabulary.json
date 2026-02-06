@@ -1,0 +1,916 @@
+{
+  "setId": "adult",
+  "nameEn": "Adult Language (18+)",
+  "nameUk": "Мова для дорослих (18+)",
+  "nameRu": "Язык для взрослых (18+)",
+  "difficulty": "B1",
+  "icon": "🔞",
+  "isAdult": true,
+  "totalWords": 113,
+  "words": [
+    {
+      "uk": "чорт",
+      "ru": "чёрт",
+      "en": "damn/hell",
+      "phoneticUk": "chort",
+      "phoneticRu": "chyort",
+      "examples": ["Який чорт!", "Чорт забирай!"]
+    },
+    {
+      "uk": "блін",
+      "ru": "блин",
+      "en": "darn (mild swear)",
+      "phoneticUk": "blin",
+      "phoneticRu": "blin",
+      "examples": ["Ох, блін!", "Блін, я забув!"]
+    },
+    {
+      "uk": "лайно",
+      "ru": "дерьмо",
+      "en": "shit/crap",
+      "phoneticUk": "layno",
+      "phoneticRu": "dir'MO",
+      "examples": ["Яке лайно!", "Повне лайно"]
+    },
+    {
+      "uk": "дупа",
+      "ru": "задница",
+      "en": "ass/butt",
+      "phoneticUk": "dupa",
+      "phoneticRu": "ZADnitsa",
+      "examples": ["Сідай на дупу", "Підніми дупу"]
+    },
+    {
+      "uk": "сволота",
+      "ru": "сволочь",
+      "en": "bastard/scum",
+      "phoneticUk": "svolota",
+      "phoneticRu": "SVOlach'",
+      "examples": ["Яка сволота!", "Він сволота"]
+    },
+    {
+      "uk": "дурак",
+      "ru": "дурак",
+      "en": "fool/idiot",
+      "phoneticUk": "durak",
+      "phoneticRu": "duRAK",
+      "examples": ["Який дурак!", "Не будь дураком"]
+    },
+    {
+      "uk": "ідіот",
+      "ru": "идиот",
+      "en": "idiot",
+      "phoneticUk": "idiot",
+      "phoneticRu": "idiOT",
+      "examples": ["Повний ідіот", "Який ідіот!"]
+    },
+    {
+      "uk": "дебіл",
+      "ru": "дебил",
+      "en": "moron/imbecile",
+      "phoneticUk": "debil",
+      "phoneticRu": "deBIL",
+      "examples": ["Він дебіл", "Дебіл!"]
+    },
+    {
+      "uk": "тупий",
+      "ru": "тупой",
+      "en": "stupid/dumb",
+      "phoneticUk": "tupyi",
+      "phoneticRu": "tuPOY",
+      "examples": ["Яка тупа ідея!", "Не будь тупим"]
+    },
+    {
+      "uk": "козел",
+      "ru": "козёл",
+      "en": "jerk/asshole (lit. goat)",
+      "phoneticUk": "kozel",
+      "phoneticRu": "koZYOL",
+      "examples": ["Він козел!", "Старий козел"]
+    },
+    {
+      "uk": "стерва",
+      "ru": "стерва",
+      "en": "bitch (mean woman)",
+      "phoneticUk": "sterva",
+      "phoneticRu": "STERva",
+      "examples": ["Яка стерва!", "Вона стерва"]
+    },
+    {
+      "uk": "жлоб",
+      "ru": "жлоб",
+      "en": "cheapskate/boor",
+      "phoneticUk": "zhlob",
+      "phoneticRu": "zhlob",
+      "examples": ["Який жлоб!", "Не будь жлобом"]
+    },
+    {
+      "uk": "нахабний",
+      "ru": "наглый",
+      "en": "impudent/brazen",
+      "phoneticUk": "nakhabnyi",
+      "phoneticRu": "NAGlyy",
+      "examples": ["Який нахабний!", "Нахабна людина"]
+    },
+    {
+      "uk": "заткнися",
+      "ru": "заткнись",
+      "en": "shut up",
+      "phoneticUk": "zatknysya",
+      "phoneticRu": "zatKNIS'",
+      "examples": ["Заткнися вже!", "Просто заткнися"]
+    },
+    {
+      "uk": "відчепись",
+      "ru": "отвяжись",
+      "en": "get lost/leave me alone",
+      "phoneticUk": "vidchepys",
+      "phoneticRu": "otVYAzhis'",
+      "examples": ["Відчепись від мене!", "Відчепись!"]
+    },
+    {
+      "uk": "пішов геть",
+      "ru": "пошёл вон",
+      "en": "get out/go away",
+      "phoneticUk": "pishov het",
+      "phoneticRu": "poSHYOL von",
+      "examples": ["Пішов геть!", "Геть звідси!"]
+    },
+    {
+      "uk": "не лізь",
+      "ru": "не лезь",
+      "en": "don't meddle/butt out",
+      "phoneticUk": "ne liz",
+      "phoneticRu": "ne lez'",
+      "examples": ["Не лізь не в свою справу!", "Не лізь до мене"]
+    },
+    {
+      "uk": "набрехати",
+      "ru": "наврать",
+      "en": "to lie/to bullshit",
+      "phoneticUk": "nabrekhaty",
+      "phoneticRu": "naVRAT'",
+      "examples": ["Ти набрехав!", "Він набрехав"]
+    },
+    {
+      "uk": "обдурити",
+      "ru": "обмануть",
+      "en": "to cheat/to scam",
+      "phoneticUk": "obduryty",
+      "phoneticRu": "obmaNUT'",
+      "examples": ["Мене обдурили!", "Не обдуриш"]
+    },
+    {
+      "uk": "п'яниця",
+      "ru": "пьяница",
+      "en": "drunkard/alcoholic",
+      "phoneticUk": "pyanytsya",
+      "phoneticRu": "P'YAnitsa",
+      "examples": ["Він п'яниця", "Старий п'яниця"]
+    },
+    {
+      "uk": "наркоман",
+      "ru": "наркоман",
+      "en": "drug addict",
+      "phoneticUk": "narkoman",
+      "phoneticRu": "narkoMAN",
+      "examples": ["Він наркоман"]
+    },
+    {
+      "uk": "вбити",
+      "ru": "убить",
+      "en": "to kill",
+      "phoneticUk": "vbyty",
+      "phoneticRu": "uBIT'",
+      "examples": ["Не вбий мене!", "Його вбили"]
+    },
+    {
+      "uk": "ґвалтувати",
+      "ru": "насиловать",
+      "en": "to rape",
+      "phoneticUk": "gvaltuvaty",
+      "phoneticRu": "naSILovat'",
+      "examples": []
+    },
+    {
+      "uk": "кров",
+      "ru": "кровь",
+      "en": "blood",
+      "phoneticUk": "krov",
+      "phoneticRu": "krov'",
+      "examples": ["Багато крові", "Кров на руках"]
+    },
+    {
+      "uk": "труп",
+      "ru": "труп",
+      "en": "corpse/dead body",
+      "phoneticUk": "trup",
+      "phoneticRu": "trup",
+      "examples": ["Знайшли труп"]
+    },
+    {
+      "uk": "зброя",
+      "ru": "оружие",
+      "en": "weapon",
+      "phoneticUk": "zbroya",
+      "phoneticRu": "oRUzhiye",
+      "examples": ["Небезпечна зброя"]
+    },
+    {
+      "uk": "наркотики",
+      "ru": "наркотики",
+      "en": "drugs/narcotics",
+      "phoneticUk": "narkotyky",
+      "phoneticRu": "narKOtiki",
+      "examples": ["Наркотики заборонені"]
+    },
+    {
+      "uk": "марихуана",
+      "ru": "марихуана",
+      "en": "marijuana",
+      "phoneticUk": "marykhuána",
+      "phoneticRu": "marikhuAna",
+      "examples": []
+    },
+    {
+      "uk": "кокаїн",
+      "ru": "кокаин",
+      "en": "cocaine",
+      "phoneticUk": "kokayín",
+      "phoneticRu": "kokaIN",
+      "examples": []
+    },
+    {
+      "uk": "героїн",
+      "ru": "героин",
+      "en": "heroin",
+      "phoneticUk": "heroyín",
+      "phoneticRu": "geroIN",
+      "examples": []
+    },
+    {
+      "uk": "передозування",
+      "ru": "передозировка",
+      "en": "overdose",
+      "phoneticUk": "peredozuvannya",
+      "phoneticRu": "peredoziROVka",
+      "examples": []
+    },
+    {
+      "uk": "секс",
+      "ru": "секс",
+      "en": "sex",
+      "phoneticUk": "seks",
+      "phoneticRu": "seks",
+      "examples": ["Безпечний секс"]
+    },
+    {
+      "uk": "кохання",
+      "ru": "любовь",
+      "en": "lovemaking/romance",
+      "phoneticUk": "kokhannya",
+      "phoneticRu": "lyuBOV'",
+      "examples": ["Займатися коханням"]
+    },
+    {
+      "uk": "оральний секс",
+      "ru": "оральный секс",
+      "en": "oral sex",
+      "phoneticUk": "oralnyi seks",
+      "phoneticRu": "oRAL'nyy seks",
+      "examples": []
+    },
+    {
+      "uk": "оргазм",
+      "ru": "оргазм",
+      "en": "orgasm",
+      "phoneticUk": "orgazm",
+      "phoneticRu": "orGAZM",
+      "examples": []
+    },
+    {
+      "uk": "збуджений",
+      "ru": "возбуждённый",
+      "en": "aroused/turned on",
+      "phoneticUk": "zbudzhenyi",
+      "phoneticRu": "vozbuzhDYONnyy",
+      "examples": []
+    },
+    {
+      "uk": "презерватив",
+      "ru": "презерватив",
+      "en": "condom",
+      "phoneticUk": "prezervatyv",
+      "phoneticRu": "prezervaTIV",
+      "examples": ["Використовуй презерватив"]
+    },
+    {
+      "uk": "контрацепція",
+      "ru": "контрацепция",
+      "en": "contraception",
+      "phoneticUk": "kontratseptsiya",
+      "phoneticRu": "kontraTSEPtsiya",
+      "examples": []
+    },
+    {
+      "uk": "вагітність",
+      "ru": "беременность",
+      "en": "pregnancy",
+      "phoneticUk": "vahitnist",
+      "phoneticRu": "beREmennost'",
+      "examples": []
+    },
+    {
+      "uk": "аборт",
+      "ru": "аборт",
+      "en": "abortion",
+      "phoneticUk": "abort",
+      "phoneticRu": "aBORT",
+      "examples": []
+    },
+    {
+      "uk": "венеричне захворювання",
+      "ru": "венерическое заболевание",
+      "en": "STD/sexually transmitted disease",
+      "phoneticUk": "venerychne zakhvoryuvannya",
+      "phoneticRu": "veneRIcheskoye zaboleVAniye",
+      "examples": []
+    },
+    {
+      "uk": "інтимний",
+      "ru": "интимный",
+      "en": "intimate",
+      "phoneticUk": "intymnyy",
+      "phoneticRu": "inTIMnyy",
+      "examples": ["Інтимні стосунки"]
+    },
+    {
+      "uk": "голий",
+      "ru": "голый",
+      "en": "naked/nude",
+      "phoneticUk": "holyi",
+      "phoneticRu": "GOlyy",
+      "examples": ["Вона була гола"]
+    },
+    {
+      "uk": "роздягатися",
+      "ru": "раздеваться",
+      "en": "to undress/to strip",
+      "phoneticUk": "rozdyahatysya",
+      "phoneticRu": "razdeVATsya",
+      "examples": ["Роздягайся!"]
+    },
+    {
+      "uk": "цілувати",
+      "ru": "целовать",
+      "en": "to kiss",
+      "phoneticUk": "tsiluvaty",
+      "phoneticRu": "tseloVAT'",
+      "examples": ["Поцілуй мене!"]
+    },
+    {
+      "uk": "обіймати",
+      "ru": "обнимать",
+      "en": "to hug/to embrace",
+      "phoneticUk": "obiymaty",
+      "phoneticRu": "obniMAT'",
+      "examples": ["Обійми мене"]
+    },
+    {
+      "uk": "пестити",
+      "ru": "ласкать",
+      "en": "to caress/to fondle",
+      "phoneticUk": "pestyty",
+      "phoneticRu": "lasKAT'",
+      "examples": []
+    },
+    {
+      "uk": "спокушати",
+      "ru": "соблазнять",
+      "en": "to seduce/to tempt",
+      "phoneticUk": "spokushaty",
+      "phoneticRu": "soblazNYAT'",
+      "examples": ["Вона мене спокушає"]
+    },
+    {
+      "uk": "флірт",
+      "ru": "флирт",
+      "en": "flirt/flirtation",
+      "phoneticUk": "flirt",
+      "phoneticRu": "flirt",
+      "examples": ["Це просто флірт"]
+    },
+    {
+      "uk": "фліртувати",
+      "ru": "флиртовать",
+      "en": "to flirt",
+      "phoneticUk": "flirtuvaty",
+      "phoneticRu": "flirtoVAT'",
+      "examples": ["Вона фліртує з ним"]
+    },
+    {
+      "uk": "повія",
+      "ru": "проститутка",
+      "en": "prostitute",
+      "phoneticUk": "poviya",
+      "phoneticRu": "prostiTUTka",
+      "examples": []
+    },
+    {
+      "uk": "проституція",
+      "ru": "проституция",
+      "en": "prostitution",
+      "phoneticUk": "prostytutsiya",
+      "phoneticRu": "prostiTUtsiya",
+      "examples": []
+    },
+    {
+      "uk": "порнографія",
+      "ru": "порнография",
+      "en": "pornography",
+      "phoneticUk": "pornohrafiya",
+      "phoneticRu": "pornoGRAfiya",
+      "examples": []
+    },
+    {
+      "uk": "бордель",
+      "ru": "бордель",
+      "en": "brothel",
+      "phoneticUk": "bordel",
+      "phoneticRu": "borDEL'",
+      "examples": []
+    },
+    {
+      "uk": "стриптиз",
+      "ru": "стриптиз",
+      "en": "striptease",
+      "phoneticUk": "stryptyz",
+      "phoneticRu": "stripTIZ",
+      "examples": []
+    },
+    {
+      "uk": "коханець",
+      "ru": "любовник",
+      "en": "lover (male)",
+      "phoneticUk": "kokhanets",
+      "phoneticRu": "lyuBOVnik",
+      "examples": ["Таємний коханець"]
+    },
+    {
+      "uk": "коханка",
+      "ru": "любовница",
+      "en": "lover/mistress (female)",
+      "phoneticUk": "kokhanka",
+      "phoneticRu": "lyuBOVnitsa",
+      "examples": ["Його коханка"]
+    },
+    {
+      "uk": "зрадити",
+      "ru": "изменить",
+      "en": "to cheat on/to betray",
+      "phoneticUk": "zradyty",
+      "phoneticRu": "izmyeNIT'",
+      "examples": ["Він зрадив її"]
+    },
+    {
+      "uk": "зрада",
+      "ru": "измена",
+      "en": "betrayal/infidelity",
+      "phoneticUk": "zrada",
+      "phoneticRu": "izMYEna",
+      "examples": ["Це була зрада"]
+    },
+    {
+      "uk": "ревнощі",
+      "ru": "ревность",
+      "en": "jealousy",
+      "phoneticUk": "revnoshchi",
+      "phoneticRu": "REVnost'",
+      "examples": ["Ревнощі його з'їдають"]
+    },
+    {
+      "uk": "побити",
+      "ru": "избить",
+      "en": "to beat up",
+      "phoneticUk": "pobyty",
+      "phoneticRu": "izBIT'",
+      "examples": ["Його побили"]
+    },
+    {
+      "uk": "бійка",
+      "ru": "драка",
+      "en": "fight/brawl",
+      "phoneticUk": "biyka",
+      "phoneticRu": "DRAka",
+      "examples": ["Була бійка"]
+    },
+    {
+      "uk": "грабіж",
+      "ru": "грабёж",
+      "en": "robbery",
+      "phoneticUk": "hrabizh",
+      "phoneticRu": "graBYOZH",
+      "examples": ["Збройний грабіж"]
+    },
+    {
+      "uk": "крадіжка",
+      "ru": "кража",
+      "en": "theft/stealing",
+      "phoneticUk": "kradizhka",
+      "phoneticRu": "KRAzha",
+      "examples": ["Крадіжка в магазині"]
+    },
+    {
+      "uk": "шахрайство",
+      "ru": "мошенничество",
+      "en": "fraud/scam",
+      "phoneticUk": "shakhraystvo",
+      "phoneticRu": "moSHENnichestvo",
+      "examples": ["Інтернет-шахрайство"]
+    },
+    {
+      "uk": "хабар",
+      "ru": "взятка",
+      "en": "bribe",
+      "phoneticUk": "khabar",
+      "phoneticRu": "VZYATka",
+      "examples": ["Дати хабар"]
+    },
+    {
+      "uk": "корупція",
+      "ru": "коррупция",
+      "en": "corruption",
+      "phoneticUk": "koruptsiya",
+      "phoneticRu": "koRUPtsiya",
+      "examples": ["Корупція в уряді"]
+    },
+    {
+      "uk": "контрабанда",
+      "ru": "контрабанда",
+      "en": "smuggling/contraband",
+      "phoneticUk": "kontrabanda",
+      "phoneticRu": "kontraBAnda",
+      "examples": []
+    },
+    {
+      "uk": "мафія",
+      "ru": "мафия",
+      "en": "mafia",
+      "phoneticUk": "mafiya",
+      "phoneticRu": "MAfiya",
+      "examples": ["Українська мафія"]
+    },
+    {
+      "uk": "банда",
+      "ru": "банда",
+      "en": "gang",
+      "phoneticUk": "banda",
+      "phoneticRu": "BANda",
+      "examples": ["Вулична банда"]
+    },
+    {
+      "uk": "тюрма",
+      "ru": "тюрьма",
+      "en": "prison/jail",
+      "phoneticUk": "tyurma",
+      "phoneticRu": "tyur'MA",
+      "examples": ["Сісти в тюрму"]
+    },
+    {
+      "uk": "арешт",
+      "ru": "арест",
+      "en": "arrest",
+      "phoneticUk": "aresht",
+      "phoneticRu": "aREST",
+      "examples": ["Під арештом"]
+    },
+    {
+      "uk": "обвинувачення",
+      "ru": "обвинение",
+      "en": "accusation/charge",
+      "phoneticUk": "obvynuvachennya",
+      "phoneticRu": "obviNYEniye",
+      "examples": []
+    },
+    {
+      "uk": "відмивання грошей",
+      "ru": "отмывание денег",
+      "en": "money laundering",
+      "phoneticUk": "vidmyvannya hroshey",
+      "phoneticRu": "otmyVAniye DYEneg",
+      "examples": []
+    },
+    {
+      "uk": "засранець",
+      "ru": "засранец",
+      "en": "asshole (vulgar)",
+      "phoneticUk": "zasranets",
+      "phoneticRu": "zasRANets",
+      "examples": ["Він засранець"]
+    },
+    {
+      "uk": "сучка",
+      "ru": "сучка",
+      "en": "bitch (vulgar)",
+      "phoneticUk": "suchka",
+      "phoneticRu": "SUCHka",
+      "examples": ["Яка сучка!"]
+    },
+    {
+      "uk": "вилупок",
+      "ru": "выродок",
+      "en": "rascal/brat",
+      "phoneticUk": "vylupok",
+      "phoneticRu": "VYrodok",
+      "examples": []
+    },
+    {
+      "uk": "покидьок",
+      "ru": "подонок",
+      "en": "scumbag/lowlife",
+      "phoneticUk": "pokydok",
+      "phoneticRu": "poDOnok",
+      "examples": ["Він покидьок"]
+    },
+    {
+      "uk": "дристун",
+      "ru": "трус",
+      "en": "coward (vulgar)",
+      "phoneticUk": "drystun",
+      "phoneticRu": "trus",
+      "examples": []
+    },
+    {
+      "uk": "нікчема",
+      "ru": "ничтожество",
+      "en": "worthless person/loser",
+      "phoneticUk": "nikchema",
+      "phoneticRu": "nichTOZHestvo",
+      "examples": ["Він нікчема"]
+    },
+    {
+      "uk": "пройдисвіт",
+      "ru": "проходимец",
+      "en": "swindler/conman",
+      "phoneticUk": "proydhysvit",
+      "phoneticRu": "prokhodiMYETS",
+      "examples": []
+    },
+    {
+      "uk": "горілка",
+      "ru": "горилка",
+      "en": "vodka (Ukrainian)",
+      "phoneticUk": "horilka",
+      "phoneticRu": "goRILka",
+      "examples": ["Українська горілка"]
+    },
+    {
+      "uk": "самогон",
+      "ru": "самогон",
+      "en": "moonshine",
+      "phoneticUk": "samohon",
+      "phoneticRu": "samoGON",
+      "examples": ["Домашній самогон"]
+    },
+    {
+      "uk": "похмілля",
+      "ru": "похмелье",
+      "en": "hangover",
+      "phoneticUk": "pokhmillya",
+      "phoneticRu": "pokhMEL'ye",
+      "examples": ["Важке похмілля"]
+    },
+    {
+      "uk": "накуритися",
+      "ru": "накуриться",
+      "en": "to get high (smoking)",
+      "phoneticUk": "nakurytysya",
+      "phoneticRu": "nakuRITsya",
+      "examples": []
+    },
+    {
+      "uk": "напитися",
+      "ru": "напиться",
+      "en": "to get drunk",
+      "phoneticUk": "napytysya",
+      "phoneticRu": "naPITsya",
+      "examples": ["Він напився"]
+    },
+    {
+      "uk": "блювати",
+      "ru": "блевать",
+      "en": "to puke/to vomit",
+      "phoneticUk": "blyuvaty",
+      "phoneticRu": "bleVAT'",
+      "examples": ["Мене нудить, хочу блювати"]
+    },
+    {
+      "uk": "йди до біса",
+      "ru": "иди к чёрту",
+      "en": "go to hell",
+      "phoneticUk": "ydy do bisa",
+      "phoneticRu": "iDI k CHYORtu",
+      "examples": ["Йди до біса!"]
+    },
+    {
+      "uk": "заткни пельку",
+      "ru": "заткни пасть",
+      "en": "shut your trap",
+      "phoneticUk": "zatkny pelku",
+      "phoneticRu": "zatKNI past'",
+      "examples": []
+    },
+    {
+      "uk": "я тебе ненавиджу",
+      "ru": "я тебя ненавижу",
+      "en": "I hate you",
+      "phoneticUk": "ya tebe nenavydzhu",
+      "phoneticRu": "ya teBYA nenaVIzhu",
+      "examples": []
+    },
+    {
+      "uk": "йди звідси",
+      "ru": "уходи отсюда",
+      "en": "get out of here",
+      "phoneticUk": "ydy zvidsy",
+      "phoneticRu": "ukhoiDI otSYUda",
+      "examples": ["Йди звідси негайно!"]
+    },
+    {
+      "uk": "не чіпай мене",
+      "ru": "не трогай меня",
+      "en": "don't touch me",
+      "phoneticUk": "ne chipay mene",
+      "phoneticRu": "ne TROgay meNYA",
+      "examples": []
+    },
+    {
+      "uk": "це не твоя справа",
+      "ru": "это не твоё дело",
+      "en": "it's none of your business",
+      "phoneticUk": "tse ne tvoya sprava",
+      "phoneticRu": "Eto ne tvoYO DYElo",
+      "examples": []
+    },
+    {
+      "uk": "мені начхати",
+      "ru": "мне наплевать",
+      "en": "I don't give a damn",
+      "phoneticUk": "meni nachkhaty",
+      "phoneticRu": "mnye napleVAT'",
+      "examples": []
+    },
+    {
+      "uk": "ти мене дратуєш",
+      "ru": "ты меня раздражаешь",
+      "en": "you annoy me",
+      "phoneticUk": "ty mene dratuyesh",
+      "phoneticRu": "ty meNYA razdraZHAyesh'",
+      "examples": []
+    },
+    {
+      "uk": "як тобі не соромно",
+      "ru": "как тебе не стыдно",
+      "en": "shame on you",
+      "phoneticUk": "yak tobi ne soromno",
+      "phoneticRu": "kak teBYE ne STYDno",
+      "examples": []
+    },
+    {
+      "uk": "ти брешеш",
+      "ru": "ты врёшь",
+      "en": "you are lying",
+      "phoneticUk": "ty breshesh",
+      "phoneticRu": "ty vryosh'",
+      "examples": []
+    },
+    {
+      "uk": "не бреши мені",
+      "ru": "не ври мне",
+      "en": "don't lie to me",
+      "phoneticUk": "ne breshy meni",
+      "phoneticRu": "ne vri mnye",
+      "examples": []
+    },
+    {
+      "uk": "я тебе вб'ю",
+      "ru": "я тебя убью",
+      "en": "I'll kill you (threat/expression)",
+      "phoneticUk": "ya tebe vbyu",
+      "phoneticRu": "ya teBYA ub'YU",
+      "examples": []
+    },
+    {
+      "uk": "пиво",
+      "ru": "пиво",
+      "en": "beer",
+      "phoneticUk": "pyvo",
+      "phoneticRu": "PIvo",
+      "examples": ["Він замовив холодне пиво"]
+    },
+    {
+      "uk": "вино",
+      "ru": "вино",
+      "en": "wine",
+      "phoneticUk": "vyno",
+      "phoneticRu": "viNO",
+      "examples": ["Червоне вино подають до м'яса"]
+    },
+    {
+      "uk": "горілка",
+      "ru": "водка",
+      "en": "vodka",
+      "phoneticUk": "horilka",
+      "phoneticRu": "VODka",
+      "examples": ["Горілка — традиційний український напій"]
+    },
+    {
+      "uk": "коктейль",
+      "ru": "коктейль",
+      "en": "cocktail",
+      "phoneticUk": "kokteyl",
+      "phoneticRu": "kokTEYL'",
+      "examples": ["Бармен приготував фруктовий коктейль"]
+    },
+    {
+      "uk": "бар",
+      "ru": "бар",
+      "en": "bar",
+      "phoneticUk": "bar",
+      "phoneticRu": "bar",
+      "examples": ["Ми зустрілися в барі після роботи"]
+    },
+    {
+      "uk": "нічний клуб",
+      "ru": "ночной клуб",
+      "en": "nightclub",
+      "phoneticUk": "nichnyi klub",
+      "phoneticRu": "nochNOY klub",
+      "examples": ["У нічному клубі грала гучна музика"]
+    },
+    {
+      "uk": "сигарета",
+      "ru": "сигарета",
+      "en": "cigarette",
+      "phoneticUk": "syhareta",
+      "phoneticRu": "sigaREta",
+      "examples": ["Він кинув курити сигарети"]
+    },
+    {
+      "uk": "курити",
+      "ru": "курить",
+      "en": "to smoke",
+      "phoneticUk": "kuryty",
+      "phoneticRu": "kuRIT'",
+      "examples": ["Тут заборонено курити"]
+    },
+    {
+      "uk": "алкоголь",
+      "ru": "алкоголь",
+      "en": "alcohol",
+      "phoneticUk": "alkohol",
+      "phoneticRu": "alkoGOL'",
+      "examples": ["Алкоголь продають лише дорослим"]
+    },
+    {
+      "uk": "п'яний",
+      "ru": "пьяный",
+      "en": "drunk",
+      "phoneticUk": "pyanyi",
+      "phoneticRu": "P'YAnyy",
+      "examples": ["П'яна людина не може керувати авто"]
+    },
+    {
+      "uk": "тверезий",
+      "ru": "трезвый",
+      "en": "sober",
+      "phoneticUk": "tverezyi",
+      "phoneticRu": "TREZvyy",
+      "examples": ["Водій повинен бути тверезим"]
+    },
+    {
+      "uk": "келих",
+      "ru": "бокал",
+      "en": "wine glass",
+      "phoneticUk": "kelykh",
+      "phoneticRu": "boKAL",
+      "examples": ["Вона підняла келих шампанського"]
+    },
+    {
+      "uk": "тост",
+      "ru": "тост",
+      "en": "toast",
+      "phoneticUk": "tost",
+      "phoneticRu": "tost",
+      "examples": ["Він виголосив тост за здоров'я"]
+    },
+    {
+      "uk": "побачення",
+      "ru": "свидание",
+      "en": "date (romantic)",
+      "phoneticUk": "pobachennya",
+      "phoneticRu": "sviDANiye",
+      "examples": ["Він запросив її на побачення"]
+    }
+  ]
+}

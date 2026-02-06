@@ -1,0 +1,83 @@
+{
+  "lessonId": "wordOrder",
+  "nameEn": "Word Order",
+  "nameRu": "Порядок слов",
+  "icon": "📏",
+  "sections": [
+    {
+      "sectionId": "basic-svo",
+      "title": "Basic SVO Order (Основной порядок слов)",
+      "explanation": "The default word order in Russian is Subject-Verb-Object (SVO), similar to English. However, Russian word order is much more flexible because the case system shows who does what. The default SVO order is neutral — changing the order shifts emphasis. New or important information typically goes at the end of the sentence (rheme), while known information comes first (theme).",
+      "examples": [
+        { "ru": "Мальчик читает книгу.", "en": "The boy is reading a book.", "highlight": "Мальчик читает книгу" },
+        { "ru": "Мама готовит обед.", "en": "Mom is cooking lunch.", "highlight": "Мама готовит обед" },
+        { "ru": "Студенты изучают русский язык.", "en": "Students study the Russian language.", "highlight": "Студенты изучают русский язык" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Which sentence uses the standard SVO word order?",
+          "options": ["Книгу читает мальчик.", "Мальчик читает книгу.", "Читает мальчик книгу."],
+          "correctIndex": 1,
+          "explanation": "'Мальчик читает книгу' follows standard Subject-Verb-Object order."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Arrange in SVO order: обед / мама / готовит",
+          "acceptedAnswers": ["Мама готовит обед", "мама готовит обед"],
+          "hint": "Subject first, then verb, then object"
+        }
+      ]
+    },
+    {
+      "sectionId": "questions",
+      "title": "Questions (Вопросы)",
+      "explanation": "In Russian, yes/no questions are formed simply by changing intonation — the word order stays the same, but the voice rises on the key word. Question words (interrogative pronouns) include: кто (who), что (what), где (where), когда (when), почему (why), как (how), какой (which/what kind), сколько (how much/many). The question word usually comes first.",
+      "examples": [
+        { "ru": "Ты говоришь по-русски?", "en": "Do you speak Russian? (intonation question)", "highlight": "Ты говоришь по-русски?" },
+        { "ru": "Где ты живёшь?", "en": "Where do you live?", "highlight": "Где" },
+        { "ru": "Сколько это стоит?", "en": "How much does this cost?", "highlight": "Сколько" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Which word means 'why' in Russian?",
+          "options": ["когда", "почему", "сколько"],
+          "correctIndex": 1,
+          "explanation": "'Почему' means 'why'. 'Когда' means 'when', and 'сколько' means 'how much/many'."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "___ тебя зовут? (What is your name? — literally 'How do they call you?')",
+          "acceptedAnswers": ["Как", "как"],
+          "hint": "The question word meaning 'how'"
+        }
+      ]
+    },
+    {
+      "sectionId": "negation",
+      "title": "Negation (Отрицание)",
+      "explanation": "Negation in Russian is formed by placing 'не' directly before the word being negated (usually the verb). Russian uses double (and even triple) negatives, which is grammatically correct: 'Никто ничего не знает' (Nobody knows anything — literally 'Nobody nothing not knows'). Negative pronouns include: никто (nobody), ничто/ничего (nothing), нигде (nowhere), никогда (never).",
+      "examples": [
+        { "ru": "Я не понимаю.", "en": "I don't understand.", "highlight": "не" },
+        { "ru": "Он никогда не опаздывает.", "en": "He never is late.", "highlight": "никогда не" },
+        { "ru": "Здесь никого нет.", "en": "There is nobody here.", "highlight": "никого нет" }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "prompt": "Choose the correct negation: 'Я ___ люблю кофе.'",
+          "options": ["нет", "не", "ни"],
+          "correctIndex": 1,
+          "explanation": "'Не' is placed before the verb to negate it: 'Я не люблю кофе' (I don't like coffee)."
+        },
+        {
+          "type": "fill-blank",
+          "prompt": "Я ___ знаю этого человека. (I don't know this person.)",
+          "acceptedAnswers": ["не"],
+          "hint": "Place the negation particle before the verb"
+        }
+      ]
+    }
+  ]
+}
