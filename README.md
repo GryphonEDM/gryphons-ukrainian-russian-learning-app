@@ -1,6 +1,10 @@
 # Ukrainian & Russian Typing Game
 
-A free, open-source web app for learning to type in Ukrainian and Russian. Includes typing lessons, vocabulary flashcards (4000+ words), grammar exercises, reading practice, dialogue practice, a translator, and text-to-speech pronunciation.
+A free, open-source web app originally made for learning to type in Ukrainian but expanded to include TTS, as well as language lessons, and added Russian language. 
+
+Please report any errors in translation, or prounciation of alphabet, I cannot address misprounced words but can work on the alphabet stuff. Project is almost entirely vibe coded in spare time. Any issues may take awhile or never be fixed. 
+
+Includes typing lessons, vocabulary flashcards (4000+ words), grammar exercises, reading practice, dialogue practice, a translator, and text-to-speech pronunciation.
 
 ## Features
 
