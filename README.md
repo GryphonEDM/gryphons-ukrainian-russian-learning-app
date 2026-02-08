@@ -16,7 +16,7 @@ A free, open-source web app for learning to type in Ukrainian and Russian. Inclu
 - **Translation Practice** - Translate words between English and your target language
 - **Listening Practice** - Hear words and type what you hear
 - **Translator** - Look up words and phrases
-- **Text-to-Speech** - Hear any word or letter pronounced (requires TTS server)
+- **Text-to-Speech** - Three separate TTS engines for English, Ukrainian, and Russian
 - **Achievement System** - 20 achievements to unlock
 - **Progress Tracking** - XP, streaks, and stats saved per language
 
@@ -25,13 +25,13 @@ A free, open-source web app for learning to type in Ukrainian and Russian. Inclu
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) v16+
-- [Python](https://www.python.org/downloads/) 3.8+ (only needed for TTS)
+- [Python](https://www.python.org/downloads/) 3.8+ (needed for Ukrainian and Russian TTS)
 
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
-cd ukrainian-typing-game
+git clone https://github.com/GryphonEDM/gryphons-ukrainian-russian-learning-app.git
+cd gryphons-ukrainian-russian-learning-app
 npm install
 ```
 
@@ -41,40 +41,49 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173 in your browser. The app is fully functional without TTS - you just won't hear pronunciation.
+Open http://localhost:5173 in your browser. The app is fully functional without the TTS server - you just won't hear Ukrainian/Russian pronunciation. English TTS works out of the box (see below).
 
-### 3. (Optional) Enable text-to-speech
+### 3. (Optional) Enable Ukrainian & Russian text-to-speech
 
-TTS lets you hear every letter and word pronounced. There are two options:
+The TTS server runs both Ukrainian and Russian speech synthesis on a single Flask server (port 3002). English TTS is handled separately by the browser and requires no setup.
 
-#### Option A: Local TTS server (higher quality, offline)
+#### Install Python dependencies
 
 ```bash
-# Install the TTS library
+# Install the Ukrainian TTS library
 cd tts-repo
 pip install -e .
 cd ..
 
-# Install Flask
-pip install flask flask-cors
+# Install server and model dependencies
+pip install flask flask-cors torch
+```
 
-# Start the TTS server
+> **Note:** `torch` (PyTorch) is required by both the Ukrainian and Russian TTS models. If you run into issues with `espnet` (used by Ukrainian TTS), install it explicitly: `pip install espnet`
+
+#### Start the TTS server
+
+```bash
 python tts-server.py
 ```
 
-The first run will automatically download the model files (~425 MB) from GitHub. After that it works offline.
+On first run, models are downloaded automatically:
+- **Ukrainian model** (~425 MB) - ESPnet model from [robinhad/ukrainian-tts](https://github.com/robinhad/ukrainian-tts) releases, saved to `tts-model/`
+- **Russian model** (~65 MB) - Silero v5 model from [silero-models](https://github.com/snakers4/silero-models), saved to `tts-model-ru/`
 
-#### Option B: HuggingFace API (no model download, requires internet)
+After the initial download, TTS works fully offline. You should see:
 
-```bash
-node tts-server.js
 ```
-
-This calls the HuggingFace API and runs on port 3001. To use it, change the port in `src/App.jsx` from `3002` to `3001`.
+[OK] Ukrainian TTS loaded successfully!
+[OK] Ukrainian TTS model loaded!
+[OK] Russian TTS model loaded! (speaker: aidar)
+[SPEAKER] TTS Server (Ukrainian + Russian)
+   Starting on http://localhost:3002
+```
 
 ### Windows one-click start
 
-Double-click `start.bat` to automatically install dependencies and start both the web app and TTS server.
+Double-click `start.bat` to automatically install all dependencies and start both the web app and TTS server.
 
 ### Mac/Linux one-click start
 
@@ -82,6 +91,32 @@ Double-click `start.bat` to automatically install dependencies and start both th
 chmod +x start.sh
 ./start.sh
 ```
+
+## Text-to-Speech Details
+
+This app uses three different TTS engines, one for each language:
+
+| | English | Ukrainian | Russian |
+|---|---|---|---|
+| **Technology** | Browser Web Speech API | ESPnet (robinhad/ukrainian-tts) | Silero v5 |
+| **Server required?** | No (runs in browser) | Yes (`tts-server.py`) | Yes (`tts-server.py`) |
+| **Model download** | None | ~425 MB (auto on first run) | ~65 MB (auto on first run) |
+| **Model location** | N/A | `tts-model/` | `tts-model-ru/` |
+| **Voice** | OS default | Oleksa (male) | Aidar (male) |
+| **Works offline?** | Yes | Yes (after first download) | Yes (after first download) |
+| **Cache** | None | `tts-cache/` | `tts-cache-ru/` |
+
+### English TTS
+
+English pronunciation (used in flashcard mode for English translations) uses the browser's built-in [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis). No setup required - it works automatically in any modern browser using your OS's installed voices.
+
+### Ukrainian TTS
+
+Uses the [ukrainian-tts](https://github.com/robinhad/ukrainian-tts) library by robinhad, which is an ESPnet-based model. The library source is included in the `tts-repo/` directory. The model files (~425 MB) are downloaded from GitHub releases on first run and cached in `tts-model/`. Five voices are available (Oleksa, Tetiana, Dmytro, Mykyta, Lada) - the server uses Oleksa by default.
+
+### Russian TTS
+
+Uses [Silero Models v5](https://github.com/snakers4/silero-models) for Russian speech synthesis. The model (~65 MB) is downloaded automatically on first run from `https://models.silero.ai` and saved to `tts-model-ru/v5_ru.pt`. The server uses the "aidar" voice at 48kHz sample rate.
 
 ## How to play
 
@@ -100,8 +135,11 @@ chmod +x start.sh
 │   ├── data/ru/            # Russian language data
 │   └── utils/              # Helpers (dictionary builder, sound effects)
 ├── tts-repo/               # Ukrainian TTS library (from robinhad/ukrainian-tts)
-├── tts-server.py           # Local TTS server (Python, port 3002)
-├── tts-server.js           # API TTS server (Node.js, port 3001)
+├── tts-server.py           # Local TTS server - Ukrainian (ESPnet) + Russian (Silero) on port 3002
+├── tts-model/              # Ukrainian TTS model files (auto-downloaded, gitignored)
+├── tts-model-ru/           # Russian TTS model files (auto-downloaded, gitignored)
+├── tts-cache/              # Cached Ukrainian TTS audio (gitignored)
+├── tts-cache-ru/           # Cached Russian TTS audio (gitignored)
 ├── start.bat               # Windows startup script
 ├── start.sh                # Mac/Linux startup script
 ├── index.html              # Vite entry point
@@ -111,17 +149,31 @@ chmod +x start.sh
 
 ## Troubleshooting
 
-**App works but no sound?**
+**App works but no Ukrainian/Russian sound?**
 - Make sure TTS is enabled in Settings (bottom of main menu)
 - Check that the TTS server is running (`python tts-server.py`)
-- The TTS server should show "TTS model loaded!" when ready
+- The server should show `[OK] Ukrainian TTS model loaded!` and `[OK] Russian TTS model loaded!` when ready
+- Check the browser console for errors on the `/tts` endpoint
+
+**No English sound on flashcards?**
+- English TTS uses the browser's Web Speech API - make sure your browser supports it
+- Check that your OS has English voice packs installed
 
 **Python dependency issues?**
 ```bash
 pip install torch
 pip install espnet
 pip install flask flask-cors
+cd tts-repo && pip install -e . && cd ..
 ```
+
+**Russian model won't download?**
+- The Silero model downloads from `https://models.silero.ai/models/tts/ru/v5_ru.pt`
+- You can download it manually and place it at `tts-model-ru/v5_ru.pt`
+
+**Ukrainian model won't download?**
+- The ESPnet model downloads from GitHub releases of [robinhad/ukrainian-tts](https://github.com/robinhad/ukrainian-tts/releases)
+- Check your internet connection and try running `python tts-server.py` again
 
 **Port already in use?**
 - Close other apps using ports 5173 or 3002
@@ -130,4 +182,5 @@ pip install flask flask-cors
 ## Credits
 
 - Ukrainian TTS model by [robinhad](https://github.com/robinhad/ukrainian-tts)
+- Russian TTS model by [Silero](https://github.com/snakers4/silero-models)
 - Built with React + Vite
