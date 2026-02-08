@@ -19,11 +19,12 @@ import comprehensiveDictExt8 from '../data/vocabulary/comprehensive-dictionary-e
 import comprehensiveDictExt9 from '../data/vocabulary/comprehensive-dictionary-ext9.json';
 import comprehensiveDictExt10 from '../data/vocabulary/comprehensive-dictionary-ext10.json';
 import comprehensiveDictExt11 from '../data/vocabulary/comprehensive-dictionary-ext11.json';
+import comprehensiveDictExt12 from '../data/vocabulary/comprehensive-dictionary-ext12.json';
 
 import { RU_TRANSLATIONS } from '../data/ru/translations.js';
 
 const THEME_DATA = [colorsData, animalsData, familyData, emotionsData, weatherData, travelData, bodyData, houseData];
-const COMPREHENSIVE = [comprehensiveDict, comprehensiveDictExt, comprehensiveDictExt2, comprehensiveDictExt3, comprehensiveDictExt4, comprehensiveDictExt5, comprehensiveDictExt6, comprehensiveDictExt7, comprehensiveDictExt8, comprehensiveDictExt9, comprehensiveDictExt10, comprehensiveDictExt11];
+const COMPREHENSIVE = [comprehensiveDict, comprehensiveDictExt, comprehensiveDictExt2, comprehensiveDictExt3, comprehensiveDictExt4, comprehensiveDictExt5, comprehensiveDictExt6, comprehensiveDictExt7, comprehensiveDictExt8, comprehensiveDictExt9, comprehensiveDictExt10, comprehensiveDictExt11, comprehensiveDictExt12];
 
 const cache = { uk: { dictionary: null, vocabulary: null }, ru: { dictionary: null, vocabulary: null } };
 

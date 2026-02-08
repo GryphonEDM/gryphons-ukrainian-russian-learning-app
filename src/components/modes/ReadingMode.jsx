@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import ModeHeader from '../shared/ModeHeader.jsx';
 import CompletionScreen from '../shared/CompletionScreen.jsx';
 
-export default function ReadingMode({ passages, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+export default function ReadingMode({ langCode = 'uk', passages, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
   const [phase, setPhase] = useState('picker'); // picker, reading, questions, complete
   const [selectedPassage, setSelectedPassage] = useState(null);
   const [questionIdx, setQuestionIdx] = useState(0);
@@ -100,7 +101,7 @@ export default function ReadingMode({ passages, onSpeak, ttsEnabled, ttsVolume, 
   if (phase === 'picker') {
     return (
       <div style={styles.container}>
-        <ModeHeader title="Reading Practice" subtitle="Read and comprehend Ukrainian texts" icon="📖" onExit={onExit} />
+        <ModeHeader title="Reading Practice" subtitle={`Read and comprehend ${langName} texts`} icon="📖" onExit={onExit} />
         <div style={styles.grid}>
           {passages.map(p => (
             <div key={p.passageId} style={styles.passageCard} onClick={() => startPassage(p)}>

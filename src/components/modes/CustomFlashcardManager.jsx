@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-export default function CustomFlashcardManager({ customWords, onSave, onSpeak, ttsEnabled, ttsVolume }) {
+export default function CustomFlashcardManager({ langCode = 'uk', customWords, onSave, onSpeak, ttsEnabled, ttsVolume }) {
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
   const [newUk, setNewUk] = useState('');
   const [newEn, setNewEn] = useState('');
   const [newPhonetic, setNewPhonetic] = useState('');
@@ -70,7 +71,7 @@ export default function CustomFlashcardManager({ customWords, onSave, onSpeak, t
           <div style={styles.formRow}>
             <input
               style={styles.input}
-              placeholder="Ukrainian word"
+              placeholder={`${langName} word`}
               value={newUk}
               onChange={e => setNewUk(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleAdd()}

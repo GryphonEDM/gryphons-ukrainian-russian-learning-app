@@ -1,3 +1,12 @@
 node_modules
+dist
 .claude
+.cert
+tts-cache
+*.egg-info
+__pycache__
 
+# TTS model files (large, download separately)
+tts-model/
+tts-model-ru/
+tts-cache-ru/

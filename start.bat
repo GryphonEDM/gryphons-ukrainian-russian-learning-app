@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ========================================
-echo   Kyiv Arcade - Ukrainian Typing Game
+echo   Ukrainian & Russian Typing Game
 echo ========================================
 echo.
 

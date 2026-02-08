@@ -33,7 +33,7 @@ export const LANGUAGES = {
     ttsTestText: 'Привіт! Це тест.',
     ttsTestPhrase: 'Привіт',
     ttsTestLabel: '🔊 Test TTS: "Привіт"',
-    gameName: 'Kyiv Arcade',
+    gameName: 'Ukrainian',
   },
   ru: {
     code: 'ru',
@@ -61,7 +61,7 @@ export const LANGUAGES = {
     ttsTestText: 'Привет! Это тест.',
     ttsTestPhrase: 'Привет',
     ttsTestLabel: '🔊 Test TTS: "Привет"',
-    gameName: 'Moscow Arcade',
+    gameName: 'Russian',
   }
 };
 

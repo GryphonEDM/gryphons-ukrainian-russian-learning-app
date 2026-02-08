@@ -6,6 +6,7 @@ import React, { useState, useEffect, useCallback } from 'react';
  * Features: flip cards, spaced repetition, progress tracking
  */
 export default function FlashcardMode({
+  langCode = 'uk',
   vocabularySet,
   ttsEnabled,
   ttsVolume,
@@ -15,6 +16,8 @@ export default function FlashcardMode({
   onAddXP,
   onTrackProgress
 }) {
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
+  const langNative = langCode === 'ru' ? 'Русский' : 'Українська';
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [masteredWords, setMasteredWords] = useState([]);
@@ -206,19 +209,20 @@ export default function FlashcardMode({
           }}>
             <div style={{...styles.cardLabel, ...(colorValue ? { color: colorTextColor, opacity: 0.7 } : {})}}>English</div>
             <div style={{...styles.cardWord, ...(colorValue ? { color: colorTextColor } : {})}}>{currentWord.en}</div>
-            <div style={{...styles.cardHint, ...(colorValue ? { color: colorTextColor, opacity: 0.6 } : {})}}>Click to see Ukrainian →</div>
+            <div style={{...styles.cardHint, ...(colorValue ? { color: colorTextColor, opacity: 0.6 } : {})}}>Click to see {langName} →</div>
           </div>
 
-          {/* Back (Ukrainian) */}
+          {/* Back (Target language) */}
           <div style={{
             ...styles.cardFace,
             ...styles.cardBack,
+            ...(langCode === 'ru' ? { background: 'linear-gradient(135deg, #0039A6 0%, #D52B1E 100%)' } : {}),
             ...(colorValue ? { background: colorValue, color: colorTextColor } : {}),
             transform: 'rotateY(180deg)',
             opacity: isFlipped ? 1 : 0,
             pointerEvents: isFlipped ? 'auto' : 'none'
           }}>
-            <div style={{...styles.cardLabel, ...(colorValue ? { color: colorTextColor, opacity: 0.7 } : {})}}>Українська</div>
+            <div style={{...styles.cardLabel, ...(colorValue ? { color: colorTextColor, opacity: 0.7 } : {})}}>{langNative}</div>
             <div style={{...styles.cardWord, ...(colorValue ? { color: colorTextColor } : {})}}>{currentWord.uk}</div>
             <div style={{...styles.cardPhonetic, ...(colorValue ? { color: colorTextColor } : {})}}>({currentWord.phonetic})</div>
             {currentWord.examples && currentWord.examples.length > 0 && (

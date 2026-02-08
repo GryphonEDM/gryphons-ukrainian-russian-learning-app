@@ -32,7 +32,9 @@
       "Bash(dir \"C:\\\\Users\\\\michael\\\\Desktop\\\\ukrainian typing game\\\\src\\\\data\\\\vocabulary\"\" /s /b | grep -E \".json$ \")",
       "Bash(dir:*)",
       "Bash(echo:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

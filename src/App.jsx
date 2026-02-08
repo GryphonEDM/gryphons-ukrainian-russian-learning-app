@@ -16,6 +16,14 @@ import GrammarMode from './components/modes/GrammarMode.jsx';
 import SentenceMode from './components/modes/SentenceMode.jsx';
 import DialogueMode from './components/modes/DialogueMode.jsx';
 import ReadingMode from './components/modes/ReadingMode.jsx';
+import StoryMode from './components/modes/StoryMode.jsx';
+
+// Import story data
+import veryBeginnerStories from './data/stories/very-beginner.json';
+import beginnerStories from './data/stories/beginner.json';
+import earlyIntermediateStories from './data/stories/early-intermediate.json';
+
+const ALL_STORIES = [veryBeginnerStories, beginnerStories, earlyIntermediateStories];
 
 // Import grammar data
 import casesData from './data/grammar/cases.json';
@@ -183,7 +191,7 @@ const speakUkrainian = async (text, rate = 0.8, volume = 0.8, lang = 'uk') => {
 
   try {
     console.log(`[TTS] Requesting (${lang}): "${text}"`);
-    const response = await fetch('http://localhost:3002/tts', {
+    const response = await fetch('/tts', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text, lang })
@@ -238,6 +246,8 @@ export default function UkrainianTypingGame() {
   const CURRENT_LESSONS = langData.lessons;
   const CURRENT_ALPHABET = langData.alphabetChallenge;
   const CURRENT_TRANSLATIONS = langData.translations;
+  const letterField = langData.targetField; // 'uk' or 'ru' - used to access keyboard data
+  const phoneticField = langData.phoneticField; // 'ukrainianPhonetic' or 'russianPhonetic'
   const CURRENT_ENCOURAGEMENTS = currentLanguage === 'ru' ? ENCOURAGEMENTS_RU : ENCOURAGEMENTS;
   const CURRENT_MISTAKE_MESSAGES = currentLanguage === 'ru' ? MISTAKE_MESSAGES_RU : MISTAKE_MESSAGES;
   const normalizeVocabSet = (set) => ({
@@ -299,6 +309,7 @@ export default function UkrainianTypingGame() {
   const [highlightKey, setHighlightKey] = useState('');
   const [wordsCompleted, setWordsCompleted] = useState(0);
   const [levelProgress, setLevelProgress] = useState(0);
+  const [completedWordInfo, setCompletedWordInfo] = useState(null); // { word, meaning }
   
   // Timing for speed achievement
   const [recentKeyTimes, setRecentKeyTimes] = useState([]);
@@ -551,7 +562,7 @@ export default function UkrainianTypingGame() {
         if (keyData) {
           setExploreSelectedKey(keyData);
           if (ttsEnabled) {
-            const textToSpeak = keyData.ukrainianPhonetic || keyData.uk;
+            const textToSpeak = keyData[phoneticField] || keyData[letterField];
             speak(textToSpeak, 0.8, ttsVolume);
           }
           break;
@@ -572,7 +583,7 @@ export default function UkrainianTypingGame() {
       checkSpeedAchievement();
 
       // Track vowels for achievement
-      const vowels = ['а', 'е', 'и', 'і', 'о', 'у', 'є', 'ї', 'ю', 'я'];
+      const vowels = langData.vowels;
       let newTypedVowels = [...typedVowels];
       if (vowels.includes(targetChar) && !typedVowels.includes(targetChar)) {
         newTypedVowels = [...typedVowels, targetChar];
@@ -603,7 +614,7 @@ export default function UkrainianTypingGame() {
           // Speak the letter that was just typed
           if (ttsEnabled) {
             const letterData = CURRENT_LETTER_INFO[targetChar];
-            const letterSound = letterData?.ukrainianPhonetic || targetChar;
+            const letterSound = letterData?.[phoneticField] || targetChar;
             speak(letterSound, 0.9, ttsVolume);
           }
 
@@ -648,6 +659,12 @@ export default function UkrainianTypingGame() {
           setXp(prev => prev + lesson.xpPerWord);
           setEncouragement(CURRENT_ENCOURAGEMENTS[Math.floor(Math.random() * CURRENT_ENCOURAGEMENTS.length)]);
 
+          // Show completed word meaning
+          const completedTranslation = CURRENT_TRANSLATIONS[currentTarget];
+          if (completedTranslation) {
+            setCompletedWordInfo({ word: currentTarget, meaning: completedTranslation });
+          }
+
           // Track perfect words
           let newPerfectWords = perfectWordsCount;
           if (wordMistakes === 0) {
@@ -673,11 +690,12 @@ export default function UkrainianTypingGame() {
           if (ttsEnabled) {
             (async () => {
               const letterData = CURRENT_LETTER_INFO[targetChar];
-              const letterSound = letterData?.ukrainianPhonetic || targetChar;
+              const letterSound = letterData?.[phoneticField] || targetChar;
               await speak(letterSound, 0.9, ttsVolume); // Wait for letter to finish
               await speak(currentTarget, 0.75, ttsVolume); // Wait for word to finish
 
               // Move to next word only after all speech is done
+              setCompletedWordInfo(null);
               setCurrentTarget(getNextTarget(gameMode, currentLevel));
               setCurrentInput('');
               setCurrentIndex(0);
@@ -687,19 +705,20 @@ export default function UkrainianTypingGame() {
           } else {
             // If TTS is disabled, move to next word after brief pause
             setTimeout(() => {
+              setCompletedWordInfo(null);
               setCurrentTarget(getNextTarget(gameMode, currentLevel));
               setCurrentInput('');
               setCurrentIndex(0);
               setWordMistakes(0);
               setEncouragement('');
-            }, 800);
+            }, 1500); // longer pause to show word meaning
           }
         }
       } else {
         // Not word completion - just speak the letter
         if (ttsEnabled) {
           const letterData = CURRENT_LETTER_INFO[targetChar];
-          const textToSpeak = letterData?.ukrainianPhonetic || targetChar;
+          const textToSpeak = letterData?.[phoneticField] || targetChar;
           speak(textToSpeak, 0.9, ttsVolume);
         }
         // Check achievements for letter progress
@@ -729,7 +748,7 @@ export default function UkrainianTypingGame() {
   }, [gameMode, currentTarget, currentIndex, currentLevel, streak, bestStreak, xp,
       totalLettersTyped, totalWordsCompleted, wordsCompleted, wordMistakes, perfectWordsCount,
       typedVowels, soundEnabled, ttsEnabled, checkAchievements, checkSpeedAchievement, getNextTarget,
-      alphabetLoopStartTime, alphabetLoopHistory, alphabetBestTime]);
+      alphabetLoopStartTime, alphabetLoopHistory, alphabetBestTime, letterField, phoneticField, langData]);
 
   // Keyboard listener
   useEffect(() => {
@@ -755,7 +774,7 @@ export default function UkrainianTypingGame() {
       {CURRENT_KEYBOARD.map((row, rowIndex) => (
         <div key={rowIndex} className="keyboard-row">
           {row.map((keyData) => {
-            const letter = keyData.uk;
+            const letter = keyData[letterField];
             const isHighlight = highlight === letter;
             return (
               <div
@@ -776,14 +795,14 @@ export default function UkrainianTypingGame() {
       ))}
       <div className="keyboard-row">
         <div className={`key space-key ${highlight === ' ' ? 'highlight' : ''}`}>
-          <span className="uk-letter">пробіл (space)</span>
+          <span className="uk-letter">{langData.spaceLabel}</span>
         </div>
       </div>
       <div className="finger-legend">
-        <span style={{color: fingerColors['pinky-l']}}>● Мізинець (Pinky)</span>
-        <span style={{color: fingerColors['ring-l']}}>● Безіменний (Ring)</span>
-        <span style={{color: fingerColors['middle-l']}}>● Середній (Middle)</span>
-        <span style={{color: fingerColors['index-l']}}>● Вказівний (Index)</span>
+        <span style={{color: fingerColors['pinky-l']}}>● {currentLanguage === 'ru' ? 'Мизинец' : 'Мізинець'} (Pinky)</span>
+        <span style={{color: fingerColors['ring-l']}}>● {currentLanguage === 'ru' ? 'Безымянный' : 'Безіменний'} (Ring)</span>
+        <span style={{color: fingerColors['middle-l']}}>● {currentLanguage === 'ru' ? 'Средний' : 'Середній'} (Middle)</span>
+        <span style={{color: fingerColors['index-l']}}>● {currentLanguage === 'ru' ? 'Указательный' : 'Вказівний'} (Index)</span>
       </div>
     </div>
   );
@@ -813,51 +832,57 @@ export default function UkrainianTypingGame() {
   );
 
   // Keyboard setup modal
-  const KeyboardSetupModal = () => (
-    <div className="modal-overlay" onClick={() => setShowKeyboardSetup(false)}>
-      <div className="modal-content" onClick={e => e.stopPropagation()}>
-        <h2>⌨️ Setting Up Your Ukrainian Keyboard</h2>
-        
-        <div className="setup-section">
-          <h3>🪟 Windows</h3>
-          <ol>
-            <li>Go to <strong>Settings → Time & Language → Language</strong></li>
-            <li>Click <strong>Add a language</strong></li>
-            <li>Search for <strong>Ukrainian</strong> and install it</li>
-            <li>Press <strong>Win + Space</strong> to switch between languages</li>
-          </ol>
+  const KeyboardSetupModal = () => {
+    const langName = langData.name;
+    const exampleA = currentLanguage === 'ru' ? 'Ф' : 'Ф';
+    const exampleS = currentLanguage === 'ru' ? 'Ы' : 'І';
+    const gotIt = currentLanguage === 'ru' ? 'Понятно!' : 'Зрозуміло!';
+    return (
+      <div className="modal-overlay" onClick={() => setShowKeyboardSetup(false)}>
+        <div className="modal-content" onClick={e => e.stopPropagation()}>
+          <h2>⌨️ Setting Up Your {langName} Keyboard</h2>
+
+          <div className="setup-section">
+            <h3>🪟 Windows</h3>
+            <ol>
+              <li>Go to <strong>Settings → Time & Language → Language</strong></li>
+              <li>Click <strong>Add a language</strong></li>
+              <li>Search for <strong>{langName}</strong> and install it</li>
+              <li>Press <strong>Win + Space</strong> to switch between languages</li>
+            </ol>
+          </div>
+
+          <div className="setup-section">
+            <h3>🍎 Mac</h3>
+            <ol>
+              <li>Go to <strong>System Preferences → Keyboard → Input Sources</strong></li>
+              <li>Click <strong>+</strong> and search for <strong>{langName}</strong></li>
+              <li>Add it and check "Show Input menu in menu bar"</li>
+              <li>Press <strong>Ctrl + Space</strong> to switch</li>
+            </ol>
+          </div>
+
+          <div className="setup-section">
+            <h3>🐧 Linux</h3>
+            <ol>
+              <li>Go to <strong>Settings → Region & Language</strong></li>
+              <li>Click <strong>+</strong> under Input Sources</li>
+              <li>Select <strong>{langName}</strong></li>
+              <li>Press <strong>Super + Space</strong> to switch</li>
+            </ol>
+          </div>
+
+          <div className="setup-tip">
+            <strong>💡 Pro Tip:</strong> Your physical keyboard stays the same! When you switch to {langName}, pressing 'A' types '{exampleA}', pressing 'S' types '{exampleS}', etc. The virtual keyboard shows you which physical key to press.
+          </div>
+
+          <button className="modal-close-btn" onClick={() => setShowKeyboardSetup(false)}>
+            Got it! {gotIt} ✓
+          </button>
         </div>
-        
-        <div className="setup-section">
-          <h3>🍎 Mac</h3>
-          <ol>
-            <li>Go to <strong>System Preferences → Keyboard → Input Sources</strong></li>
-            <li>Click <strong>+</strong> and search for <strong>Ukrainian</strong></li>
-            <li>Add it and check "Show Input menu in menu bar"</li>
-            <li>Press <strong>Ctrl + Space</strong> to switch</li>
-          </ol>
-        </div>
-        
-        <div className="setup-section">
-          <h3>🐧 Linux</h3>
-          <ol>
-            <li>Go to <strong>Settings → Region & Language</strong></li>
-            <li>Click <strong>+</strong> under Input Sources</li>
-            <li>Select <strong>Ukrainian</strong></li>
-            <li>Press <strong>Super + Space</strong> to switch</li>
-          </ol>
-        </div>
-        
-        <div className="setup-tip">
-          <strong>💡 Pro Tip:</strong> Your physical keyboard stays the same! When you switch to Ukrainian, pressing 'A' types 'Ф', pressing 'S' types 'І', etc. The virtual keyboard shows you which physical key to press.
-        </div>
-        
-        <button className="modal-close-btn" onClick={() => setShowKeyboardSetup(false)}>
-          Got it! Зрозуміло! ✓
-        </button>
       </div>
-    </div>
-  );
+    );
+  };
 
   // Level select card with icons and mode selection
   const LevelCard = ({ level, unlocked }) => {
@@ -967,8 +992,8 @@ export default function UkrainianTypingGame() {
         {gameMode === 'menu' ? (
           <div className="menu-screen">
             <div className="menu-hero">
-              <h1>Learn Ukrainian Typing</h1>
-              <p>Master the Ukrainian keyboard one letter at a time!</p>
+              <h1>Learn {langData.name} Typing</h1>
+              <p>Master the {langData.name} keyboard one letter at a time!</p>
               
               <div className="quick-stats">
                 <div className="quick-stat">
@@ -1000,9 +1025,9 @@ export default function UkrainianTypingGame() {
               <h2>⚡ Mini-Game Challenge</h2>
               <div className="alphabet-challenge-card">
                 <div className="challenge-info">
-                  <h3>🔤 {ALPHABET_CHALLENGE.name}</h3>
-                  <p className="challenge-desc">{ALPHABET_CHALLENGE.description}</p>
-                  <p className="challenge-hint">{ALPHABET_CHALLENGE.hint}</p>
+                  <h3>🔤 {CURRENT_ALPHABET.name}</h3>
+                  <p className="challenge-desc">{CURRENT_ALPHABET.description}</p>
+                  <p className="challenge-hint">{CURRENT_ALPHABET.hint}</p>
                   {alphabetBestTime && (
                     <p className="challenge-record">🏆 Your Best: {(alphabetBestTime / 1000).toFixed(2)}s</p>
                   )}
@@ -1169,6 +1194,7 @@ export default function UkrainianTypingGame() {
 
               {/* Custom Flashcard Manager */}
               <CustomFlashcardManager
+                langCode={currentLanguage}
                 customWords={customFlashcards}
                 onSave={(updated) => setCustomFlashcards(updated)}
                 onSpeak={speak}
@@ -1180,7 +1206,7 @@ export default function UkrainianTypingGame() {
             {/* New Learning Modes */}
             <div className="new-modes-section">
               <h2>🎯 Learning Modes</h2>
-              <p className="section-subtitle">Practice Ukrainian in different ways</p>
+              <p className="section-subtitle">Practice {langData.name} in different ways</p>
               <div className="modes-grid">
                 <div className="mode-card" onClick={() => setGameMode('translator')}>
                   <div className="mode-icon">📖</div>
@@ -1229,6 +1255,13 @@ export default function UkrainianTypingGame() {
                   <div className="mode-info">
                     <h3>Reading Practice</h3>
                     <p>Read texts and answer questions</p>
+                  </div>
+                </div>
+                <div className="mode-card" onClick={() => setGameMode('stories')}>
+                  <div className="mode-icon">📚</div>
+                  <div className="mode-info">
+                    <h3>Story Time</h3>
+                    <p>Read along with stories, click words to learn</p>
                   </div>
                 </div>
               </div>
@@ -1329,29 +1362,30 @@ export default function UkrainianTypingGame() {
             </button>
             
             <div className="explore-header">
-              <h2>🔍 Explore the Ukrainian Keyboard</h2>
-              <p>Click any key to learn about it! Познайомся з клавіатурою!</p>
+              <h2>🔍 Explore the {langData.name} Keyboard</h2>
+              <p>Click any key to learn about it! {currentLanguage === 'ru' ? 'Познакомься с клавиатурой!' : 'Познайомся з клавіатурою!'}</p>
             </div>
-            
+
             <div className="keyboard explore-mode">
               {CURRENT_KEYBOARD.map((row, rowIndex) => (
                 <div key={rowIndex} className="keyboard-row">
                   {row.map((keyData) => {
-                    const isSelected = exploreSelectedKey?.uk === keyData.uk;
+                    const keyLetter = keyData[letterField];
+                    const isSelected = exploreSelectedKey?.[letterField] === keyLetter;
                     return (
                       <div
-                        key={keyData.uk}
+                        key={keyLetter}
                         className={`key ${isSelected ? 'selected' : ''} ${rowIndex === 1 ? 'home-row' : ''}`}
                         onClick={() => {
                           setExploreSelectedKey(keyData);
                           if (ttsEnabled) {
-                            const textToSpeak = keyData.ukrainianPhonetic || keyData.uk;
+                            const textToSpeak = keyData[phoneticField] || keyLetter;
                             speak(textToSpeak, 0.8, ttsVolume);
                           }
                         }}
                         style={{ cursor: 'pointer' }}
                       >
-                        <span className="uk-letter">{keyData.uk}</span>
+                        <span className="uk-letter">{keyLetter}</span>
                         <span className="qwerty-letter">{keyData.qwerty}</span>
                       </div>
                     );
@@ -1368,7 +1402,7 @@ export default function UkrainianTypingGame() {
                   }}
                   style={{ cursor: 'pointer' }}
                 >
-                  <span className="uk-letter">пробіл (space)</span>
+                  <span className="uk-letter">{langData.spaceLabel}</span>
                 </div>
               </div>
             </div>
@@ -1376,11 +1410,11 @@ export default function UkrainianTypingGame() {
             {exploreSelectedKey ? (
               <div className="key-info-panel">
                 <div className="key-info-main">
-                  <div className="key-info-letter">{exploreSelectedKey.uk.toUpperCase()}</div>
-                  <div className="key-info-letter-lower">{exploreSelectedKey.uk}</div>
+                  <div className="key-info-letter">{exploreSelectedKey[letterField].toUpperCase()}</div>
+                  <div className="key-info-letter-lower">{exploreSelectedKey[letterField]}</div>
                   <button
                     className="hear-button"
-                    onClick={() => speak(exploreSelectedKey.uk, 0.7, ttsVolume)}
+                    onClick={() => speak(exploreSelectedKey[letterField], 0.7, ttsVolume)}
                   >
                     🔊 Hear it
                   </button>
@@ -1403,22 +1437,23 @@ export default function UkrainianTypingGame() {
             ) : (
               <div className="key-info-panel empty">
                 <p>👆 Click a key above to see details</p>
-                <p className="hint-uk">Натисни на клавішу вище</p>
+                <p className="hint-uk">{currentLanguage === 'ru' ? 'Нажми на клавишу выше' : 'Натисни на клавішу вище'}</p>
               </div>
             )}
             
             <div className="explore-tips">
               <h3>💡 Quick Tips</h3>
               <ul>
-                <li><strong>Home row:</strong> Keep your fingers on Ф І В А П Р О Л Д (middle row)</li>
-                <li><strong>Vowels:</strong> Ukrainian has 10 vowels - а, е, и, і, о, у, є, ї, ю, я</li>
-                <li><strong>Soft sign (ь):</strong> Doesn't make a sound itself, but softens the preceding consonant</li>
-                <li><strong>Unique letters:</strong> Ї (yee), Є (yeh), and Ґ (hard g) are unique to Ukrainian</li>
+                <li><strong>Home row:</strong> Keep your fingers on {langData.homeRowLetters} (middle row)</li>
+                <li><strong>Vowels:</strong> {langData.vowelsNote}</li>
+                <li><strong>{langData.softSignNote}</strong></li>
+                <li><strong>Unique letters:</strong> {langData.uniqueLettersNote}</li>
               </ul>
             </div>
           </div>
         ) : gameMode === 'flashcards' ? (
           <FlashcardMode
+            langCode={currentLanguage}
             vocabularySet={selectedVocabSet}
             ttsEnabled={ttsEnabled}
             ttsVolume={ttsVolume}
@@ -1500,6 +1535,7 @@ export default function UkrainianTypingGame() {
           />
         ) : gameMode === 'translation' ? (
           <TranslationPracticeMode
+            langCode={currentLanguage}
             onSpeak={speak}
             ttsEnabled={ttsEnabled}
             ttsVolume={ttsVolume}
@@ -1518,6 +1554,7 @@ export default function UkrainianTypingGame() {
           />
         ) : gameMode === 'grammar' ? (
           <GrammarMode
+            langCode={currentLanguage}
             grammarLessons={CURRENT_GRAMMAR}
             onSpeak={speak}
             ttsEnabled={ttsEnabled}
@@ -1536,6 +1573,7 @@ export default function UkrainianTypingGame() {
           />
         ) : gameMode === 'sentences' ? (
           <SentenceMode
+            langCode={currentLanguage}
             sentenceData={CURRENT_SENTENCES.sentences}
             onSpeak={speak}
             ttsEnabled={ttsEnabled}
@@ -1555,6 +1593,7 @@ export default function UkrainianTypingGame() {
           />
         ) : gameMode === 'dialogue' ? (
           <DialogueMode
+            langCode={currentLanguage}
             dialogues={CURRENT_DIALOGUES}
             onSpeak={speak}
             ttsEnabled={ttsEnabled}
@@ -1573,6 +1612,7 @@ export default function UkrainianTypingGame() {
           />
         ) : gameMode === 'reading' ? (
           <ReadingMode
+            langCode={currentLanguage}
             passages={CURRENT_READING}
             onSpeak={speak}
             ttsEnabled={ttsEnabled}
@@ -1588,6 +1628,16 @@ export default function UkrainianTypingGame() {
                 [mode]: { ...(prev[mode] || {}), ...data, lastStudied: new Date().toISOString() }
               }));
             }}
+          />
+        ) : gameMode === 'stories' ? (
+          <StoryMode
+            langCode={currentLanguage}
+            stories={ALL_STORIES}
+            onSpeak={speak}
+            ttsEnabled={ttsEnabled}
+            ttsVolume={ttsVolume}
+            onExit={() => setGameMode('menu')}
+            onAddXP={(amount) => setXp(prev => prev + amount)}
           />
         ) : (
           <div className="practice-screen">
@@ -1607,14 +1657,14 @@ export default function UkrainianTypingGame() {
             {gameMode === 'alphabet' && (
               <>
                 <div className="lesson-header">
-                  <h2>{ALPHABET_CHALLENGE.name}</h2>
-                  <p className="lesson-name-uk">{ALPHABET_CHALLENGE.nameUk}</p>
-                  <p>{ALPHABET_CHALLENGE.hint}</p>
+                  <h2>{CURRENT_ALPHABET.name}</h2>
+                  <p className="lesson-name-uk">{CURRENT_ALPHABET.nameUk}</p>
+                  <p>{CURRENT_ALPHABET.hint}</p>
                 </div>
                 <div className="alphabet-stats">
                   <div className="stat-box">
                     <div className="stat-label">Current Progress</div>
-                    <div className="stat-value">{wordsCompleted + 1} / {ALPHABET_CHALLENGE.letters.length}</div>
+                    <div className="stat-value">{wordsCompleted + 1} / {CURRENT_ALPHABET.letters.length}</div>
                   </div>
                   <div className="stat-box">
                     <div className="stat-label">Best Time</div>
@@ -1666,7 +1716,16 @@ export default function UkrainianTypingGame() {
                   "{CURRENT_TRANSLATIONS[currentTarget]}"
                 </div>
               )}
-              
+
+              {/* Show completed word meaning */}
+              {completedWordInfo && (
+                <div className="completed-word-meaning">
+                  <span className="completed-word">{completedWordInfo.word}</span>
+                  <span className="completed-equals"> = </span>
+                  <span className="completed-meaning">"{completedWordInfo.meaning}"</span>
+                </div>
+              )}
+
               <div className="feedback-area">
                 {encouragement && <div className="encouragement">{encouragement}</div>}
                 {mistakeMessage && <div className="mistake-message">{mistakeMessage}</div>}
@@ -2680,7 +2739,37 @@ export default function UkrainianTypingGame() {
           margin-bottom: 1rem;
           font-style: italic;
         }
-        
+
+        .completed-word-meaning {
+          font-size: 1.3rem;
+          margin: 0.75rem 0;
+          padding: 0.75rem 1.5rem;
+          background: rgba(77,171,247,0.15);
+          border: 1px solid rgba(77,171,247,0.3);
+          border-radius: 12px;
+          animation: fadeInMeaning 0.3s ease;
+        }
+
+        .completed-word {
+          color: #ffd700;
+          font-weight: 700;
+        }
+
+        .completed-equals {
+          color: rgba(255,255,255,0.5);
+        }
+
+        .completed-meaning {
+          color: #4dabf7;
+          font-style: italic;
+          font-weight: 600;
+        }
+
+        @keyframes fadeInMeaning {
+          from { opacity: 0; transform: translateY(-5px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
         .settings-section {
           background: rgba(0,0,0,0.2);
           border-radius: 20px;

@@ -88,8 +88,9 @@ export default function TranslatorMode({ langCode = 'uk', onSpeak, ttsEnabled, t
     setInputText(key);
   };
 
-  const fromLabel = direction === 'en-uk' ? 'English' : 'Українська';
-  const toLabel = direction === 'en-uk' ? 'Українська' : 'English';
+  const langNative = langCode === 'ru' ? 'Русский' : 'Українська';
+  const fromLabel = direction === 'en-uk' ? 'English' : langNative;
+  const toLabel = direction === 'en-uk' ? langNative : 'English';
   const outputIsUkrainian = direction === 'en-uk';
 
   return (

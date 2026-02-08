@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import ModeHeader from '../shared/ModeHeader.jsx';
 import CompletionScreen from '../shared/CompletionScreen.jsx';
 
-export default function GrammarMode({ grammarLessons, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+export default function GrammarMode({ langCode = 'uk', grammarLessons, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
   const [phase, setPhase] = useState('picker'); // picker, lesson, exercise, complete
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [sectionIdx, setSectionIdx] = useState(0);
@@ -108,14 +109,14 @@ export default function GrammarMode({ grammarLessons, onSpeak, ttsEnabled, ttsVo
   if (phase === 'picker') {
     return (
       <div style={styles.container}>
-        <ModeHeader title="Grammar Lessons" subtitle="Learn Ukrainian grammar" icon="📐" onExit={onExit} />
+        <ModeHeader title="Grammar Lessons" subtitle={`Learn ${langName} grammar`} icon="📐" onExit={onExit} />
         <div style={styles.grid}>
           {grammarLessons.map(lesson => (
             <div key={lesson.lessonId} style={styles.lessonCard} onClick={() => startLesson(lesson)}>
               <div style={styles.lessonIcon}>{lesson.icon}</div>
               <div style={styles.lessonInfo}>
                 <h3 style={styles.lessonTitle}>{lesson.nameEn}</h3>
-                <p style={styles.lessonTitleUk}>{lesson.nameUk}</p>
+                <p style={styles.lessonTitleUk}>{langCode === 'ru' ? lesson.nameRu : lesson.nameUk}</p>
                 <p style={styles.lessonMeta}>{lesson.sections.length} sections</p>
               </div>
             </div>

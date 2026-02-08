@@ -3,7 +3,7 @@ import ModeHeader from '../shared/ModeHeader.jsx';
 import CompletionScreen from '../shared/CompletionScreen.jsx';
 import { getAllVocabularyWords } from '../../utils/dictionaryBuilder.js';
 
-export default function TranslationPracticeMode({ onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+export default function TranslationPracticeMode({ langCode = 'uk', onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
   const [phase, setPhase] = useState('playing');
   const [direction, setDirection] = useState('en-uk'); // en-uk or uk-en
   const [words, setWords] = useState(() => generateWords('en-uk'));
@@ -18,8 +18,12 @@ export default function TranslationPracticeMode({ onSpeak, ttsEnabled, ttsVolume
   const [sessionUsedHints, setSessionUsedHints] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
+  const langNative = langCode === 'ru' ? 'Русский' : 'Українська';
+  const dirLabel = direction === 'en-uk' ? `EN → ${langCode.toUpperCase()}` : `${langCode.toUpperCase()} → EN`;
+
   function generateWords(dir) {
-    const all = getAllVocabularyWords();
+    const all = getAllVocabularyWords(langCode);
     const shuffled = [...all].sort(() => Math.random() - 0.5);
     return shuffled.slice(0, 10);
   }
@@ -171,7 +175,7 @@ export default function TranslationPracticeMode({ onSpeak, ttsEnabled, ttsVolume
 
       <div style={styles.controls}>
         <button style={styles.dirBtn} onClick={handleDirectionChange}>
-          {direction === 'en-uk' ? 'EN → UK' : 'UK → EN'} (tap to switch)
+          {dirLabel} (tap to switch)
         </button>
         {streak >= 3 && <span style={styles.streakBadge}>🔥 {streak} streak!</span>}
       </div>
@@ -182,7 +186,7 @@ export default function TranslationPracticeMode({ onSpeak, ttsEnabled, ttsVolume
 
       <div style={styles.card}>
         <p style={styles.promptLabel}>
-          Translate to {direction === 'en-uk' ? 'Ukrainian' : 'English'}:
+          Translate to {direction === 'en-uk' ? langName : 'English'}:
         </p>
         <div style={styles.prompt}>{prompt}</div>
 

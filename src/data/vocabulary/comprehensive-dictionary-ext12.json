@@ -1,0 +1,5268 @@
+{
+  "words": [
+    {
+      "uk": "рід",
+      "ru": "род",
+      "en": "kin/family",
+      "phoneticUk": "rid",
+      "phoneticRu": "rod",
+      "category": "nouns"
+    },
+    {
+      "uk": "пора",
+      "ru": "пора",
+      "en": "time/season",
+      "phoneticUk": "pora",
+      "phoneticRu": "pora",
+      "category": "nouns"
+    },
+    {
+      "uk": "діло",
+      "ru": "дело",
+      "en": "deed/matter",
+      "phoneticUk": "dilo",
+      "phoneticRu": "delo",
+      "category": "nouns"
+    },
+    {
+      "uk": "воля",
+      "ru": "воля",
+      "en": "freedom/will",
+      "phoneticUk": "volya",
+      "phoneticRu": "volya",
+      "category": "nouns"
+    },
+    {
+      "uk": "рада",
+      "ru": "совет",
+      "en": "advice/council",
+      "phoneticUk": "rada",
+      "phoneticRu": "sovet",
+      "category": "nouns"
+    },
+    {
+      "uk": "сон",
+      "ru": "сон",
+      "en": "dream/sleep",
+      "phoneticUk": "son",
+      "phoneticRu": "son",
+      "category": "nouns"
+    },
+    {
+      "uk": "їжа",
+      "ru": "еда",
+      "en": "food",
+      "phoneticUk": "yizha",
+      "phoneticRu": "yeda",
+      "category": "nouns"
+    },
+    {
+      "uk": "юнак",
+      "ru": "юноша",
+      "en": "young man",
+      "phoneticUk": "yunak",
+      "phoneticRu": "yunosha",
+      "category": "nouns"
+    },
+    {
+      "uk": "весь",
+      "ru": "весь",
+      "en": "all/whole",
+      "phoneticUk": "ves'",
+      "phoneticRu": "ves'",
+      "category": "pronouns"
+    },
+    {
+      "uk": "свій",
+      "ru": "свой",
+      "en": "own",
+      "phoneticUk": "sviy",
+      "phoneticRu": "svoy",
+      "category": "pronouns"
+    },
+    {
+      "uk": "можна",
+      "ru": "можно",
+      "en": "can/may",
+      "phoneticUk": "mozhna",
+      "phoneticRu": "mozhno",
+      "category": "adverbs"
+    },
+    {
+      "uk": "треба",
+      "ru": "надо",
+      "en": "need to",
+      "phoneticUk": "treba",
+      "phoneticRu": "nado",
+      "category": "adverbs"
+    },
+    {
+      "uk": "овочі",
+      "ru": "овощи",
+      "en": "vegetables",
+      "phoneticUk": "ovochi",
+      "phoneticRu": "ovoshchi",
+      "category": "food"
+    },
+    {
+      "uk": "фрукти",
+      "ru": "фрукты",
+      "en": "fruits",
+      "phoneticUk": "frukty",
+      "phoneticRu": "frukty",
+      "category": "food"
+    },
+    {
+      "uk": "жар",
+      "ru": "жар",
+      "en": "heat/embers",
+      "phoneticUk": "zhar",
+      "phoneticRu": "zhar",
+      "category": "nouns"
+    },
+    {
+      "uk": "сміх",
+      "ru": "смех",
+      "en": "laughter",
+      "phoneticUk": "smikh",
+      "phoneticRu": "smekh",
+      "category": "nouns"
+    },
+    {
+      "uk": "миття",
+      "ru": "мытьё",
+      "en": "washing",
+      "phoneticUk": "myttya",
+      "phoneticRu": "myt'yo",
+      "category": "nouns"
+    },
+    {
+      "uk": "буття",
+      "ru": "бытие",
+      "en": "existence/being",
+      "phoneticUk": "buttya",
+      "phoneticRu": "bytiye",
+      "category": "nouns"
+    },
+    {
+      "uk": "тиша",
+      "ru": "тишина",
+      "en": "silence/quiet",
+      "phoneticUk": "tysha",
+      "phoneticRu": "tishina",
+      "category": "nouns"
+    },
+    {
+      "uk": "щуку",
+      "ru": "щуку",
+      "en": "pike (fish, accusative)",
+      "phoneticUk": "shchuku",
+      "phoneticRu": "shchuku",
+      "category": "nouns"
+    },
+    {
+      "uk": "цех",
+      "ru": "цех",
+      "en": "workshop/shop floor",
+      "phoneticUk": "tsekh",
+      "phoneticRu": "tsekh",
+      "category": "nouns"
+    },
+    {
+      "uk": "око",
+      "ru": "око",
+      "en": "eye (archaic/poetic)",
+      "phoneticUk": "oko",
+      "phoneticRu": "oko",
+      "category": "body"
+    },
+    {
+      "uk": "село",
+      "ru": "село",
+      "en": "village",
+      "phoneticUk": "selo",
+      "phoneticRu": "selo",
+      "category": "nouns"
+    },
+    {
+      "uk": "пара",
+      "ru": "пара",
+      "en": "pair/steam",
+      "phoneticUk": "para",
+      "phoneticRu": "para",
+      "category": "nouns"
+    },
+    {
+      "uk": "здання",
+      "ru": "здание",
+      "en": "building",
+      "phoneticUk": "zdannya",
+      "phoneticRu": "zdaniye",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніданок",
+      "ru": "завтрак",
+      "en": "breakfast",
+      "phoneticUk": "snidanok",
+      "phoneticRu": "zavtrak",
+      "category": "food"
+    },
+    {
+      "uk": "обід",
+      "ru": "обед",
+      "en": "lunch",
+      "phoneticUk": "obid",
+      "phoneticRu": "obed",
+      "category": "food"
+    },
+    {
+      "uk": "субота",
+      "ru": "суббота",
+      "en": "Saturday",
+      "phoneticUk": "subota",
+      "phoneticRu": "subbota",
+      "category": "time"
+    },
+    {
+      "uk": "неділя",
+      "ru": "воскресенье",
+      "en": "Sunday",
+      "phoneticUk": "nedilya",
+      "phoneticRu": "voskresen'ye",
+      "category": "time"
+    },
+    {
+      "uk": "понеділок",
+      "ru": "понедельник",
+      "en": "Monday",
+      "phoneticUk": "ponedilok",
+      "phoneticRu": "ponedel'nik",
+      "category": "time"
+    },
+    {
+      "uk": "вівторок",
+      "ru": "вторник",
+      "en": "Tuesday",
+      "phoneticUk": "vivtorok",
+      "phoneticRu": "vtornik",
+      "category": "time"
+    },
+    {
+      "uk": "п'ятниця",
+      "ru": "пятница",
+      "en": "Friday",
+      "phoneticUk": "p'yatnytsia",
+      "phoneticRu": "pyatnitsa",
+      "category": "time"
+    },
+    {
+      "uk": "завтра",
+      "ru": "завтра",
+      "en": "tomorrow",
+      "phoneticUk": "zavtra",
+      "phoneticRu": "zavtra",
+      "category": "time"
+    },
+    {
+      "uk": "вчора",
+      "ru": "вчера",
+      "en": "yesterday",
+      "phoneticUk": "vchora",
+      "phoneticRu": "vchera",
+      "category": "time"
+    },
+    {
+      "uk": "вранці",
+      "ru": "утром",
+      "en": "in the morning",
+      "phoneticUk": "vrantsi",
+      "phoneticRu": "utrom",
+      "category": "time"
+    },
+    {
+      "uk": "увечері",
+      "ru": "вечером",
+      "en": "in the evening",
+      "phoneticUk": "uvecheri",
+      "phoneticRu": "vecherom",
+      "category": "time"
+    },
+    {
+      "uk": "після",
+      "ru": "после",
+      "en": "after",
+      "phoneticUk": "pislya",
+      "phoneticRu": "posle",
+      "category": "prepositions"
+    },
+    {
+      "uk": "потім",
+      "ru": "потом",
+      "en": "then/after that",
+      "phoneticUk": "potim",
+      "phoneticRu": "potom",
+      "category": "adverbs"
+    },
+    {
+      "uk": "разом",
+      "ru": "вместе",
+      "en": "together",
+      "phoneticUk": "razom",
+      "phoneticRu": "vmeste",
+      "category": "adverbs"
+    },
+    {
+      "uk": "додому",
+      "ru": "домой",
+      "en": "home (direction)",
+      "phoneticUk": "dodomu",
+      "phoneticRu": "domoy",
+      "category": "adverbs"
+    },
+    {
+      "uk": "багато",
+      "ru": "много",
+      "en": "many/much",
+      "phoneticUk": "bahato",
+      "phoneticRu": "mnogo",
+      "category": "adverbs"
+    },
+    {
+      "uk": "також",
+      "ru": "тоже",
+      "en": "also/too",
+      "phoneticUk": "takozh",
+      "phoneticRu": "tozhe",
+      "category": "adverbs"
+    },
+    {
+      "uk": "тепер",
+      "ru": "теперь",
+      "en": "now",
+      "phoneticUk": "teper",
+      "phoneticRu": "teper'",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щодня",
+      "ru": "каждый день",
+      "en": "every day",
+      "phoneticUk": "shchodnya",
+      "phoneticRu": "kazhdyy den'",
+      "category": "adverbs"
+    },
+    {
+      "uk": "спочатку",
+      "ru": "сначала",
+      "en": "at first/first",
+      "phoneticUk": "spochatku",
+      "phoneticRu": "snachala",
+      "category": "adverbs"
+    },
+    {
+      "uk": "біля",
+      "ru": "возле",
+      "en": "near/beside",
+      "phoneticUk": "bilya",
+      "phoneticRu": "vozle",
+      "category": "prepositions"
+    },
+    {
+      "uk": "через",
+      "ru": "через",
+      "en": "through/after (time)",
+      "phoneticUk": "cherez",
+      "phoneticRu": "cherez",
+      "category": "prepositions"
+    },
+    {
+      "uk": "без",
+      "ru": "без",
+      "en": "without",
+      "phoneticUk": "bez",
+      "phoneticRu": "bez",
+      "category": "prepositions"
+    },
+    {
+      "uk": "між",
+      "ru": "между",
+      "en": "between",
+      "phoneticUk": "mizh",
+      "phoneticRu": "mezhdu",
+      "category": "prepositions"
+    },
+    {
+      "uk": "під",
+      "ru": "под",
+      "en": "under",
+      "phoneticUk": "pid",
+      "phoneticRu": "pod",
+      "category": "prepositions"
+    },
+    {
+      "uk": "над",
+      "ru": "над",
+      "en": "above/over",
+      "phoneticUk": "nad",
+      "phoneticRu": "nad",
+      "category": "prepositions"
+    },
+    {
+      "uk": "мене",
+      "ru": "меня",
+      "en": "me (accusative/genitive)",
+      "phoneticUk": "mene",
+      "phoneticRu": "menya",
+      "category": "pronouns"
+    },
+    {
+      "uk": "мені",
+      "ru": "мне",
+      "en": "to me (dative)",
+      "phoneticUk": "meni",
+      "phoneticRu": "mne",
+      "category": "pronouns"
+    },
+    {
+      "uk": "нас",
+      "ru": "нас",
+      "en": "us",
+      "phoneticUk": "nas",
+      "phoneticRu": "nas",
+      "category": "pronouns"
+    },
+    {
+      "uk": "них",
+      "ru": "них",
+      "en": "them",
+      "phoneticUk": "nykh",
+      "phoneticRu": "nikh",
+      "category": "pronouns"
+    },
+    {
+      "uk": "йому",
+      "ru": "ему",
+      "en": "to him (dative)",
+      "phoneticUk": "yomu",
+      "phoneticRu": "yemu",
+      "category": "pronouns"
+    },
+    {
+      "uk": "їй",
+      "ru": "ей",
+      "en": "to her (dative)",
+      "phoneticUk": "yiy",
+      "phoneticRu": "yey",
+      "category": "pronouns"
+    },
+    {
+      "uk": "нікого",
+      "ru": "никого",
+      "en": "nobody/no one",
+      "phoneticUk": "nikoho",
+      "phoneticRu": "nikogo",
+      "category": "pronouns"
+    },
+    {
+      "uk": "купувати",
+      "ru": "покупать",
+      "en": "to buy",
+      "phoneticUk": "kupuvaty",
+      "phoneticRu": "pokupat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "платити",
+      "ru": "платить",
+      "en": "to pay",
+      "phoneticUk": "platyty",
+      "phoneticRu": "platit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "готувати",
+      "ru": "готовить",
+      "en": "to cook/to prepare",
+      "phoneticUk": "hotuvaty",
+      "phoneticRu": "gotovit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "допомагати",
+      "ru": "помогать",
+      "en": "to help",
+      "phoneticUk": "dopomahaty",
+      "phoneticRu": "pomogat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "відвідувати",
+      "ru": "навещать",
+      "en": "to visit",
+      "phoneticUk": "vidviduvaty",
+      "phoneticRu": "naveshchat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "відпочивати",
+      "ru": "отдыхать",
+      "en": "to rest",
+      "phoneticUk": "vidpochyvaty",
+      "phoneticRu": "otdykhat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "дивитися",
+      "ru": "смотреть",
+      "en": "to watch/to look",
+      "phoneticUk": "dyvytysya",
+      "phoneticRu": "smotret'",
+      "category": "verbs"
+    },
+    {
+      "uk": "вивчати",
+      "ru": "изучать",
+      "en": "to study/to learn",
+      "phoneticUk": "vyvchaty",
+      "phoneticRu": "izuchat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "запрошувати",
+      "ru": "приглашать",
+      "en": "to invite",
+      "phoneticUk": "zaproshuvaty",
+      "phoneticRu": "priglashat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "вирішувати",
+      "ru": "решать",
+      "en": "to decide/to solve",
+      "phoneticUk": "vyrishuvaty",
+      "phoneticRu": "reshat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "показувати",
+      "ru": "показывать",
+      "en": "to show",
+      "phoneticUk": "pokazuvaty",
+      "phoneticRu": "pokazyvat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "розповідати",
+      "ru": "рассказывать",
+      "en": "to tell/to narrate",
+      "phoneticUk": "rozpovidaty",
+      "phoneticRu": "rasskazyvat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "пояснювати",
+      "ru": "объяснять",
+      "en": "to explain",
+      "phoneticUk": "poyasnyuvaty",
+      "phoneticRu": "ob\"yasnyat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "отримувати",
+      "ru": "получать",
+      "en": "to receive",
+      "phoneticUk": "otrymuvaty",
+      "phoneticRu": "poluchat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "повертатися",
+      "ru": "возвращаться",
+      "en": "to return",
+      "phoneticUk": "povertatysya",
+      "phoneticRu": "vozvrashchat'sya",
+      "category": "verbs"
+    },
+    {
+      "uk": "записувати",
+      "ru": "записывать",
+      "en": "to write down",
+      "phoneticUk": "zapysuvaty",
+      "phoneticRu": "zapisyvat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "навчити",
+      "ru": "научить",
+      "en": "to teach",
+      "phoneticUk": "navchyty",
+      "phoneticRu": "nauchit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "світити",
+      "ru": "светить",
+      "en": "to shine",
+      "phoneticUk": "svityty",
+      "phoneticRu": "svetit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "спати",
+      "ru": "спать",
+      "en": "to sleep",
+      "phoneticUk": "spaty",
+      "phoneticRu": "spat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "пити",
+      "ru": "пить",
+      "en": "to drink",
+      "phoneticUk": "pyty",
+      "phoneticRu": "pit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "їсти",
+      "ru": "есть",
+      "en": "to eat",
+      "phoneticUk": "yisty",
+      "phoneticRu": "yest'",
+      "category": "verbs"
+    },
+    {
+      "uk": "бачити",
+      "ru": "видеть",
+      "en": "to see",
+      "phoneticUk": "bachyty",
+      "phoneticRu": "videt'",
+      "category": "verbs"
+    },
+    {
+      "uk": "замовляти",
+      "ru": "заказывать",
+      "en": "to order",
+      "phoneticUk": "zamovlyaty",
+      "phoneticRu": "zakazyvat'",
+      "category": "verbs"
+    },
+    {
+      "uk": "сидіти",
+      "ru": "сидеть",
+      "en": "to sit",
+      "phoneticUk": "sydity",
+      "phoneticRu": "sidet'",
+      "category": "verbs"
+    },
+    {
+      "uk": "жити",
+      "ru": "жить",
+      "en": "to live",
+      "phoneticUk": "zhyty",
+      "phoneticRu": "zhit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "мити",
+      "ru": "мыть",
+      "en": "to wash",
+      "phoneticUk": "myty",
+      "phoneticRu": "myt'",
+      "category": "verbs"
+    },
+    {
+      "uk": "казати",
+      "ru": "говорить",
+      "en": "to say/to tell",
+      "phoneticUk": "kazaty",
+      "phoneticRu": "govorit'",
+      "category": "verbs"
+    },
+    {
+      "uk": "маленький",
+      "ru": "маленький",
+      "en": "small/little",
+      "phoneticUk": "malen'kyy",
+      "phoneticRu": "malen'kiy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "великий",
+      "ru": "большой",
+      "en": "big/large",
+      "phoneticUk": "velykyy",
+      "phoneticRu": "bol'shoy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "красивий",
+      "ru": "красивый",
+      "en": "beautiful",
+      "phoneticUk": "krasyvyy",
+      "phoneticRu": "krasivyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "смачний",
+      "ru": "вкусный",
+      "en": "tasty/delicious",
+      "phoneticUk": "smachnyy",
+      "phoneticRu": "vkusnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "солодкий",
+      "ru": "сладкий",
+      "en": "sweet",
+      "phoneticUk": "solodkyy",
+      "phoneticRu": "sladkiy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "голодний",
+      "ru": "голодный",
+      "en": "hungry",
+      "phoneticUk": "holodnyy",
+      "phoneticRu": "golodnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "коричневий",
+      "ru": "коричневый",
+      "en": "brown",
+      "phoneticUk": "korychnevyy",
+      "phoneticRu": "korichnevyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чорний",
+      "ru": "чёрный",
+      "en": "black",
+      "phoneticUk": "chornyy",
+      "phoneticRu": "chyornyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "червоний",
+      "ru": "красный",
+      "en": "red",
+      "phoneticUk": "chervonyy",
+      "phoneticRu": "krasnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зелений",
+      "ru": "зелёный",
+      "en": "green",
+      "phoneticUk": "zelenyy",
+      "phoneticRu": "zelyonyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жовтий",
+      "ru": "жёлтый",
+      "en": "yellow",
+      "phoneticUk": "zhovtyy",
+      "phoneticRu": "zhyoltyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "блакитний",
+      "ru": "голубой",
+      "en": "light blue",
+      "phoneticUk": "blakytnyy",
+      "phoneticRu": "goluboy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "новий",
+      "ru": "новый",
+      "en": "new",
+      "phoneticUk": "novyy",
+      "phoneticRu": "novyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "цікавий",
+      "ru": "интересный",
+      "en": "interesting",
+      "phoneticUk": "tsikavyy",
+      "phoneticRu": "interesnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чистий",
+      "ru": "чистый",
+      "en": "clean",
+      "phoneticUk": "chystyy",
+      "phoneticRu": "chistyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарний",
+      "ru": "хороший",
+      "en": "good/nice/pretty",
+      "phoneticUk": "harnyy",
+      "phoneticRu": "khoroshiy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "корисний",
+      "ru": "полезный",
+      "en": "useful/healthy",
+      "phoneticUk": "korysnyy",
+      "phoneticRu": "poleznyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "милий",
+      "ru": "милый",
+      "en": "nice/sweet/cute",
+      "phoneticUk": "mylyy",
+      "phoneticRu": "milyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "улюблений",
+      "ru": "любимый",
+      "en": "favorite",
+      "phoneticUk": "ulyublenyy",
+      "phoneticRu": "lyubimyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "молодший",
+      "ru": "младший",
+      "en": "younger",
+      "phoneticUk": "molodshyy",
+      "phoneticRu": "mladshiy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "знаменитий",
+      "ru": "знаменитый",
+      "en": "famous",
+      "phoneticUk": "znamenytyy",
+      "phoneticRu": "znamenityy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "шоколадний",
+      "ru": "шоколадный",
+      "en": "chocolate (adj)",
+      "phoneticUk": "shokoladnyy",
+      "phoneticRu": "shokoladnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "золотистий",
+      "ru": "золотистый",
+      "en": "golden",
+      "phoneticUk": "zolotystyy",
+      "phoneticRu": "zolotistyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "дружелюбний",
+      "ru": "дружелюбный",
+      "en": "friendly",
+      "phoneticUk": "druzhelyubnyy",
+      "phoneticRu": "druzhelyubnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "сумний",
+      "ru": "грустный",
+      "en": "sad",
+      "phoneticUk": "sumnyy",
+      "phoneticRu": "grustnyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "дивний",
+      "ru": "странный",
+      "en": "strange/weird",
+      "phoneticUk": "dyvnyy",
+      "phoneticRu": "strannyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "особливий",
+      "ru": "особенный",
+      "en": "special",
+      "phoneticUk": "osoblyvyy",
+      "phoneticRu": "osobennyy",
+      "category": "adjectives"
+    },
+    {
+      "uk": "яйце",
+      "ru": "яйцо",
+      "en": "egg",
+      "phoneticUk": "yaytse",
+      "phoneticRu": "yaytso",
+      "category": "food"
+    },
+    {
+      "uk": "торт",
+      "ru": "торт",
+      "en": "cake",
+      "phoneticUk": "tort",
+      "phoneticRu": "tort",
+      "category": "food"
+    },
+    {
+      "uk": "пиріг",
+      "ru": "пирог",
+      "en": "pie",
+      "phoneticUk": "pyrih",
+      "phoneticRu": "pirog",
+      "category": "food"
+    },
+    {
+      "uk": "масло",
+      "ru": "масло",
+      "en": "butter/oil",
+      "phoneticUk": "maslo",
+      "phoneticRu": "maslo",
+      "category": "food"
+    },
+    {
+      "uk": "борошно",
+      "ru": "мука",
+      "en": "flour",
+      "phoneticUk": "boroshno",
+      "phoneticRu": "muka",
+      "category": "food"
+    },
+    {
+      "uk": "тісто",
+      "ru": "тесто",
+      "en": "dough",
+      "phoneticUk": "tisto",
+      "phoneticRu": "testo",
+      "category": "food"
+    },
+    {
+      "uk": "кориця",
+      "ru": "корица",
+      "en": "cinnamon",
+      "phoneticUk": "korytsya",
+      "phoneticRu": "koritsa",
+      "category": "food"
+    },
+    {
+      "uk": "печиво",
+      "ru": "печенье",
+      "en": "cookies/biscuits",
+      "phoneticUk": "pechyvo",
+      "phoneticRu": "pechen'ye",
+      "category": "food"
+    },
+    {
+      "uk": "морозиво",
+      "ru": "мороженое",
+      "en": "ice cream",
+      "phoneticUk": "morozyvo",
+      "phoneticRu": "morozhenoye",
+      "category": "food"
+    },
+    {
+      "uk": "суп",
+      "ru": "суп",
+      "en": "soup",
+      "phoneticUk": "sup",
+      "phoneticRu": "sup",
+      "category": "food"
+    },
+    {
+      "uk": "курка",
+      "ru": "курица",
+      "en": "chicken",
+      "phoneticUk": "kurka",
+      "phoneticRu": "kuritsa",
+      "category": "food"
+    },
+    {
+      "uk": "лимон",
+      "ru": "лимон",
+      "en": "lemon",
+      "phoneticUk": "lymon",
+      "phoneticRu": "limon",
+      "category": "food"
+    },
+    {
+      "uk": "мед",
+      "ru": "мёд",
+      "en": "honey",
+      "phoneticUk": "med",
+      "phoneticRu": "myod",
+      "category": "food"
+    },
+    {
+      "uk": "квітка",
+      "ru": "цветок",
+      "en": "flower",
+      "phoneticUk": "kvitka",
+      "phoneticRu": "tsvetok",
+      "category": "nature"
+    },
+    {
+      "uk": "трава",
+      "ru": "трава",
+      "en": "grass",
+      "phoneticUk": "trava",
+      "phoneticRu": "trava",
+      "category": "nature"
+    },
+    {
+      "uk": "птах",
+      "ru": "птица",
+      "en": "bird",
+      "phoneticUk": "ptakh",
+      "phoneticRu": "ptitsa",
+      "category": "nature"
+    },
+    {
+      "uk": "сніг",
+      "ru": "снег",
+      "en": "snow",
+      "phoneticUk": "snih",
+      "phoneticRu": "sneg",
+      "category": "nature"
+    },
+    {
+      "uk": "нарцис",
+      "ru": "нарцисс",
+      "en": "daffodil",
+      "phoneticUk": "nartsys",
+      "phoneticRu": "nartsiss",
+      "category": "nature"
+    },
+    {
+      "uk": "тюльпан",
+      "ru": "тюльпан",
+      "en": "tulip",
+      "phoneticUk": "tyul'pan",
+      "phoneticRu": "tyul'pan",
+      "category": "nature"
+    },
+    {
+      "uk": "лілія",
+      "ru": "лилия",
+      "en": "lily",
+      "phoneticUk": "liliya",
+      "phoneticRu": "liliya",
+      "category": "nature"
+    },
+    {
+      "uk": "пісня",
+      "ru": "песня",
+      "en": "song",
+      "phoneticUk": "pisnya",
+      "phoneticRu": "pesnya",
+      "category": "nouns"
+    },
+    {
+      "uk": "однокласниця",
+      "ru": "одноклассница",
+      "en": "classmate (female)",
+      "phoneticUk": "odnoklasnytsya",
+      "phoneticRu": "odnoklassnitsa",
+      "category": "nouns"
+    },
+    {
+      "uk": "олівець",
+      "ru": "карандаш",
+      "en": "pencil",
+      "phoneticUk": "olivets'",
+      "phoneticRu": "karandash",
+      "category": "nouns"
+    },
+    {
+      "uk": "зошит",
+      "ru": "тетрадь",
+      "en": "notebook",
+      "phoneticUk": "zoshyt",
+      "phoneticRu": "tetrad'",
+      "category": "nouns"
+    },
+    {
+      "uk": "малюнок",
+      "ru": "рисунок",
+      "en": "drawing/picture",
+      "phoneticUk": "malyunok",
+      "phoneticRu": "risunok",
+      "category": "nouns"
+    },
+    {
+      "uk": "сусід",
+      "ru": "сосед",
+      "en": "neighbor",
+      "phoneticUk": "susid",
+      "phoneticRu": "sosed",
+      "category": "nouns"
+    },
+    {
+      "uk": "плакат",
+      "ru": "плакат",
+      "en": "poster",
+      "phoneticUk": "plakat",
+      "phoneticRu": "plakat",
+      "category": "nouns"
+    },
+    {
+      "uk": "номер",
+      "ru": "номер",
+      "en": "number",
+      "phoneticUk": "nomer",
+      "phoneticRu": "nomer",
+      "category": "nouns"
+    },
+    {
+      "uk": "телефон",
+      "ru": "телефон",
+      "en": "phone/telephone",
+      "phoneticUk": "telefon",
+      "phoneticRu": "telefon",
+      "category": "nouns"
+    },
+    {
+      "uk": "дзвінок",
+      "ru": "звонок",
+      "en": "call/ring",
+      "phoneticUk": "dzvinok",
+      "phoneticRu": "zvonok",
+      "category": "nouns"
+    },
+    {
+      "uk": "жінка",
+      "ru": "женщина",
+      "en": "woman",
+      "phoneticUk": "zhinka",
+      "phoneticRu": "zhenshchina",
+      "category": "nouns"
+    },
+    {
+      "uk": "бібліотека",
+      "ru": "библиотека",
+      "en": "library",
+      "phoneticUk": "biblioteka",
+      "phoneticRu": "biblioteka",
+      "category": "nouns"
+    },
+    {
+      "uk": "бібліотекар",
+      "ru": "библиотекарь",
+      "en": "librarian",
+      "phoneticUk": "bibliotekar",
+      "phoneticRu": "bibliotekar'",
+      "category": "nouns"
+    },
+    {
+      "uk": "полиця",
+      "ru": "полка",
+      "en": "shelf",
+      "phoneticUk": "polytsya",
+      "phoneticRu": "polka",
+      "category": "nouns"
+    },
+    {
+      "uk": "клуб",
+      "ru": "клуб",
+      "en": "club",
+      "phoneticUk": "klub",
+      "phoneticRu": "klub",
+      "category": "nouns"
+    },
+    {
+      "uk": "місце",
+      "ru": "место",
+      "en": "place",
+      "phoneticUk": "mistse",
+      "phoneticRu": "mesto",
+      "category": "nouns"
+    },
+    {
+      "uk": "рецепт",
+      "ru": "рецепт",
+      "en": "recipe",
+      "phoneticUk": "retsept",
+      "phoneticRu": "retsept",
+      "category": "nouns"
+    },
+    {
+      "uk": "ринок",
+      "ru": "рынок",
+      "en": "market",
+      "phoneticUk": "rynok",
+      "phoneticRu": "rynok",
+      "category": "nouns"
+    },
+    {
+      "uk": "продавець",
+      "ru": "продавец",
+      "en": "seller/vendor",
+      "phoneticUk": "prodavets'",
+      "phoneticRu": "prodavets",
+      "category": "nouns"
+    },
+    {
+      "uk": "продукти",
+      "ru": "продукты",
+      "en": "products/groceries",
+      "phoneticUk": "produkty",
+      "phoneticRu": "produkty",
+      "category": "nouns"
+    },
+    {
+      "uk": "шматок",
+      "ru": "кусок",
+      "en": "piece/chunk",
+      "phoneticUk": "shmatok",
+      "phoneticRu": "kusok",
+      "category": "nouns"
+    },
+    {
+      "uk": "тварина",
+      "ru": "животное",
+      "en": "animal",
+      "phoneticUk": "tvaryna",
+      "phoneticRu": "zhivotnoye",
+      "category": "nouns"
+    },
+    {
+      "uk": "художник",
+      "ru": "художник",
+      "en": "artist/painter",
+      "phoneticUk": "khudozhnyk",
+      "phoneticRu": "khudozhnik",
+      "category": "nouns"
+    },
+    {
+      "uk": "детектив",
+      "ru": "детектив",
+      "en": "detective story",
+      "phoneticUk": "detektyv",
+      "phoneticRu": "detektiv",
+      "category": "nouns"
+    },
+    {
+      "uk": "хобі",
+      "ru": "хобби",
+      "en": "hobby",
+      "phoneticUk": "khobi",
+      "phoneticRu": "khobbi",
+      "category": "nouns"
+    },
+    {
+      "uk": "стіна",
+      "ru": "стена",
+      "en": "wall",
+      "phoneticUk": "stina",
+      "phoneticRu": "stena",
+      "category": "nouns"
+    },
+    {
+      "uk": "велосипед",
+      "ru": "велосипед",
+      "en": "bicycle",
+      "phoneticUk": "velosyped",
+      "phoneticRu": "velosiped",
+      "category": "nouns"
+    },
+    {
+      "uk": "гараж",
+      "ru": "гараж",
+      "en": "garage",
+      "phoneticUk": "harazh",
+      "phoneticRu": "garazh",
+      "category": "nouns"
+    },
+    {
+      "uk": "година",
+      "ru": "час",
+      "en": "hour",
+      "phoneticUk": "hodyna",
+      "phoneticRu": "chas",
+      "category": "time"
+    },
+    {
+      "uk": "тиждень",
+      "ru": "неделя",
+      "en": "week",
+      "phoneticUk": "tyzhden'",
+      "phoneticRu": "nedelya",
+      "category": "time"
+    },
+    {
+      "uk": "рік",
+      "ru": "год",
+      "en": "year",
+      "phoneticUk": "rik",
+      "phoneticRu": "god",
+      "category": "time"
+    },
+    {
+      "uk": "вихідні",
+      "ru": "выходные",
+      "en": "weekend",
+      "phoneticUk": "vykhidni",
+      "phoneticRu": "vykhodnyye",
+      "category": "time"
+    },
+    {
+      "uk": "день народження",
+      "ru": "день рождения",
+      "en": "birthday",
+      "phoneticUk": "den' narodzhennya",
+      "phoneticRu": "den' rozhdeniya",
+      "category": "nouns"
+    },
+    {
+      "uk": "вечірка",
+      "ru": "вечеринка",
+      "en": "party",
+      "phoneticUk": "vechirka",
+      "phoneticRu": "vecherinka",
+      "category": "nouns"
+    },
+    {
+      "uk": "гра",
+      "ru": "игра",
+      "en": "game",
+      "phoneticUk": "hra",
+      "phoneticRu": "igra",
+      "category": "nouns"
+    },
+    {
+      "uk": "мультфільм",
+      "ru": "мультфильм",
+      "en": "cartoon",
+      "phoneticUk": "mul'tfil'm",
+      "phoneticRu": "mul'tfil'm",
+      "category": "nouns"
+    },
+    {
+      "uk": "математика",
+      "ru": "математика",
+      "en": "mathematics",
+      "phoneticUk": "matematyka",
+      "phoneticRu": "matematika",
+      "category": "nouns"
+    },
+    {
+      "uk": "урок",
+      "ru": "урок",
+      "en": "lesson/class",
+      "phoneticUk": "urok",
+      "phoneticRu": "urok",
+      "category": "nouns"
+    },
+    {
+      "uk": "каток",
+      "ru": "каток",
+      "en": "skating rink",
+      "phoneticUk": "katok",
+      "phoneticRu": "katok",
+      "category": "nouns"
+    },
+    {
+      "uk": "ковзани",
+      "ru": "коньки",
+      "en": "ice skates",
+      "phoneticUk": "kovzany",
+      "phoneticRu": "kon'ki",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніговик",
+      "ru": "снеговик",
+      "en": "snowman",
+      "phoneticUk": "snihovyk",
+      "phoneticRu": "snegovik",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніжка",
+      "ru": "снежок",
+      "en": "snowball",
+      "phoneticUk": "snizhka",
+      "phoneticRu": "snezhok",
+      "category": "nouns"
+    },
+    {
+      "uk": "футбол",
+      "ru": "футбол",
+      "en": "football/soccer",
+      "phoneticUk": "futbol",
+      "phoneticRu": "futbol",
+      "category": "nouns"
+    },
+    {
+      "uk": "кафе",
+      "ru": "кафе",
+      "en": "cafe",
+      "phoneticUk": "kafe",
+      "phoneticRu": "kafe",
+      "category": "nouns"
+    },
+    {
+      "uk": "квартира",
+      "ru": "квартира",
+      "en": "apartment",
+      "phoneticUk": "kvartyra",
+      "phoneticRu": "kvartira",
+      "category": "nouns"
+    },
+    {
+      "uk": "усмішка",
+      "ru": "улыбка",
+      "en": "smile",
+      "phoneticUk": "usmishka",
+      "phoneticRu": "ulybka",
+      "category": "nouns"
+    },
+    {
+      "uk": "інтерес",
+      "ru": "интерес",
+      "en": "interest",
+      "phoneticUk": "interes",
+      "phoneticRu": "interes",
+      "category": "nouns"
+    },
+    {
+      "uk": "подруга",
+      "ru": "подруга",
+      "en": "friend (female)",
+      "phoneticUk": "podruha",
+      "phoneticRu": "podruga",
+      "category": "nouns"
+    },
+    {
+      "uk": "район",
+      "ru": "район",
+      "en": "district/neighborhood",
+      "phoneticUk": "rayon",
+      "phoneticRu": "rayon",
+      "category": "nouns"
+    },
+    {
+      "uk": "фотографія",
+      "ru": "фотография",
+      "en": "photograph",
+      "phoneticUk": "fotohrafiya",
+      "phoneticRu": "fotografiya",
+      "category": "nouns"
+    },
+    {
+      "uk": "пірат",
+      "ru": "пират",
+      "en": "pirate",
+      "phoneticUk": "pirat",
+      "phoneticRu": "pirat",
+      "category": "nouns"
+    },
+    {
+      "uk": "пригода",
+      "ru": "приключение",
+      "en": "adventure",
+      "phoneticUk": "pryhoda",
+      "phoneticRu": "priklyucheniye",
+      "category": "nouns"
+    },
+    {
+      "uk": "історія",
+      "ru": "история",
+      "en": "story/history",
+      "phoneticUk": "istoriya",
+      "phoneticRu": "istoriya",
+      "category": "nouns"
+    },
+    {
+      "uk": "вікно",
+      "ru": "окно",
+      "en": "window",
+      "phoneticUk": "vikno",
+      "phoneticRu": "okno",
+      "category": "nouns"
+    },
+    {
+      "uk": "сік",
+      "ru": "сок",
+      "en": "juice",
+      "phoneticUk": "sik",
+      "phoneticRu": "sok",
+      "category": "food"
+    },
+    {
+      "uk": "духовка",
+      "ru": "духовка",
+      "en": "oven",
+      "phoneticUk": "dukhovka",
+      "phoneticRu": "dukhovka",
+      "category": "nouns"
+    },
+    {
+      "uk": "кухня",
+      "ru": "кухня",
+      "en": "kitchen",
+      "phoneticUk": "kukhnya",
+      "phoneticRu": "kukhnya",
+      "category": "nouns"
+    },
+    {
+      "uk": "час",
+      "ru": "время",
+      "en": "time",
+      "phoneticUk": "chas",
+      "phoneticRu": "vremya",
+      "category": "nouns"
+    },
+    {
+      "uk": "сад",
+      "ru": "сад",
+      "en": "garden",
+      "phoneticUk": "sad",
+      "phoneticRu": "sad",
+      "category": "nouns"
+    },
+    {
+      "uk": "весна",
+      "ru": "весна",
+      "en": "spring (season)",
+      "phoneticUk": "vesna",
+      "phoneticRu": "vesna",
+      "category": "nature"
+    },
+    {
+      "uk": "повітря",
+      "ru": "воздух",
+      "en": "air",
+      "phoneticUk": "povitrya",
+      "phoneticRu": "vozdukh",
+      "category": "nature"
+    },
+    {
+      "uk": "лабрадор",
+      "ru": "лабрадор",
+      "en": "Labrador",
+      "phoneticUk": "labrador",
+      "phoneticRu": "labrador",
+      "category": "nouns"
+    },
+    {
+      "uk": "россія",
+      "ru": "россия",
+      "en": "Russia",
+      "phoneticUk": "rosiya",
+      "phoneticRu": "rossiya",
+      "category": "geography"
+    },
+    {
+      "uk": "москва",
+      "ru": "москва",
+      "en": "Moscow",
+      "phoneticUk": "moskva",
+      "phoneticRu": "moskva",
+      "category": "geography"
+    },
+    {
+      "uk": "це добре",
+      "ru": "это хорошо",
+      "en": "this is good",
+      "phoneticUk": "tse dobre",
+      "phoneticRu": "eto khorosho",
+      "category": "phrases"
+    },
+    {
+      "uk": "все гаразд",
+      "ru": "всё хорошо",
+      "en": "everything is fine",
+      "phoneticUk": "vse harazd",
+      "phoneticRu": "vsyo khorosho",
+      "category": "phrases"
+    },
+    {
+      "uk": "я вивчаю",
+      "ru": "я учу",
+      "en": "I am learning",
+      "phoneticUk": "ya vyvchaju",
+      "phoneticRu": "ya uchu",
+      "category": "phrases"
+    },
+    {
+      "uk": "вод",
+      "ru": "вод",
+      "en": "water (short/genitive)",
+      "phoneticUk": "vod",
+      "phoneticRu": "vod",
+      "category": "nouns"
+    },
+    {
+      "uk": "долю",
+      "ru": "доля",
+      "en": "fate/lot",
+      "phoneticUk": "dolyu",
+      "phoneticRu": "dolya",
+      "category": "nouns"
+    },
+    {
+      "uk": "рада",
+      "ru": "рада",
+      "en": "glad/council",
+      "phoneticUk": "rada",
+      "phoneticRu": "rada",
+      "category": "adjectives"
+    },
+    {
+      "uk": "слава україні",
+      "ru": "слава украине",
+      "en": "glory to Ukraine",
+      "phoneticUk": "slava ukrayini",
+      "phoneticRu": "slava ukraine",
+      "category": "phrases"
+    },
+    {
+      "uk": "до зустрічі",
+      "ru": "до встречи",
+      "en": "see you/until we meet",
+      "phoneticUk": "do zustrichi",
+      "phoneticRu": "do vstrechi",
+      "category": "phrases"
+    },
+    {
+      "uk": "дуже дякую",
+      "ru": "большое спасибо",
+      "en": "thank you very much",
+      "phoneticUk": "duzhe dyakuyu",
+      "phoneticRu": "bol'shoye spasibo",
+      "category": "phrases"
+    },
+    {
+      "uk": "як справи",
+      "ru": "как дела",
+      "en": "how are you",
+      "phoneticUk": "yak spravy",
+      "phoneticRu": "kak dela",
+      "category": "phrases"
+    },
+    {
+      "uk": "я люблю",
+      "ru": "я люблю",
+      "en": "I love",
+      "phoneticUk": "ya lyublyu",
+      "phoneticRu": "ya lyublyu",
+      "category": "phrases"
+    },
+    {
+      "uk": "Анна",
+      "ru": "Анна",
+      "en": "Anna (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Анну",
+      "ru": "Анну",
+      "en": "Anna (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Луна",
+      "ru": "Луна",
+      "en": "Luna (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Луну",
+      "ru": "Луну",
+      "en": "Luna (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Рекс",
+      "ru": "Рекс",
+      "en": "Rex (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Рексом",
+      "ru": "Рексом",
+      "en": "Rex (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Бруно",
+      "ru": "Бруно",
+      "en": "Bruno (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Марія",
+      "ru": "Мария",
+      "en": "Maria (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Марії",
+      "ru": "Марии",
+      "en": "Maria (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Оля",
+      "ru": "Оля",
+      "en": "Olya (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Тарас",
+      "ru": "Тарас",
+      "en": "Taras (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Джонсон",
+      "ru": "Джонсон",
+      "en": "Johnson (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "Сміт",
+      "ru": "Смит",
+      "en": "Smith (name)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "names"
+    },
+    {
+      "uk": "моя",
+      "ru": "моя",
+      "en": "my (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моє",
+      "ru": "моё",
+      "en": "my (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "мої",
+      "ru": "мои",
+      "en": "my (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моїм",
+      "ru": "моим",
+      "en": "my (dative/instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моїх",
+      "ru": "моих",
+      "en": "my (genitive/prepositional plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моїй",
+      "ru": "моей",
+      "en": "my (dative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моїми",
+      "ru": "моими",
+      "en": "my (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моєму",
+      "ru": "моему",
+      "en": "my (dative masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "моєю",
+      "ru": "моей",
+      "en": "my (instrumental feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "мою",
+      "ru": "мою",
+      "en": "my (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "мого",
+      "ru": "моего",
+      "en": "my (genitive masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "їх",
+      "ru": "их",
+      "en": "their/them",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "їхня",
+      "ru": "их",
+      "en": "their (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "її",
+      "ru": "её",
+      "en": "her/its",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "його",
+      "ru": "его",
+      "en": "his/its",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "всі",
+      "ru": "все",
+      "en": "everyone/all",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "все",
+      "ru": "всё",
+      "en": "everything",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "всьому",
+      "ru": "всему",
+      "en": "everything (dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "щось",
+      "ru": "что-то",
+      "en": "something",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "інше",
+      "ru": "другое",
+      "en": "other/different",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "іншими",
+      "ru": "другими",
+      "en": "other (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "одне",
+      "ru": "одно",
+      "en": "one (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "одну",
+      "ru": "одну",
+      "en": "one (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "люблю",
+      "ru": "люблю",
+      "en": "I love",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "любить",
+      "ru": "любит",
+      "en": "loves",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "бачу",
+      "ru": "вижу",
+      "en": "I see",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "їм",
+      "ru": "ем",
+      "en": "I eat",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "їли",
+      "ru": "ели",
+      "en": "ate (we/they)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "йду",
+      "ru": "иду",
+      "en": "I go/I walk",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "йде",
+      "ru": "идёт",
+      "en": "goes/walks",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "п'ю",
+      "ru": "пью",
+      "en": "I drink",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "п'ємо",
+      "ru": "пьём",
+      "en": "we drink",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "прокидаюся",
+      "ru": "просыпаюсь",
+      "en": "I wake up",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "готує",
+      "ru": "готовит",
+      "en": "cooks/prepares",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "готують",
+      "ru": "готовят",
+      "en": "they cook/prepare",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "купую",
+      "ru": "покупаю",
+      "en": "I buy",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "купують",
+      "ru": "покупают",
+      "en": "they buy",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "купити",
+      "ru": "купить",
+      "en": "to buy",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "каже",
+      "ru": "говорит",
+      "en": "says",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "замовляє",
+      "ru": "заказывает",
+      "en": "orders",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "запрошую",
+      "ru": "приглашаю",
+      "en": "I invite",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вивчаємо",
+      "ru": "изучаем",
+      "en": "we study",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "дивлюся",
+      "ru": "смотрю",
+      "en": "I watch",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "допомагаю",
+      "ru": "помогаю",
+      "en": "I help",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "допомогти",
+      "ru": "помочь",
+      "en": "to help (perfective)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "відвідую",
+      "ru": "навещаю",
+      "en": "I visit",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "відвідав/відвідала",
+      "ru": "посетил/посетила",
+      "en": "visited",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "відпочиваю",
+      "ru": "отдыхаю",
+      "en": "I rest",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "ходжу",
+      "ru": "хожу",
+      "en": "I go (regularly)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "ходимо",
+      "ru": "ходим",
+      "en": "we go (regularly)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "хочу",
+      "ru": "хочу",
+      "en": "I want",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "думаю",
+      "ru": "думаю",
+      "en": "I think",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "подобається",
+      "ru": "нравится",
+      "en": "is liked/pleasing",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "подобаються",
+      "ru": "нравятся",
+      "en": "are liked/pleasing",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "плачу",
+      "ru": "плачу",
+      "en": "I pay",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "сидить",
+      "ru": "сидит",
+      "en": "sits",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "живе",
+      "ru": "живёт",
+      "en": "lives",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "малюю",
+      "ru": "рисую",
+      "en": "I draw",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "малювати",
+      "ru": "рисовать",
+      "en": "to draw",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вішає",
+      "ru": "вешает",
+      "en": "hangs",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "починають",
+      "ru": "начинают",
+      "en": "they begin",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "почали",
+      "ru": "начали",
+      "en": "they began",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "почав/почала",
+      "ru": "начал/начала",
+      "en": "began",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "виявляють",
+      "ru": "обнаруживают",
+      "en": "they discover",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "покриває",
+      "ru": "покрывает",
+      "en": "covers",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "збирається",
+      "ru": "собирается",
+      "en": "gathers",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "стає",
+      "ru": "становится",
+      "en": "becomes",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "кататися",
+      "ru": "кататься",
+      "en": "to ride/to skate",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "катається",
+      "ru": "катается",
+      "en": "rides/skates",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "каталися",
+      "ru": "катались",
+      "en": "rode/skated",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "граються",
+      "ru": "играют",
+      "en": "they play",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "роблять",
+      "ru": "делают",
+      "en": "they do/make",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розмовляємо",
+      "ru": "разговариваем",
+      "en": "we talk",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розмовляти",
+      "ru": "разговаривать",
+      "en": "to talk",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "співають",
+      "ru": "поют",
+      "en": "they sing",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "можу",
+      "ru": "могу",
+      "en": "I can",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "можуть",
+      "ru": "могут",
+      "en": "they can",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "почувається",
+      "ru": "чувствует",
+      "en": "feels",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "прийшла",
+      "ru": "пришла",
+      "en": "came (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "переїхала",
+      "ru": "переехала",
+      "en": "moved (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "сталося",
+      "ru": "случилось",
+      "en": "happened",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "покататися",
+      "ru": "покататься",
+      "en": "to go for a ride",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вирішили",
+      "ru": "решили",
+      "en": "they decided",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вирішив/вирішила",
+      "ru": "решил/решила",
+      "en": "decided",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "взяли",
+      "ru": "взяли",
+      "en": "they took",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "взяти",
+      "ru": "взять",
+      "en": "to take",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "поїхали",
+      "ru": "поехали",
+      "en": "they went (by vehicle)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вигукнула",
+      "ru": "воскликнула",
+      "en": "exclaimed (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "повернулися",
+      "ru": "вернулись",
+      "en": "they returned",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "повернувся",
+      "ru": "вернулся",
+      "en": "returned (masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "насолоджуючись",
+      "ru": "наслаждаясь",
+      "en": "enjoying",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "приготувала",
+      "ru": "приготовила",
+      "en": "prepared (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "приготувати",
+      "ru": "приготовить",
+      "en": "to prepare",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "навчила",
+      "ru": "научила",
+      "en": "taught (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пішли",
+      "ru": "пошли",
+      "en": "they went",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "показала",
+      "ru": "показала",
+      "en": "she showed",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розповідала",
+      "ru": "рассказывала",
+      "en": "she was telling",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розповіла",
+      "ru": "рассказала",
+      "en": "she told",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "додали",
+      "ru": "добавили",
+      "en": "they added",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "порізати",
+      "ru": "порезать",
+      "en": "to cut (into pieces)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "поклали",
+      "ru": "положили",
+      "en": "they put",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "записав/записала",
+      "ru": "записал/записала",
+      "en": "wrote down",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пікся",
+      "ru": "пёкся",
+      "en": "was baking",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пахло",
+      "ru": "пахло",
+      "en": "it smelled",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пече",
+      "ru": "печёт",
+      "en": "bakes",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "знайшла",
+      "ru": "нашла",
+      "en": "found (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "знайшов/знайшла",
+      "ru": "нашёл/нашла",
+      "en": "found",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "зробили",
+      "ru": "сделали",
+      "en": "they made",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "розвісили",
+      "ru": "развесили",
+      "en": "they hung up",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "обіцяли",
+      "ru": "обещали",
+      "en": "they promised",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "подзвонити",
+      "ru": "позвонить",
+      "en": "to call (phone)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "побачать",
+      "ru": "увидят",
+      "en": "they will see",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "отримав",
+      "ru": "получил",
+      "en": "received",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "подякував",
+      "ru": "поблагодарил",
+      "en": "thanked",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "привіталася",
+      "ru": "поздоровалась",
+      "en": "greeted",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пояснила",
+      "ru": "объяснила",
+      "en": "she explained",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "шукав",
+      "ru": "искал",
+      "en": "was looking for",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "шукав/шукала",
+      "ru": "искал/искала",
+      "en": "was looking for",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "увійшов/увійшла",
+      "ru": "вошёл/вошла",
+      "en": "entered",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "посидів/посиділа",
+      "ru": "посидел/посидела",
+      "en": "sat for a while",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "знаходяться",
+      "ru": "находятся",
+      "en": "are located",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "зустрічається",
+      "ru": "встречается",
+      "en": "meets",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "приєднаюся",
+      "ru": "присоединюсь",
+      "en": "I will join",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "хвилюється",
+      "ru": "беспокоится",
+      "en": "worries",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "спить",
+      "ru": "спит",
+      "en": "sleeps",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "вчуся",
+      "ru": "учусь",
+      "en": "I study",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "проводити",
+      "ru": "проводить",
+      "en": "to spend (time)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "знає",
+      "ru": "знает",
+      "en": "knows",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "звати",
+      "ru": "зовут",
+      "en": "to call/is named",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "обговорювати",
+      "ru": "обсуждать",
+      "en": "to discuss",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "тримати",
+      "ru": "держать",
+      "en": "to keep/to hold",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "світить",
+      "ru": "светит",
+      "en": "shines",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "читаю",
+      "ru": "читаю",
+      "en": "I read",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "читав",
+      "ru": "читал",
+      "en": "was reading",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "є",
+      "ru": "есть",
+      "en": "is/are (there is)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "був",
+      "ru": "был",
+      "en": "was (masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "була",
+      "ru": "была",
+      "en": "was (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "було",
+      "ru": "было",
+      "en": "was (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "були",
+      "ru": "были",
+      "en": "were",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "буде",
+      "ru": "будет",
+      "en": "will be",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "будемо",
+      "ru": "будем",
+      "en": "we will",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "втік",
+      "ru": "убежала",
+      "en": "ran away",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "маленька",
+      "ru": "маленькая",
+      "en": "small (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "маленькі",
+      "ru": "маленькие",
+      "en": "small (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "маленькому",
+      "ru": "маленьком",
+      "en": "small (prepositional/dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "велика",
+      "ru": "большая",
+      "en": "big (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "великою",
+      "ru": "большой",
+      "en": "big (instrumental feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "красива",
+      "ru": "красивая",
+      "en": "beautiful (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "красиво",
+      "ru": "красиво",
+      "en": "beautifully",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарну",
+      "ru": "хорошую",
+      "en": "good (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарного",
+      "ru": "хорошего",
+      "en": "good (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарних",
+      "ru": "красивых",
+      "en": "nice (genitive plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарні",
+      "ru": "красивые",
+      "en": "nice/beautiful (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чорна",
+      "ru": "чёрная",
+      "en": "black (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "червона",
+      "ru": "красная",
+      "en": "red (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "червоне",
+      "ru": "красное",
+      "en": "red (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "червоні",
+      "ru": "красные",
+      "en": "red (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "зелена",
+      "ru": "зелёная",
+      "en": "green (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жовте",
+      "ru": "жёлтое",
+      "en": "yellow (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "жовті",
+      "ru": "жёлтые",
+      "en": "yellow (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "блакитна",
+      "ru": "голубая",
+      "en": "light blue (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "блакитне",
+      "ru": "голубое",
+      "en": "light blue (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "блакитному",
+      "ru": "голубом",
+      "en": "light blue (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "білий",
+      "ru": "белый",
+      "en": "white",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "білі",
+      "ru": "белые",
+      "en": "white (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "солодке",
+      "ru": "сладкое",
+      "en": "sweet (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "голодний/голодна",
+      "ru": "голодный/голодная",
+      "en": "hungry",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "смачні",
+      "ru": "вкусные",
+      "en": "tasty (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "смачним",
+      "ru": "вкусным",
+      "en": "tasty (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "корисні",
+      "ru": "полезные",
+      "en": "healthy/useful (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нова",
+      "ru": "новая",
+      "en": "new (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нове",
+      "ru": "новое",
+      "en": "new (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "нову",
+      "ru": "новую",
+      "en": "new (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "цікава",
+      "ru": "интересная",
+      "en": "interesting (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "цікаву",
+      "ru": "интересную",
+      "en": "interesting (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чудова",
+      "ru": "чудесная",
+      "en": "wonderful (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чудово",
+      "ru": "чудесно",
+      "en": "wonderfully",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чудові",
+      "ru": "замечательные",
+      "en": "wonderful (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "дивне",
+      "ru": "странное",
+      "en": "strange (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "веселі",
+      "ru": "весёлые",
+      "en": "cheerful (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "свіжі",
+      "ru": "свежие",
+      "en": "fresh (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "свіжим",
+      "ru": "свежим",
+      "en": "fresh (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "різні",
+      "ru": "разные",
+      "en": "different (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "високими",
+      "ru": "высокими",
+      "en": "tall/high (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "особливим",
+      "ru": "особенным",
+      "en": "special (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "золотистим",
+      "ru": "золотистым",
+      "en": "golden (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "самотньою",
+      "ru": "одинокой",
+      "en": "lonely (instrumental feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "щасливий/щаслива",
+      "ru": "счастлив/счастлива",
+      "en": "happy",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "щасливі",
+      "ru": "счастливы",
+      "en": "happy (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "щасливими",
+      "ru": "счастливыми",
+      "en": "happy (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "щасливішою",
+      "ru": "счастливее",
+      "en": "happier",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "схвильований/схвильована",
+      "ru": "взволнован/взволнована",
+      "en": "excited",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "втомленими",
+      "ru": "уставшими",
+      "en": "tired (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "теплішою",
+      "ru": "теплее",
+      "en": "warmer",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "молодша",
+      "ru": "младшая",
+      "en": "younger (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "молодою",
+      "ru": "молодой",
+      "en": "young (instrumental feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "улюблена",
+      "ru": "любимое",
+      "en": "favorite (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "улюблених",
+      "ru": "любимых",
+      "en": "favorite (genitive plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "найкращі",
+      "ru": "лучшие",
+      "en": "best (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "кольорових",
+      "ru": "цветных",
+      "en": "colored (genitive plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "спільних",
+      "ru": "общих",
+      "en": "common (genitive plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "художньої",
+      "ru": "художественной",
+      "en": "fiction/artistic (genitive feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "книжковими",
+      "ru": "книжных",
+      "en": "book-related (instrumental plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "пригодницькі",
+      "ru": "приключенческие",
+      "en": "adventure (adjective plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "міський",
+      "ru": "городской",
+      "en": "city (adjective)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "міську",
+      "ru": "городскую",
+      "en": "city (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "читальному",
+      "ru": "читальном",
+      "en": "reading (adjective, prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "читацький",
+      "ru": "читательском",
+      "en": "reader's (adjective)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "телефонний",
+      "ru": "телефонный",
+      "en": "telephone (adjective)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "яблучний",
+      "ru": "яблочный",
+      "en": "apple (adjective)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "лимонного",
+      "ru": "лимонного",
+      "en": "lemon (adjective, genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "ванільним",
+      "ru": "ванильным",
+      "en": "vanilla (adjective, instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "овочевим",
+      "ru": "овощным",
+      "en": "vegetable (adjective, instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "стара",
+      "ru": "старое",
+      "en": "old (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чиста",
+      "ru": "чистая",
+      "en": "clean (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "світла",
+      "ru": "светлая",
+      "en": "bright (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "гарячий",
+      "ru": "горячий",
+      "en": "hot",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "сонячно",
+      "ru": "солнечно",
+      "en": "sunny",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "книги",
+      "ru": "книги",
+      "en": "books",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "книгою",
+      "ru": "книгой",
+      "en": "book (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "книгу",
+      "ru": "книгу",
+      "en": "book (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "книг",
+      "ru": "книг",
+      "en": "books (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "кольори",
+      "ru": "цвета",
+      "en": "colors",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "яблука",
+      "ru": "яблоки",
+      "en": "apples",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "яблук",
+      "ru": "яблокам",
+      "en": "apples (genitive/dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "яйця",
+      "ru": "яйца",
+      "en": "eggs",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "друзів",
+      "ru": "друзей",
+      "en": "friends (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "друзями",
+      "ru": "друзьями",
+      "en": "friends (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "людей",
+      "ru": "людей",
+      "en": "people (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "людьми",
+      "ru": "людьми",
+      "en": "people (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "собаку",
+      "ru": "собаку",
+      "en": "dog (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "собакою",
+      "ru": "собакой",
+      "en": "dog (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "ліжку",
+      "ru": "кровати",
+      "en": "bed (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "ліжко",
+      "ru": "кровать",
+      "en": "bed",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "кімната",
+      "ru": "комната",
+      "en": "room",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "кімнату",
+      "ru": "комнату",
+      "en": "room (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "стіл",
+      "ru": "стол",
+      "en": "table",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "столі",
+      "ru": "столе",
+      "en": "table (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "столиком",
+      "ru": "столиком",
+      "en": "small table (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніданку",
+      "ru": "завтрака",
+      "en": "breakfast (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "школі",
+      "ru": "школе",
+      "en": "school (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "школу",
+      "ru": "школу",
+      "en": "school (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "годині",
+      "ru": "часов",
+      "en": "o'clock/hours",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "годину",
+      "ru": "час",
+      "en": "hour (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "години",
+      "ru": "часа",
+      "en": "hours",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вулиці",
+      "ru": "улицы",
+      "en": "streets",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вулиця",
+      "ru": "улица",
+      "en": "street",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "будинки",
+      "ru": "дома",
+      "en": "buildings/houses",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "будинку",
+      "ru": "доме",
+      "en": "house (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "будівля",
+      "ru": "здание",
+      "en": "building",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "дерева",
+      "ru": "деревья",
+      "en": "trees",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "діти",
+      "ru": "дети",
+      "en": "children",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "дитячих",
+      "ru": "детских",
+      "en": "children's (genitive plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "квіти",
+      "ru": "цветы",
+      "en": "flowers",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "квітів",
+      "ru": "цветов",
+      "en": "flowers (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "бібліотеку",
+      "ru": "библиотеку",
+      "en": "library (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "бібліотеці",
+      "ru": "библиотеке",
+      "en": "library (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вікна",
+      "ru": "окна",
+      "en": "window (genitive)/windows",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вікнами",
+      "ru": "окнами",
+      "en": "windows (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "квартири",
+      "ru": "квартирой",
+      "en": "apartment (genitive/instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "стіну",
+      "ru": "стену",
+      "en": "wall (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "мамі",
+      "ru": "маме",
+      "en": "mom (dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "бабусю",
+      "ru": "бабушку",
+      "en": "grandma (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "бабусею",
+      "ru": "бабушкой",
+      "en": "grandma (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "бабуся",
+      "ru": "бабушка",
+      "en": "grandma",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "батьки",
+      "ru": "родители",
+      "en": "parents",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "батькові",
+      "ru": "отцу",
+      "en": "father (dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сестра",
+      "ru": "сестра",
+      "en": "sister",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "малюнки",
+      "ru": "рисунки",
+      "en": "drawings (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "олівців",
+      "ru": "карандашей",
+      "en": "pencils (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "зошиті",
+      "ru": "блокноте",
+      "en": "notebook (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "тварин",
+      "ru": "животных",
+      "en": "animals (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "художником/художницею",
+      "ru": "художником/художницей",
+      "en": "artist (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сусіда",
+      "ru": "соседа",
+      "en": "neighbor (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "плакати",
+      "ru": "плакаты",
+      "en": "posters",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "телефону",
+      "ru": "телефона",
+      "en": "phone (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "фотографією",
+      "ru": "фотографией",
+      "en": "photograph (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "району",
+      "ru": "району",
+      "en": "district (genitive/dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "усмішкою",
+      "ru": "улыбкой",
+      "en": "smile (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніговиків",
+      "ru": "снеговиков",
+      "en": "snowmen (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сніжки",
+      "ru": "снежки",
+      "en": "snowballs",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "ковзанах",
+      "ru": "коньках",
+      "en": "ice skates (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "пісні",
+      "ru": "песни",
+      "en": "songs",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "птахи",
+      "ru": "птицы",
+      "en": "birds",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "пору",
+      "ru": "время",
+      "en": "season/time (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "року",
+      "ru": "года",
+      "en": "year (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "років",
+      "ru": "лет",
+      "en": "years",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "дні",
+      "ru": "дни",
+      "en": "days",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "дня",
+      "ru": "дня",
+      "en": "day (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "днем",
+      "ru": "днём",
+      "en": "day (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "каву",
+      "ru": "кофе",
+      "en": "coffee (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "машину",
+      "ru": "машину",
+      "en": "car (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "машина",
+      "ru": "машина",
+      "en": "car",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "місті",
+      "ru": "городе",
+      "en": "city (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "містом",
+      "ru": "городом",
+      "en": "city (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "мультфільми",
+      "ru": "мультфильмы",
+      "en": "cartoons",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "математику",
+      "ru": "математику",
+      "en": "mathematics (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "уроків",
+      "ru": "уроков",
+      "en": "lessons (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "велосипеди",
+      "ru": "велосипеды",
+      "en": "bicycles",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "велосипедах",
+      "ru": "велосипедах",
+      "en": "bicycles (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "гаража",
+      "ru": "гаража",
+      "en": "garage (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "нарциси",
+      "ru": "нарциссы",
+      "en": "daffodils",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "тюльпани",
+      "ru": "тюльпаны",
+      "en": "tulips",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "лілії",
+      "ru": "лилии",
+      "en": "lilies",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "обіду",
+      "ru": "обеда",
+      "en": "lunch (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "супом",
+      "ru": "супом",
+      "en": "soup (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "куркою",
+      "ru": "курицей",
+      "en": "chicken (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "медом",
+      "ru": "мёдом",
+      "en": "honey (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "корицю",
+      "ru": "корицу",
+      "en": "cinnamon (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "соку",
+      "ru": "сока",
+      "en": "juice (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "духовку",
+      "ru": "духовку",
+      "en": "oven (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "кухні",
+      "ru": "кухне",
+      "en": "kitchen (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "шматочки",
+      "ru": "кусочки",
+      "en": "small pieces",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "морозивом",
+      "ru": "мороженым",
+      "en": "ice cream (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "продавців",
+      "ru": "продавцов",
+      "en": "sellers (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "ринку",
+      "ru": "рынке",
+      "en": "market (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "історії",
+      "ru": "истории",
+      "en": "stories",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "місць",
+      "ru": "мест",
+      "en": "places (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "інтересів",
+      "ru": "интересов",
+      "en": "interests (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "залі",
+      "ru": "зале",
+      "en": "hall (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "виходом",
+      "ru": "уходом",
+      "en": "exit/leaving (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "полицями",
+      "ru": "полками",
+      "en": "shelves (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "відділи",
+      "ru": "отделы",
+      "en": "departments/sections",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "літератури",
+      "ru": "литературы",
+      "en": "literature (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "науки",
+      "ru": "науки",
+      "en": "science (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "типи",
+      "ru": "типы",
+      "en": "types",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "повітрям",
+      "ru": "воздухом",
+      "en": "air (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сонцем",
+      "ru": "солнцем",
+      "en": "sun (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "ігри",
+      "ru": "игры",
+      "en": "games",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вечірку",
+      "ru": "вечеринку",
+      "en": "party (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "народження",
+      "ru": "рождения",
+      "en": "birth/birthday",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "тижня",
+      "ru": "неделе",
+      "en": "week (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "тижні",
+      "ru": "недели",
+      "en": "weeks",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "англійську",
+      "ru": "английский",
+      "en": "English (language)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "суботу",
+      "ru": "субботу",
+      "en": "Saturday (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "time"
+    },
+    {
+      "uk": "неділю",
+      "ru": "воскресенье",
+      "en": "Sunday (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "time"
+    },
+    {
+      "uk": "вечором",
+      "ru": "вечером",
+      "en": "in the evening",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "time"
+    },
+    {
+      "uk": "вперше",
+      "ru": "впервые",
+      "en": "for the first time",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "набагато",
+      "ru": "намного",
+      "en": "much (more)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "менш",
+      "ru": "менее",
+      "en": "less",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "яскраво",
+      "ru": "ярко",
+      "en": "brightly",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "радісно",
+      "ru": "радостно",
+      "en": "joyfully",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "привітно",
+      "ru": "приветливо",
+      "en": "welcomingly",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "вдень",
+      "ru": "днём",
+      "en": "in the afternoon",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "нарешті",
+      "ru": "наконец-то",
+      "en": "finally/at last",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "справді",
+      "ru": "действительно",
+      "en": "truly/really",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щовечора",
+      "ru": "каждый вечер",
+      "en": "every evening",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щонеділі",
+      "ru": "каждое воскресенье",
+      "en": "every Sunday",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щосуботи",
+      "ru": "каждую субботу",
+      "en": "every Saturday",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "щочетверга",
+      "ru": "каждый четверг",
+      "en": "every Thursday",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "вдома",
+      "ru": "дома",
+      "en": "at home",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "весело",
+      "ru": "весело",
+      "en": "fun/merrily",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "о",
+      "ru": "в",
+      "en": "at (time)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "по",
+      "ru": "по",
+      "en": "along/around",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "за",
+      "ru": "за",
+      "en": "behind/beyond",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "з",
+      "ru": "с",
+      "en": "with/from",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "до",
+      "ru": "до",
+      "en": "to/until",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "у",
+      "ru": "у",
+      "en": "at/in",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "про",
+      "ru": "о",
+      "en": "about",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "зі",
+      "ru": "со",
+      "en": "with (variant)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "для",
+      "ru": "для",
+      "en": "for",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "від",
+      "ru": "от",
+      "en": "from",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "тому",
+      "ru": "потому",
+      "en": "because/therefore",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "conjunctions"
+    },
+    {
+      "uk": "якщо",
+      "ru": "если",
+      "en": "if",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "conjunctions"
+    },
+    {
+      "uk": "коли",
+      "ru": "когда",
+      "en": "when",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "conjunctions"
+    },
+    {
+      "uk": "поки",
+      "ru": "пока",
+      "en": "while",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "conjunctions"
+    },
+    {
+      "uk": "щоб",
+      "ru": "чтобы",
+      "en": "in order to",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "conjunctions"
+    },
+    {
+      "uk": "ще",
+      "ru": "ещё",
+      "en": "still/yet",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "вже",
+      "ru": "уже",
+      "en": "already",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "дуже",
+      "ru": "очень",
+      "en": "very",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "не",
+      "ru": "не",
+      "en": "not",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "particles"
+    },
+    {
+      "uk": "ні",
+      "ru": "нет",
+      "en": "no",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "particles"
+    },
+    {
+      "uk": "так",
+      "ru": "так",
+      "en": "yes/so",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "particles"
+    },
+    {
+      "uk": "теж",
+      "ru": "тоже",
+      "en": "also/too",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "ми",
+      "ru": "мы",
+      "en": "we",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "тут",
+      "ru": "тут",
+      "en": "here",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "там",
+      "ru": "там",
+      "en": "there",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "перед",
+      "ru": "перед",
+      "en": "before",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "трохи",
+      "ru": "немного",
+      "en": "a little",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "завжди",
+      "ru": "всегда",
+      "en": "always",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "9",
+      "ru": "9",
+      "en": "9 (nine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "грошима",
+      "ru": "деньгами",
+      "en": "money (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "гроші",
+      "ru": "деньги",
+      "en": "money",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "їжу",
+      "ru": "еду",
+      "en": "food (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "погоду",
+      "ru": "погоду",
+      "en": "weather (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "погода",
+      "ru": "погода",
+      "en": "weather",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "читання",
+      "ru": "чтение",
+      "en": "reading (noun)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "свою",
+      "ru": "свою",
+      "en": "own (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "свої",
+      "ru": "свои",
+      "en": "own (plural)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "сім'я",
+      "ru": "семья",
+      "en": "family",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сім'ю",
+      "ru": "семью",
+      "en": "family (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "сім'єю",
+      "ru": "семьёй",
+      "en": "family (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "наш",
+      "ru": "наш",
+      "en": "our",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "наше",
+      "ru": "наше",
+      "en": "our (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "нашим",
+      "ru": "нашим",
+      "en": "our (instrumental/dative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "сусіднім",
+      "ru": "соседним",
+      "en": "neighboring (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "дівчина",
+      "ru": "девушка",
+      "en": "girl",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "пан",
+      "ru": "господин",
+      "en": "Mr./sir",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "пані",
+      "ru": "госпожа",
+      "en": "Mrs./madam",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "мила",
+      "ru": "милая",
+      "en": "sweet/nice (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "добре",
+      "ru": "хорошо",
+      "en": "well/good",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "вся",
+      "ru": "вся",
+      "en": "all/whole (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "сумне",
+      "ru": "грустное",
+      "en": "sad (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "потрібно",
+      "ru": "нужно",
+      "en": "need to/necessary",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "раз",
+      "ru": "раз",
+      "en": "time/once",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "люди",
+      "ru": "люди",
+      "en": "people",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "багатьма",
+      "ru": "множеством",
+      "en": "many (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "минулого",
+      "ru": "прошлой",
+      "en": "last/past (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "минулий",
+      "ru": "прошлый",
+      "en": "last/past",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "кожним",
+      "ru": "каждым",
+      "en": "each/every (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "привіт",
+      "ru": "здравствуй",
+      "en": "hello",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "greetings"
+    },
+    {
+      "uk": "номером",
+      "ru": "номером",
+      "en": "number (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "пю",
+      "ru": "пью",
+      "en": "I drink",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пємо",
+      "ru": "пьём",
+      "en": "we drink",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "пятниця",
+      "ru": "пятница",
+      "en": "Friday",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "time"
+    },
+    {
+      "uk": "пять",
+      "ru": "пять",
+      "en": "five",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "вівторка",
+      "ru": "вторника",
+      "en": "Tuesday (genitive)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "time"
+    },
+    {
+      "uk": "дають",
+      "ru": "дают",
+      "en": "they give",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "verbs"
+    },
+    {
+      "uk": "дві",
+      "ru": "две",
+      "en": "two (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "numbers"
+    },
+    {
+      "uk": "мною",
+      "ru": "мной",
+      "en": "me (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "готовий",
+      "ru": "готов",
+      "en": "ready",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "замечательно",
+      "ru": "замечательно",
+      "en": "wonderfully",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "кожне",
+      "ru": "каждое",
+      "en": "every (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "кожну",
+      "ru": "каждую",
+      "en": "every (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "яка",
+      "ru": "которая",
+      "en": "which (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "який",
+      "ru": "который",
+      "en": "which (masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "к (до)",
+      "ru": "к",
+      "en": "to/towards",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "prepositions"
+    },
+    {
+      "uk": "багато (люди)",
+      "ru": "многие",
+      "en": "many (people)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "борошно (знах.)",
+      "ru": "муку",
+      "en": "flour (accusative)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "вулиці (місц.)",
+      "ru": "улице",
+      "en": "street (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "дні (місц.)",
+      "ru": "дне",
+      "en": "day (prepositional)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "nouns"
+    },
+    {
+      "uk": "готовий (кор.)",
+      "ru": "готов",
+      "en": "ready",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "чудово (нар.)",
+      "ru": "замечательно",
+      "en": "wonderfully",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adverbs"
+    },
+    {
+      "uk": "кожне (с.р.)",
+      "ru": "каждое",
+      "en": "every (neuter)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "кожну (знах.)",
+      "ru": "каждую",
+      "en": "every (accusative feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "adjectives"
+    },
+    {
+      "uk": "яка (жін.)",
+      "ru": "которая",
+      "en": "which (feminine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "який (чол.)",
+      "ru": "который",
+      "en": "which (masculine)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    },
+    {
+      "uk": "мною (ор.)",
+      "ru": "мной",
+      "en": "me (instrumental)",
+      "phoneticUk": "",
+      "phoneticRu": "",
+      "category": "pronouns"
+    }
+  ]
+}

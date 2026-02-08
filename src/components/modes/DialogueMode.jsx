@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import ModeHeader from '../shared/ModeHeader.jsx';
 import CompletionScreen from '../shared/CompletionScreen.jsx';
 
-export default function DialogueMode({ dialogues, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+export default function DialogueMode({ langCode = 'uk', dialogues, onSpeak, ttsEnabled, ttsVolume, onExit, onComplete, onAddXP, onTrackProgress }) {
+  const langName = langCode === 'ru' ? 'Russian' : 'Ukrainian';
   const [phase, setPhase] = useState('picker'); // picker, playing, complete
   const [selectedDialogue, setSelectedDialogue] = useState(null);
   const [exchangeIdx, setExchangeIdx] = useState(0);
@@ -245,7 +246,7 @@ export default function DialogueMode({ dialogues, onSpeak, ttsEnabled, ttsVolume
               value={userInput}
               onChange={e => setUserInput(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
-              placeholder="Type your response in Ukrainian..."
+              placeholder={`Type your response in ${langName}...`}
               autoFocus
             />
             <button style={styles.hintBtn} onClick={() => setShowHint(true)} title="Show hint">

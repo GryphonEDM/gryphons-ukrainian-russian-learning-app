@@ -1,0 +1,77 @@
+{
+  "level": "Very Beginner",
+  "levelRu": "Самый начальный",
+  "levelUk": "Найпочатковіший",
+  "stories": [
+    {
+      "id": "vb-1",
+      "title": "The Cat",
+      "en": "My cat is small. Her name is Luna. Luna is black. She likes milk. She sleeps on my bed. I love Luna.",
+      "ru": "Моя кошка маленькая. Её зовут Луна. Луна чёрная. Она любит молоко. Она спит на моей кровати. Я люблю Луну.",
+      "uk": "Моя кішка маленька. Її звати Луна. Луна чорна. Вона любить молоко. Вона спить на моєму ліжку. Я люблю Луну."
+    },
+    {
+      "id": "vb-2",
+      "title": "My Family",
+      "en": "This is my family. My dad is kind. My mom is beautiful. My brother is small. I love my family. We are happy.",
+      "ru": "Это моя семья. Мой папа добрый. Моя мама красивая. Мой брат маленький. Я люблю мою семью. Мы счастливы.",
+      "uk": "Це моя сім'я. Мій тато добрий. Моя мама красива. Мій брат маленький. Я люблю мою сім'ю. Ми щасливі."
+    },
+    {
+      "id": "vb-3",
+      "title": "The Dog",
+      "en": "This is my dog. His name is Rex. Rex is big. He is brown. Rex likes to play. I play with Rex every day.",
+      "ru": "Это моя собака. Его зовут Рекс. Рекс большой. Он коричневый. Рекс любит играть. Я играю с Рексом каждый день.",
+      "uk": "Це мій собака. Його звати Рекс. Рекс великий. Він коричневий. Рекс любить грати. Я граю з Рексом щодня."
+    },
+    {
+      "id": "vb-4",
+      "title": "My Room",
+      "en": "This is my room. My room is small. I have a bed. I have a table. I have books on the table. My room is clean.",
+      "ru": "Это моя комната. Моя комната маленькая. У меня есть кровать. У меня есть стол. У меня есть книги на столе. Моя комната чистая.",
+      "uk": "Це моя кімната. Моя кімната маленька. У мене є ліжко. У мене є стіл. У мене є книги на столі. Моя кімната чиста."
+    },
+    {
+      "id": "vb-5",
+      "title": "Breakfast",
+      "en": "I wake up. It is morning. I am hungry. I eat bread. I eat eggs. I drink tea. Breakfast is good.",
+      "ru": "Я просыпаюсь. Утро. Я голодный/голодная. Я ем хлеб. Я ем яйца. Я пью чай. Завтрак хороший.",
+      "uk": "Я прокидаюся. Ранок. Я голодний/голодна. Я їм хліб. Я їм яйця. Я п'ю чай. Сніданок гарний."
+    },
+    {
+      "id": "vb-6",
+      "title": "The Apple",
+      "en": "I have an apple. The apple is red. The apple is sweet. I like apples. Apples are healthy. I eat my apple.",
+      "ru": "У меня есть яблоко. Яблоко красное. Яблоко сладкое. Я люблю яблоки. Яблоки полезные. Я ем моё яблоко.",
+      "uk": "У мене є яблуко. Яблуко червоне. Яблуко солодке. Я люблю яблука. Яблука корисні. Я їм моє яблуко."
+    },
+    {
+      "id": "vb-7",
+      "title": "Weather",
+      "en": "Today is sunny. The sky is blue. It is warm. I am happy. I like good weather. I go to the park.",
+      "ru": "Сегодня солнечно. Небо голубое. Тепло. Я счастлив/счастлива. Я люблю хорошую погоду. Я иду в парк.",
+      "uk": "Сьогодні сонячно. Небо блакитне. Тепло. Я щасливий/щаслива. Я люблю гарну погоду. Я йду в парк."
+    },
+    {
+      "id": "vb-8",
+      "title": "My Friend",
+      "en": "I have a friend. Her name is Anna. Anna is nice. She is my classmate. We play together. I like Anna.",
+      "ru": "У меня есть подруга. Её зовут Анна. Анна милая. Она моя одноклассница. Мы играем вместе. Я люблю Анну.",
+      "uk": "У мене є подруга. Її звати Анна. Анна мила. Вона моя однокласниця. Ми граємо разом. Я люблю Анну."
+    },
+    {
+      "id": "vb-9",
+      "title": "Colors",
+      "en": "I see colors. The grass is green. The sun is yellow. The water is blue. The flower is red. Colors are beautiful.",
+      "ru": "Я вижу цвета. Трава зелёная. Солнце жёлтое. Вода голубая. Цветок красный. Цвета красивые.",
+      "uk": "Я бачу кольори. Трава зелена. Сонце жовте. Вода блакитна. Квітка червона. Кольори гарні."
+    },
+    {
+      "id": "vb-10",
+      "title": "The Book",
+      "en": "I have a book. The book is new. The book is interesting. I read every day. I like to read. Reading is fun.",
+      "ru": "У меня есть книга. Книга новая. Книга интересная. Я читаю каждый день. Я люблю читать. Чтение - это весело.",
+      "uk": "У мене є книга. Книга нова. Книга цікава. Я читаю щодня. Я люблю читати. Читання - це весело."
+    }
+  ]
+}

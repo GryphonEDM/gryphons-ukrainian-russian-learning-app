@@ -98,7 +98,7 @@ export default function ListeningMode({ langCode = 'uk', onSpeak, ttsEnabled, tt
   };
 
   const handleRetry = () => {
-    const all = getAllVocabularyWords();
+    const all = getAllVocabularyWords(langCode);
     const shuffled = [...all].sort(() => Math.random() - 0.5);
     setWords(shuffled.slice(0, 10));
     setCurrentIdx(0);
@@ -178,7 +178,7 @@ export default function ListeningMode({ langCode = 'uk', onSpeak, ttsEnabled, tt
                 else handleSubmit();
               }
             }}
-            placeholder="Type the Ukrainian word..."
+            placeholder={`Type the ${langCode === 'ru' ? 'Russian' : 'Ukrainian'} word...`}
             disabled={submitted}
             autoFocus
           />

@@ -1,261 +1,133 @@
-# Kyiv Arcade - Ukrainian Typing Game
+# Ukrainian & Russian Typing Game
 
-An interactive typing game to help learn Ukrainian typing with text-to-speech pronunciation support.
-
-## Project Overview
-
-This project consists of two main components:
-
-1. **Web Application** (React + Vite) - Interactive typing game interface
-2. **TTS Server** (Python Flask) - Ukrainian text-to-speech synthesis using local models
+A free, open-source web app for learning to type in Ukrainian and Russian. Includes typing lessons, vocabulary flashcards (4000+ words), grammar exercises, reading practice, dialogue practice, a translator, and text-to-speech pronunciation.
 
 ## Features
 
-- **10 Interactive Typing Lessons** - Progressive lessons from letters to full phrases
-- **Alphabet Speed Challenge** - Type all 32 Ukrainian letters as fast as you can
-- **Keyboard Explorer** - Interactive tool to learn key positions and pronunciations
-- **Text-to-Speech (TTS)** - High-quality Ukrainian pronunciation with adjustable volume
-- **252+ Word Vocabulary** - Organized into themed sets (colors, animals, family, emotions, weather, travel, body parts, home)
-- **Achievement System** - 20 achievements to unlock with XP rewards
-- **Progress Tracking** - Save your progress, streaks, and statistics locally
-- **Customizable Settings** - Control TTS volume, translations, pronunciation hints, and sound effects
-- **Audio Caching** - Improved performance with server-side audio caching
+- **Ukrainian + Russian** - Full support for both languages with one-click switching
+- **Typing Lessons** - Progressive lessons from individual letters to full words
+- **Alphabet Speed Challenge** - Type the entire alphabet as fast as you can
+- **Keyboard Explorer** - Click any key to hear its sound and learn its position
+- **4000+ Word Vocabulary** - Flashcards across 20+ themed categories
+- **Grammar Lessons** - Cases, verbs, pronouns, adjectives, word order
+- **Sentence Building** - Arrange words into correct sentences
+- **Dialogue Practice** - Practice real conversations (restaurant, directions, shopping, greetings)
+- **Reading Practice** - Read passages and answer comprehension questions
+- **Translation Practice** - Translate words between English and your target language
+- **Listening Practice** - Hear words and type what you hear
+- **Translator** - Look up words and phrases
+- **Text-to-Speech** - Hear any word or letter pronounced (requires TTS server)
+- **Achievement System** - 20 achievements to unlock
+- **Progress Tracking** - XP, streaks, and stats saved per language
 
-## Prerequisites
+## Quick Start
 
-Before running this project, ensure you have the following installed:
+### Prerequisites
 
-- **Node.js** (v16 or higher) - [Download here](https://nodejs.org/)
-- **Python** (v3.8 or higher) - [Download here](https://www.python.org/downloads/)
-- **Git** - For the tts-repo submodule
+- [Node.js](https://nodejs.org/) v16+
+- [Python](https://www.python.org/downloads/) 3.8+ (only needed for TTS)
 
-## Project Structure
-
-```
-ukrainian-typing-game/
-├── src/
-│   ├── main.jsx                   # React entry point
-│   ├── App.jsx                    # Main application component
-│   ├── data/                      # Data files (keyboard, lessons, vocabulary)
-│   │   ├── keyboard.js            # Ukrainian keyboard layout data
-│   │   ├── lessons.js             # Typing lessons configuration
-│   │   ├── achievements.js        # Achievement definitions
-│   │   ├── translations.js        # Word translations
-│   │   └── vocabulary/            # Themed vocabulary sets
-│   │       └── themes/            # JSON files for each theme
-│   │           ├── colors.json    # 10 color words
-│   │           ├── animals.json   # 20 animal words
-│   │           ├── family.json    # 15 family words
-│   │           ├── emotions.json  # 15 emotion words
-│   │           ├── weather.json   # 12 weather words
-│   │           ├── travel.json    # 25 travel words
-│   │           ├── body.json      # 15 body part words
-│   │           └── house.json     # 20 house/home words
-│   └── utils/                     # Utility functions
-│       ├── encouragement.js       # Encouraging messages
-│       └── soundEffects.js        # Sound effect functions
-├── tts-repo/                      # Ukrainian TTS library (submodule)
-├── tts-cache/                     # Cached TTS audio files
-├── index.html                     # HTML entry point
-├── package.json                   # Node.js dependencies
-├── tts-server.js                  # Node TTS server (alternative, not used)
-├── tts-server.py                  # Python TTS server (active)
-├── vite.config.js                 # Vite configuration
-├── config.yaml                    # TTS model configuration
-├── model.pth                      # TTS model weights (425 MB)
-├── feats_stats.npz                # TTS feature statistics
-├── spk_xvector.ark                # Speaker embedding
-├── start.bat                      # Quick start script (Windows)
-└── README.md                      # This file
-```
-
-## Installation
-
-### Option 1: Quick Start (Windows)
-
-Simply double-click `start.bat` to automatically:
-- Install all Node.js dependencies
-- Install all Python dependencies
-- Start both servers
-- Open the website in your browser
-
-### Option 2: Manual Installation
-
-#### 1. Install Node.js Dependencies
+### 1. Clone and install
 
 ```bash
+git clone <your-repo-url>
+cd ukrainian-typing-game
 npm install
 ```
 
-#### 2. Install Python Dependencies
+### 2. Run the web app
 
-The TTS server requires several Python packages. Install them with:
-
-```bash
-# Install the Ukrainian TTS library
-cd tts-repo
-pip install -e .
-cd ..
-
-# Install additional dependencies
-pip install flask flask-cors
-```
-
-If you encounter issues, install dependencies from requirements.txt:
-
-```bash
-pip install -r tts-repo/requirements.txt
-```
-
-## Running the Application
-
-### Option 1: Quick Start (Windows)
-
-```bash
-start.bat
-```
-
-This will start both the web server and TTS server, then open your browser automatically.
-
-### Option 2: Using npm Scripts
-
-Start both servers simultaneously:
-
-```bash
-npm start
-```
-
-Note: This command uses `concurrently` to run both servers, but starts the Node.js TTS server (port 3001) instead of the Python one. The application is configured to use the Python TTS server (port 3002), so use Option 3 below instead.
-
-### Option 3: Manual Start (Recommended)
-
-Start each component in separate terminals:
-
-**Terminal 1 - TTS Server:**
-```bash
-python tts-server.py
-```
-
-**Terminal 2 - Web Server:**
 ```bash
 npm run dev
 ```
 
-The web application will automatically open in your browser at `http://localhost:5173`
+Open http://localhost:5173 in your browser. The app is fully functional without TTS - you just won't hear pronunciation.
 
-## Server Ports
+### 3. (Optional) Enable text-to-speech
 
-- **Web Application**: http://localhost:5173 (Vite dev server)
-- **Python TTS Server**: http://localhost:3002 (Used by the app)
-- **Node TTS Server**: http://localhost:3001 (Alternative, uses Hugging Face API)
+TTS lets you hear every letter and word pronounced. There are two options:
 
-## TTS Servers
+#### Option A: Local TTS server (higher quality, offline)
 
-This project includes two TTS server implementations:
+```bash
+# Install the TTS library
+cd tts-repo
+pip install -e .
+cd ..
 
-### Python TTS Server (Active) - `tts-server.py`
-- Runs on port 3002
-- Uses local Ukrainian TTS models (Oleksa voice)
-- Higher quality but requires model files
-- Caches generated audio to `tts-cache/`
+# Install Flask
+pip install flask flask-cors
 
-### Node.js TTS Server (Alternative) - `tts-server.js`
-- Runs on port 3001
-- Uses Hugging Face API (online)
-- Lighter weight but requires internet
-- Also caches audio files
+# Start the TTS server
+python tts-server.py
+```
 
-The application is currently configured to use the **Python TTS Server** (port 3002).
+The first run will automatically download the model files (~425 MB) from GitHub. After that it works offline.
+
+#### Option B: HuggingFace API (no model download, requires internet)
+
+```bash
+node tts-server.js
+```
+
+This calls the HuggingFace API and runs on port 3001. To use it, change the port in `src/App.jsx` from `3002` to `3001`.
+
+### Windows one-click start
+
+Double-click `start.bat` to automatically install dependencies and start both the web app and TTS server.
+
+### Mac/Linux one-click start
+
+```bash
+chmod +x start.sh
+./start.sh
+```
+
+## How to play
+
+1. **Set up your keyboard** - Add Ukrainian or Russian as an input language in your OS settings (click the Keyboard Setup Guide in the app for instructions)
+2. **Switch your keyboard** - Use `Win+Space` (Windows), `Ctrl+Space` (Mac), or `Super+Space` (Linux) to switch to the target language
+3. **Start typing** - Pick a lesson and type the letters/words shown. The virtual keyboard highlights which key to press
+4. **Explore other modes** - Try flashcards, grammar lessons, reading practice, and more from the main menu
+
+## Project Structure
+
+```
+├── src/                    # React application source
+│   ├── App.jsx             # Main app component
+│   ├── components/modes/   # Game mode components (flashcards, grammar, etc.)
+│   ├── data/               # Ukrainian language data (lessons, vocabulary, grammar)
+│   ├── data/ru/            # Russian language data
+│   └── utils/              # Helpers (dictionary builder, sound effects)
+├── tts-repo/               # Ukrainian TTS library (from robinhad/ukrainian-tts)
+├── tts-server.py           # Local TTS server (Python, port 3002)
+├── tts-server.js           # API TTS server (Node.js, port 3001)
+├── start.bat               # Windows startup script
+├── start.sh                # Mac/Linux startup script
+├── index.html              # Vite entry point
+├── package.json            # Node.js dependencies
+└── vite.config.js          # Vite config
+```
 
 ## Troubleshooting
 
-### Python Dependencies Issues
+**App works but no sound?**
+- Make sure TTS is enabled in Settings (bottom of main menu)
+- Check that the TTS server is running (`python tts-server.py`)
+- The TTS server should show "TTS model loaded!" when ready
 
-If you encounter errors installing Python dependencies:
-
-1. Try installing PyTorch separately first:
+**Python dependency issues?**
 ```bash
 pip install torch
+pip install espnet
+pip install flask flask-cors
 ```
 
-2. Install espnet with the specific version:
-```bash
-pip install espnet==202301
-```
-
-3. If scipy issues occur:
-```bash
-pip install "scipy<1.12.0"
-```
-
-### TTS Server Not Starting
-
-- Ensure Python 3.8+ is installed: `python --version`
-- Check if the required model files exist:
-  - `config.yaml`
-  - `model.pth`
-  - `feats_stats.npz`
-  - `spk_xvector.ark`
-
-### Port Already in Use
-
-If port 5173 or 3002 is already in use:
-- Close other applications using those ports
-- Or modify the ports in `vite.config.js` (web) and `tts-server.py` (TTS)
-
-### Browser Doesn't Open
-
-If the browser doesn't open automatically:
-- Manually navigate to http://localhost:5173
-- Check if the Vite server started successfully
-
-## Development
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-This creates an optimized build in the `dist/` directory.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Technologies Used
-
-### Frontend
-- React 18
-- Vite
-- Modern JavaScript (ES6+)
-
-### Backend
-- Python 3
-- Flask
-- Ukrainian TTS (espnet-based)
-- PyTorch
-
-### TTS Model
-- Based on SpeechT5
-- Trained on Ukrainian speech data
-- Oleksa voice model
-
-## License
-
-This project uses the Ukrainian TTS library from https://github.com/egorsmkv/ukrainian-tts
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
+**Port already in use?**
+- Close other apps using ports 5173 or 3002
+- Or edit the port in `vite.config.js` / `tts-server.py`
 
 ## Credits
 
-- Ukrainian TTS model by robinhad/Yehor
-- SpeechT5 architecture
-- espnet framework
+- Ukrainian TTS model by [robinhad](https://github.com/robinhad/ukrainian-tts)
+- Built with React + Vite
