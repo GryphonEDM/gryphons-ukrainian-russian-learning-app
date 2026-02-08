@@ -18,7 +18,7 @@ export default function StoryMode({ langCode = 'uk', stories, onSpeak, ttsEnable
 
   // Look up a word in the dictionary
   const lookupWord = useCallback((word) => {
-    const cleaned = word.toLowerCase().replace(/[.,!?;:"""''()—–\-…]/g, '');
+    const cleaned = word.toLowerCase().replace(/[.,!?;:"""()—–\-…]/g, '');
     if (!cleaned) return null;
     const translation = dict.ukToEn[cleaned];
     if (translation) return translation;
@@ -92,7 +92,7 @@ export default function StoryMode({ langCode = 'uk', stories, onSpeak, ttsEnable
   // Handle single click on a word
   const handleWordClick = useCallback((word, wordIndex) => {
     if (isReading) return;
-    const cleaned = word.replace(/[.,!?;:"""''()—–\-…]/g, '').trim();
+    const cleaned = word.replace(/[.,!?;:"""()—–\-…]/g, '').trim();
     if (!cleaned) return;
 
     const translation = lookupWord(cleaned);

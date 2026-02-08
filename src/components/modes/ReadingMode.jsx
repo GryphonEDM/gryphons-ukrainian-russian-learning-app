@@ -158,7 +158,7 @@ export default function ReadingMode({ langCode = 'uk', passages, onSpeak, ttsEna
 
           <div style={styles.textArea}>
             {words.map((word, i) => {
-              const clean = word.trim().toLowerCase().replace(/[.,!?;:"""''()]/g, '');
+              const clean = word.trim().toLowerCase().replace(/[.,!?;:"""()]/g, '');
               const hasGlossary = glossary[clean];
               const isActive = hoveredWord === clean || clickedWord === clean;
 
