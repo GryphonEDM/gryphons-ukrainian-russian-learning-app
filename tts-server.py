@@ -35,6 +35,7 @@ os.makedirs(RU_CACHE_DIR, exist_ok=True)
 
 # === Ukrainian TTS (ESPnet) ===
 print("Loading Ukrainian TTS model (Oleksa voice)...")
+os.makedirs(TTS_MODEL_DIR, exist_ok=True)
 os.chdir(TTS_MODEL_DIR)
 tts_uk = TTS(cache_folder=".", device="cpu")
 os.chdir(SCRIPT_DIR)

@@ -175,6 +175,13 @@ cd tts-repo && pip install -e . && cd ..
 - The ESPnet model downloads from GitHub releases of [robinhad/ukrainian-tts](https://github.com/robinhad/ukrainian-tts/releases)
 - Check your internet connection and try running `python tts-server.py` again
 
+**Want HTTPS? (optional, needed for Web Speech API on some networks)**
+```bash
+mkdir .cert
+openssl req -x509 -newkey rsa:2048 -keyout .cert/key.pem -out .cert/cert.pem -days 365 -nodes -subj "/CN=localhost"
+```
+The dev server will automatically use HTTPS when these cert files exist, and fall back to HTTP otherwise.
+
 **Port already in use?**
 - Close other apps using ports 5173 or 3002
 - Or edit the port in `vite.config.js` / `tts-server.py`

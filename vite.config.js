@@ -2,15 +2,22 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'fs'
 
+// Use HTTPS if local certs exist (needed for Web Speech API on some browsers)
+const certPath = '.cert/cert.pem'
+const keyPath = '.cert/key.pem'
+const hasSSL = fs.existsSync(certPath) && fs.existsSync(keyPath)
+
 export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
     host: '0.0.0.0',
-    https: {
-      key: fs.readFileSync('.cert/key.pem'),
-      cert: fs.readFileSync('.cert/cert.pem')
-    },
+    ...(hasSSL && {
+      https: {
+        key: fs.readFileSync(keyPath),
+        cert: fs.readFileSync(certPath)
+      }
+    }),
     open: true,
     proxy: {
       '/tts': {
