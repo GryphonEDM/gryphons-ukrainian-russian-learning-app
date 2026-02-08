@@ -1978,7 +1978,7 @@ export default function UkrainianTypingGame() {
           background: linear-gradient(145deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
           border-radius: 16px;
           padding: 1.5rem;
-          cursor: pointer;
+          cursor: default;
           transition: all 0.3s ease;
           border: 2px solid transparent;
           position: relative;
