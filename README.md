@@ -26,6 +26,8 @@ Includes typing lessons, vocabulary flashcards (4000+ words), grammar exercises,
 
 ## Quick Start
 
+> **New to this?** Check out the **[Beginner-Friendly Setup Guide (SETUP.md)](SETUP.md)** for step-by-step instructions with no tech jargon.
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) v16+
